@@ -13,6 +13,7 @@ export function initializeTimeline(doc=document,win=window) {
     frame=undefined;
     const sections=[...doc.querySelectorAll('[data-day]')].filter(x=>!x.hidden);
     const first=sections[0];
+    if(first&&first.querySelector('.date-row').getBoundingClientRect().bottom>12)active=first.dataset.day;
     bar.hidden=panel.hidden||!first||first.querySelector('.date-row').getBoundingClientRect().bottom>12||sections.at(-1).getBoundingClientRect().bottom<64;
     if(bar.hidden){menu.open=false;return;}
     const areas=sections.map(section=>({date:section.dataset.day,area:[...section.querySelectorAll('.entry')].filter(x=>!x.hidden).reduce((sum,entry)=>{const r=entry.getBoundingClientRect();return sum+Math.max(0,Math.min(r.bottom,win.innerHeight)-Math.max(r.top,64));},0)}));
