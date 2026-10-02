@@ -1,24 +1,28 @@
 export const BASE='/X-feed-pages/';
 const legacy = {
-  '11-10-37': {type:'DeFi',tags:['借贷','Pendle','账号增长'],summary:'即时年化不等于短期净收益。核对金库配置、奖励期限与参与成本，保留观察。',observation:'2026-10-02 11:05–11:09 北京时间'},
+  '11-10-37': {type:'DeFi',tags:['借贷','Pendle'],summary:'即时年化不等于短期净收益。核对金库配置、奖励期限与参与成本，保留观察。',observation:'2026-10-02 11:05–11:09 北京时间'},
   '12-09-51': {type:'套利',tags:['DEX','MEV','HawkFi'],summary:'拆开 MEV Boost 机制与论文中的 1.69 bp 指标，尚未验证用户可执行的净盈利。',observation:'2026-10-02 12:04–12:08 北京时间'},
   '12-37-16': {type:'山寨币估值',tags:['DEX','DeFi','CAKE','SKY'],summary:'首轮比较价值回流、供给与催化剂；当时保留 CAKE、SKY 继续研究。后续已有补充核验。',observation:'2026-10-02 12:21–12:34 北京时间'},
   '12-50-16': {type:'山寨币估值',tags:['DeFi','DEX','SKY','CAKE','ENA'],summary:'补齐长窗口证据后，SKY 降为价值捕获观察，CAKE 仍待补证，ENA 可售数量未确认。',observation:'2026-10-02 12:39–12:49 北京时间'},
-  '13-12-29': {type:'DeFi',tags:['RWA','收益分层','ONyc','账号增长'],summary:'ONyc 优先／劣后层的收益来自不同风险承担。高 APY 不能替代费用、退出和本金风险核验。',observation:'2026-10-02 13:05–13:10 北京时间'}
+  '13-12-29': {type:'DeFi',tags:['RWA','收益分层','ONyc'],summary:'ONyc 优先／劣后层的收益来自不同风险承担。高 APY 不能替代费用、退出和本金风险核验。',observation:'2026-10-02 13:05–13:10 北京时间'}
 };
 const e = s => String(s ?? '').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 function record(r) {
   const m=r.path.match(/^(\d{4}-\d{2}-\d{2})\/(\d{2}-\d{2}-\d{2})(?:-【([^】]+)】-([^/]+)|_([^/]+))\.md$/);
   if(!m) throw new Error('Unsupported report path');
-  const old=m[1]==='2026-10-02'?legacy[m[2]]||{}:{};
+  const old=m[1]==='2026-10-02'&&m[5]?legacy[m[2]]||{}:{};
   const header=r.markdown.match(/^#\s+(.+)$/m)?.[1];
-  return {...r,date:m[1],time:m[2].replaceAll('-',':'),title:header||m[4]||m[5],type:m[3]||r.type||old.type||'研究',tags:r.tags||old.tags||[],summary:r.summary||old.summary||extractSummary(r.markdown),observation:r.observation||old.observation||extractObservation(r.markdown)};
+  const declaredType=r.markdown.match(/^(?:- )?(?:主类型|类型)[：:]\s*(.+)$/m)?.[1].trim();
+  const tagLine=r.markdown.match(/^(?:- )?标签[：:]\s*(.+)$/m)?.[1];
+  const declaredTags=tagLine?.split(/[、,，]/).map(t=>t.trim()).filter(Boolean);
+  const tags=[...new Set(r.tags||declaredTags||old.tags||[])];
+  return {...r,date:m[1],time:m[2].replaceAll('-',':'),title:header||m[4]||m[5],type:m[3]||r.type||declaredType||old.type||'研究',tags,summary:r.summary||old.summary||extractSummary(r.markdown),observation:r.observation||old.observation||extractObservation(r.markdown)};
 }
 function extractSummary(md) {
   const paras=md.split(/\n\s*\n/).map(x=>x.trim()).filter(x=>x&&!/^(#|\||-|报告发送时间|研究时间|观察时间|数据观察|实际核验|主题|类型|标签)/.test(x));
   return (paras[0]||'阅读原文与来源核验').replace(/\[([^\]]+)\]\([^)]*\)/g,'$1').replace(/[*`_]/g,'').slice(0,150);
 }
-function extractObservation(md) {return md.split('\n').find(x=>/^(?:- )?(?:数据观察窗口|实际核验窗口|观察时间|研究时间|研究截止|数据窗口)[：:]/.test(x))?.replace(/^- /,'')||'观察时间见原文';}
+function extractObservation(md) {return md.split('\n').find(x=>/^(?:- )?(?:数据观察窗口|实际观察窗口|实际核验窗口|观察时间|研究时间|研究截止|数据窗口)[：:]/.test(x))?.replace(/^- /,'')||'观察时间见原文';}
 function github(path){return 'https://github.com/Sakkana/X-feed-pages/blob/main/'+path.split('/').map(encodeURIComponent).join('/');}
 function reportHref(path){return BASE+path.split('/').map(encodeURIComponent).join('/').replace(/\.md$/,'.html');}
 function safeHref(url,path) {

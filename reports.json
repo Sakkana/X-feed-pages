@@ -2,20 +2,71 @@
   "schemaVersion": 1,
   "timezone": "Asia/Shanghai",
   "repository": "Sakkana/X-feed-pages",
-  "recordCount": 5,
+  "recordCount": 10,
   "records": [
     {
-      "path": "2026-10-02/13-12-29_ONyc收益分层与对照表口径核验.md",
-      "sha": "1b9df22f13b8d5cb8a86bc6c9186052292e112ce",
+      "summary": "借鉴主帖吸引兴趣、子帖提供证据的结构，并把观察日期、费净口径和退出风险放在第一屏。",
+      "path": "2026-10-02/14-07-20-【账号运营】-主帖风险提示与系列内容结构.md",
+      "sha": "b69c5700f57e38b54456a8be4dd12da5e070a441",
+      "date": "2026-10-02",
+      "time": "14:07:20",
+      "title": "账号运营：主帖风险提示与系列内容结构",
+      "type": "账号运营",
+      "tags": [
+        "账号运营",
+        "系列内容",
+        "风险表达"
+      ],
+      "observation": "数据观察窗口：2026-10-02 05:59–06:03 UTC（北京时间 13:59–14:03）",
+      "url": "/X-feed-pages/2026-10-02/14-07-20-%E3%80%90%E8%B4%A6%E5%8F%B7%E8%BF%90%E8%90%A5%E3%80%91-%E4%B8%BB%E5%B8%96%E9%A3%8E%E9%99%A9%E6%8F%90%E7%A4%BA%E4%B8%8E%E7%B3%BB%E5%88%97%E5%86%85%E5%AE%B9%E7%BB%93%E6%9E%84.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-10-02/14-07-20-%E3%80%90%E8%B4%A6%E5%8F%B7%E8%BF%90%E8%90%A5%E3%80%91-%E4%B8%BB%E5%B8%96%E9%A3%8E%E9%99%A9%E6%8F%90%E7%A4%BA%E4%B8%8E%E7%B3%BB%E5%88%97%E5%86%85%E5%AE%B9%E7%BB%93%E6%9E%84.md"
+    },
+    {
+      "path": "2026-10-02/14-07-20-【DeFi】-NEMO量化金库收益与退出约束.md",
+      "sha": "be7cfe901c56bc92c6297be62fcb85e0eeee1944",
+      "date": "2026-10-02",
+      "time": "14:07:20",
+      "title": "【DeFi】NEMO USDC 量化金库的收益与退出约束",
+      "type": "DeFi",
+      "tags": [
+        "量化策略",
+        "利率套利",
+        "期权",
+        "收益金库"
+      ],
+      "summary": "本轮新纳入的是 Upshift 上的 NEMO USDC Prime。官方应用显示 22.54% 的过去 30 天年化 APY，策略组合包含利率套利和期权，并非固定利息。比这个数字更值得注意的是：本池显示 2% Platform fee、20% Performance fee，以及 31 天 Wit",
+      "observation": "实际观察窗口：2026-10-02 05:59–06:03 UTC（北京时间 13:59–14:03）",
+      "url": "/X-feed-pages/2026-10-02/14-07-20-%E3%80%90DeFi%E3%80%91-NEMO%E9%87%8F%E5%8C%96%E9%87%91%E5%BA%93%E6%94%B6%E7%9B%8A%E4%B8%8E%E9%80%80%E5%87%BA%E7%BA%A6%E6%9D%9F.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-10-02/14-07-20-%E3%80%90DeFi%E3%80%91-NEMO%E9%87%8F%E5%8C%96%E9%87%91%E5%BA%93%E6%94%B6%E7%9B%8A%E4%B8%8E%E9%80%80%E5%87%BA%E7%BA%A6%E6%9D%9F.md"
+    },
+    {
+      "summary": "借鉴固定栏目、变动箭头与移除原因；不要混比 TVL、可存容量和退出深度，也不把主观评分当安全等级。",
+      "path": "2026-10-02/13-12-29-【账号运营】-可更新比较表与指标口径.md",
+      "sha": "84b605d92a269ebf683085cc42ff5a049e31c7d9",
       "date": "2026-10-02",
       "time": "13:12:29",
-      "title": "加密机会与账号研究｜2026-10-02 05 UTC",
+      "title": "账号运营：可更新比较表与指标口径",
+      "type": "账号运营",
+      "tags": [
+        "账号运营",
+        "比较表",
+        "指标口径"
+      ],
+      "observation": "数据观察窗口：2026-10-02 05:05–05:10 UTC（北京时间 13:05–13:10）",
+      "url": "/X-feed-pages/2026-10-02/13-12-29-%E3%80%90%E8%B4%A6%E5%8F%B7%E8%BF%90%E8%90%A5%E3%80%91-%E5%8F%AF%E6%9B%B4%E6%96%B0%E6%AF%94%E8%BE%83%E8%A1%A8%E4%B8%8E%E6%8C%87%E6%A0%87%E5%8F%A3%E5%BE%84.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-10-02/13-12-29-%E3%80%90%E8%B4%A6%E5%8F%B7%E8%BF%90%E8%90%A5%E3%80%91-%E5%8F%AF%E6%9B%B4%E6%96%B0%E6%AF%94%E8%BE%83%E8%A1%A8%E4%B8%8E%E6%8C%87%E6%A0%87%E5%8F%A3%E5%BE%84.md"
+    },
+    {
+      "path": "2026-10-02/13-12-29_ONyc收益分层与对照表口径核验.md",
+      "sha": "d1458ec3b83b40270c1e4643bcf3ba75c5c2b547",
+      "date": "2026-10-02",
+      "time": "13:12:29",
+      "title": "ONyc 优先／劣后收益分层核验",
       "type": "DeFi",
       "tags": [
         "RWA",
         "收益分层",
-        "ONyc",
-        "账号增长"
+        "ONyc"
       ],
       "summary": "ONyc 优先／劣后层的收益来自不同风险承担。高 APY 不能替代费用、退出和本金风险核验。",
       "observation": "2026-10-02 13:05–13:10 北京时间",
@@ -60,8 +111,25 @@
       "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-10-02/12-37-16_%E6%BD%9C%E5%9C%A8%E4%BD%8E%E4%BC%B0%E5%B1%B1%E5%AF%A8%E5%B8%81%E9%A6%96%E8%BD%AE%E7%A0%94%E7%A9%B6.md"
     },
     {
+      "summary": "借鉴问题拆分与来源核验的长帖结构；区分宣传指标、论文指标和用户实际收益。",
+      "path": "2026-10-02/12-09-51-【账号运营】-研究长帖的问题拆分与证据边界.md",
+      "sha": "df29256c48e3393724572e2222861447a00a8c83",
+      "date": "2026-10-02",
+      "time": "12:09:51",
+      "title": "账号运营：研究长帖的问题拆分与证据边界",
+      "type": "账号运营",
+      "tags": [
+        "账号运营",
+        "研究长帖",
+        "证据边界"
+      ],
+      "observation": "数据观察窗口：2026-10-02 12:04–12:08（UTC 04:04–04:08）",
+      "url": "/X-feed-pages/2026-10-02/12-09-51-%E3%80%90%E8%B4%A6%E5%8F%B7%E8%BF%90%E8%90%A5%E3%80%91-%E7%A0%94%E7%A9%B6%E9%95%BF%E5%B8%96%E7%9A%84%E9%97%AE%E9%A2%98%E6%8B%86%E5%88%86%E4%B8%8E%E8%AF%81%E6%8D%AE%E8%BE%B9%E7%95%8C.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-10-02/12-09-51-%E3%80%90%E8%B4%A6%E5%8F%B7%E8%BF%90%E8%90%A5%E3%80%91-%E7%A0%94%E7%A9%B6%E9%95%BF%E5%B8%96%E7%9A%84%E9%97%AE%E9%A2%98%E6%8B%86%E5%88%86%E4%B8%8E%E8%AF%81%E6%8D%AE%E8%BE%B9%E7%95%8C.md"
+    },
+    {
       "path": "2026-10-02/12-09-51_HawkFi套利收益与论文指标核验.md",
-      "sha": "9ce8b3bcc103408ea253c83da00f6d64ca366715",
+      "sha": "e86f0e049e6edc30a63377ece6aa7252f4bb0d64",
       "date": "2026-10-02",
       "time": "12:09:51",
       "title": "HawkFi 套利收益与论文指标核验",
@@ -77,16 +145,32 @@
       "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-10-02/12-09-51_HawkFi%E5%A5%97%E5%88%A9%E6%94%B6%E7%9B%8A%E4%B8%8E%E8%AE%BA%E6%96%87%E6%8C%87%E6%A0%87%E6%A0%B8%E9%AA%8C.md"
     },
     {
-      "path": "2026-10-02/11-10-37_Pendle-USDC借贷金库与演示内容研究.md",
-      "sha": "de6a4a3926d87d44d7b6b3dd7616c808d455a09a",
+      "summary": "借鉴短演示加来源回复的表达方式；互动数字不能证明自然增长，成本示例必须标明假设。",
+      "path": "2026-10-02/11-10-37-【账号运营】-短演示结构与来源呈现.md",
+      "sha": "5ab710140ea282b926553fd383b2e1e146c00f2e",
       "date": "2026-10-02",
       "time": "11:10:37",
-      "title": "Pendle USDC 借贷金库与演示内容研究",
+      "title": "账号运营：短演示结构与来源呈现",
+      "type": "账号运营",
+      "tags": [
+        "账号运营",
+        "短演示",
+        "来源呈现"
+      ],
+      "observation": "数据观察窗口：2026-10-02 11:05–11:09（UTC 03:05–03:09）",
+      "url": "/X-feed-pages/2026-10-02/11-10-37-%E3%80%90%E8%B4%A6%E5%8F%B7%E8%BF%90%E8%90%A5%E3%80%91-%E7%9F%AD%E6%BC%94%E7%A4%BA%E7%BB%93%E6%9E%84%E4%B8%8E%E6%9D%A5%E6%BA%90%E5%91%88%E7%8E%B0.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-10-02/11-10-37-%E3%80%90%E8%B4%A6%E5%8F%B7%E8%BF%90%E8%90%A5%E3%80%91-%E7%9F%AD%E6%BC%94%E7%A4%BA%E7%BB%93%E6%9E%84%E4%B8%8E%E6%9D%A5%E6%BA%90%E5%91%88%E7%8E%B0.md"
+    },
+    {
+      "path": "2026-10-02/11-10-37_Pendle-USDC借贷金库与演示内容研究.md",
+      "sha": "70191c2639434e821e3d504bd25a0a8e5641a0c8",
+      "date": "2026-10-02",
+      "time": "11:10:37",
+      "title": "Pendle USDC 借贷金库与短期收益核验",
       "type": "DeFi",
       "tags": [
         "借贷",
-        "Pendle",
-        "账号增长"
+        "Pendle"
       ],
       "summary": "即时年化不等于短期净收益。核对金库配置、奖励期限与参与成本，保留观察。",
       "observation": "2026-10-02 11:05–11:09 北京时间",
