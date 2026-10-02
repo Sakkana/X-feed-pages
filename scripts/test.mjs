@@ -30,7 +30,7 @@ for(const r of index.records){
   assert.equal(Buffer.compare(raw,fs.readFileSync(path.join(OUT,r.path))),0);
   assert.equal(crypto.createHash('sha1').update(Buffer.concat([Buffer.from(`blob ${raw.length}\0`),raw])).digest('hex'),r.sha);
   const html=fs.readFileSync(path.join(OUT,r.path.replace(/\.md$/,'.html')),'utf8');
-  assert.ok(html.includes(r.date+' '+r.time));assert.ok(html.includes('不构成投资建议'));
+  assert.ok(html.includes(r.date+' '+r.time));assert.ok(!html.includes('class="article-note"'));
   const originalUrls=[...raw.toString().matchAll(/\]\((https?:\/\/[^\s)]+)\)/g)].map(m=>m[1]);
   for(const url of originalUrls)assert.ok(html.includes(url.replaceAll('&','&amp;')),`Missing original source: ${url}`);
   const sourceTables=(raw.toString().match(/^\|\s*[:-]+/gm)||[]).length;tables+=sourceTables;
@@ -65,7 +65,7 @@ for(const r of index.records.filter(r=>r.type!=='账号运营')){
 }
 console.log('PASS: four historical account-operation splits, exact category/filter badges, preserved timestamps, no legacy tag leakage');
 assert.ok(!home.includes('从线索到证据'));
-assert.ok(!home.includes('不构成投资建议'));
+assert.ok(!home.includes('class="article-note"'));
 assert.ok(!home.includes('class="summary"'));
 assert.ok(!home.includes('<aside'));
 assert.match(home,/for="date-filter"/);

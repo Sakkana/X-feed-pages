@@ -51,6 +51,6 @@ Ethereum、USDat输入、3倍、Mint Mode关闭；约一分钟内依次观察，
 - **Curve → Lido**：[stETH-ng池](https://www.curve.finance/dex/ethereum/pools/0x21E27a5E5513D6e65C4f830167390997aA84843a)美元参考价约5.03bp折价，但交换报价没有成功，不能当可成交价。[Lido](https://stake.lido.fi/withdrawals/request)10 stETH预览约6天等待；[排队期间不计质押收益](https://docs.lido.fi/contracts/withdrawal-queue-erc721/)。即使拿到该折价，未扣gas的资金成本打平年率也仅约3.06%，暂不通过筛选
 - **现货／永续资金费**：[Hyperliquid](https://app.hyperliquid.xyz/trade)出现地域限制后停止进一步交互。没有第二场所同币种报价及完整现货腿，不把单小时资金费年化成稳定套利
 
-本轮确认X登录，检查套利搜索及Pendle官方信息，再交叉读取协议市场。官方搜索流中的[9月9日USDat原帖](https://x.com/pendle_fi/status/2097701877098123728)是历史线索，详情页未完整读取；没有把旧帖的底层收益重复加进PT。主候选证据来自本轮市场报价，而非宣传。
+本轮核验了套利搜索及Pendle官方信息，并交叉核对协议市场。官方搜索流中的[9月9日USDat原帖](https://x.com/pendle_fi/status/2097701877098123728)是历史线索，详情页未完整读取；没有把旧帖的底层收益重复加进PT。主候选证据来自本轮市场报价，而非宣传。
 
-下一步优先补齐费用、oracle与同币种退出闭环。借款回升、主要供应者撤资、费用吞掉增量收益、资格不符或退出受限，都会令机会失效。当前没有确认可执行的跨DEX双腿净价差，也没有交易、签名或连接钱包
+下一步优先补齐费用、oracle与同币种退出闭环。借款回升、主要供应者撤资、费用吞掉增量收益、资格不符或退出受限，都会令机会失效。当前没有确认可执行的跨DEX双腿净价差
