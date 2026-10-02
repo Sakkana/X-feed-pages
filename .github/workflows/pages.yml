@@ -16,10 +16,12 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
+      - name: Install pinned language and test dependencies
+        run: npm ci --ignore-scripts
       - name: Build public research pages
         run: node scripts/build.mjs
       - name: Verify report content and links
-        run: node scripts/test.mjs && node scripts/test-ui.mjs
+        run: node scripts/test.mjs && node scripts/test-ui.mjs && node scripts/test-navigation.mjs
       - uses: actions/upload-pages-artifact@v3
         with:
           path: _site

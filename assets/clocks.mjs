@@ -26,18 +26,22 @@ export function initializeWorldClocks(doc = document, win = window, now = () => 
     win.clearTimeout(timer);
     const instant = now();
     clocks.forEach(clock => {
-      clock.textContent = formatClock(clock.dataset.clockLabel, clock.dataset.clockZone, instant);
+      const traditional={'北京时间':'北京時間','香港时间':'香港時間','新加坡时间':'新加坡時間','吉隆坡时间':'吉隆坡時間','东京时间':'東京時間','华盛顿时间':'華盛頓時間','伦敦时间':'倫敦時間','迪拜时间':'迪拜時間'};
+      const label=doc.documentElement?.lang==='zh-Hant'?traditional[clock.dataset.clockLabel]:clock.dataset.clockLabel;
+      clock.textContent = formatClock(label, clock.dataset.clockZone, instant);
       clock.dateTime = instant.toISOString();
     });
     // Re-read the real clock on every tick and resume; never increment stored seconds.
     if (!doc.hidden) timer = win.setTimeout(update, 1000 - instant.getMilliseconds());
   };
   doc.addEventListener('visibilitychange', update);
+  doc.addEventListener('language-changed', update);
   win.addEventListener('pageshow', update);
   update();
   return () => {
     win.clearTimeout(timer);
     doc.removeEventListener('visibilitychange', update);
+    doc.removeEventListener('language-changed', update);
     win.removeEventListener('pageshow', update);
   };
 }

@@ -9,6 +9,7 @@ export function initializeTabs(doc = document, win = window) {
       tab.tabIndex = active ? 0 : -1;
       doc.getElementById(tab.getAttribute('aria-controls')).hidden = !active;
     });
+    doc.dispatchEvent?.(new win.CustomEvent('home-view-changed'));
   };
   const current = () => new URLSearchParams(win.location.search).get('view');
   const select = (view, focus = false) => {

@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "opencc-js": "1.4.2"
+  },
+  "devDependencies": {
+    "jsdom": "26.1.0"
+  }
+}
