@@ -62,6 +62,11 @@
       "page": "https://gmgn.ai/about",
       "asset": "https://gmgn.ai/static/logo_small2.svg",
       "note": "Official GMGN header logo downloaded from the current About page on 2026-10-02; original SVG unchanged"
+    },
+    "debot": {
+      "page": "https://debot.ai/",
+      "asset": "https://debot.ai/logo-mobile.png",
+      "note": "Current official header logo on 2026-10-02; original PNG bytes embedded in a static SVG container, no pixel changes"
     }
   }
 }

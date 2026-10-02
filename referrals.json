@@ -118,5 +118,13 @@
     "code": "POqpdyzD",
     "url": "https://gmgn.ai/r/POqpdyzD",
     "logo": "assets/logos/gmgn.svg"
+  },
+  {
+    "id": "debot",
+    "section": "DEX/Wallet",
+    "name": "DeBot",
+    "code": "318149",
+    "url": "https://inv.debot.ai/r/318149?lang=zh",
+    "logo": "assets/logos/debot.svg"
   }
 ]
