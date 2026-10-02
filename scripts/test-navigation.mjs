@@ -40,7 +40,7 @@ const titles=[...doc.querySelectorAll('.card-title')].map(x=>x.textContent);
 const codes=[...doc.querySelectorAll('[data-copy]')].map(x=>x.dataset.copy);
 const links=[...doc.querySelectorAll('.registration-link')].map(x=>x.href);
 const language=initializeLanguage(doc,win,async()=>OpenCC);
-await language.setMode('zh-Hant');assert.equal(doc.documentElement.lang,'zh-Hant');assert.equal(doc.getElementById('tab-invites').textContent,'邀請碼');assert.ok(doc.querySelector('.card-title').textContent.includes('與'));
+await language.setMode('zh-Hant');assert.equal(doc.documentElement.lang,'zh-Hant');assert.equal(doc.getElementById('tab-invites').textContent,'邀請碼');assert.equal(doc.querySelector('.card-title').textContent,OpenCC.Converter({from:'cn',to:'t'})(titles[0]));
 assert.deepEqual([...doc.querySelectorAll('[data-copy]')].map(x=>x.dataset.copy),codes);assert.deepEqual([...doc.querySelectorAll('.registration-link')].map(x=>x.href),links);
 const toast=doc.getElementById('copy-status');toast.textContent='已复制邀请码';await new Promise(r=>setTimeout(r,0));assert.equal(toast.textContent,OpenCC.Converter({from:'cn',to:'t'})('已复制邀请码'));
 await language.setMode('zh-CN');assert.deepEqual([...doc.querySelectorAll('.card-title')].map(x=>x.textContent),titles);assert.equal(doc.getElementById('tab-invites').textContent,'邀请码');

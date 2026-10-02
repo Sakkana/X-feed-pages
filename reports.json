@@ -2,8 +2,53 @@
   "schemaVersion": 1,
   "timezone": "Asia/Shanghai",
   "repository": "Sakkana/X-feed-pages",
-  "recordCount": 24,
+  "recordCount": 27,
   "records": [
+    {
+      "observation": "报告发送时间：2026-10-03 02:04:57 北京时间；观察时间：2026-10-03 01:55—02:02 北京时间",
+      "path": "2026-10-03/02-04-57-【DeFi】-USDD奖池与每日补贴核验.md",
+      "sha": "218416f39dd069939ace0df4d91775493fa73c65",
+      "signal_strength": "weak",
+      "date": "2026-10-03",
+      "time": "02:04:57",
+      "title": "USDD奖池与每日补贴核验",
+      "type": "DeFi",
+      "tags": [],
+      "summary": "USDD官方新一期活动奖池78,000 USDD、持续60天；上一期是39,000、30天。两期平均每日补贴都为 1,300 USDD",
+      "url": "/X-feed-pages/2026-10-03/02-04-57-%E3%80%90DeFi%E3%80%91-USDD%E5%A5%96%E6%B1%A0%E4%B8%8E%E6%AF%8F%E6%97%A5%E8%A1%A5%E8%B4%B4%E6%A0%B8%E9%AA%8C.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-10-03/02-04-57-%E3%80%90DeFi%E3%80%91-USDD%E5%A5%96%E6%B1%A0%E4%B8%8E%E6%AF%8F%E6%97%A5%E8%A1%A5%E8%B4%B4%E6%A0%B8%E9%AA%8C.md"
+    },
+    {
+      "observation": "报告发送时间：2026-10-03 01:19:43 北京时间；观察时间：2026-10-03 01:10—01:14 北京时间",
+      "path": "2026-10-03/01-19-43-【套利】-fxSAVE借款枯竭与退出成本.md",
+      "sha": "137136e08d400a49dd87dedbfadcc783936e9f87",
+      "signal_strength": "weak",
+      "date": "2026-10-03",
+      "time": "01:19:43",
+      "title": "fxSAVE借款枯竭与退出成本",
+      "type": "套利",
+      "tags": [],
+      "summary": "官方新帖宣传 PT-fxSAVE 循环收益43%+，但实际核验时，对应Morpho市场仅剩 0.38 USDC可借，瞬时借息升至 14.32%。1000U预算的10倍方案被报价接口直接拒绝，目前无法入场",
+      "url": "/X-feed-pages/2026-10-03/01-19-43-%E3%80%90%E5%A5%97%E5%88%A9%E3%80%91-fxSAVE%E5%80%9F%E6%AC%BE%E6%9E%AF%E7%AB%AD%E4%B8%8E%E9%80%80%E5%87%BA%E6%88%90%E6%9C%AC.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-10-03/01-19-43-%E3%80%90%E5%A5%97%E5%88%A9%E3%80%91-fxSAVE%E5%80%9F%E6%AC%BE%E6%9E%AF%E7%AB%AD%E4%B8%8E%E9%80%80%E5%87%BA%E6%88%90%E6%9C%AC.md"
+    },
+    {
+      "path": "2026-10-03/00-25-38-【套利】-千U期现与现金奖励筛选.md",
+      "sha": "fb87c44fda6dd4926b2ea82dd0d7aa26fcb0cfd0",
+      "signal_strength": "weak",
+      "date": "2026-10-03",
+      "time": "00:25:38",
+      "title": "千U期现与现金奖励筛选",
+      "type": "套利",
+      "tags": [
+        "期现基差",
+        "现金奖励"
+      ],
+      "summary": "季度交割规则规定交割费按taker费计算。费率页本次未给出有效记录。价格上涨仍可能挤压空腿保证金，提前退仓也不保证价差收敛。因此不把它升级为值得新投入的机会。",
+      "observation": "观察时间：2026-10-03 00:15–00:23（北京时间）",
+      "url": "/X-feed-pages/2026-10-03/00-25-38-%E3%80%90%E5%A5%97%E5%88%A9%E3%80%91-%E5%8D%83U%E6%9C%9F%E7%8E%B0%E4%B8%8E%E7%8E%B0%E9%87%91%E5%A5%96%E5%8A%B1%E7%AD%9B%E9%80%89.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-10-03/00-25-38-%E3%80%90%E5%A5%97%E5%88%A9%E3%80%91-%E5%8D%83U%E6%9C%9F%E7%8E%B0%E4%B8%8E%E7%8E%B0%E9%87%91%E5%A5%96%E5%8A%B1%E7%AD%9B%E9%80%89.md"
+    },
     {
       "path": "2026-10-02/23-19-29-【DeFi】-Fables小池补贴与2Z持币奖励.md",
       "sha": "125494dec5c1db1ee14457b37ce5bdce56f1f3e7",
@@ -112,7 +157,7 @@
     },
     {
       "path": "2026-10-02/18-14-06-【DeFi】-Origin赎回套利与退出成本核验.md",
-      "sha": "3ce8b8efdf6a9d1ee00512747afec6bff703ec49",
+      "sha": "78e38365e119802d4f8ec013261b70f4e4e14012",
       "signal_strength": "weak",
       "date": "2026-10-02",
       "time": "18:14:06",
@@ -131,7 +176,7 @@
     },
     {
       "path": "2026-10-02/17-09-19-【CEX】-Bitget-USDC限时收益与提现核验.md",
-      "sha": "a84f9a75cff8eb7c81d2ea626bba513ac9d0262c",
+      "sha": "44d2880ee0234cd8d2d000e7d4e1e695698d9076",
       "signal_strength": "weak",
       "date": "2026-10-02",
       "time": "17:09:19",
@@ -227,7 +272,7 @@
     },
     {
       "path": "2026-10-02/15-10-02-【DEX】-StandX保证金生息与做市奖励核验.md",
-      "sha": "d2a7c426aae724ed2bed7212ebe679a041d0dfd4",
+      "sha": "7103f167934dd97a336527c6a3cb15af11db812e",
       "signal_strength": "weak",
       "date": "2026-10-02",
       "time": "15:10:02",
@@ -284,7 +329,7 @@
     },
     {
       "path": "2026-10-02/14-07-20-【DeFi】-NEMO量化金库收益与退出约束.md",
-      "sha": "b59918403c3741a50bb5907e3655c315b15f37ce",
+      "sha": "5c1193a99bf5aa83ea7a6ca86c4e21473d4150c5",
       "signal_strength": "weak",
       "date": "2026-10-02",
       "time": "14:07:20",
@@ -320,7 +365,7 @@
     },
     {
       "path": "2026-10-02/13-12-29_ONyc收益分层与对照表口径核验.md",
-      "sha": "713d2cbb7ed84afe453a71c99bb2db0e8f03bfaa",
+      "sha": "e86db5951568766e06119c1a45184e6722215dbd",
       "signal_strength": "weak",
       "date": "2026-10-02",
       "time": "13:12:29",
