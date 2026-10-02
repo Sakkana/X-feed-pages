@@ -105,6 +105,7 @@ for(const [value,expected] of [['strong','strong'],['medium','medium'],['weak','
  assert.equal(normalizeSignal(value),expected);
  const body=record({path:signalPath,markdown:'# 标题\n\n信号等级：'+value+'\n评级依据：截至原观察时间，测试依据。\n\n实际结论'});
  assert.equal(body.signal_strength,expected);assert.equal(body.summary,'实际结论');assert.match(signalBadge(body),new RegExp('data-strength="'+expected+'"'));
+ assert.match(signalBadge(body),new RegExp('>'+({strong:'强',medium:'中',weak:'弱'}[expected])+'</span>$'));
  const front=record({path:signalPath,markdown:'---\nsignal_strength: "'+value+'"\n---\n# 标题\n\n结论'});assert.equal(front.signal_strength,expected);assert.equal(front.title,'标题');
  assert.ok(!markdown(front.markdown,signalPath).includes('signal_strength'));
 }

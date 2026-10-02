@@ -19,7 +19,7 @@ function normalizeSignal(value) {
 function signalBadge(r) {
   const value=normalizeSignal(r.signal_strength);
   if(!value||['账号运营','合约安全'].includes(r.type))return '';
-  const label={strong:'强信号',medium:'中信号',weak:'弱信号'}[value];
+  const label={strong:'强',medium:'中',weak:'弱'}[value];
   return '<span class="signal-badge" data-strength="'+value+'" title="按报告观察时点评级">'+label+'</span>';
 }
 function record(r) {
