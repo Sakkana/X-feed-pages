@@ -1,0 +1,64 @@
+{
+  "retrieved": "2026-10-02",
+  "note": "Logos identify the named services only. They do not authenticate or endorse the user-provided invitation URLs. Trademarks belong to their respective owners.",
+  "logos": {
+    "binance": {
+      "page": "https://www.binance.com/en-GB/press",
+      "asset": "Inline header-logo SVG",
+      "note": "Official header path artwork; icon viewBox and explicit official gold fill for standalone rendering"
+    },
+    "okx": {
+      "page": "https://commons.wikimedia.org/wiki/File:OKX_logo.svg",
+      "asset": "https://upload.wikimedia.org/wikipedia/commons/2/2c/OKX_logo.svg",
+      "originalSource": "https://www.okx.com/web3",
+      "note": "OKX-authored logo, public-domain text-logo classification; unchanged artwork"
+    },
+    "bitget": {
+      "page": "https://commons.wikimedia.org/wiki/File:Logo_Bitget.svg",
+      "asset": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Logo_Bitget.svg",
+      "originalSource": "https://www.bitget.com/baseasset/img/media-kit/logo-green-v3.svg",
+      "note": "Official-origin archived SVG, public-domain text-logo classification; unchanged artwork"
+    },
+    "bybit": {
+      "page": "https://www.bybitglobal.com/en/press",
+      "asset": "Inline base64 SVG with alt=logo",
+      "note": "Official press page white and gold wordmark; unchanged artwork"
+    },
+    "gate": {
+      "page": "https://www.gate.com/zh/media-kit",
+      "asset": "https://www.gate.com/cdn/fe/_next/static/media/gate-mark-white.cfe9e2e1.svg",
+      "note": "Official white mark, copied from rendered SVG document; unchanged paths"
+    },
+    "maya": {
+      "page": "https://www.maya.ph/maya-updates",
+      "asset": "https://www.maya.ph/hubfs/Maya/Change%20in%20Management/maya%20bank%20logo.svg",
+      "note": "Official Maya bank logo; unchanged artwork"
+    },
+    "neverless": {
+      "page": "https://neverless.com/press",
+      "asset": "https://neverless.com/_next/static/media/colorLogoSmall.4923d468.svg",
+      "note": "Official small color logo; unchanged artwork"
+    },
+    "lbank": {
+      "page": "https://apps.apple.com/us/app/lbank-buy-bitcoin-crypto/id1437346368?uo=4",
+      "lookup": "https://itunes.apple.com/lookup?id=1437346368",
+      "asset": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ef/ac/f0/efacf03e-0246-a5b1-307d-7e84619e6c33/AppIcon-0-0-1x_U007ephone-0-11-0-85-220.png/512x512bb.jpg",
+      "publisher": "LBANK EXCHANGE UAB",
+      "note": "Official App Store icon; original JPEG bytes embedded in a static SVG container; no pixel changes"
+    },
+    "krak": {
+      "page": "https://apps.apple.com/us/app/krak-money-app-card/id6738051700?uo=4",
+      "lookup": "https://itunes.apple.com/lookup?id=6738051700",
+      "asset": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/34/9b/2e/349b2e63-19a4-e2b9-ff79-3351bbd669a7/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/512x512bb.jpg",
+      "publisher": "Kraken",
+      "note": "Official App Store icon; original JPEG bytes embedded in a static SVG container; no pixel changes"
+    },
+    "moneygram": {
+      "page": "https://apps.apple.com/us/app/moneygram-money-transfers-app/id867619606?uo=4",
+      "lookup": "https://itunes.apple.com/lookup?id=867619606",
+      "asset": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ee/15/6d/ee156d16-1942-2959-68af-dc647ed73a0d/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "publisher": "MoneyGram International, Inc.",
+      "note": "Official App Store icon; original JPEG bytes embedded in a static SVG container; no pixel changes"
+    }
+  }
+}

@@ -78,7 +78,7 @@ assert.match(js,/matchMedia\('\(prefers-reduced-motion: reduce\)'\)/);
 assert.match(js,/if\(!reduced\)requestAnimationFrame/);
 console.log('PASS: concise homepage, explicit accessible labels and reduced-motion guards');
 assert.ok(home.includes('<title>小🐟 defi 研究 feed 流</title>'));
-assert.ok(home.includes('<h1>小🐟 defi 研究 feed 流</h1>'));
+assert.ok(home.includes('<h1 class="sr-only">小🐟 defi 研究 feed 流</h1>'));
 assert.ok(home.includes('aria-label="小🐟 defi 研究 feed 流"'));
 assert.ok(home.includes('class="ambient" aria-hidden="true"'));
 assert.ok(!home.includes('JSON 索引'));
@@ -96,4 +96,4 @@ assert.match(css,/scan-sweep/);
 assert.ok(home.includes('content="#050b08"'));
 console.log('PASS: dark charcoal and green theme with reduced-motion scan guard');
 
-assert.ok(home.includes('<span class="brand-name">小🐟 defi <span>研究 feed 流</span></span>'));
+assert.ok(home.includes('<span class="brand-name">小🐟 <span>defi 研究 feed 流</span></span>'));

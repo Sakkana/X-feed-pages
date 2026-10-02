@@ -1,0 +1,106 @@
+[
+  {
+    "id": "binance",
+    "section": "CEX",
+    "name": "Binance",
+    "code": "SAKANA",
+    "url": "https://www.bsmkweb.cc/register?ref=SAKANA",
+    "logo": "assets/logos/binance.svg"
+  },
+  {
+    "id": "okx",
+    "section": "CEX",
+    "name": "OKX",
+    "code": "7NB7U5LH",
+    "url": "https://www.mitnpkwxvfr.net/join/7NB7U5LH",
+    "logo": "assets/logos/okx.svg"
+  },
+  {
+    "id": "bitget",
+    "section": "CEX",
+    "name": "Bitget",
+    "code": "SAKANA",
+    "url": "https://partner.bitget.cafe/bg/33yurucb",
+    "logo": "assets/logos/bitget.svg"
+  },
+  {
+    "id": "bybit",
+    "section": "CEX",
+    "name": "Bybit",
+    "code": "2RG3AY6",
+    "url": "https://www.bybitglobal.com/invite?ref=2RG3AY6&medium=referral&utm_campaign=evergreen",
+    "logo": "assets/logos/bybit.svg"
+  },
+  {
+    "id": "lbank",
+    "section": "CEX",
+    "name": "LBank",
+    "code": "657HV",
+    "url": "https://www.lbank.info/ref/657HV",
+    "logo": "assets/logos/lbank.svg"
+  },
+  {
+    "id": "gate",
+    "section": "CEX",
+    "name": "Gate",
+    "code": "VFLBAVOOAW",
+    "url": "https://www.gatesites.cc/zh/signup/VFLBAVOOAW?ref_type=103",
+    "logo": "assets/logos/gate.svg"
+  },
+  {
+    "id": "krak",
+    "section": "U卡",
+    "name": "Krak",
+    "code": "@Sakana_btc",
+    "url": "https://krak.app/@Sakana_btc",
+    "logo": "assets/logos/krak.svg"
+  },
+  {
+    "id": "bybit-card",
+    "section": "U卡",
+    "name": "Bybit card",
+    "code": "2RG3AY6",
+    "url": "https://www.bybit.com/cards/?ref=2RG3AY6&source=applet_invite",
+    "logo": "assets/logos/bybit.svg"
+  },
+  {
+    "id": "lbank-card",
+    "section": "U卡",
+    "name": "LBank card",
+    "code": "657HV",
+    "url": "https://www.lbank.com/ref/657HV",
+    "logo": "assets/logos/lbank.svg"
+  },
+  {
+    "id": "gate-card",
+    "section": "U卡",
+    "name": "Gate card",
+    "code": "VFLBAVOOAW",
+    "url": "https://app.bxjddjt.com/card/redirect?key=invite&invite_code=VFLBAVOOAW",
+    "logo": "assets/logos/gate.svg"
+  },
+  {
+    "id": "maya",
+    "section": "虚拟银行",
+    "name": "菲律宾 Maya 银行",
+    "code": "@sakanaaa",
+    "url": "https://official.maya.ph/be7m/gmsb47rr",
+    "logo": "assets/logos/maya.svg"
+  },
+  {
+    "id": "neverless",
+    "section": "多币种转账工具",
+    "name": "Neverless",
+    "code": "Sakana1",
+    "url": "https://neverless.com/referral?code=Sakana1",
+    "logo": "assets/logos/neverless.svg"
+  },
+  {
+    "id": "moneygram",
+    "section": "多币种转账工具",
+    "name": "MoneyGram",
+    "code": "RAFV3SEHGCT3",
+    "url": "https://www.moneygram.com/RAF/RAFV3SEHGCT3?utm_source=referral_program&utm_medium=owned&utm_campaign=usa_phl_20_discount",
+    "logo": "assets/logos/moneygram.svg"
+  }
+]
