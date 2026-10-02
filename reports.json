@@ -2,8 +2,25 @@
   "schemaVersion": 1,
   "timezone": "Asia/Shanghai",
   "repository": "Sakkana/X-feed-pages",
-  "recordCount": 45,
+  "recordCount": 46,
   "records": [
+    {
+      "type": "套利",
+      "tags": [
+        "资金费",
+        "稳定币"
+      ],
+      "summary": "六组资金费情景未覆盖完整成本；Hyperliquid ETH七天约亏0.124U再扣额外费用。eUSD与USD3市场往返低于本金，原生篮子退出尚未核实。",
+      "observation": "报告发送时间：2026-10-03 07:37:30 北京时间；资金费观察时间：2026-10-03 07:30:41—07:30:50 北京时间；稳定币观察时间：2026-10-03 07:25—07:28 北京时间",
+      "path": "2026-10-03/07-37-30-【套利】-千U资金费与稳定币往返成本.md",
+      "sha": "5bddf6336c091d86a7b5f2eaaf41e9691ddb1ab4",
+      "signal_strength": "weak",
+      "date": "2026-10-03",
+      "time": "07:37:30",
+      "title": "千U资金费与稳定币往返成本",
+      "url": "/X-feed-pages/2026-10-03/07-37-30-%E3%80%90%E5%A5%97%E5%88%A9%E3%80%91-%E5%8D%83U%E8%B5%84%E9%87%91%E8%B4%B9%E4%B8%8E%E7%A8%B3%E5%AE%9A%E5%B8%81%E5%BE%80%E8%BF%94%E6%88%90%E6%9C%AC.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-10-03/07-37-30-%E3%80%90%E5%A5%97%E5%88%A9%E3%80%91-%E5%8D%83U%E8%B5%84%E9%87%91%E8%B4%B9%E4%B8%8E%E7%A8%B3%E5%AE%9A%E5%B8%81%E5%BE%80%E8%BF%94%E6%88%90%E6%9C%AC.md"
+    },
     {
       "type": "DeFi",
       "tags": [
