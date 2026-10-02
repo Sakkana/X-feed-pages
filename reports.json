@@ -2,8 +2,22 @@
   "schemaVersion": 1,
   "timezone": "Asia/Shanghai",
   "repository": "Sakkana/X-feed-pages",
-  "recordCount": 41,
+  "recordCount": 42,
   "records": [
+    {
+      "type": "套利",
+      "summary": "osGNO条件价差约12.89U，赎回到账与对冲缺口未闭合；BDTF即时买赎亏4.91 USDC，均为弱级。",
+      "observation": "报告发送时间：2026-10-03 06:51:59 北京时间；观察时间：osGNO 2026-10-03 06:36 北京时间；BDTF 2026-10-03 06:24—06:25 北京时间",
+      "path": "2026-10-03/06-51-59-【套利】-osGNO赎回价差与BDTF退出核验.md",
+      "sha": "c58bd25beb60cab917a456a93edc87412732deec",
+      "signal_strength": "weak",
+      "date": "2026-10-03",
+      "time": "06:51:59",
+      "title": "osGNO赎回价差与BDTF退出核验",
+      "tags": [],
+      "url": "/X-feed-pages/2026-10-03/06-51-59-%E3%80%90%E5%A5%97%E5%88%A9%E3%80%91-osGNO%E8%B5%8E%E5%9B%9E%E4%BB%B7%E5%B7%AE%E4%B8%8EBDTF%E9%80%80%E5%87%BA%E6%A0%B8%E9%AA%8C.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-10-03/06-51-59-%E3%80%90%E5%A5%97%E5%88%A9%E3%80%91-osGNO%E8%B5%8E%E5%9B%9E%E4%BB%B7%E5%B7%AE%E4%B8%8EBDTF%E9%80%80%E5%87%BA%E6%A0%B8%E9%AA%8C.md"
+    },
     {
       "type": "DeFi",
       "summary": "Listapie免费增益只覆盖首500美元；980U的条件30天余量8.73U或跨链后4.43U，完整成本与奖励额度仍未闭合。",
