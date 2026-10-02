@@ -1,5 +1,6 @@
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
+import vm from 'node:vm';
 import path from 'node:path';
 import {initializeTabs,copyText,initializeCopy} from '../assets/home.mjs';
 const ROOT=path.resolve(import.meta.dirname,'..');
@@ -31,3 +32,10 @@ console.log('PASS: keyboard tabs, retained filters, repeated clicks, Back state,
 
 assert.match(html, /id="panel-feed"[^>]*><div class="feed-summary"><span class="total"><strong id="result-count"/);
 assert.ok(!/<button[^>]+id="tab-feed"[^>]*>[^<]*<span/.test(html));
+
+const fieldDate=element(),fieldType=element(),fieldQuery=element(),resultCount=element(),emptyState=element(),filterStatus=element(),reset=element();
+const form=element({querySelector:()=>reset});let pending;const filterEntries=[element({dataset:{date:'2026-10-02',themes:'["DEX"]',search:'test'},classList:{remove(){},add(){},toggle(){}},style:{setProperty(){}}})];
+const state={search:'?view=invites',pathname:'/X-feed-pages/'};
+const filterContext={URLSearchParams,location:state,history:{pushState(a,b,url){state.search=url.includes('?')?'?'+url.split('?')[1]:'';}},document:{querySelector:s=>({'.filters':form,'#date-filter':fieldDate,'#type-filter':fieldType,'#query-filter':fieldQuery,'#result-count':resultCount,'#empty-state':emptyState,'#filter-status':filterStatus}[s]),querySelectorAll:s=>s==='.entry'?filterEntries:[]},window:{matchMedia:()=>({matches:true}),addEventListener(){}},requestAnimationFrame:f=>f(),setTimeout:f=>{pending=f;return 1;},clearTimeout(){}};
+vm.runInNewContext(fs.readFileSync(path.join(ROOT,'assets/filters.js'),'utf8'),filterContext);fieldQuery.value='test';fieldQuery.handlers.input();pending();assert.match(state.search,/view=invites/);assert.match(state.search,/q=test/);assert.equal(resultCount.textContent,1);
+console.log('PASS: pending feed search preserves invitation tab URL state');

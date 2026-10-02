@@ -17,7 +17,7 @@
     for(const a of document.querySelectorAll('[data-theme]')){const selected=a.dataset.theme===t;a.classList.toggle('selected',selected);if(selected)a.setAttribute('aria-current','true');else a.removeAttribute('aria-current');}
   };
   const update=(p)=>{const search=p.toString();const target=location.pathname+(search?'?'+search:'');if(location.pathname+location.search!==target)history.pushState(null,'',target);apply();};
-  const submit=()=>{clearTimeout(timer);const p=new URLSearchParams();if(date.value)p.set('date',date.value);if(type.value)p.set('type',type.value);if(query.value.trim())p.set('q',query.value.trim());update(p);};
+  const submit=()=>{clearTimeout(timer);const p=new URLSearchParams(location.search);p.delete('date');p.delete('type');p.delete('q');if(date.value)p.set('date',date.value);if(type.value)p.set('type',type.value);if(query.value.trim())p.set('q',query.value.trim());update(p);};
   form.addEventListener('submit',ev=>{ev.preventDefault();submit();});
   date.addEventListener('change',submit);type.addEventListener('change',submit);
   let timer;query.addEventListener('input',()=>{clearTimeout(timer);timer=setTimeout(submit,220);});
