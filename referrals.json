@@ -110,5 +110,13 @@
     "code": "SAKANA",
     "url": "https://web3.binance.com/referral?ref=SAKANA",
     "logo": "assets/logos/binance.svg"
+  },
+  {
+    "id": "gmgn",
+    "section": "DEX/Wallet",
+    "name": "GMGN",
+    "code": "POqpdyzD",
+    "url": "https://gmgn.ai/r/POqpdyzD",
+    "logo": "assets/logos/gmgn.svg"
   }
 ]

@@ -57,6 +57,11 @@
       "asset": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ee/15/6d/ee156d16-1942-2959-68af-dc647ed73a0d/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
       "publisher": "MoneyGram International, Inc.",
       "note": "Official App Store icon; original JPEG bytes embedded in a static SVG container; no pixel changes"
+    },
+    "gmgn": {
+      "page": "https://gmgn.ai/about",
+      "asset": "https://gmgn.ai/static/logo_small2.svg",
+      "note": "Official GMGN header logo downloaded from the current About page on 2026-10-02; original SVG unchanged"
     }
   }
 }
