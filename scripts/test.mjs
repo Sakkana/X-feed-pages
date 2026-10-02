@@ -77,3 +77,15 @@ const js=fs.readFileSync(path.join(ROOT,'assets/filters.js'),'utf8');
 assert.match(js,/matchMedia\('\(prefers-reduced-motion: reduce\)'\)/);
 assert.match(js,/if\(!reduced\)requestAnimationFrame/);
 console.log('PASS: concise homepage, explicit accessible labels and reduced-motion guards');
+assert.ok(home.includes('<title>defi 研究记录</title>'));
+assert.ok(home.includes('<h1>defi 研究记录</h1>'));
+assert.ok(home.includes('aria-label="defi 研究记录"'));
+assert.ok(home.includes('class="ambient" aria-hidden="true"'));
+assert.ok(!home.includes('JSON 索引'));
+assert.ok(fs.existsSync(path.join(OUT,'assets/aurora.svg')));
+for(const r of index.records){
+  const page=fs.readFileSync(path.join(OUT,r.path.replace(/\.md$/,'.html')),'utf8');
+  assert.ok(page.includes(' · defi 研究记录</title>'));
+  assert.ok(!page.includes('JSON 索引'));
+}
+console.log('PASS: exact defi identity, decorative background, hidden JSON navigation, all report categories preserved');
