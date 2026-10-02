@@ -2,8 +2,25 @@
   "schemaVersion": 1,
   "timezone": "Asia/Shanghai",
   "repository": "Sakkana/X-feed-pages",
-  "recordCount": 27,
+  "recordCount": 28,
   "records": [
+    {
+      "type": "套利",
+      "tags": [
+        "DeFi",
+        "限价奖励"
+      ],
+      "observation": "报告发送时间：2026-10-03 04:08:04 北京时间；观察时间：2026-10-03 03:51—04:04 北京时间",
+      "path": "2026-10-03/04-08-04-【套利】-Pendle-USDai限价奖励条件测算.md",
+      "sha": "1812a5025fdc660091c4ad93903d5c94652f2de8",
+      "signal_strength": "medium",
+      "date": "2026-10-03",
+      "time": "04:08:04",
+      "title": "Pendle-USDai限价奖励条件测算",
+      "summary": "这次直接从Pendle官方奖励页找到一条有条件正收益的路径：在指定收益率区间挂买入PT的限价单，合格的未成交驻留时间获得PENDLE奖励",
+      "url": "/X-feed-pages/2026-10-03/04-08-04-%E3%80%90%E5%A5%97%E5%88%A9%E3%80%91-Pendle-USDai%E9%99%90%E4%BB%B7%E5%A5%96%E5%8A%B1%E6%9D%A1%E4%BB%B6%E6%B5%8B%E7%AE%97.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-10-03/04-08-04-%E3%80%90%E5%A5%97%E5%88%A9%E3%80%91-Pendle-USDai%E9%99%90%E4%BB%B7%E5%A5%96%E5%8A%B1%E6%9D%A1%E4%BB%B6%E6%B5%8B%E7%AE%97.md"
+    },
     {
       "observation": "报告发送时间：2026-10-03 02:04:57 北京时间；观察时间：2026-10-03 01:55—02:02 北京时间",
       "path": "2026-10-03/02-04-57-【DeFi】-USDD奖池与每日补贴核验.md",
