@@ -2,8 +2,25 @@
   "schemaVersion": 1,
   "timezone": "Asia/Shanghai",
   "repository": "Sakkana/X-feed-pages",
-  "recordCount": 28,
+  "recordCount": 29,
   "records": [
+    {
+      "type": "山寨币估值",
+      "tags": [
+        "清算",
+        "事件驱动"
+      ],
+      "observation": "报告发送时间：2026-10-03 05:32:00 北京时间；观察时间：2026-10-03 05:22—05:27 北京时间",
+      "path": "2026-10-03/05-32-00-【山寨币估值】-BAL清算折价与净值阈值.md",
+      "sha": "3d4bfda896b0e0c8197b94ee6ab27d794d501b3a",
+      "signal_strength": "weak",
+      "date": "2026-10-03",
+      "time": "05:32:00",
+      "title": "BAL清算折价与净值阈值",
+      "summary": "找到一条BAL清算资产折价线索，先列观察，最新净值还没核实",
+      "url": "/X-feed-pages/2026-10-03/05-32-00-%E3%80%90%E5%B1%B1%E5%AF%A8%E5%B8%81%E4%BC%B0%E5%80%BC%E3%80%91-BAL%E6%B8%85%E7%AE%97%E6%8A%98%E4%BB%B7%E4%B8%8E%E5%87%80%E5%80%BC%E9%98%88%E5%80%BC.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-10-03/05-32-00-%E3%80%90%E5%B1%B1%E5%AF%A8%E5%B8%81%E4%BC%B0%E5%80%BC%E3%80%91-BAL%E6%B8%85%E7%AE%97%E6%8A%98%E4%BB%B7%E4%B8%8E%E5%87%80%E5%80%BC%E9%98%88%E5%80%BC.md"
+    },
     {
       "type": "套利",
       "tags": [
