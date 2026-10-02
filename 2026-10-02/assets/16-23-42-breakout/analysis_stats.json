@@ -1,0 +1,149 @@
+{
+  "row_count": 102,
+  "account_counts": {
+    "liobaheimbach": 20,
+    "MinLiBuilds": 13,
+    "li9292": 14,
+    "0xValkyrie_ai": 24,
+    "Dadivan_sol": 20,
+    "rover_tang": 11
+  },
+  "qualified_account_count": 2,
+  "Lioba_primary": {
+    "target_url": "https://x.com/liobaheimbach/status/2103147621166497914",
+    "target_values": {
+      "views": 45352,
+      "likes": 153,
+      "reposts": 48,
+      "replies": 21
+    },
+    "control_n": 10,
+    "control_ids": [
+      "2099931380410982650",
+      "2096952724424187970",
+      "2095174590582374701",
+      "2094806214798446722",
+      "2090788904362201214",
+      "2089375766773403874",
+      "2088680635359461840",
+      "2085098940429414513",
+      "2084606612367437998",
+      "2082935693094043773"
+    ],
+    "control_medians": {
+      "views": 1235.5,
+      "likes": 36.5,
+      "reposts": 0.5,
+      "replies": 1.5
+    },
+    "lift": {
+      "views": 36.70740590853905,
+      "likes": 4.191780821917808,
+      "reposts": 96.0,
+      "replies": 14.0
+    },
+    "zero_denominator_policy": "null means undefined, never infinite",
+    "window": "Cumulative snapshots at different post ages; not 24h performance"
+  },
+  "Lioba_topic_controls": {
+    "target_url": "https://x.com/liobaheimbach/status/2103147621166497914",
+    "target_values": {
+      "views": 45352,
+      "likes": 153,
+      "reposts": 48,
+      "replies": 21
+    },
+    "control_n": 5,
+    "control_ids": [
+      "2090788904362201214",
+      "2089375766773403874",
+      "2084606612367437998",
+      "2082935693094043773",
+      "2082594220863549945"
+    ],
+    "control_medians": {
+      "views": 2542,
+      "likes": 53,
+      "reposts": 4,
+      "replies": 5
+    },
+    "lift": {
+      "views": 17.84107002360346,
+      "likes": 2.8867924528301887,
+      "reposts": 12.0,
+      "replies": 4.2
+    },
+    "zero_denominator_policy": "null means undefined, never infinite",
+    "window": "Cumulative snapshots at different post ages; not 24h performance"
+  },
+  "Valkyrie_primary": {
+    "target_url": "https://x.com/0xValkyrie_ai/status/2105185832160100517",
+    "target_values": {
+      "views": 28029,
+      "likes": 50,
+      "reposts": 8,
+      "replies": 32
+    },
+    "control_n": 10,
+    "control_ids": [
+      "2104936413318017214",
+      "2104920817226371466",
+      "2103673598376632711",
+      "2103670538157891983",
+      "2103472654875578829",
+      "2103468175224705360",
+      "2104386294168326266",
+      "2104127170490880363",
+      "2103103612599808004",
+      "2102926987471786213"
+    ],
+    "control_medians": {
+      "views": 195.0,
+      "likes": 0.0,
+      "reposts": 0.0,
+      "replies": 0.0
+    },
+    "lift": {
+      "views": 143.73846153846154,
+      "likes": null,
+      "reposts": null,
+      "replies": null
+    },
+    "zero_denominator_policy": "null means undefined, never infinite",
+    "window": "Cumulative snapshots at different post ages; not 24h performance"
+  },
+  "Valkyrie_format_controls": {
+    "target_url": "https://x.com/0xValkyrie_ai/status/2105185832160100517",
+    "target_values": {
+      "views": 28029,
+      "likes": 50,
+      "reposts": 8,
+      "replies": 32
+    },
+    "control_n": 8,
+    "control_ids": [
+      "2105105125404500249",
+      "2104915311812362248",
+      "2103831214067224916",
+      "2103144324846481845",
+      "2104140575113191541",
+      "2102682330049475043",
+      "2101862799278223364",
+      "2101840815085474051"
+    ],
+    "control_medians": {
+      "views": 358.5,
+      "likes": 0.5,
+      "reposts": 0.0,
+      "replies": 1.0
+    },
+    "lift": {
+      "views": 78.18410041841004,
+      "likes": 100.0,
+      "reposts": null,
+      "replies": 32.0
+    },
+    "zero_denominator_policy": "null means undefined, never infinite",
+    "window": "Cumulative snapshots at different post ages; not 24h performance"
+  }
+}
