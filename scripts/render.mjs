@@ -7,19 +7,38 @@ const legacy = {
   '13-12-29': {type:'DeFi',tags:['RWA','收益分层','ONyc'],summary:'ONyc 优先／劣后层的收益来自不同风险承担。高 APY 不能替代费用、退出和本金风险核验。',observation:'2026-10-02 13:05–13:10 北京时间'}
 };
 const e = s => String(s ?? '').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+function parseFrontmatter(md) {
+  const match=String(md).match(/^---\r?\n([\s\S]*?)\r?\n---(?:\r?\n|$)/);
+  if(!match)return {content:md,signal:undefined};
+  const signal=match[1].match(/^signal_strength\s*:\s*(.*?)\s*$/m)?.[1]?.replace(/^(["'])(.*)\1$/,'$2');
+  return {content:md.slice(match[0].length),signal};
+}
+function normalizeSignal(value) {
+  return ({strong:'strong',medium:'medium',weak:'weak','强':'strong','中':'medium','弱':'weak'})[String(value??'').trim().toLowerCase()];
+}
+function signalBadge(r) {
+  const value=normalizeSignal(r.signal_strength);
+  if(!value||['账号运营','合约安全'].includes(r.type))return '';
+  const label={strong:'强信号',medium:'中信号',weak:'弱信号'}[value];
+  return '<span class="signal-badge" data-strength="'+value+'" title="按报告观察时点评级">'+label+'</span>';
+}
 function record(r) {
   const m=r.path.match(/^(\d{4}-\d{2}-\d{2})\/(\d{2}-\d{2}-\d{2})(?:-【([^】]+)】-([^/]+)|_([^/]+))\.md$/);
   if(!m) throw new Error('Unsupported report path');
   const old=m[1]==='2026-10-02'&&m[5]?legacy[m[2]]||{}:{};
-  const header=r.markdown.match(/^#\s+(.+)$/m)?.[1];
-  const declaredType=r.markdown.match(/^(?:- )?(?:主类型|类型)[：:]\s*(.+)$/m)?.[1].trim();
-  const tagLine=r.markdown.match(/^(?:- )?标签[：:]\s*(.+)$/m)?.[1];
+  const {content,signal}=parseFrontmatter(r.markdown);
+  const header=content.match(/^#\s+(.+)$/m)?.[1];
+  const declaredType=content.match(/^(?:- )?(?:主类型|类型)[：:]\s*(.+)$/m)?.[1].trim();
+  const tagLine=content.match(/^(?:- )?标签[：:]\s*(.+)$/m)?.[1];
   const declaredTags=tagLine?.split(/[、,，]/).map(t=>t.trim()).filter(Boolean);
   const tags=[...new Set(r.tags||declaredTags||old.tags||[])];
-  return {...r,date:m[1],time:m[2].replaceAll('-',':'),title:header||m[4]||m[5],type:m[3]||r.type||declaredType||old.type||'研究',tags,summary:r.summary||old.summary||extractSummary(r.markdown),observation:r.observation||old.observation||extractObservation(r.markdown)};
+  const type=m[3]||r.type||declaredType||old.type||'研究';
+  const declaredSignal=content.match(/^(?:[-*] )?(?:信号等级|信号|signal_strength)[：:]\s*([^\n|｜]+)/m)?.[1];
+  const signalStrength=['账号运营','合约安全'].includes(type)?undefined:normalizeSignal(r.signal_strength??signal??declaredSignal);
+  return {...r,signal_strength:signalStrength,date:m[1],time:m[2].replaceAll('-',':'),title:header||m[4]||m[5],type,tags,summary:r.summary||old.summary||extractSummary(content),observation:r.observation||old.observation||extractObservation(content)};
 }
 function extractSummary(md) {
-  const paras=md.split(/\n\s*\n/).map(x=>x.trim()).filter(x=>x&&!/^(#|\||-|报告发送时间|研究时间|观察时间|数据观察|实际核验|主题|类型|标签)/.test(x));
+  const paras=md.split(/\n\s*\n/).map(x=>x.trim()).filter(x=>x&&!/^(#|\||-|报告发送时间|研究时间|观察时间|数据观察|实际核验|主题|类型|标签|信号等级|信号|评级依据|signal_strength)/.test(x));
   return (paras[0]||'阅读原文与来源核验').replace(/\[([^\]]+)\]\([^)]*\)/g,'$1').replace(/[*`_]/g,'').slice(0,150);
 }
 function extractObservation(md) {return md.split('\n').find(x=>/^(?:- )?(?:数据观察窗口|实际观察窗口|实际核验窗口|观察时间|研究时间|研究截止|数据窗口)[：:]/.test(x))?.replace(/^- /,'')||'观察时间见原文';}
@@ -42,7 +61,7 @@ function inline(raw,path){
   return raw.replace(/\u0000(\d+)\u0000/g,(_,i)=>tokens[+i]);
 }
 function markdown(md,path){
-  const lines=md.replace(/\r/g,'').split('\n');let out='',i=0;
+  const lines=parseFrontmatter(md).content.replace(/\r/g,'').split('\n');let out='',i=0;
   while(i<lines.length){let line=lines[i];if(!line.trim()){i++;continue;}
     if(i===0&&/^# /.test(line)){i++;continue;}
     if(/^```/.test(line)){let code=[];i++;while(i<lines.length&&!/^```/.test(lines[i]))code.push(lines[i++]);i++;out+='<pre><code>'+e(code.join('\n'))+'</code></pre>';continue;}
@@ -64,4 +83,4 @@ function markdown(md,path){
   }return out;
 }
 
-export { record,e,inline,markdown,github,reportHref,safeHref };
+export { record,e,inline,markdown,github,reportHref,safeHref,signalBadge,normalizeSignal,parseFrontmatter };

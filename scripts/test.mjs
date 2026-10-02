@@ -97,3 +97,27 @@ assert.ok(home.includes('content="#050b08"'));
 console.log('PASS: dark charcoal and green theme with reduced-motion scan guard');
 
 assert.ok(home.includes('<span class="brand-name">小🐟 <span>defi 研究 feed 流</span></span>'));
+
+// Signal grades are explicit historical metadata, never inferred from yield claims.
+const {signalBadge,normalizeSignal,parseFrontmatter}=await import('./render.mjs');
+const signalPath='2026-10-03/09-05-01-【DeFi】-信号测试.md';
+for(const [value,expected] of [['strong','strong'],['medium','medium'],['weak','weak'],['强','strong'],['中','medium'],['弱','weak']]){
+ assert.equal(normalizeSignal(value),expected);
+ const body=record({path:signalPath,markdown:'# 标题\n\n信号等级：'+value+'\n评级依据：截至原观察时间，测试依据。\n\n实际结论'});
+ assert.equal(body.signal_strength,expected);assert.equal(body.summary,'实际结论');assert.match(signalBadge(body),new RegExp('data-strength="'+expected+'"'));
+ const front=record({path:signalPath,markdown:'---\nsignal_strength: "'+value+'"\n---\n# 标题\n\n结论'});assert.equal(front.signal_strength,expected);assert.equal(front.title,'标题');
+ assert.ok(!markdown(front.markdown,signalPath).includes('signal_strength'));
+}
+assert.equal(record({path:signalPath,markdown:'# 标题\n\n信号：弱｜评级依据：原时点\n\n结论'}).signal_strength,'weak');
+assert.equal(record({path:signalPath,markdown:'# 标题\n\nAPY 999%'}).signal_strength,undefined);
+assert.equal(record({path:signalPath,markdown:'# 标题\n\n信号等级：unknown'}).signal_strength,undefined);
+assert.equal(record({path:signalPath,signal_strength:'medium',markdown:'# 标题\n\n信号等级：弱'}).signal_strength,'medium');
+for(const type of ['账号运营','合约安全'])assert.equal(record({path:'2026-10-03/09-05-01-【'+type+'】-不评级.md',signal_strength:'strong',markdown:'# 标题\n\n信号等级：强'}).signal_strength,undefined);
+assert.equal(signalBadge({signal_strength:'invalid'}),'');assert.equal(signalBadge({}),'');
+const reviewedTimes=new Set(['11:10:37','12:09:51','12:37:16','12:50:16','13:12:29','14:07:20','15:10:02','16:07:32','17:09:19','18:14:06','19:13:12','19:40:58','21:22:35','22:39:26','23:19:29']);
+const approvedSignals=index.records.filter(r=>r.date==='2026-10-02'&&reviewedTimes.has(r.time)&&!['账号运营','合约安全'].includes(r.type));assert.equal(approvedSignals.length,15);assert.ok(approvedSignals.every(r=>r.signal_strength==='weak'));
+const rated=index.records.filter(r=>r.signal_strength);assert.equal((home.match(/class="signal-badge"/g)||[]).length,rated.length);for(const strength of ['strong','medium','weak'])assert.equal((home.match(new RegExp('data-strength="'+strength+'"','g'))||[]).length,rated.filter(r=>r.signal_strength===strength).length);
+for(const r of approvedSignals){assert.match(fs.readFileSync(path.join(ROOT,r.path),'utf8'),/信号等级：弱\n评级依据：截至原观察时间，/);}
+for(const r of index.records.filter(r=>['账号运营','合约安全'].includes(r.type)))assert.equal(r.signal_strength,undefined);
+assert.ok(home.includes('title="按报告观察时点评级"'));
+console.log('PASS: explicit frontmatter/body signal grades, unknown/non-opportunity suppression, 15 approved historical weak badges and optional index fields');

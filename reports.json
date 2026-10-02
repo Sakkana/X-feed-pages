@@ -2,11 +2,48 @@
   "schemaVersion": 1,
   "timezone": "Asia/Shanghai",
   "repository": "Sakkana/X-feed-pages",
-  "recordCount": 22,
+  "recordCount": 24,
   "records": [
     {
+      "path": "2026-10-02/23-19-29-【DeFi】-Fables小池补贴与2Z持币奖励.md",
+      "sha": "125494dec5c1db1ee14457b37ce5bdce56f1f3e7",
+      "signal_strength": "weak",
+      "date": "2026-10-02",
+      "time": "23:19:29",
+      "title": "【DeFi】新激励两条：Fables小池补贴、2Z持币奖励",
+      "type": "DeFi",
+      "tags": [
+        "空投",
+        "早期积分",
+        "持币激励"
+      ],
+      "summary": "主类型：DeFi｜标签：空投、早期积分、持币激励  \n观察：2026-10-02 15:04–15:16 UTC；Fables市场读数15:12，OKX规模来自当日官方页面索引，非秒级报价",
+      "observation": "观察时间：2026-10-02 15:04–15:16 UTC（北京时间23:04–23:16）",
+      "url": "/X-feed-pages/2026-10-02/23-19-29-%E3%80%90DeFi%E3%80%91-Fables%E5%B0%8F%E6%B1%A0%E8%A1%A5%E8%B4%B4%E4%B8%8E2Z%E6%8C%81%E5%B8%81%E5%A5%96%E5%8A%B1.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-10-02/23-19-29-%E3%80%90DeFi%E3%80%91-Fables%E5%B0%8F%E6%B1%A0%E8%A1%A5%E8%B4%B4%E4%B8%8E2Z%E6%8C%81%E5%B8%81%E5%A5%96%E5%8A%B1.md"
+    },
+    {
+      "path": "2026-10-02/22-39-26-【DeFi】-Zeru与SoDEX新激励条件核验.md",
+      "sha": "18582328ab54029391731a82ee8a93e2fa7d17fd",
+      "signal_strength": "weak",
+      "date": "2026-10-02",
+      "time": "22:39:26",
+      "title": "【DeFi】新激励扫描：ZeruAI × Ditto 的5万美元，实际按成交量解锁",
+      "type": "DeFi",
+      "tags": [
+        "交易激励",
+        "空投",
+        "超额收益"
+      ],
+      "summary": "主类型：DeFi｜标签：交易激励、空投、超额收益\n观察时间：2026-10-02 14:20–14:39 UTC；新活动数据主要采于14:30–14:34",
+      "observation": "观察时间：2026-10-02 14:20–14:39 UTC；新活动数据主要采于14:30–14:34",
+      "url": "/X-feed-pages/2026-10-02/22-39-26-%E3%80%90DeFi%E3%80%91-Zeru%E4%B8%8ESoDEX%E6%96%B0%E6%BF%80%E5%8A%B1%E6%9D%A1%E4%BB%B6%E6%A0%B8%E9%AA%8C.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-10-02/22-39-26-%E3%80%90DeFi%E3%80%91-Zeru%E4%B8%8ESoDEX%E6%96%B0%E6%BF%80%E5%8A%B1%E6%9D%A1%E4%BB%B6%E6%A0%B8%E9%AA%8C.md"
+    },
+    {
       "path": "2026-10-02/21-22-35-【套利】-PT-USDat预言机与同币种成本跟进.md",
-      "sha": "d4f56f7dd5a278e0b8df44f3ed1f46f87f250d31",
+      "sha": "51d7249868a2125531cb51515954e524db87af08",
+      "signal_strength": "weak",
       "date": "2026-10-02",
       "time": "21:22:35",
       "title": "【套利】PT-USDat × Morpho 跟进：25分钟TWAP已核实，净优势仍很薄",
@@ -38,7 +75,8 @@
     },
     {
       "path": "2026-10-02/19-40-58-【套利】-PT-USDat融资窗口与浮息压力.md",
-      "sha": "232beb287d420d371ec88a556c1855aef040d7c2",
+      "sha": "efd77ea9e2fc9a4238b722db69b0810185219708",
+      "signal_strength": "weak",
       "date": "2026-10-02",
       "time": "19:40:58",
       "title": "【套利】PT-USDat × Morpho：真实息差，浮息回升后还剩多少？",
@@ -55,7 +93,8 @@
     },
     {
       "path": "2026-10-02/19-13-12-【CEX】-HTX加息活动与交易成本核验.md",
-      "sha": "7d8da54008282cb2b09780b7dc8a7283fa72a19d",
+      "sha": "2a5c63fbb9f599de83c8a7f77c96cea1c40eac1d",
+      "signal_strength": "weak",
       "date": "2026-10-02",
       "time": "19:13:12",
       "title": "【CEX】HTX 13%加息：交易费能否盖过奖励？",
@@ -73,7 +112,8 @@
     },
     {
       "path": "2026-10-02/18-14-06-【DeFi】-Origin赎回套利与退出成本核验.md",
-      "sha": "170c78ec02b82f08d265187e0a6da7ff2d4cf303",
+      "sha": "3ce8b8efdf6a9d1ee00512747afec6bff703ec49",
+      "signal_strength": "weak",
       "date": "2026-10-02",
       "time": "18:14:06",
       "title": "Origin赎回套利与退出成本核验",
@@ -91,7 +131,8 @@
     },
     {
       "path": "2026-10-02/17-09-19-【CEX】-Bitget-USDC限时收益与提现核验.md",
-      "sha": "c666d060f87a1659c95aac97ff1af6edf9a55513",
+      "sha": "a84f9a75cff8eb7c81d2ea626bba513ac9d0262c",
+      "signal_strength": "weak",
       "date": "2026-10-02",
       "time": "17:09:19",
       "title": "Bitget USDC 8% 活期活动的一周收益与退出核验",
@@ -147,7 +188,8 @@
     },
     {
       "path": "2026-10-02/16-07-32-【DeFi】-Citrea比特币金库早期激励与配置核验.md",
-      "sha": "d113e7d7e44785bb150aadec3a281c52b08599fc",
+      "sha": "41b78a6cecd6879ee38c2b51d93917bc038e2511",
+      "signal_strength": "weak",
       "date": "2026-10-02",
       "time": "16:07:32",
       "title": "【DeFi】Citrea cBTC Earn Vault 的早期奖励与配置核验",
@@ -185,7 +227,8 @@
     },
     {
       "path": "2026-10-02/15-10-02-【DEX】-StandX保证金生息与做市奖励核验.md",
-      "sha": "0c8aef30346ab8ba359ac0bf17c0b3b8c1f079e9",
+      "sha": "d2a7c426aae724ed2bed7212ebe679a041d0dfd4",
+      "signal_strength": "weak",
       "date": "2026-10-02",
       "time": "15:10:02",
       "title": "【DEX】StandX 的保证金生息与做市奖励能否覆盖成本",
@@ -241,7 +284,8 @@
     },
     {
       "path": "2026-10-02/14-07-20-【DeFi】-NEMO量化金库收益与退出约束.md",
-      "sha": "6ab14e141c97bac13472f56a1807247a97cf4cff",
+      "sha": "b59918403c3741a50bb5907e3655c315b15f37ce",
+      "signal_strength": "weak",
       "date": "2026-10-02",
       "time": "14:07:20",
       "title": "【DeFi】NEMO USDC 量化金库的收益与退出约束",
@@ -276,7 +320,8 @@
     },
     {
       "path": "2026-10-02/13-12-29_ONyc收益分层与对照表口径核验.md",
-      "sha": "1f2027bbf361308e177cae5b48a8d845315b764e",
+      "sha": "713d2cbb7ed84afe453a71c99bb2db0e8f03bfaa",
+      "signal_strength": "weak",
       "date": "2026-10-02",
       "time": "13:12:29",
       "title": "ONyc 优先／劣后收益分层核验",
@@ -293,7 +338,8 @@
     },
     {
       "path": "2026-10-02/12-50-16_低估山寨币补证与SKY评级调整.md",
-      "sha": "86426942f0c30123846bc674e4051533657ff35c",
+      "sha": "ad8f01a09aee652290cb7043cdc87c928287011e",
+      "signal_strength": "weak",
       "date": "2026-10-02",
       "time": "12:50:16",
       "title": "低估山寨币补充核验：SKY 降级观察，CAKE 仍待补证",
@@ -312,7 +358,8 @@
     },
     {
       "path": "2026-10-02/12-37-16_潜在低估山寨币首轮研究.md",
-      "sha": "ee8754253042498529686c5607ecc11330a39d12",
+      "sha": "1ac36f587aaac98c2169dec13c0205f99a812010",
+      "signal_strength": "weak",
       "date": "2026-10-02",
       "time": "12:37:16",
       "title": "潜在低估山寨币首轮研究",
@@ -347,7 +394,8 @@
     },
     {
       "path": "2026-10-02/12-09-51_HawkFi套利收益与论文指标核验.md",
-      "sha": "2d8dd1470f2a3188bae3a4f4b35515acc38e1997",
+      "sha": "131be30987ce6058ed039c32d79ba5815f55e39b",
+      "signal_strength": "weak",
       "date": "2026-10-02",
       "time": "12:09:51",
       "title": "HawkFi 套利收益与论文指标核验",
@@ -381,7 +429,8 @@
     },
     {
       "path": "2026-10-02/11-10-37_Pendle-USDC借贷金库与演示内容研究.md",
-      "sha": "7e3edcdb883133cc213b09c8487b6b48614ec787",
+      "sha": "76bdfd5faac1b3c859b78e7fb4b96e6bd7a35f49",
+      "signal_strength": "weak",
       "date": "2026-10-02",
       "time": "11:10:37",
       "title": "Pendle USDC 借贷金库与短期收益核验",
