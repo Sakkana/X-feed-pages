@@ -126,5 +126,13 @@
     "code": "318149",
     "url": "https://inv.debot.ai/r/318149?lang=zh",
     "logo": "assets/logos/debot.svg"
+  },
+  {
+    "id": "okx-wallet",
+    "section": "DEX/Wallet",
+    "name": "OKX Wallet",
+    "code": "SAKANAA",
+    "url": "https://web3.okx.com/join/SAKANAA",
+    "logo": "assets/logos/okx.svg"
   }
 ]
