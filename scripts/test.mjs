@@ -19,7 +19,7 @@ assert.match(markdown('## 二级标题','test'),/<h2 id="二级标题">/);
 let links=0,tables=0;
 for(const r of index.records){
   const raw=fs.readFileSync(path.join(ROOT,r.path));
-  assert.equal(fs.compare?fs.compare(raw,raw):Buffer.compare(raw,fs.readFileSync(path.join(OUT,r.path))),0);
+  assert.equal(Buffer.compare(raw,fs.readFileSync(path.join(OUT,r.path))),0);
   assert.equal(crypto.createHash('sha1').update(Buffer.concat([Buffer.from(`blob ${raw.length}\0`),raw])).digest('hex'),r.sha);
   const html=fs.readFileSync(path.join(OUT,r.path.replace(/\.md$/,'.html')),'utf8');
   assert.ok(html.includes(r.date+' '+r.time));assert.ok(html.includes('不构成投资建议'));
@@ -28,6 +28,6 @@ for(const r of index.records){
   const sourceTables=(raw.toString().match(/^\|\s*[:-]+/gm)||[]).length;tables+=sourceTables;
   assert.equal((html.match(/<table>/g)||[]).length,sourceTables);
 }
-function check(dir){for(const entry of fs.readdirSync(dir,{withFileTypes:true})){const file=path.join(dir,entry.name);if(entry.isDirectory()){check(file);continue;}if(!file.endsWith('.html'))continue;const html=fs.readFileSync(file,'utf8');assert.ok(!/siwc_|OAI-Sites|private-site|sourceCommit|api\/archive|BUCKET|appgprj_|token=/.test(html));for(const m of html.matchAll(/(?:href|src)="([^"]+)"/g)){const target=m[1].replaceAll('&amp;','&');if(!target.startsWith(BASE))continue;const decoded=decodeURIComponent(target.slice(BASE.length).split(/[?#]/)[0])||'index.html';assert.ok(fs.existsSync(path.join(OUT,decoded)),`Broken internal link in ${file}: ${target}`);links++;}}}
+function check(dir){for(const entry of fs.readdirSync(dir,{withFileTypes:true})){const file=path.join(dir,entry.name);if(entry.isDirectory()){check(file);continue;}if(!file.endsWith('.html'))continue;const html=fs.readFileSync(file,'utf8');assert.ok(!/Bearer\s+|github_pat_|ghp_|token=/.test(html));for(const m of html.matchAll(/(?:href|src)="([^"]+)"/g)){const target=m[1].replaceAll('&amp;','&');if(!target.startsWith(BASE))continue;const decoded=decodeURIComponent(target.slice(BASE.length).split(/[?#]/)[0])||'index.html';assert.ok(fs.existsSync(path.join(OUT,decoded)),`Broken internal link in ${file}: ${target}`);links++;}}}
 check(OUT);
 console.log(`PASS: ${index.records.length} reports, ${tables} Markdown tables, ${links} internal links; source URL preservation, byte-identical raw files, filename parsing and safe HTML`);
