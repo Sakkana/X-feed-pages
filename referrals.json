@@ -102,5 +102,13 @@
     "code": "RAFV3SEHGCT3",
     "url": "https://www.moneygram.com/RAF/RAFV3SEHGCT3?utm_source=referral_program&utm_medium=owned&utm_campaign=usa_phl_20_discount",
     "logo": "assets/logos/moneygram.svg"
+  },
+  {
+    "id": "binance-wallet",
+    "section": "DEX/Wallet",
+    "name": "Binance Wallet",
+    "code": "SAKANA",
+    "url": "https://web3.binance.com/referral?ref=SAKANA",
+    "logo": "assets/logos/binance.svg"
   }
 ]
