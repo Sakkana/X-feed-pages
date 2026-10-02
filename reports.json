@@ -2,8 +2,25 @@
   "schemaVersion": 1,
   "timezone": "Asia/Shanghai",
   "repository": "Sakkana/X-feed-pages",
-  "recordCount": 42,
+  "recordCount": 43,
   "records": [
+    {
+      "type": "套利",
+      "tags": [
+        "DeFi",
+        "限价奖励"
+      ],
+      "summary": "Pendle同余额双池条件收益约14.75U减额外成本G；联合计奖尚未取得结算证明，仍属原项目的条件中级候选。",
+      "observation": "报告发送时间：2026-10-03 07:02:33 北京时间；观察时间：2026-10-03 06:53—06:57 北京时间",
+      "path": "2026-10-03/07-02-33-【套利】-Pendle同余额双池奖励条件测算.md",
+      "sha": "7b1257f3865802b66a03e73e17d1ae95711b3558",
+      "signal_strength": "medium",
+      "date": "2026-10-03",
+      "time": "07:02:33",
+      "title": "Pendle同余额双池奖励条件测算",
+      "url": "/X-feed-pages/2026-10-03/07-02-33-%E3%80%90%E5%A5%97%E5%88%A9%E3%80%91-Pendle%E5%90%8C%E4%BD%99%E9%A2%9D%E5%8F%8C%E6%B1%A0%E5%A5%96%E5%8A%B1%E6%9D%A1%E4%BB%B6%E6%B5%8B%E7%AE%97.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-10-03/07-02-33-%E3%80%90%E5%A5%97%E5%88%A9%E3%80%91-Pendle%E5%90%8C%E4%BD%99%E9%A2%9D%E5%8F%8C%E6%B1%A0%E5%A5%96%E5%8A%B1%E6%9D%A1%E4%BB%B6%E6%B5%8B%E7%AE%97.md"
+    },
     {
       "type": "套利",
       "summary": "osGNO条件价差约12.89U，赎回到账与对冲缺口未闭合；BDTF即时买赎亏4.91 USDC，均为弱级。",
