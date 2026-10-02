@@ -26,8 +26,8 @@
     },
     "gate": {
       "page": "https://www.gate.com/zh/media-kit",
-      "asset": "https://www.gate.com/cdn/fe/_next/static/media/gate-mark-white.cfe9e2e1.svg",
-      "note": "Official white mark, copied from rendered SVG document; unchanged paths"
+      "asset": "https://www.gate.com/cdn/fe/_next/static/media/gate-mark-color.01dd386a.svg",
+      "note": "Official blue and mint mark from the media kit; unchanged SVG artwork, displayed on the requested white badge"
     },
     "maya": {
       "page": "https://www.maya.ph/maya-updates",
