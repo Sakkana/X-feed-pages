@@ -89,3 +89,9 @@ for(const r of index.records){
   assert.ok(!page.includes('JSON 索引'));
 }
 console.log('PASS: exact defi identity, decorative background, hidden JSON navigation, all report categories preserved');
+
+assert.ok(fs.existsSync(path.join(OUT,'assets/circuit.svg')));
+assert.match(css,/color-scheme:dark/);
+assert.match(css,/scan-sweep/);
+assert.ok(home.includes('content="#050b08"'));
+console.log('PASS: dark charcoal and green theme with reduced-motion scan guard');
