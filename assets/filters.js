@@ -7,10 +7,12 @@
     const p=new URLSearchParams(location.search),d=p.get('date')||'',t=p.get('type')||'',q=(p.get('q')||'').trim();
     date.value=d;type.value=t;query.value=q;
     let count=0;
-    for(const entry of entries){entry.hidden=!!((d&&entry.dataset.date!==d)||(t&&!JSON.parse(entry.dataset.themes).includes(t))||(q&&!entry.dataset.search.includes(q.toLowerCase())));if(!entry.hidden)count++;}
+    const reduced=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    for(const entry of entries){entry.hidden=!!((d&&entry.dataset.date!==d)||(t&&!JSON.parse(entry.dataset.themes).includes(t))||(q&&!entry.dataset.search.includes(q.toLowerCase())));entry.classList.remove('reveal');if(!entry.hidden){entry.style.setProperty('--i',String(Math.min(count,7)));count++;if(!reduced)requestAnimationFrame(()=>entry.classList.add('reveal'));}}
     for(const section of document.querySelectorAll('[data-day]')){const n=[...section.querySelectorAll('.entry')].filter(x=>!x.hidden).length;section.hidden=!n;section.querySelector('.day-count').textContent=n+' 篇';}
     document.querySelector('#result-count').textContent=count;
     document.querySelector('#empty-state').hidden=!!count;
+    form.querySelector('[type=reset]').hidden=!(d||t||q);
     document.querySelector('#filter-status').textContent=(d||t||q)?['筛选结果',d,t,q&&'“'+q+'”',count+' 篇'].filter(Boolean).join(' · '):'';
     for(const a of document.querySelectorAll('[data-theme]')){const selected=a.dataset.theme===t;a.classList.toggle('selected',selected);if(selected)a.setAttribute('aria-current','true');else a.removeAttribute('aria-current');}
   };

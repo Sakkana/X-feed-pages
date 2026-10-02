@@ -31,3 +31,17 @@ for(const r of index.records){
 function check(dir){for(const entry of fs.readdirSync(dir,{withFileTypes:true})){const file=path.join(dir,entry.name);if(entry.isDirectory()){check(file);continue;}if(!file.endsWith('.html'))continue;const html=fs.readFileSync(file,'utf8');assert.ok(!/Bearer\s+|github_pat_|ghp_|token=/.test(html));for(const m of html.matchAll(/(?:href|src)="([^"]+)"/g)){const target=m[1].replaceAll('&amp;','&');if(!target.startsWith(BASE))continue;const decoded=decodeURIComponent(target.slice(BASE.length).split(/[?#]/)[0])||'index.html';assert.ok(fs.existsSync(path.join(OUT,decoded)),`Broken internal link in ${file}: ${target}`);links++;}}}
 check(OUT);
 console.log(`PASS: ${index.records.length} reports, ${tables} Markdown tables, ${links} internal links; source URL preservation, byte-identical raw files, filename parsing and safe HTML`);
+const home=fs.readFileSync(path.join(OUT,'index.html'),'utf8');
+assert.ok(!home.includes('从线索到证据'));
+assert.ok(!home.includes('不构成投资建议'));
+assert.ok(!home.includes('class="summary"'));
+assert.ok(!home.includes('<aside'));
+assert.match(home,/for="date-filter"/);
+assert.match(home,/for="query-filter"/);
+const css=fs.readFileSync(path.join(ROOT,'assets/style.css'),'utf8');
+assert.match(css,/@media\(prefers-reduced-motion:reduce\)/);
+assert.match(css,/animation:none!important;transition:none!important/);
+const js=fs.readFileSync(path.join(ROOT,'assets/filters.js'),'utf8');
+assert.match(js,/matchMedia\('\(prefers-reduced-motion: reduce\)'\)/);
+assert.match(js,/if\(!reduced\)requestAnimationFrame/);
+console.log('PASS: concise homepage, explicit accessible labels and reduced-motion guards');
