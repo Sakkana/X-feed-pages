@@ -1,0 +1,153 @@
+{
+  "records": 124,
+  "accounts": {
+    "xaiwind": 40,
+    "0xSilver_Time": 9,
+    "weichen_ink": 12,
+    "QCTCH": 15,
+    "bangbuilds": 48
+  },
+  "qualified_accounts": 1,
+  "zero_denominator_policy": "null / undefined; never infinity",
+  "metric_window": "cumulative snapshots, not fixed 24h or 72h performance",
+  "results": {
+    "bangbuilds": {
+      "target_url": "https://x.com/bangbuilds/status/2104964962250899686",
+      "target_metrics": {
+        "views": 11780,
+        "likes": 27,
+        "reposts": 3,
+        "replies": 24
+      },
+      "target_age_days": 2.6902453587962962,
+      "comparisons": {
+        "all_10": {
+          "n": 10,
+          "post_ids": [
+            "2104955851333357992",
+            "2104939247782564000",
+            "2104926354051633217",
+            "2104904877487120512",
+            "2104894419036237850",
+            "2104882446118670382",
+            "2104860844433744049",
+            "2104852781618389068",
+            "2104836875332829203",
+            "2104823896528855486"
+          ],
+          "medians": {
+            "views": 475.5,
+            "likes": 6.5,
+            "reposts": 0.0,
+            "replies": 5.5
+          },
+          "lift": {
+            "views": 24.773922187171397,
+            "likes": 4.153846153846154,
+            "reposts": null,
+            "replies": 4.363636363636363
+          },
+          "views_range": [
+            252,
+            1155
+          ],
+          "snapshot_age_days_range": [
+            2.7156077430555556,
+            3.0797281134259262
+          ]
+        },
+        "same_format_text_9": {
+          "n": 9,
+          "post_ids": [
+            "2104955851333357992",
+            "2104926354051633217",
+            "2104904877487120512",
+            "2104894419036237850",
+            "2104882446118670382",
+            "2104860844433744049",
+            "2104852781618389068",
+            "2104836875332829203",
+            "2104823896528855486"
+          ],
+          "medians": {
+            "views": 468,
+            "likes": 5,
+            "reposts": 0,
+            "replies": 5
+          },
+          "lift": {
+            "views": 25.17094017094017,
+            "likes": 5.4,
+            "reposts": null,
+            "replies": 4.8
+          },
+          "views_range": [
+            252,
+            1155
+          ],
+          "snapshot_age_days_range": [
+            2.7156077430555556,
+            3.0797281134259262
+          ]
+        },
+        "ai_topic_4": {
+          "n": 4,
+          "post_ids": [
+            "2104955851333357992",
+            "2104939247782564000",
+            "2104926354051633217",
+            "2104904877487120512"
+          ],
+          "medians": {
+            "views": 792.5,
+            "likes": 6.0,
+            "reposts": 0.0,
+            "replies": 5.5
+          },
+          "lift": {
+            "views": 14.864353312302839,
+            "likes": 4.5,
+            "reposts": null,
+            "replies": 4.363636363636363
+          },
+          "views_range": [
+            252,
+            1155
+          ],
+          "snapshot_age_days_range": [
+            2.7156077430555556,
+            2.8562674652777775
+          ]
+        },
+        "ai_topic_same_format_text_3": {
+          "n": 3,
+          "post_ids": [
+            "2104955851333357992",
+            "2104926354051633217",
+            "2104904877487120512"
+          ],
+          "medians": {
+            "views": 673,
+            "likes": 4,
+            "reposts": 0,
+            "replies": 2
+          },
+          "lift": {
+            "views": 17.503714710252602,
+            "likes": 6.75,
+            "reposts": null,
+            "replies": 12.0
+          },
+          "views_range": [
+            252,
+            1155
+          ],
+          "snapshot_age_days_range": [
+            2.7156077430555556,
+            2.8562674652777775
+          ]
+        }
+      }
+    }
+  }
+}

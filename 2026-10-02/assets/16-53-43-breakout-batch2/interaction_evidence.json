@@ -1,0 +1,17 @@
+{
+  "source_page": "https://x.com/bangbuilds/status/2104964962250899686",
+  "observed_at_utc": "2026-10-02T08:38:40Z",
+  "method": "rendered conversation accessibility state; individual reply pages were not opened",
+  "publication_time_limit": "UI displayed local month/day; exact UTC reply timestamps were not extracted",
+  "counts_limit": "The target's reply total includes author replies; it is not the number of distinct external people",
+  "items": [
+    {"url":"https://x.com/bobohopegarden/status/2105164120748404987","displayed_date":"9月29日","summary":"读者提供相反经历：称升级订阅后仍被封禁","views":524,"likes":1,"reposts":0,"replies":1},
+    {"url":"https://x.com/bangbuilds/status/2105170544471711931","displayed_date":"9月29日","summary":"作者回应反例并追问使用条件","views":516,"likes":0,"reposts":0,"replies":1},
+    {"url":"https://x.com/baoweiwen/status/2105159301207838721","displayed_date":"9月29日","summary":"另一读者称相同付款路径仍被封禁；属于未独立验证的个体自述","views":398,"likes":1,"reposts":0,"replies":1},
+    {"url":"https://x.com/mingtaoxiao/status/2105093672299901041","displayed_date":"9月29日","summary":"读者明确回应帖子对配置、成本和不确定性的说明","views":769,"likes":1,"reposts":0,"replies":1},
+    {"url":"https://x.com/bangbuilds/status/2105100733695815968","displayed_date":"9月29日","summary":"作者将其定位为个人情况供参考","views":712,"likes":0,"reposts":0,"replies":0}
+  ],
+  "target_recheck": {"views":11788,"likes":27,"reposts":4,"replies":24,"bookmarks":20,"note":"Later recheck only; fixed analysis retains the earlier 08:36:07 snapshot 11780/27/3/24"},
+  "amplification": "unknown; quote-source retrieval timed out, including after one reload; this does not show an absence of amplification",
+  "identity_limit": "Specific back-and-forth content is visible; identities, independence and bot status were not authenticated"
+}

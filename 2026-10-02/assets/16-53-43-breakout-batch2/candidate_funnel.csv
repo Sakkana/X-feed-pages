@@ -1,0 +1,6 @@
+account,profile_observed_utc,current_followers_display,corpus_posts,result,reason,evidence_url
+bangbuilds,2026-10-02T08:35:23Z,3299,48,qualified,候选相对前10条已核验普通主帖明显突增；基线和候选年龄较接近,https://x.com/bangbuilds/status/2104964962250899686
+xaiwind,2026-10-02T08:31:28Z,2033,40,not_qualified_for_selected_candidate,置顶14万文章之前已有22万等高表现同类文章；不能用几百浏览引用帖制造首次突破,https://x.com/xaiwind/status/2104039563719262546
+QCTCH,2026-10-02T08:34:14Z,90,15,insufficient_baseline,置顶自我介绍2214浏览；已读历史中未取得发布前10条可比原创主帖,https://x.com/QCTCH/status/2104934696903929951
+weichen_ink,2026-10-02T08:34:48Z,1.1万,12,not_qualified_for_selected_candidate,当前商标文章17994浏览；较早同类文章已有109384；且未完成10条可比普通基线,https://x.com/weichen_ink/status/2095451080452661335
+0xSilver_Time,2026-10-02T08:33:21Z,7.6万,9,insufficient_baseline,主页有50468和42600浏览线程开头；不是仅凭高绝对值认定普通账号突增；线程续帖不能作低基线,https://x.com/0xSilver_Time/status/2105183113899102383
