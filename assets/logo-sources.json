@@ -40,11 +40,9 @@
       "note": "Official small color logo; unchanged artwork"
     },
     "lbank": {
-      "page": "https://apps.apple.com/us/app/lbank-buy-bitcoin-crypto/id1437346368?uo=4",
-      "lookup": "https://itunes.apple.com/lookup?id=1437346368",
-      "asset": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ef/ac/f0/efacf03e-0246-a5b1-307d-7e84619e6c33/AppIcon-0-0-1x_U007ephone-0-11-0-85-220.png/512x512bb.jpg",
-      "publisher": "LBANK EXCHANGE UAB",
-      "note": "Official App Store icon; original JPEG bytes embedded in a static SVG container; no pixel changes"
+      "page": "https://www.lbank.com/",
+      "asset": "https://www.lbank.com/static-client/lbank-front-trade/_next/static/media/lbank-logo.685773ab.svg",
+      "note": "Current official site brand SVG downloaded from its rendered page on 2026-10-02; original paths and colors unchanged"
     },
     "krak": {
       "page": "https://apps.apple.com/us/app/krak-money-app-card/id6738051700?uo=4",
