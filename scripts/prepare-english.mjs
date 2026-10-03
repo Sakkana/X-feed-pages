@@ -7,6 +7,8 @@ const hash=s=>crypto.createHash('sha256').update(s).digest('hex');
 const CJK=/[\u3400-\u9fff]/;
 const EXCLUDE='script,style,pre,code,[translate="no"],.notranslate,.language-menu,.world-clocks,#language-status,#copy-status,#filter-status,.day-count,.feed-summary .total';
 const inputs={},pages={};
+const reportIndex=JSON.parse(fs.readFileSync(path.join(OUT,'reports.json'),'utf8'));
+const summaries=Object.fromEntries(reportIndex.records.map(r=>[r.path,r.summary]));
 function add(html){const id=hash(html);inputs[id]={id,html};return id;}
 function walk(dir){return fs.readdirSync(dir,{withFileTypes:true}).flatMap(e=>e.isDirectory()?walk(path.join(dir,e.name)):[path.join(dir,e.name)]);}
 for(const file of walk(OUT).filter(f=>f.endsWith('.html'))){
@@ -27,7 +29,10 @@ for(const file of walk(OUT).filter(f=>f.endsWith('.html'))){
   if(node.closest(EXCLUDE)||node.closest('[data-en-id]')||node.querySelector('[data-en-id],button,input,select,a')||!CJK.test(node.textContent))continue;
   const id=add(node.innerHTML);node.dataset.enId=id;page.blocks[id]=id;
  }
- for(const entry of doc.querySelectorAll('.entry'))page.search[entry.dataset.path]=[...entry.querySelectorAll('[data-en-id]')].map(n=>n.dataset.enId);
+ for(const entry of doc.querySelectorAll('.entry')){
+  page.search[entry.dataset.path]=[...entry.querySelectorAll('[data-en-id]')].map(n=>n.dataset.enId);
+  if(summaries[entry.dataset.path])page.search[entry.dataset.path].push(add(summaries[entry.dataset.path]));
+ }
  const sourceHash=hash(JSON.stringify(page));page.sourceHash=sourceHash;
  const meta=doc.createElement('meta');meta.name='english-pack';meta.content='/X-feed-pages/i18n/en/'+rel+'.json';doc.head.append(meta);
  const check=doc.createElement('meta');check.name='english-source-hash';check.content=sourceHash;doc.head.append(check);
