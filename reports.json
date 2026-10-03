@@ -2,8 +2,24 @@
   "schemaVersion": 1,
   "timezone": "Asia/Shanghai",
   "repository": "Sakkana/X-feed-pages",
-  "recordCount": 49,
+  "recordCount": 50,
   "records": [
+    {
+      "type": "账号运营",
+      "tags": [
+        "分发条件",
+        "对照方法"
+      ],
+      "summary": "高曝光样本需区分置顶、分发条件和累计时间；作者有关付费助推的公开自述未经独立核验，不能归因为内容自然增长。",
+      "observation": "报告发送时间：2026-10-03 08:33:12 北京时间；观察时间：2026-10-03 08:26—08:30 北京时间",
+      "path": "2026-10-03/08-33-12-【账号运营】-高曝光文章的付费与置顶对照限制.md",
+      "sha": "74d8b7ad336c0fb126b25d82e87de6e4e3264e1e",
+      "date": "2026-10-03",
+      "time": "08:33:12",
+      "title": "高曝光文章的付费与置顶对照限制",
+      "url": "/X-feed-pages/2026-10-03/08-33-12-%E3%80%90%E8%B4%A6%E5%8F%B7%E8%BF%90%E8%90%A5%E3%80%91-%E9%AB%98%E6%9B%9D%E5%85%89%E6%96%87%E7%AB%A0%E7%9A%84%E4%BB%98%E8%B4%B9%E4%B8%8E%E7%BD%AE%E9%A1%B6%E5%AF%B9%E7%85%A7%E9%99%90%E5%88%B6.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-10-03/08-33-12-%E3%80%90%E8%B4%A6%E5%8F%B7%E8%BF%90%E8%90%A5%E3%80%91-%E9%AB%98%E6%9B%9D%E5%85%89%E6%96%87%E7%AB%A0%E7%9A%84%E4%BB%98%E8%B4%B9%E4%B8%8E%E7%BD%AE%E9%A1%B6%E5%AF%B9%E7%85%A7%E9%99%90%E5%88%B6.md"
+    },
     {
       "type": "套利",
       "tags": [
