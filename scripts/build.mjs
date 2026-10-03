@@ -23,7 +23,8 @@ const dates=[...new Set(records.map(r=>r.date))];
 const themes=[...new Set(records.flatMap(r=>[r.type,...r.tags]))].sort((a,b)=>a.localeCompare(b,'zh'));
 const types=[...new Set(records.map(r=>r.type))];
 const homepage=BASE;
-const languageMenu=`<details class="language-menu notranslate" id="language-menu" translate="no"><summary aria-label="选择语言"><span class="language-current">🇨🇳 简体中文</span><span aria-hidden="true">⌄</span></summary><div class="language-options"><button type="button" data-language="zh-CN" aria-current="true">🇨🇳 简体中文</button><button type="button" data-language="zh-Hant" aria-current="false">🇨🇳 繁體中文</button><button type="button" disabled title="英文翻译暂不可用">🇺🇸 English <small>暂不可用</small></button></div></details>`;
+const englishEnabled=process.env.BUILD_ENGLISH==='1';
+const languageMenu=`<details class="language-menu notranslate" id="language-menu" translate="no"><summary aria-label="选择语言"><span class="language-current">🇨🇳 简体中文</span><span aria-hidden="true">⌄</span></summary><div class="language-options"><button type="button" data-language="zh-CN" aria-current="true">🇨🇳 简体中文</button><button type="button" data-language="zh-Hant" aria-current="false">🇨🇳 繁體中文</button>${englishEnabled?'<button type="button" data-language="en" aria-current="false">🇺🇸 English</button>':'<button type="button" disabled title="英文翻译暂不可用">🇺🇸 English <small>暂不可用</small></button>'}</div></details>`;
 
 const referrals=JSON.parse(fs.readFileSync(path.join(ROOT,'referrals.json'),'utf8'));
 
