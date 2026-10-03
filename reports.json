@@ -2,8 +2,26 @@
   "schemaVersion": 1,
   "timezone": "Asia/Shanghai",
   "repository": "Sakkana/X-feed-pages",
-  "recordCount": 55,
+  "recordCount": 56,
   "records": [
+    {
+      "type": "套利",
+      "tags": [
+        "DeFi",
+        "本链价差",
+        "跨链成本"
+      ],
+      "summary": "已有Cardano USDCx的500档两段预览，扣已显示路由费后约剩4.00 USDCx−G；非原子执行且完整费用未闭合，新资金单次约5 USDC桥费已超过毛差。",
+      "observation": "报告发送时间：2026-10-03 11:27:40 北京时间；报价观察时间：2026-10-03 11:21—11:22 北京时间",
+      "path": "2026-10-03/11-27-40-【套利】-Indigo本链价差与跨链成本.md",
+      "sha": "94776435ba7fd68a204a346f0a191fe1cbb89c1b",
+      "signal_strength": "weak",
+      "date": "2026-10-03",
+      "time": "11:27:40",
+      "title": "Indigo本链价差与跨链成本",
+      "url": "/X-feed-pages/2026-10-03/11-27-40-%E3%80%90%E5%A5%97%E5%88%A9%E3%80%91-Indigo%E6%9C%AC%E9%93%BE%E4%BB%B7%E5%B7%AE%E4%B8%8E%E8%B7%A8%E9%93%BE%E6%88%90%E6%9C%AC.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-10-03/11-27-40-%E3%80%90%E5%A5%97%E5%88%A9%E3%80%91-Indigo%E6%9C%AC%E9%93%BE%E4%BB%B7%E5%B7%AE%E4%B8%8E%E8%B7%A8%E9%93%BE%E6%88%90%E6%9C%AC.md"
+    },
     {
       "type": "DeFi",
       "tags": [
