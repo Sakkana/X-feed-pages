@@ -34,3 +34,16 @@ GitHub 当前对公开仓库标准 runner 不收执行分钟费用；这不代�
 6. 全量/增量运行完成后使用 `node scripts/assemble-english.mjs && node scripts/test-english-build.mjs` 生成并检验语言包
 
 不得仅因机械测试通过就跳过首次模型的语义验收。普通中文构建不设置 `BUILD_ENGLISH=1`，继续保持英文入口不可用。
+
+
+## Experimental status (2026-10-03)
+
+Financial translation quality remains blocked. Neither Qwen3-4B nor Qwen2.5-7B passed the manual financial-meaning review; mechanical preservation alone did not establish correctness. Public main still has English disabled. No full-site English generation or deployment has been performed.
+
+A bounded five-paragraph MADLAD-400 3B experiment uses a translation-specific encoder-decoder model, not another chat prompt. The official Google model revision and all model/config/tokenizer files are fixed by SHA256 in `scripts/madlad-config.json`. This does not assert that the model is suitable for financial publication.
+
+Runtime caveat: official Candle 0.9.1 (and inspected current upstream) uses bidirectional relative-position buckets for the quantized T5 decoder and omits one encoder-distance clamp. The probe applies a minimal, disclosed source-only correction matching the official Transformers v4.23.1 T5 reference. Over 500,000 encoder/decoder position cases cover direction, boundaries, long distances, and explicit decoder identity with caching disabled. The official crate checksum, patch, model config, exact inputs, raw output token IDs, decoded output, timing, stderr and review diagnostics are retained as a one-day evidence artifact. Model weights are never uploaded. Bare tokenizer JSON lacks special-token registration, so raw output is retained and only a known terminal EOS ID is removed from display text.
+
+HTML tags and URL attributes are retained in an AST sidecar; this small experiment translates complete visible paragraphs and does not claim to reconstruct deployable markup. Inputs exceeding 512 tokens are rejected without splitting or truncation. Generation has a 512-token cap and must reach EOS. There are no chat instructions or automatic retry diagnostics in translation input.
+
+Attribution: MADLAD-400 is by the Google research authors (Kudugunta et al., 2023); the GGUF quantization was contributed by Juarez Bochi and subsequently included in the Google repository. The current official model card labels the model Apache-2.0, whereas the original paper appendix describes ODC-BY. Both permit commercial use with attribution, but the differing documentation is preserved here rather than represented as resolved. Sources: https://huggingface.co/google/madlad400-3b-mt and https://arxiv.org/abs/2309.04662. Candle is MIT OR Apache-2.0. Runtime patch reference: https://github.com/huggingface/transformers/blob/v4.23.1/src/transformers/models/t5/modeling_t5.py.

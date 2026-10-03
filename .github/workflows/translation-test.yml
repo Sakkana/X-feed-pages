@@ -1,4 +1,4 @@
-name: Test free offline English quality
+name: Test bounded free offline English quality
 on:
   push:
     branches: [test/free-offline-english]
@@ -11,30 +11,47 @@ jobs:
   quality:
     runs-on: ubuntu-24.04
     timeout-minutes: 40
+    env:
+      RAYON_NUM_THREADS: '4'
+      CARGO_BUILD_JOBS: '2'
     steps:
       - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
       - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
         with:
           node-version: '22'
       - run: npm ci --ignore-scripts
-      - run: node scripts/build.mjs && node scripts/prepare-english.mjs
-      - name: Download verified official CPU runtime and model
-        run: bash scripts/setup-translation.sh
-      - name: Translate public financial-risk samples
+      - name: Validate local safety checks and prepare five public paragraphs
         run: |
-          python3 scripts/test-html-translation.py
-      - name: Record CPU model memory and speed
+          python3 scripts/test-translation.py
+          node scripts/build.mjs && node scripts/prepare-english.mjs
+          node scripts/prepare-madlad-samples.mjs
+      - name: Compile pinned official Candle CPU dependencies
+        timeout-minutes: 15
+        run: |
+          set -o pipefail
+          python3 scripts/setup-candle-probe.py
+          python3 scripts/patch-candle-t5.py
+          rustup toolchain install 1.90.0 --profile minimal
+          rustc +1.90.0 --version | tee translation-evidence/rust-version.txt
+          cargo +1.90.0 test --release --locked --manifest-path scripts/madlad-probe/Cargo.toml -p candle-transformers --lib x_feed_bucket_tests 2>&1 | tee translation-evidence/bucket-tests.log
+          cargo +1.90.0 build --release --locked --manifest-path scripts/madlad-probe/Cargo.toml 2>&1 | tee translation-evidence/compile.log
+      - name: Download and verify official model and tokenizer
+        timeout-minutes: 5
+        run: bash scripts/setup-madlad.sh
+      - name: Translate five complete paragraphs without chat prompts or retries
+        timeout-minutes: 15
+        run: |
+          /usr/bin/time -v scripts/madlad-probe/target/release/x-feed-madlad-probe "$RUNNER_TEMP/x-feed-madlad" translation-evidence/madlad-inputs.json > translation-evidence/madlad-raw.jsonl 2> translation-evidence/inference-stderr.log
+      - name: Record complete source and output with mechanical diagnostics
         if: always()
         run: |
-          RUNTIME="$RUNNER_TEMP/x-feed-translation"
-          if [ -f "$RUNTIME/server.pid" ]; then
-            grep -E 'VmRSS|VmHWM|VmSize' "/proc/$(cat "$RUNTIME/server.pid")/status" || true
-            tail -25 "$RUNTIME/server.log"
-          fi
-      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+          if [ -f translation-evidence/madlad-raw.jsonl ]; then python3 scripts/review-madlad-results.py; fi
+      - name: Retain bounded raw evidence, never model weights
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
         if: always()
         with:
-          name: public-english-quality-sample
-          path: .translation/quality-*.json
+          name: public-madlad-quality-evidence
+          path: translation-evidence/
           retention-days: 1
-          if-no-files-found: warn
+          if-no-files-found: error
+          include-hidden-files: false

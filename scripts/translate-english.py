@@ -43,15 +43,23 @@ def validate(src,out,tags):
  for i,tag in enumerate(tags):restored=restored.replace(f'__TAG{i}__',tag)
  return restored
 
+def translation_messages(text, error=None):
+ # Keep repair diagnostics in the instruction channel, never concatenate them with source data.
+ instructions=SYSTEM
+ if error:instructions+='\nPrevious mechanical validation failed: '+error+'. Correct the translation only; never include this diagnostic in the output.'
+ return [{'role':'system','content':instructions},{'role':'user','content':text}]
+
+def reject_diagnostic_leakage(output):
+ if re.search(r'validation (?:error|failed)|previous mechanical|previous validation|验证错误|验证失败',output,re.I):
+  raise ValueError('diagnostic text leaked into translation')
+
 def translate(source):
  if source in UI_LABELS:return UI_LABELS[source],{}
  text,tags=protect(source)
  if not CJK.search(text):return validate(text,text,tags),{}
  errors=[];attempts=[]
  for attempt in range(2):
-  prompt='Translate the following source faithfully:\n'+text
-  if errors:prompt+='\n\nPrevious validation failed: '+errors[-1]+'. Return a complete corrected translation, preserving every literal number and formatting marker.'
-  body={'model':'local','messages':[{'role':'system','content':SYSTEM},{'role':'user','content':prompt}], 'temperature':0,'max_tokens':2048,'seed':42,'chat_template_kwargs':{'enable_thinking':False}}
+  body={'model':'local','messages':translation_messages(text,errors[-1] if errors else None), 'temperature':0,'max_tokens':2048,'seed':42,'chat_template_kwargs':{'enable_thinking':False}}
   request=urllib.request.Request('http://127.0.0.1:8088/v1/chat/completions',data=json.dumps(body).encode(),headers={'Content-Type':'application/json'})
   with urllib.request.urlopen(request,timeout=600) as response:data=json.load(response)
   out=data['choices'][0]['message']['content'].strip()
@@ -60,6 +68,7 @@ def translate(source):
   attempts.append({'output':out,'usage':data.get('usage',{})})
   try:
    if data['choices'][0].get('finish_reason')=='length':raise ValueError('truncated output')
+   reject_diagnostic_leakage(out)
    return validate(text,out,tags),data.get('usage',{})
   except ValueError as e:errors.append(str(e))
  raise ValueError(json.dumps({'errors':errors,'attempts':attempts},ensure_ascii=False))

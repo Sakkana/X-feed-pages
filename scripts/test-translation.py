@@ -1,6 +1,15 @@
 import importlib.util,pathlib,unittest
 p=pathlib.Path(__file__).with_name('translate-english.py');spec=importlib.util.spec_from_file_location('translation',p);m=importlib.util.module_from_spec(spec);spec.loader.exec_module(m)
 class Safety(unittest.TestCase):
+ def test_retry_source_is_not_polluted(self):
+  source='资产换入；条件未核实'
+  messages=m.translation_messages(source,'numbers changed')
+  self.assertEqual(messages[1],{'role':'user','content':source})
+  self.assertIn('numbers changed',messages[0]['content'])
+ def test_diagnostic_leakage_rejected(self):
+  with self.assertRaises(ValueError):m.reject_diagnostic_leakage('Translation. Validation error to correct: bad')
+  with self.assertRaises(ValueError):m.reject_diagnostic_leakage('Translation. 验证错误')
+
  def test_tags_urls_code(self):
   source='成本 <strong>10.43U</strong>，<a href="https://example.com/a?q=1&b=2">来源</a> <code>0xabcdef</code>'
   text,tags=m.protect(source)

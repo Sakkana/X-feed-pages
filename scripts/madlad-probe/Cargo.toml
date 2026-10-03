@@ -1,0 +1,15 @@
+[package]
+name = "x-feed-madlad-probe"
+version = "0.1.0"
+edition = "2021"
+publish = false
+
+[dependencies]
+anyhow = "=1.0.100"
+candle-core = "=0.9.1"
+candle-transformers = "=0.9.1"
+serde_json = "=1.0.145"
+tokenizers = { version = "=0.21.4", default-features = false, features = ["onig"] }
+
+[patch.crates-io]
+candle-transformers = { path = "vendor/candle-transformers" }

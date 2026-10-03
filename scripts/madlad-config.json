@@ -1,0 +1,44 @@
+{
+  "model": "google/madlad400-3b-mt",
+  "revision": "fa184c675da0b5c9e1c8694fccd4e12e2d422094",
+  "runtime": "Candle CPU 0.9.1 plus audited T5 relative-position bucket source correction; exact crate versions and Cargo.lock; model weights unchanged",
+  "taskPrefix": "<2en> ",
+  "inputLimitTokens": 512,
+  "outputLimitTokens": 512,
+  "decoding": "greedy; no repetition penalty; EOS required; cache cleared per paragraph",
+  "files": [
+    {
+      "name": "model-q4k.gguf",
+      "bytes": 1654597280,
+      "sha256": "ea6e5531a3e95213c7f0635988d119e078a655c09306e47851e15d4c0c3f9c37"
+    },
+    {
+      "name": "config.json",
+      "bytes": 749,
+      "sha256": "cad399cab799b99409a6ec2d90d72552257c2bb752861261d2016691e0643e7c"
+    },
+    {
+      "name": "tokenizer.json",
+      "bytes": 16629031,
+      "sha256": "a2799ccc696b752ba00c34f58726bfe253a04921ceb6cfc620400f560474790b"
+    },
+    {
+      "name": "README.md",
+      "bytes": 9666,
+      "sha256": "7579fd7a40ebb96bc9098b1c817825c572a20763aa8fc80c5261a0517e224979"
+    }
+  ],
+  "licenseNote": "Current official model card marks Apache-2.0; original paper appendix described ODC-BY. Both allow commercial use with attribution but the documentation differs. Preserve attribution and both references; this experiment is not a declaration that the discrepancy is resolved.",
+  "quantizationAttribution": "Quantization by Juarez Bochi, subsequently included in the official Google model repository. Not represented as original authors' own quantization.",
+  "reference": "https://github.com/huggingface/transformers/blob/v4.23.1/src/transformers/models/t5/modeling_t5.py",
+  "candleCrateSha256": "186cb80045dbe47e0b387ea6d3e906f02fb3056297080d9922984c90e90a72b0",
+  "bucketAudit": {
+    "reference": "https://raw.githubusercontent.com/huggingface/transformers/v4.23.1/src/transformers/models/t5/modeling_t5.py",
+    "referenceSourceSha256": "f13d2b5fbd3f265cc2349453b417a6b3b613700faf517e607dddf0aa48f3ff45",
+    "vectorsSha256": "f2dce2783b792d96962c95b563d8279445256978b8c89b1506482af19664ec0e",
+    "cases": 534578,
+    "independentTorchReferenceMismatches": 0,
+    "rustUnitTestFailures": 0,
+    "rustUnitTests": 2
+  }
+}
