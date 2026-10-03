@@ -4,14 +4,23 @@ class Safety(unittest.TestCase):
  def test_tags_urls_code(self):
   source='成本 <strong>10.43U</strong>，<a href="https://example.com/a?q=1&b=2">来源</a> <code>0xabcdef</code>'
   text,tags=m.protect(source)
-  out='Cost __TAG0____TAG1____TAG2__, __TAG3__source__TAG4__ __TAG5__'
+  out='Cost __TAG0__10.43U__TAG1__, __TAG2__source__TAG3__ __TAG4__'
   self.assertEqual(m.validate(text,out,tags),'Cost <strong>10.43U</strong>, <a href="https://example.com/a?q=1&b=2">source</a> <code>0xabcdef</code>')
  def test_protected_dates(self):
   text,tags=m.protect('10月1日公布，10月11日截止')
-  self.assertEqual(m.validate(text,'Announced __TAG0__/__TAG1__; deadline __TAG2__/__TAG3__',tags),'Announced 10/1; deadline 10/11')
- def test_glossary_terms_are_protected(self):
+  self.assertEqual(m.validate(text,'Announced __TAG0__; deadline __TAG1__',tags),'Announced 10/1; deadline 10/11')
+ def test_signal_labels(self):
+  self.assertEqual(m.translate('中')[0],'Medium')
+  self.assertEqual(m.translate('弱')[0],'Weak')
+ def test_financial_context_is_visible(self):
   text,tags=m.protect('每小时预览再降45.75%，6.08U减完整额外费用')
-  self.assertEqual(m.validate(text,'__TAG0__ fell another __TAG1__; __TAG2__ __TAG3__',tags),'hourly preview fell another 45.75%; 6.08U minus all additional costs')
+  self.assertEqual(text,'每小时预览再降45.75%，6.08U减完整额外费用')
+  self.assertEqual(tags,[])
+ def test_dates_may_move_without_changing_structure(self):
+  text,tags=m.protect('9月14日签署，以10月5日生效')
+  self.assertEqual(m.validate(text,'Effective __TAG1__, signed __TAG0__',tags),'Effective 10/5, signed 9/14')
+ def test_percent_cannot_disappear(self):
+  with self.assertRaises(ValueError):m.validate('收益5%','yield 5',[])
  def test_rejects_empty_translation(self):
   with self.assertRaises(ValueError):m.validate('研究','',[])
  def test_rejects_loss_omission(self):

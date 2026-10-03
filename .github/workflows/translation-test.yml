@@ -24,6 +24,14 @@ jobs:
         run: |
           python3 scripts/translate-english.py --sample
           python3 scripts/translate-english.py --holdout
+      - name: Record CPU model memory and speed
+        if: always()
+        run: |
+          RUNTIME="$RUNNER_TEMP/x-feed-translation"
+          if [ -f "$RUNTIME/server.pid" ]; then
+            grep -E 'VmRSS|VmHWM|VmSize' "/proc/$(cat "$RUNTIME/server.pid")/status" || true
+            tail -25 "$RUNTIME/server.log"
+          fi
       - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
         if: always()
         with:
