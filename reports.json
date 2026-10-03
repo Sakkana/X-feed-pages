@@ -2,8 +2,25 @@
   "schemaVersion": 1,
   "timezone": "Asia/Shanghai",
   "repository": "Sakkana/X-feed-pages",
-  "recordCount": 47,
+  "recordCount": 48,
   "records": [
+    {
+      "type": "DeFi",
+      "tags": [
+        "PT",
+        "信用资产"
+      ],
+      "summary": "3Jane PT-USD3约75天条件收益23.72U减费用；2%兑付折损仅余3.65U，3%转亏。提款容量与完整成本未闭合，与Reserve USD3不同。",
+      "observation": "报告发送时间：2026-10-03 07:58:52 北京时间；观察时间：2026-10-03 07:38—07:53 北京时间",
+      "path": "2026-10-03/07-58-52-【DeFi】-3Jane-PT期限收益与兑付风险.md",
+      "sha": "c9339f04e32afa976c20db43f3be09ef11597f2c",
+      "signal_strength": "weak",
+      "date": "2026-10-03",
+      "time": "07:58:52",
+      "title": "3Jane-PT期限收益与兑付风险",
+      "url": "/X-feed-pages/2026-10-03/07-58-52-%E3%80%90DeFi%E3%80%91-3Jane-PT%E6%9C%9F%E9%99%90%E6%94%B6%E7%9B%8A%E4%B8%8E%E5%85%91%E4%BB%98%E9%A3%8E%E9%99%A9.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-10-03/07-58-52-%E3%80%90DeFi%E3%80%91-3Jane-PT%E6%9C%9F%E9%99%90%E6%94%B6%E7%9B%8A%E4%B8%8E%E5%85%91%E4%BB%98%E9%A3%8E%E9%99%A9.md"
+    },
     {
       "type": "套利",
       "tags": [
