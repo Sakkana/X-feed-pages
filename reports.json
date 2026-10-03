@@ -2,8 +2,25 @@
   "schemaVersion": 1,
   "timezone": "Asia/Shanghai",
   "repository": "Sakkana/X-feed-pages",
-  "recordCount": 50,
+  "recordCount": 51,
   "records": [
+    {
+      "type": "套利",
+      "tags": [
+        "DeFi",
+        "资格补证"
+      ],
+      "summary": "KNTQ付款币已由公开前端配置确认，链上部署与个人额度等仍待核验；Pendle每市场50单上限不能证明共享余额双池全额计奖。",
+      "observation": "报告发送时间：2026-10-03 09:15:24 北京时间；本次补证观察时间：2026-10-03 09:01—09:12 北京时间；引用的KNTQ条件报价观察时间：2026-10-03 08:13—08:14 北京时间，未按本次时间重新报价",
+      "path": "2026-10-03/09-15-24-【套利】-KNTQ付款币与Pendle订单上限补证.md",
+      "sha": "c21af2a185b55720c3f0e156ed521903bf6214b7",
+      "signal_strength": "medium",
+      "date": "2026-10-03",
+      "time": "09:15:24",
+      "title": "KNTQ付款币与Pendle订单上限补证",
+      "url": "/X-feed-pages/2026-10-03/09-15-24-%E3%80%90%E5%A5%97%E5%88%A9%E3%80%91-KNTQ%E4%BB%98%E6%AC%BE%E5%B8%81%E4%B8%8EPendle%E8%AE%A2%E5%8D%95%E4%B8%8A%E9%99%90%E8%A1%A5%E8%AF%81.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-10-03/09-15-24-%E3%80%90%E5%A5%97%E5%88%A9%E3%80%91-KNTQ%E4%BB%98%E6%AC%BE%E5%B8%81%E4%B8%8EPendle%E8%AE%A2%E5%8D%95%E4%B8%8A%E9%99%90%E8%A1%A5%E8%AF%81.md"
+    },
     {
       "type": "账号运营",
       "tags": [
