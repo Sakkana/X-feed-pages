@@ -7,6 +7,15 @@ use serde_json::{json, Value};
 use std::{env, fs, io::Write, time::Instant};
 use tokenizers::Tokenizer;
 
+fn progress(file: &mut fs::File, mut event: Value) -> Result<()> {
+    if let Ok(status) = fs::read_to_string("/proc/self/status") {
+        event["memory"] = json!(status.lines().filter(|s| s.starts_with("VmRSS:") || s.starts_with("VmHWM:")).collect::<Vec<_>>());
+    }
+    writeln!(file,"{}",event)?;
+    file.flush()?;
+    Ok(())
+}
+
 fn main() -> Result<()> {
     let args: Vec<String> = env::args().collect();
     anyhow::ensure!(args.len() == 3, "usage: probe MODEL_DIR INPUT_JSON");
@@ -16,11 +25,13 @@ fn main() -> Result<()> {
     tokenizer.with_padding(None).with_truncation(None).map_err(anyhow::Error::msg)?;
     let inputs: Vec<Value> = serde_json::from_str(&fs::read_to_string(&args[2])?)?;
     anyhow::ensure!(inputs.len() <= 5, "bounded experiment: at most 5 source paragraphs");
+    let mut evidence = fs::File::create(std::path::Path::new(&args[2]).with_file_name("inference-progress.jsonl"))?;
     let device = Device::Cpu;
     let load = Instant::now();
     let vb = t5::VarBuilder::from_gguf(dir.join("model-q4k.gguf"), &device)?;
     let mut model = t5::T5ForConditionalGeneration::load(vb, &config)?;
     eprintln!("Loaded pinned quantized T5 CPU model in {:.2}s", load.elapsed().as_secs_f64());
+    progress(&mut evidence, json!({"phase":"loaded","seconds":load.elapsed().as_secs_f64()}))?;
     for item in inputs {
         let source = item["source_text"].as_str().context("missing source text")?;
         let prompt = format!("<2en> {source}");
@@ -33,8 +44,10 @@ fn main() -> Result<()> {
         }
         model.clear_kv_cache();
         let started = Instant::now();
+        progress(&mut evidence,json!({"phase":"encoding","id":item["id"],"prompt":prompt,"input_ids":ids}))?;
         let encoder = model.encode(&Tensor::new(ids.as_slice(), &device)?.unsqueeze(0)?)?;
         let encoder_seconds = started.elapsed().as_secs_f64();
+        progress(&mut evidence,json!({"phase":"encoded","id":item["id"],"seconds":encoder_seconds}))?;
         let start_id = config.decoder_start_token_id.unwrap_or(config.pad_token_id) as u32;
         let mut output_ids = vec![start_id];
         // Greedy translation, no repetition penalty modifying token probabilities.
@@ -45,6 +58,9 @@ fn main() -> Result<()> {
             let scores = model.decode(&Tensor::new(next_input.as_slice(), &device)?.unsqueeze(0)?, &encoder)?.squeeze(0)?;
             let next = logits.sample(&scores)?;
             output_ids.push(next);
+            if index % 16 == 0 || next as usize == config.eos_token_id {
+                progress(&mut evidence,json!({"phase":"decoding","id":item["id"],"seconds":started.elapsed().as_secs_f64(),"output_ids":output_ids,"raw_partial_output":tokenizer.decode(&output_ids[1..],false).map_err(anyhow::Error::msg)?}))?;
+            }
             if next as usize == config.eos_token_id { ended = true; break; }
         }
         // Bare tokenizer.json does not register IDs 0/1/2 as special tokens. Keep raw decoding,

@@ -43,5 +43,6 @@ with vec.open('w') as f:
    for key in points:f.write(f'{decoder},{query},{key},{reference(key-query,not decoder)}\n')
 evidence=root/'translation-evidence';evidence.mkdir(exist_ok=True)
 (evidence/'candle-t5-upstream.rs').write_text(original)
+(evidence/'Candle-MIT.txt').write_text((root/'docs/third-party/Candle-MIT.txt').read_text())
 (evidence/'candle-t5-patch.diff').write_text(''.join(difflib.unified_diff(original.splitlines(True),text.splitlines(True),fromfile='official-candle-0.9.1/quantized_t5.rs',tofile='patched-candle-0.9.1/quantized_t5.rs')))
 print(f'Patched only attention bucket logic; {2*len(points)**2} reference vectors; patched source sha256 {hashlib.sha256(text.encode()).hexdigest()}')

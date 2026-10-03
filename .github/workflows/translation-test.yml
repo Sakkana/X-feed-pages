@@ -14,6 +14,7 @@ jobs:
     env:
       RAYON_NUM_THREADS: '4'
       CARGO_BUILD_JOBS: '2'
+      RUSTFLAGS: '-C target-cpu=native'
     steps:
       - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
       - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
@@ -33,6 +34,8 @@ jobs:
           python3 scripts/patch-candle-t5.py
           rustup toolchain install 1.90.0 --profile minimal
           rustc +1.90.0 --version | tee translation-evidence/rust-version.txt
+          rustc +1.90.0 --print cfg -C target-cpu=native | tee translation-evidence/rust-target-cfg.txt
+          lscpu | tee translation-evidence/cpu-info.txt
           cargo +1.90.0 test --release --locked --manifest-path scripts/madlad-probe/Cargo.toml -p candle-transformers --lib x_feed_bucket_tests 2>&1 | tee translation-evidence/bucket-tests.log
           cargo +1.90.0 build --release --locked --manifest-path scripts/madlad-probe/Cargo.toml 2>&1 | tee translation-evidence/compile.log
       - name: Download and verify official model and tokenizer

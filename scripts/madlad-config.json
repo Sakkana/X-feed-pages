@@ -40,5 +40,7 @@
     "independentTorchReferenceMismatches": 0,
     "rustUnitTestFailures": 0,
     "rustUnitTests": 2
-  }
+  },
+  "rustFlags": "-C target-cpu=native (matches the official Candle workspace configuration; required for its AVX quantized kernels on x86 CPUs)",
+  "progressEvidence": "Flush before/after encoding and every 16 generated tokens, with token IDs, partial raw output, elapsed time and process memory"
 }
