@@ -2,8 +2,25 @@
   "schemaVersion": 1,
   "timezone": "Asia/Shanghai",
   "repository": "Sakkana/X-feed-pages",
-  "recordCount": 56,
+  "recordCount": 57,
   "records": [
+    {
+      "type": "套利",
+      "tags": [
+        "DeFi",
+        "限价奖励"
+      ],
+      "summary": "Pendle双池72小时独立奖励预览减少约47%；11:48–11:51快照条件净额约7.82U−G，共享余额联合计奖及完整费用仍未闭合。",
+      "observation": "报告发送时间：2026-10-03 11:52:31 北京时间；观察时间：2026-10-03 11:48—11:51 北京时间",
+      "path": "2026-10-03/11-52-31-【套利】-Pendle双池奖励预览下降复核.md",
+      "sha": "ef723fea94de16d6298fb8538de7671c73ea9818",
+      "signal_strength": "medium",
+      "date": "2026-10-03",
+      "time": "11:52:31",
+      "title": "Pendle双池奖励预览下降复核",
+      "url": "/X-feed-pages/2026-10-03/11-52-31-%E3%80%90%E5%A5%97%E5%88%A9%E3%80%91-Pendle%E5%8F%8C%E6%B1%A0%E5%A5%96%E5%8A%B1%E9%A2%84%E8%A7%88%E4%B8%8B%E9%99%8D%E5%A4%8D%E6%A0%B8.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-10-03/11-52-31-%E3%80%90%E5%A5%97%E5%88%A9%E3%80%91-Pendle%E5%8F%8C%E6%B1%A0%E5%A5%96%E5%8A%B1%E9%A2%84%E8%A7%88%E4%B8%8B%E9%99%8D%E5%A4%8D%E6%A0%B8.md"
+    },
     {
       "type": "套利",
       "tags": [
@@ -231,7 +248,7 @@
       "summary": "Pendle同余额双池条件收益约14.75U减额外成本G；联合计奖尚未取得结算证明，仍属原项目的条件中级候选。",
       "observation": "报告发送时间：2026-10-03 07:02:33 北京时间；观察时间：2026-10-03 06:53—06:57 北京时间",
       "path": "2026-10-03/07-02-33-【套利】-Pendle同余额双池奖励条件测算.md",
-      "sha": "7b1257f3865802b66a03e73e17d1ae95711b3558",
+      "sha": "c3867e633c0ea49f23aa1b1e5e4db577b11e8ddb",
       "signal_strength": "medium",
       "date": "2026-10-03",
       "time": "07:02:33",
