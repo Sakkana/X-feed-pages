@@ -12,6 +12,11 @@ function walk(dir){return fs.readdirSync(dir,{withFileTypes:true}).flatMap(e=>e.
 for(const file of walk(OUT).filter(f=>f.endsWith('.html'))){
  const rel=path.relative(OUT,file),dom=new JSDOM(fs.readFileSync(file,'utf8')),doc=dom.window.document;
  const page={blocks:{},attributes:{},search:{}};
+ for(const node of doc.querySelectorAll('[placeholder],[aria-label],[title]')){
+  if(node.closest(EXCLUDE))continue;
+  const attrs={};for(const name of ['placeholder','aria-label','title'])if(CJK.test(node.getAttribute(name)||''))attrs[name]=add(node.getAttribute(name));
+  if(Object.keys(attrs).length){const id=hash(JSON.stringify(attrs));node.dataset.enAttr=id;page.attributes[id]=attrs;}
+ }
  // Translate complete prose blocks with inline markup protected by the translator.
  for(const node of doc.querySelectorAll('h1,h2,h3,h4,h5,h6,p,li,td,th,blockquote')){
   if(node.closest(EXCLUDE)||node.closest('[data-en-id]')||!CJK.test(node.textContent)||node.querySelector('button,input,select'))continue;
@@ -22,15 +27,10 @@ for(const file of walk(OUT).filter(f=>f.endsWith('.html'))){
   if(node.closest(EXCLUDE)||node.closest('[data-en-id]')||node.querySelector('[data-en-id],button,input,select,a')||!CJK.test(node.textContent))continue;
   const id=add(node.innerHTML);node.dataset.enId=id;page.blocks[id]=id;
  }
- for(const node of doc.querySelectorAll('[placeholder],[aria-label],[title]')){
-  if(node.closest(EXCLUDE))continue;
-  const attrs={};for(const name of ['placeholder','aria-label','title'])if(CJK.test(node.getAttribute(name)||''))attrs[name]=add(node.getAttribute(name));
-  if(Object.keys(attrs).length){const id=hash(JSON.stringify(attrs));node.dataset.enAttr=id;page.attributes[id]=attrs;}
- }
  for(const entry of doc.querySelectorAll('.entry'))page.search[entry.dataset.path]=[...entry.querySelectorAll('[data-en-id]')].map(n=>n.dataset.enId);
  const sourceHash=hash(JSON.stringify(page));page.sourceHash=sourceHash;
  const meta=doc.createElement('meta');meta.name='english-pack';meta.content='/X-feed-pages/i18n/en/'+rel+'.json';doc.head.append(meta);
- const check=doc.createElement('meta');check.name='english-source';check.content=sourceHash;doc.head.append(check);
+ const check=doc.createElement('meta');check.name='english-source-hash';check.content=sourceHash;doc.head.append(check);
  fs.writeFileSync(file,dom.serialize());pages[rel]=page;dom.window.close();
 }
 fs.mkdirSync(path.join(ROOT,'.translation'),{recursive:true});

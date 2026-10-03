@@ -21,7 +21,7 @@ def validate(src,out,tags):
  if numbers(src)!=numbers(out):raise ValueError('numbers changed')
  # Existing Latin names/tickers must remain unchanged, allowing new English words.
  for token,count in collections.Counter(re.findall(r'[A-Za-z][A-Za-z0-9_-]*',clean(src))).items():
-  if len(re.findall(r'(?<![A-Za-z0-9_-])'+re.escape(token)+r'(?![A-Za-z0-9_-])',clean(out)))<count:raise ValueError('name changed: '+token)
+  if collections.Counter(re.findall(r'[A-Za-z][A-Za-z0-9_-]*',clean(out)))[token]<count:raise ValueError('name changed: '+token)
  if CJK.search(out):raise ValueError('untranslated Chinese')
  if '<think>' in out or '</think>' in out or re.search(r'<[^>]+>',out):raise ValueError('unexpected markup')
  if len(out)>max(100,len(src)*10):raise ValueError('unexpected expansion')
