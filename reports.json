@@ -2,8 +2,25 @@
   "schemaVersion": 1,
   "timezone": "Asia/Shanghai",
   "repository": "Sakkana/X-feed-pages",
-  "recordCount": 48,
+  "recordCount": 49,
   "records": [
+    {
+      "type": "套利",
+      "tags": [
+        "积分领取",
+        "折价"
+      ],
+      "summary": "KNTQ旧积分领取条件盈余约120.86U减成本G，仅适用于已有合格额度；个人额度、付款USDC合约与出口深度尚待核实。",
+      "observation": "报告发送时间：2026-10-03 08:15:38 北京时间；观察时间：2026-10-03 08:13—08:14 北京时间",
+      "path": "2026-10-03/08-15-38-【套利】-KNTQ旧积分折价领取条件测算.md",
+      "sha": "562856343e6b3b078d4a5c05b1a6114ab437aa2e",
+      "signal_strength": "medium",
+      "date": "2026-10-03",
+      "time": "08:15:38",
+      "title": "KNTQ旧积分折价领取条件测算",
+      "url": "/X-feed-pages/2026-10-03/08-15-38-%E3%80%90%E5%A5%97%E5%88%A9%E3%80%91-KNTQ%E6%97%A7%E7%A7%AF%E5%88%86%E6%8A%98%E4%BB%B7%E9%A2%86%E5%8F%96%E6%9D%A1%E4%BB%B6%E6%B5%8B%E7%AE%97.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-10-03/08-15-38-%E3%80%90%E5%A5%97%E5%88%A9%E3%80%91-KNTQ%E6%97%A7%E7%A7%AF%E5%88%86%E6%8A%98%E4%BB%B7%E9%A2%86%E5%8F%96%E6%9D%A1%E4%BB%B6%E6%B5%8B%E7%AE%97.md"
+    },
     {
       "type": "DeFi",
       "tags": [
