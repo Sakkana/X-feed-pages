@@ -2,8 +2,25 @@
   "schemaVersion": 1,
   "timezone": "Asia/Shanghai",
   "repository": "Sakkana/X-feed-pages",
-  "recordCount": 52,
+  "recordCount": 53,
   "records": [
+    {
+      "type": "DeFi",
+      "tags": [
+        "旧资格奖励",
+        "RWA"
+      ],
+      "summary": "Trust Wallet／Ondo名义5美元BLKHIon仅面向历史合格用户；当前可成交USDT金额未核实，新增资金不能补资格，领取和退出成本可能吃掉奖励。",
+      "observation": "报告发送时间：2026-10-03 09:54:04 北京时间；观察时间：2026-10-03 09:45—09:52 北京时间",
+      "path": "2026-10-03/09-54-04-【DeFi】-Ondo旧资格奖励与兑现条件.md",
+      "sha": "6e00a5741a0eab7c323c79f4872c2c7ebff53fe4",
+      "signal_strength": "weak",
+      "date": "2026-10-03",
+      "time": "09:54:04",
+      "title": "Ondo旧资格奖励与兑现条件",
+      "url": "/X-feed-pages/2026-10-03/09-54-04-%E3%80%90DeFi%E3%80%91-Ondo%E6%97%A7%E8%B5%84%E6%A0%BC%E5%A5%96%E5%8A%B1%E4%B8%8E%E5%85%91%E7%8E%B0%E6%9D%A1%E4%BB%B6.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-10-03/09-54-04-%E3%80%90DeFi%E3%80%91-Ondo%E6%97%A7%E8%B5%84%E6%A0%BC%E5%A5%96%E5%8A%B1%E4%B8%8E%E5%85%91%E7%8E%B0%E6%9D%A1%E4%BB%B6.md"
+    },
     {
       "type": "DeFi",
       "tags": [
