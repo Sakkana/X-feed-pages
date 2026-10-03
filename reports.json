@@ -2,8 +2,25 @@
   "schemaVersion": 1,
   "timezone": "Asia/Shanghai",
   "repository": "Sakkana/X-feed-pages",
-  "recordCount": 53,
+  "recordCount": 54,
   "records": [
+    {
+      "type": "山寨币估值",
+      "tags": [
+        "治理事件",
+        "换币"
+      ],
+      "summary": "CPOOL换CLEAR提案通过，1:1换币伴随新增供给；迁移合约、精确开窗及CLEAR退出价格未闭合，不能从数量比例推出1000U净收益。",
+      "observation": "报告发送时间：2026-10-03 10:13:38 北京时间；观察时间：2026-10-03 10:03—10:11 北京时间",
+      "path": "2026-10-03/10-13-38-【山寨币估值】-Clearpool换币通过与供给变化.md",
+      "sha": "e4134479575dc8c9c19f567767c445294c4d6b06",
+      "signal_strength": "weak",
+      "date": "2026-10-03",
+      "time": "10:13:38",
+      "title": "Clearpool换币通过与供给变化",
+      "url": "/X-feed-pages/2026-10-03/10-13-38-%E3%80%90%E5%B1%B1%E5%AF%A8%E5%B8%81%E4%BC%B0%E5%80%BC%E3%80%91-Clearpool%E6%8D%A2%E5%B8%81%E9%80%9A%E8%BF%87%E4%B8%8E%E4%BE%9B%E7%BB%99%E5%8F%98%E5%8C%96.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-10-03/10-13-38-%E3%80%90%E5%B1%B1%E5%AF%A8%E5%B8%81%E4%BC%B0%E5%80%BC%E3%80%91-Clearpool%E6%8D%A2%E5%B8%81%E9%80%9A%E8%BF%87%E4%B8%8E%E4%BE%9B%E7%BB%99%E5%8F%98%E5%8C%96.md"
+    },
     {
       "type": "DeFi",
       "tags": [
