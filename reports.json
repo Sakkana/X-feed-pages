@@ -2,8 +2,26 @@
   "schemaVersion": 1,
   "timezone": "Asia/Shanghai",
   "repository": "Sakkana/X-feed-pages",
-  "recordCount": 58,
+  "recordCount": 59,
   "records": [
+    {
+      "type": "套利",
+      "tags": [
+        "DeFi",
+        "积分领取",
+        "限价奖励"
+      ],
+      "summary": "15:06–15:10快照：KNTQ旧积分条件净差约113.99U−G，Pendle双池约6.08U−G；历史资格、联合计奖与完整费用限制仍在。",
+      "observation": "报告发送时间：2026-10-03 15:15:14 北京时间；观察时间：2026-10-03 15:06—15:10 北京时间；Pendle奖励卖出报价已于15:11过期",
+      "path": "2026-10-03/15-15-14-【套利】-KNTQ与Pendle条件收益收窄.md",
+      "sha": "64c97e784be14b9007b999e9d087635b0e1215d5",
+      "signal_strength": "medium",
+      "date": "2026-10-03",
+      "time": "15:15:14",
+      "title": "KNTQ与Pendle条件收益收窄",
+      "url": "/X-feed-pages/2026-10-03/15-15-14-%E3%80%90%E5%A5%97%E5%88%A9%E3%80%91-KNTQ%E4%B8%8EPendle%E6%9D%A1%E4%BB%B6%E6%94%B6%E7%9B%8A%E6%94%B6%E7%AA%84.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-10-03/15-15-14-%E3%80%90%E5%A5%97%E5%88%A9%E3%80%91-KNTQ%E4%B8%8EPendle%E6%9D%A1%E4%BB%B6%E6%94%B6%E7%9B%8A%E6%94%B6%E7%AA%84.md"
+    },
     {
       "type": "账号运营",
       "tags": [
@@ -29,7 +47,7 @@
       "summary": "Pendle双池72小时独立奖励预览减少约47%；11:48–11:51快照条件净额约7.82U−G，共享余额联合计奖及完整费用仍未闭合。",
       "observation": "报告发送时间：2026-10-03 11:52:31 北京时间；观察时间：2026-10-03 11:48—11:51 北京时间",
       "path": "2026-10-03/11-52-31-【套利】-Pendle双池奖励预览下降复核.md",
-      "sha": "ef723fea94de16d6298fb8538de7671c73ea9818",
+      "sha": "3c9df2a571d057d2d7547074cf41c923cfa852fc",
       "signal_strength": "medium",
       "date": "2026-10-03",
       "time": "11:52:31",
@@ -165,7 +183,7 @@
       "summary": "KNTQ旧积分领取条件盈余约120.86U减成本G，仅适用于已有合格额度；个人额度、付款USDC合约与出口深度尚待核实。",
       "observation": "报告发送时间：2026-10-03 08:15:38 北京时间；观察时间：2026-10-03 08:13—08:14 北京时间",
       "path": "2026-10-03/08-15-38-【套利】-KNTQ旧积分折价领取条件测算.md",
-      "sha": "562856343e6b3b078d4a5c05b1a6114ab437aa2e",
+      "sha": "9ad4e9cde217200b0c65fe67f2588f4f140846eb",
       "signal_strength": "medium",
       "date": "2026-10-03",
       "time": "08:15:38",
@@ -264,7 +282,7 @@
       "summary": "Pendle同余额双池条件收益约14.75U减额外成本G；联合计奖尚未取得结算证明，仍属原项目的条件中级候选。",
       "observation": "报告发送时间：2026-10-03 07:02:33 北京时间；观察时间：2026-10-03 06:53—06:57 北京时间",
       "path": "2026-10-03/07-02-33-【套利】-Pendle同余额双池奖励条件测算.md",
-      "sha": "c3867e633c0ea49f23aa1b1e5e4db577b11e8ddb",
+      "sha": "fd7fe7c822a20a66c828e13042a82aa5eaa43732",
       "signal_strength": "medium",
       "date": "2026-10-03",
       "time": "07:02:33",
