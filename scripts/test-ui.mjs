@@ -23,12 +23,12 @@ const toast=element(),fallback=element(),manual=element(),close=element();const 
 const copyElements={'copy-status':toast,'copy-fallback':fallback,'manual-copy':manual,'copy-close':close};
 const eventDoc={...copyDoc,getElementById:id=>copyElements[id],querySelectorAll:()=>[copyButton]};initializeCopy(eventDoc,{clipboard:{writeText:async()=>{throw Error('denied');}}},{clearTimeout(){},setTimeout(){return 1;}});
 await copyButton.handlers.click();assert.equal(fallback.hidden,false);assert.equal(manual.value,full);assert.equal(manual.selected,true);assert.match(toast.textContent,/手动复制/);close.handlers.click();assert.equal(fallback.hidden,true);
-const refs=JSON.parse(fs.readFileSync(path.join(ROOT,'referrals.json'),'utf8'));assert.equal(refs.length,17);assert.deepEqual([...new Set(refs.map(x=>x.section))],['CEX','U卡','虚拟银行','多币种转账工具','DEX/Wallet']);
-const expected={'okx-wallet':['SAKANAA','https://web3.okx.com/join/SAKANAA'],debot:['318149','https://inv.debot.ai/r/318149?lang=zh'],gmgn:['POqpdyzD','https://gmgn.ai/r/POqpdyzD'],'binance-wallet':['SAKANA','https://web3.binance.com/referral?ref=SAKANA'],binance:['SAKANA','https://www.bsmkweb.cc/register?ref=SAKANA'],okx:['7NB7U5LH','https://www.mitnpkwxvfr.net/join/7NB7U5LH'],bitget:['SAKANA','https://partner.bitget.cafe/bg/33yurucb'],bybit:['2RG3AY6',full],lbank:['657HV','https://www.lbank.info/ref/657HV'],gate:['VFLBAVOOAW','https://www.gatesites.cc/zh/signup/VFLBAVOOAW?ref_type=103'],krak:['@Sakana_btc','https://krak.app/@Sakana_btc'],'bybit-card':['2RG3AY6','https://www.bybit.com/cards/?ref=2RG3AY6&source=applet_invite'],'lbank-card':['657HV','https://www.lbank.com/ref/657HV'],'gate-card':['VFLBAVOOAW','https://app.bxjddjt.com/card/redirect?key=invite&invite_code=VFLBAVOOAW'],maya:['@sakanaaa','https://official.maya.ph/be7m/gmsb47rr'],neverless:['Sakana1','https://neverless.com/referral?code=Sakana1'],moneygram:['RAFV3SEHGCT3','https://www.moneygram.com/RAF/RAFV3SEHGCT3?utm_source=referral_program&utm_medium=owned&utm_campaign=usa_phl_20_discount']};
+const refs=JSON.parse(fs.readFileSync(path.join(ROOT,'referrals.json'),'utf8'));assert.equal(refs.length,18);assert.deepEqual([...new Set(refs.map(x=>x.section))],['CEX','U卡','虚拟银行','多币种转账工具','DEX/Wallet']);
+const expected={safepal:['315291','https://www.safepal.com/bank/register?referral=315291'],'okx-wallet':['SAKANAA','https://web3.okx.com/join/SAKANAA'],debot:['318149','https://inv.debot.ai/r/318149?lang=zh'],gmgn:['POqpdyzD','https://gmgn.ai/r/POqpdyzD'],'binance-wallet':['SAKANA','https://web3.binance.com/referral?ref=SAKANA'],binance:['SAKANA','https://www.bsmkweb.cc/register?ref=SAKANA'],okx:['7NB7U5LH','https://www.mitnpkwxvfr.net/join/7NB7U5LH'],bitget:['SAKANA','https://partner.bitget.cafe/bg/33yurucb'],bybit:['2RG3AY6',full],lbank:['657HV','https://www.lbank.info/ref/657HV'],gate:['VFLBAVOOAW','https://www.gatesites.cc/zh/signup/VFLBAVOOAW?ref_type=103'],krak:['@Sakana_btc','https://krak.app/@Sakana_btc'],'bybit-card':['2RG3AY6','https://www.bybit.com/cards/?ref=2RG3AY6&source=applet_invite'],'lbank-card':['657HV','https://www.lbank.com/ref/657HV'],'gate-card':['VFLBAVOOAW','https://app.bxjddjt.com/card/redirect?key=invite&invite_code=VFLBAVOOAW'],maya:['@sakanaaa','https://official.maya.ph/be7m/gmsb47rr'],neverless:['Sakana1','https://neverless.com/referral?code=Sakana1'],moneygram:['RAFV3SEHGCT3','https://www.moneygram.com/RAF/RAFV3SEHGCT3?utm_source=referral_program&utm_medium=owned&utm_campaign=usa_phl_20_discount']};
 const html=fs.readFileSync(path.join(ROOT,'_site/index.html'),'utf8');for(const item of refs){assert.deepEqual([item.code,item.url],expected[item.id]);assert.ok(html.includes('data-brand="'+item.id+'"'));assert.ok(html.includes('data-copy="'+item.url.replaceAll('&','&amp;')+'"'));assert.ok(html.includes('href="'+item.url.replaceAll('&','&amp;')+'" target="_blank" rel="noopener noreferrer"'));const svg=fs.readFileSync(path.join(ROOT,item.logo),'utf8');assert.match(svg,/<svg/);assert.ok(!/<script|\sonload\s*=|\sonerror\s*=/i.test(svg));assert.ok(!/(?:href|xlink:href)=["']https?:/i.test(svg));}
-assert.equal((html.match(/class="copy-hint">点击复制<\/span>/g)||[]).length,17);assert.equal((html.match(/class="copy-hint copy-link-button"[^>]*>点击复制链接<\/button>/g)||[]).length,17);for(const item of refs){assert.ok(html.includes('>'+item.name+' 注册链接</a>'));assert.ok(!html.includes('<span class="copy-value">'+item.url.replaceAll('&','&amp;')+'</span>'));}assert.match(html,/绑定小🐟的邀请码享受返佣优惠和现金奖励，具体以平台政策为准。/);assert.ok(!html.includes('用户提供的邀请链接'));assert.ok(html.includes('<span class="brand-name">小🐟 <span>defi 研究 feed 流</span></span>'));
+assert.equal((html.match(/class="copy-hint">点击复制<\/span>/g)||[]).length,18);assert.equal((html.match(/class="copy-hint copy-link-button"[^>]*>点击复制链接<\/button>/g)||[]).length,18);for(const item of refs){assert.ok(html.includes('>'+item.name+' 注册链接</a>'));assert.ok(!html.includes('<span class="copy-value">'+item.url.replaceAll('&','&amp;')+'</span>'));}assert.match(html,/绑定小🐟的邀请码享受返佣优惠和现金奖励，具体以平台政策为准。/);assert.ok(!html.includes('用户提供的邀请链接'));assert.ok(html.includes('<span class="brand-name">小🐟 <span>defi 研究 feed 流</span></span>'));
 const index=JSON.parse(fs.readFileSync(path.join(ROOT,'_site/reports.json'),'utf8'));const readme=fs.readFileSync(path.join(ROOT,'README.md'),'utf8');assert.ok(readme.startsWith('# 小🐟 defi 研究 feed 流'));for(const r of index.records)assert.ok(readme.includes(r.path.split('/').map(encodeURIComponent).join('/')));assert.ok(readme.includes('## 2026-10-02'));assert.match(readme,/<!-- REPORT_INDEX_START -->/);assert.match(readme,/## 更新与发布/);
-console.log('PASS: keyboard tabs, retained filters, repeated clicks, Back state, exact 17 codes/URLs, clipboard success/fallback/failure, local static logos and complete README index');
+console.log('PASS: keyboard tabs, retained filters, repeated clicks, Back state, exact 18 codes/URLs, clipboard success/fallback/failure, local static logos and complete README index');
 
 assert.match(html, /id="panel-feed"[^>]*><div class="feed-summary"><span class="total"><strong id="result-count"/);
 assert.ok(!/<button[^>]+id="tab-feed"[^>]*>[^<]*<span/.test(html));
@@ -67,6 +67,29 @@ assert.equal((html.match(/data-clock-zone=/g)||[]).length,8);assert.match(html,/
 for(const report of index.records){const article=fs.readFileSync(path.join(ROOT,'_site',report.path.replace(/\.md$/,'.html')),'utf8');assert.equal((article.match(/data-clock-zone=/g)||[]).length,8);assert.match(article,/assets\/clocks\.mjs\?v=/);}
 console.log('PASS: eight ordered clocks, winter/summer/DST transitions, h23 midnight, second ticks, hidden-tab resume, pageshow resync and all article footers');
 
-assert.equal((html.match(/class="copy-value registration-link"/g)||[]).length,17);assert.equal((html.match(/data-copy=/g)||[]).length,34);
+assert.equal((html.match(/class="copy-value registration-link"/g)||[]).length,18);assert.equal((html.match(/data-copy=/g)||[]).length,36);
 for(const button of html.matchAll(/<button\b[^>]*>([\s\S]*?)<\/button>/g))assert.ok(!/<a\b/.test(button[1]));
-console.log('PASS: 17 genuine external registration links and 17 separate link-copy buttons; no nested interactive controls');
+console.log('PASS: 18 genuine external registration links and 18 separate link-copy buttons; no nested interactive controls');
+
+// SafePal uses the same compact card and exact copy targets as the existing U-card entries.
+const safePal = refs.find(item => item.id === 'safepal');
+assert.equal(safePal.section, 'U卡');
+assert.equal(safePal.name, 'SafePal');
+const {JSDOM} = await import('jsdom');
+const safePalDoc = new JSDOM(html).window.document;
+const safePalCard = safePalDoc.querySelector('[data-brand="safepal"]');
+assert.equal(safePalCard.closest('.invite-section').querySelector('h2').textContent, 'U卡');
+assert.equal(safePalCard.querySelector('.registration-link').textContent, 'SafePal 注册链接');
+assert.equal(safePalCard.querySelector('.registration-link').href, safePal.url);
+assert.equal(safePalCard.querySelector('.code-copy').dataset.copy, safePal.code);
+assert.equal(safePalCard.querySelector('.copy-link-button').dataset.copy, safePal.url);
+let safePalCopied = '';
+initializeCopy(safePalDoc, {clipboard: {writeText: async text => {safePalCopied = text;}}}, {clearTimeout(){}, setTimeout(){return 1;}});
+safePalCard.querySelector('.code-copy').click();
+await new Promise(resolve => setImmediate(resolve));
+assert.equal(safePalCopied, '315291');
+safePalCard.querySelector('.copy-link-button').click();
+await new Promise(resolve => setImmediate(resolve));
+assert.equal(safePalCopied, 'https://www.safepal.com/bank/register?referral=315291');
+assert.ok(!safePalCard.textContent.includes('perfect'));
+console.log('PASS: SafePal U-card placement, label, independent link/code copy controls and exact clipboard values');

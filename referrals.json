@@ -80,6 +80,14 @@
     "logo": "assets/logos/gate.svg"
   },
   {
+    "id": "safepal",
+    "section": "U卡",
+    "name": "SafePal",
+    "code": "315291",
+    "url": "https://www.safepal.com/bank/register?referral=315291",
+    "logo": "assets/logos/safepal.svg"
+  },
+  {
     "id": "maya",
     "section": "虚拟银行",
     "name": "菲律宾 Maya 银行",
