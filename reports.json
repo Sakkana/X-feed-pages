@@ -2,8 +2,24 @@
   "schemaVersion": 1,
   "timezone": "Asia/Shanghai",
   "repository": "Sakkana/X-feed-pages",
-  "recordCount": 63,
+  "recordCount": 64,
   "records": [
+    {
+      "type": "早期观察",
+      "tags": [
+        "早期观察"
+      ],
+      "summary": "TRON第三季10月4日08:00开始，共享200万美元等值TRX/USDD；Kamino第二季指定RockawayX RWA USDC池至少100 USDC。个人分配、持有与退出成本仍缺，两项均弱。",
+      "observation": "报告发送时间：2026-10-04 06:58:34 北京时间；TRON公告观察：2026-10-04 06:54:50；Kamino公告观察：2026-10-04 06:55:18—06:56:27；以上均为北京时间，活动奖池不等于个人收益",
+      "path": "2026-10-04/06-58-34-【早期观察】-TRON第三季与Kamino续期窗口.md",
+      "sha": "6fa2239993182c1e7f7332506037544ba4e4bce1",
+      "signal_strength": "weak",
+      "date": "2026-10-04",
+      "time": "06:58:34",
+      "title": "TRON第三季与Kamino续期窗口",
+      "url": "/X-feed-pages/2026-10-04/06-58-34-%E3%80%90%E6%97%A9%E6%9C%9F%E8%A7%82%E5%AF%9F%E3%80%91-TRON%E7%AC%AC%E4%B8%89%E5%AD%A3%E4%B8%8EKamino%E7%BB%AD%E6%9C%9F%E7%AA%97%E5%8F%A3.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-10-04/06-58-34-%E3%80%90%E6%97%A9%E6%9C%9F%E8%A7%82%E5%AF%9F%E3%80%91-TRON%E7%AC%AC%E4%B8%89%E5%AD%A3%E4%B8%8EKamino%E7%BB%AD%E6%9C%9F%E7%AA%97%E5%8F%A3.md"
+    },
     {
       "type": "早期观察",
       "tags": [
