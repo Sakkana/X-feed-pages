@@ -2,8 +2,25 @@
   "schemaVersion": 1,
   "timezone": "Asia/Shanghai",
   "repository": "Sakkana/X-feed-pages",
-  "recordCount": 51,
+  "recordCount": 52,
   "records": [
+    {
+      "type": "DeFi",
+      "tags": [
+        "关闭退出",
+        "赎回套利"
+      ],
+      "summary": "Blast计划关闭，USDB乐观按面值赎回的980U路径仍亏约2.90U再扣费用；提款暂停、队列兑付和关闭后的完整退出机制尚未闭合。",
+      "observation": "报告发送时间：2026-10-03 09:30:54 北京时间；报价观察时间：2026-10-03 09:22—09:23 北京时间；规则与公开代码观察时间：2026-10-03 09:22—09:26 北京时间",
+      "path": "2026-10-03/09-30-54-【DeFi】-Blast关闭与USDB退出价差核验.md",
+      "sha": "67bc3819c879bf4e0070307f8cb8b6355aa766f7",
+      "signal_strength": "weak",
+      "date": "2026-10-03",
+      "time": "09:30:54",
+      "title": "Blast关闭与USDB退出价差核验",
+      "url": "/X-feed-pages/2026-10-03/09-30-54-%E3%80%90DeFi%E3%80%91-Blast%E5%85%B3%E9%97%AD%E4%B8%8EUSDB%E9%80%80%E5%87%BA%E4%BB%B7%E5%B7%AE%E6%A0%B8%E9%AA%8C.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-10-03/09-30-54-%E3%80%90DeFi%E3%80%91-Blast%E5%85%B3%E9%97%AD%E4%B8%8EUSDB%E9%80%80%E5%87%BA%E4%BB%B7%E5%B7%AE%E6%A0%B8%E9%AA%8C.md"
+    },
     {
       "type": "套利",
       "tags": [
@@ -13,7 +30,7 @@
       "summary": "KNTQ付款币已由公开前端配置确认，链上部署与个人额度等仍待核验；Pendle每市场50单上限不能证明共享余额双池全额计奖。",
       "observation": "报告发送时间：2026-10-03 09:15:24 北京时间；本次补证观察时间：2026-10-03 09:01—09:12 北京时间；引用的KNTQ条件报价观察时间：2026-10-03 08:13—08:14 北京时间，未按本次时间重新报价",
       "path": "2026-10-03/09-15-24-【套利】-KNTQ付款币与Pendle订单上限补证.md",
-      "sha": "c21af2a185b55720c3f0e156ed521903bf6214b7",
+      "sha": "deb5c56e93ee5a11c254778130d85865b5227ca3",
       "signal_strength": "medium",
       "date": "2026-10-03",
       "time": "09:15:24",
