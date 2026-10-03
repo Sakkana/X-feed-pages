@@ -1,0 +1,13 @@
+{
+  "version": "qwen3-4b-v1",
+  "model": "Qwen/Qwen3-4B-GGUF",
+  "revision": "bc640142c66e1fdd12af0bd68f40445458f3869b",
+  "file": "Qwen3-4B-Q4_K_M.gguf",
+  "sha256": "7485fe6f11af29433bc51cab58009521f205840f5b4ae3a32fa7f92e8534fdf5",
+  "bytes": 2497280256,
+  "license": "Apache-2.0",
+  "engine": "llama.cpp b11146",
+  "engineUrl": "https://github.com/ggml-org/llama.cpp/releases/download/b11146/llama-b11146-bin-ubuntu-x64.tar.gz",
+  "engineSha256": "c150306eb16b5ab696f76a8bdf810c35fd98a24e82158742e6fa28f420ff8410",
+  "glossaryVersion": "finance-2026-10-03-1"
+}
