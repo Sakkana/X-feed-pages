@@ -2,8 +2,24 @@
   "schemaVersion": 1,
   "timezone": "Asia/Shanghai",
   "repository": "Sakkana/X-feed-pages",
-  "recordCount": 62,
+  "recordCount": 63,
   "records": [
+    {
+      "type": "早期观察",
+      "tags": [
+        "早期观察"
+      ],
+      "summary": "Renn候补入口、Crosslink第三轮与FLOP测试网草案的资格、个人奖励和解锁仍有缺口；现金信号均弱，节点设备与电费需计入，旧轮次截止不套给新人。",
+      "observation": "报告发送时间：2026-10-04 03:48:21 北京时间；Renn入口成功观察：2026-10-03 22:09:44，当前开放状态未重新确认；Crosslink来源观察：2026-10-04 03:44:37；FLOP草案观察：2026-10-04 02:35:42；以上均为北京时间，文中公告日期与计划不代表已开放",
+      "path": "2026-10-04/03-48-21-【早期观察】-Renn-Crosslink-FLOP准备窗口.md",
+      "sha": "dce33a98366aadd4c70d03560fcefdc8662fd347",
+      "signal_strength": "weak",
+      "date": "2026-10-04",
+      "time": "03:48:21",
+      "title": "Renn-Crosslink-FLOP准备窗口",
+      "url": "/X-feed-pages/2026-10-04/03-48-21-%E3%80%90%E6%97%A9%E6%9C%9F%E8%A7%82%E5%AF%9F%E3%80%91-Renn-Crosslink-FLOP%E5%87%86%E5%A4%87%E7%AA%97%E5%8F%A3.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-10-04/03-48-21-%E3%80%90%E6%97%A9%E6%9C%9F%E8%A7%82%E5%AF%9F%E3%80%91-Renn-Crosslink-FLOP%E5%87%86%E5%A4%87%E7%AA%97%E5%8F%A3.md"
+    },
     {
       "type": "账号运营",
       "tags": [
