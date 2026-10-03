@@ -21,11 +21,13 @@ jobs:
       - name: Download verified official CPU runtime and model
         run: bash scripts/setup-translation.sh
       - name: Translate public financial-risk samples
-        run: python3 scripts/translate-english.py --sample
+        run: |
+          python3 scripts/translate-english.py --sample
+          python3 scripts/translate-english.py --holdout
       - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
         if: always()
         with:
           name: public-english-quality-sample
-          path: .translation/quality-sample.json
+          path: .translation/quality-*.json
           retention-days: 1
           if-no-files-found: warn

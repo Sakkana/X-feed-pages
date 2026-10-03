@@ -9,6 +9,9 @@ class Safety(unittest.TestCase):
  def test_protected_dates(self):
   text,tags=m.protect('10月1日公布，10月11日截止')
   self.assertEqual(m.validate(text,'Announced __TAG0__/__TAG1__; deadline __TAG2__/__TAG3__',tags),'Announced 10/1; deadline 10/11')
+ def test_glossary_terms_are_protected(self):
+  text,tags=m.protect('每小时预览再降45.75%，6.08U减完整额外费用')
+  self.assertEqual(m.validate(text,'__TAG0__ fell another __TAG1__; __TAG2__ __TAG3__',tags),'hourly preview fell another 45.75%; 6.08U minus all additional costs')
  def test_rejects_empty_translation(self):
   with self.assertRaises(ValueError):m.validate('研究','',[])
  def test_rejects_loss_omission(self):
