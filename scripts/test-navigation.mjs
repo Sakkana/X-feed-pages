@@ -55,3 +55,29 @@ assert.ok(!doc.querySelector('header .repo-link'));assert.equal(doc.querySelecto
 assert.equal(doc.querySelector('footer .site-credit a').href,'https://github.com/Sakkana/X-feed-pages');
 language.stop();timeline.stop();restored.stop();slow.stop();articleLanguage.stop();[dom,rdom,slowDom,articleDom].forEach(d=>d.window.close());
 console.log('PASS: 20-item pagination, filters/tabs/history, group-local date menus, date jumps, filter availability, keyboard dismissal, local traditional conversion, exact restore, dynamic copy text, race cancellation, saved preference, article/source integrity and footer links');
+
+// Only the two Chinese script variants are supported, including stale stored preferences.
+const legacyDom=new JSDOM(html,{url:'https://sakkana.github.io/X-feed-pages/',pretendToBeVisual:true});
+legacyDom.window.localStorage.setItem('x-feed-language','en');
+const legacyLanguage=initializeLanguage(legacyDom.window.document,legacyDom.window,async()=>OpenCC);
+assert.equal(legacyLanguage.mode,'zh-CN');
+assert.equal(legacyDom.window.document.documentElement.lang,'zh-CN');
+assert.equal(legacyDom.window.localStorage.getItem('x-feed-language'),'zh-CN');
+await legacyLanguage.setMode('zh-Hant');
+await legacyLanguage.setMode('en');
+assert.equal(legacyLanguage.mode,'zh-CN');
+assert.equal(legacyDom.window.localStorage.getItem('x-feed-language'),'zh-CN');
+assert.deepEqual([...legacyDom.window.document.querySelectorAll('.card-title')].map(x=>x.textContent),titles);
+legacyLanguage.stop();legacyDom.window.close();
+const generatedPages=['index.html','404.html',...JSON.parse(fs.readFileSync(path.join(ROOT,'_site/reports.json'))).records.map(r=>r.path.replace(/\.md$/,'.html'))];
+for(const page of generatedPages){
+  const d=new JSDOM(fs.readFileSync(path.join(ROOT,'_site',page),'utf8'));
+  const menu=d.window.document.getElementById('language-menu');
+  assert.deepEqual([...menu.querySelectorAll('[data-language]')].map(b=>b.dataset.language),['zh-CN','zh-Hant'],page);
+  assert.equal(menu.querySelectorAll('.language-options a,button:disabled').length,0,page);
+  assert.ok(!/English|英文/.test(menu.textContent),page);
+  assert.equal(d.window.document.querySelectorAll('meta[name="english-pack"],meta[name="english-source-hash"]').length,0,page);
+  d.window.close();
+}
+assert.equal(fs.existsSync(path.join(ROOT,'_site/i18n')),false);
+console.log('PASS: all 63 pages contain only Simplified/Traditional choices; stale unsupported preference restores Simplified and no English packs or fallback links exist');

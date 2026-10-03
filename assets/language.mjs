@@ -23,6 +23,7 @@ export function initializeLanguage(doc=document,win=window,load=()=>import('./ve
     observe();
   };
   const setMode=async(next)=>{
+    if(next!=='zh-CN'&&next!=='zh-Hant')next='zh-CN';
     const turn=++request;menu.open=false;
     if(next==='zh-Hant'&&!converter){
       status.textContent='正在加载繁体转换…';
@@ -44,6 +45,7 @@ export function initializeLanguage(doc=document,win=window,load=()=>import('./ve
   });observe();
   let saved;try{saved=win.localStorage.getItem(STORAGE);}catch{}
   if(saved==='zh-Hant')setMode(saved);
+  else if(saved&&saved!=='zh-CN')setMode('zh-CN');
   return {setMode,get mode(){return mode;},stop:()=>observer.disconnect()};
 }
 if(typeof document!=='undefined')initializeLanguage();
