@@ -22,8 +22,7 @@ jobs:
         run: bash scripts/setup-translation.sh
       - name: Translate public financial-risk samples
         run: |
-          python3 scripts/translate-english.py --sample
-          python3 scripts/translate-english.py --holdout
+          python3 scripts/test-html-translation.py
       - name: Record CPU model memory and speed
         if: always()
         run: |
