@@ -2,8 +2,24 @@
   "schemaVersion": 1,
   "timezone": "Asia/Shanghai",
   "repository": "Sakkana/X-feed-pages",
-  "recordCount": 64,
+  "recordCount": 65,
   "records": [
+    {
+      "type": "早期观察",
+      "tags": [
+        "早期观察"
+      ],
+      "summary": "Orbinum Season 1按最终积分比例分配2,000万ORB，测试币无经济价值；完整周任务至少分3天，10月5日08:00新周可准备，币价、总积分与确切TGE日期仍未知。",
+      "observation": "报告发送时间：2026-10-04 11:42:54 北京时间；活动规则及路线图观察：2026-10-04 11:40:45；资格与每周规则补证至11:41:53；以上均为北京时间，现金收益未定",
+      "path": "2026-10-04/11-42-54-【早期观察】-Orbinum测试网资格与新周准备.md",
+      "sha": "9a4943a460b4fc540d27cfca7b89d531eba956b9",
+      "signal_strength": "weak",
+      "date": "2026-10-04",
+      "time": "11:42:54",
+      "title": "Orbinum测试网资格与新周准备",
+      "url": "/X-feed-pages/2026-10-04/11-42-54-%E3%80%90%E6%97%A9%E6%9C%9F%E8%A7%82%E5%AF%9F%E3%80%91-Orbinum%E6%B5%8B%E8%AF%95%E7%BD%91%E8%B5%84%E6%A0%BC%E4%B8%8E%E6%96%B0%E5%91%A8%E5%87%86%E5%A4%87.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-10-04/11-42-54-%E3%80%90%E6%97%A9%E6%9C%9F%E8%A7%82%E5%AF%9F%E3%80%91-Orbinum%E6%B5%8B%E8%AF%95%E7%BD%91%E8%B5%84%E6%A0%BC%E4%B8%8E%E6%96%B0%E5%91%A8%E5%87%86%E5%A4%87.md"
+    },
     {
       "type": "早期观察",
       "tags": [
