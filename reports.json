@@ -2,8 +2,24 @@
   "schemaVersion": 1,
   "timezone": "Asia/Shanghai",
   "repository": "Sakkana/X-feed-pages",
-  "recordCount": 68,
+  "recordCount": 69,
   "records": [
+    {
+      "type": "量化",
+      "tags": [
+        "PUMP",
+        "趋势复盘"
+      ],
+      "summary": "PUMP历史低点至观察价约5.84倍；9月29日放量突破时已距低点约五倍。量价、相对强势与bonding-curve收入回升为回溯证据，不能包装成低点预测。",
+      "observation": "报告发送时间：2026-10-05 01:01:18 北京时间；资料读取：00:55:44—01:00:10，价格快照00:58:10。历史日线及经营统计按UTC日期；CoinGecko汇总现价与历史盘中低点比较，不是单一交易所的可成交六倍。历史复盘，不设当前收益信号。",
+      "path": "2026-10-05/01-01-18-【量化】-PUMP量价与经营信号复盘.md",
+      "sha": "79df74bbaae0088515630cc84c54c5efe5a30ac8",
+      "date": "2026-10-05",
+      "time": "01:01:18",
+      "title": "PUMP量价与经营信号复盘",
+      "url": "/X-feed-pages/2026-10-05/01-01-18-%E3%80%90%E9%87%8F%E5%8C%96%E3%80%91-PUMP%E9%87%8F%E4%BB%B7%E4%B8%8E%E7%BB%8F%E8%90%A5%E4%BF%A1%E5%8F%B7%E5%A4%8D%E7%9B%98.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-10-05/01-01-18-%E3%80%90%E9%87%8F%E5%8C%96%E3%80%91-PUMP%E9%87%8F%E4%BB%B7%E4%B8%8E%E7%BB%8F%E8%90%A5%E4%BF%A1%E5%8F%B7%E5%A4%8D%E7%9B%98.md"
+    },
     {
       "type": "DeFi",
       "tags": [
