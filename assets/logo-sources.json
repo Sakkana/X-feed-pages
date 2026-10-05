@@ -67,6 +67,12 @@
       "page": "https://debot.ai/",
       "asset": "https://debot.ai/logo-mobile.png",
       "note": "Current official header logo on 2026-10-02; original PNG bytes embedded in a static SVG container, no pixel changes"
+    },
+    "saily": {
+      "page": "https://saily.com/",
+      "asset": "https://saily.com/apple-touch-icon.png",
+      "retrieved": "2026-10-05",
+      "note": "Official website apple-touch icon; original PNG bytes embedded in a static SVG container, no pixel changes"
     }
   }
 }

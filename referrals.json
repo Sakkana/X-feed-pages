@@ -142,5 +142,13 @@
     "code": "SAKANAA",
     "url": "https://web3.okx.com/join/SAKANAA",
     "logo": "assets/logos/okx.svg"
+  },
+  {
+    "id": "saily",
+    "section": "海外 eSIM",
+    "name": "Saily",
+    "code": "LUDOVI4453",
+    "url": "https://saily.onelink.me/5Txv/LUDOVI4453",
+    "logo": "assets/logos/saily.svg"
   }
 ]
