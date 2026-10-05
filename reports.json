@@ -2,8 +2,26 @@
   "schemaVersion": 1,
   "timezone": "Asia/Shanghai",
   "repository": "Sakkana/X-feed-pages",
-  "recordCount": 70,
+  "recordCount": 71,
   "records": [
+    {
+      "type": "套利",
+      "tags": [
+        "套利",
+        "Polygon",
+        "稳定币"
+      ],
+      "signal_strength": "weak",
+      "summary": "Polygon现有980 USDT跨UniswapV3与QuickSwapV3的两向独立报价分别差−0.397937、−0.303088 USDT，已含报价交易费、未扣完整额外成本；20 USDT只是未使用预算。",
+      "observation": "报告发送：2026-10-06 02:59:56 北京时间；请求/观察窗口02:58:53—02:59:15.943965。四腿响应02:59:00.346048、02:59:05.272312、02:59:09.917042、02:59:15.943965；不同区块与缓存状态，历史指示报价非锁价。正文表格时刻按UTC。",
+      "path": "2026-10-06/02-59-56-【套利】-Polygon稳定币双AMM实额复核.md",
+      "sha": "5f92781f2cfa9584fedff336d9faf4410ebe936c",
+      "date": "2026-10-06",
+      "time": "02:59:56",
+      "title": "Polygon稳定币跨AMM现金闭环",
+      "url": "/X-feed-pages/2026-10-06/02-59-56-%E3%80%90%E5%A5%97%E5%88%A9%E3%80%91-Polygon%E7%A8%B3%E5%AE%9A%E5%B8%81%E5%8F%8CAMM%E5%AE%9E%E9%A2%9D%E5%A4%8D%E6%A0%B8.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-10-06/02-59-56-%E3%80%90%E5%A5%97%E5%88%A9%E3%80%91-Polygon%E7%A8%B3%E5%AE%9A%E5%B8%81%E5%8F%8CAMM%E5%AE%9E%E9%A2%9D%E5%A4%8D%E6%A0%B8.md"
+    },
     {
       "type": "套利",
       "tags": [
