@@ -2,8 +2,26 @@
   "schemaVersion": 1,
   "timezone": "Asia/Shanghai",
   "repository": "Sakkana/X-feed-pages",
-  "recordCount": 72,
+  "recordCount": 73,
   "records": [
+    {
+      "type": "套利",
+      "tags": [
+        "套利",
+        "资金费",
+        "永续合约"
+      ],
+      "signal_strength": "weak",
+      "summary": "29.4 NMR多Bitunix、空Toobit的异步静态模型：净资金费1.1181U减四笔taker费1.0818U及价差0.0588U，约−0.0225U，其他成本未计；未来结算费率、退出与个人资格未锁定。",
+      "observation": "报告发送：2026-10-07 02:17:46 北京时间；盘口及费率观察02:07:18—02:12:21，两平台相隔约303秒。正文表格使用2026-10-06 UTC；下一资金费窗口20:00 UTC即10月7日04:00北京时间，费率为条件预估。1000USDT为总预算，非每边保证金。",
+      "path": "2026-10-07/02-17-46-【套利】-NMR资金费对冲与成本复核.md",
+      "sha": "037f24918342db5f900033067dd0ee538d4aa729",
+      "date": "2026-10-07",
+      "time": "02:17:46",
+      "title": "NMR：尚未核成1000 USDT内的正套利",
+      "url": "/X-feed-pages/2026-10-07/02-17-46-%E3%80%90%E5%A5%97%E5%88%A9%E3%80%91-NMR%E8%B5%84%E9%87%91%E8%B4%B9%E5%AF%B9%E5%86%B2%E4%B8%8E%E6%88%90%E6%9C%AC%E5%A4%8D%E6%A0%B8.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-10-07/02-17-46-%E3%80%90%E5%A5%97%E5%88%A9%E3%80%91-NMR%E8%B5%84%E9%87%91%E8%B4%B9%E5%AF%B9%E5%86%B2%E4%B8%8E%E6%88%90%E6%9C%AC%E5%A4%8D%E6%A0%B8.md"
+    },
     {
       "type": "山寨币估值",
       "tags": [
