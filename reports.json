@@ -2,8 +2,26 @@
   "schemaVersion": 1,
   "timezone": "Asia/Shanghai",
   "repository": "Sakkana/X-feed-pages",
-  "recordCount": 71,
+  "recordCount": 72,
   "records": [
+    {
+      "type": "山寨币估值",
+      "tags": [
+        "山寨币估值",
+        "iExec",
+        "方向观察"
+      ],
+      "signal_strength": "weak",
+      "summary": "RLC既有收入回购设计来自4月文章，2026路线图发表于2025年12月；10月新增付费业务、已执行回购、同窗口量价和1000U完整退出尚未核实。",
+      "observation": "报告发送时间：2026-10-06 09:03:28 北京时间；官方资料观察：2026-10-06 08:44:00.582 北京时间。4月1日文章与2025年12月22日路线图均为旧资料，不等于10月新增催化或现金收入。",
+      "path": "2026-10-06/09-03-28-【山寨币估值】-RLC异动与旧业务催化核验.md",
+      "sha": "eda9bb7140c5205ea30fc5218c04ac429130a17a",
+      "date": "2026-10-06",
+      "time": "09:03:28",
+      "title": "RLC：有收入回购设计，尚未确认新的10月业务催化",
+      "url": "/X-feed-pages/2026-10-06/09-03-28-%E3%80%90%E5%B1%B1%E5%AF%A8%E5%B8%81%E4%BC%B0%E5%80%BC%E3%80%91-RLC%E5%BC%82%E5%8A%A8%E4%B8%8E%E6%97%A7%E4%B8%9A%E5%8A%A1%E5%82%AC%E5%8C%96%E6%A0%B8%E9%AA%8C.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-10-06/09-03-28-%E3%80%90%E5%B1%B1%E5%AF%A8%E5%B8%81%E4%BC%B0%E5%80%BC%E3%80%91-RLC%E5%BC%82%E5%8A%A8%E4%B8%8E%E6%97%A7%E4%B8%9A%E5%8A%A1%E5%82%AC%E5%8C%96%E6%A0%B8%E9%AA%8C.md"
+    },
     {
       "type": "套利",
       "tags": [
