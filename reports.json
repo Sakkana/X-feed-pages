@@ -2,8 +2,26 @@
   "schemaVersion": 1,
   "timezone": "Asia/Shanghai",
   "repository": "Sakkana/X-feed-pages",
-  "recordCount": 73,
+  "recordCount": 74,
   "records": [
+    {
+      "type": "DeFi",
+      "tags": [
+        "DeFi",
+        "早期观察",
+        "排名奖励"
+      ],
+      "signal_strength": "weak",
+      "summary": "STRATO本期10月7日15:00至14日15:00 UTC，名义$1,725按saveUSDST计、另7 oz yieldSILVST；按成交金额排名，20奖位可同钱包兼得，兑价、费用和资格缺口使1000U净收益无法估算。",
+      "observation": "报告发送：2026-10-07 20:32:22 北京时间；官方规则观察20:23:34.312，观察时尚未开始。活动从10月7日23:00至10月14日23:00北京时间（两者均为15:00 UTC），页面发布日期未核。排名奖励以非USDT奖品计，尚无可兑现净收益证据。",
+      "path": "2026-10-07/20-32-22-【DeFi】-STRATO新一期奖励窗口核验.md",
+      "sha": "c7b1a2267e55370439b4e3ff412799a0794fe13f",
+      "date": "2026-10-07",
+      "time": "20:32:22",
+      "title": "STRATO Early Birds Advantage：10月7日开启的排名奖励活动",
+      "url": "/X-feed-pages/2026-10-07/20-32-22-%E3%80%90DeFi%E3%80%91-STRATO%E6%96%B0%E4%B8%80%E6%9C%9F%E5%A5%96%E5%8A%B1%E7%AA%97%E5%8F%A3%E6%A0%B8%E9%AA%8C.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-10-07/20-32-22-%E3%80%90DeFi%E3%80%91-STRATO%E6%96%B0%E4%B8%80%E6%9C%9F%E5%A5%96%E5%8A%B1%E7%AA%97%E5%8F%A3%E6%A0%B8%E9%AA%8C.md"
+    },
     {
       "type": "套利",
       "tags": [
