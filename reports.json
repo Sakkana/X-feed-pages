@@ -2,8 +2,25 @@
   "schemaVersion": 1,
   "timezone": "Asia/Shanghai",
   "repository": "Sakkana/X-feed-pages",
-  "recordCount": 74,
+  "recordCount": 75,
   "records": [
+    {
+      "type": "山寨币估值",
+      "tags": [
+        "FIL",
+        "供给安排"
+      ],
+      "summary": "Lotus代码推导六年归属组于10月14日14:44 UTC到期；4亿与409,805,053 FIL口径不同，归属量不等于实际卖压，1000U净收益未建立。",
+      "observation": "报告发送时间：2026-10-07 20:55:00 北京时间；代码观察时间：2026-10-07 20:42:35.661—20:51:37.951 北京时间；分配说明发布于2020-12-10，未来到期时点为代码推导。",
+      "path": "2026-10-07/20-55-00-【山寨币估值】-FIL六年归属结束时点核验.md",
+      "sha": "ce267b31f7644606bec4243984b165290575024c",
+      "signal_strength": "weak",
+      "date": "2026-10-07",
+      "time": "20:55:00",
+      "title": "Filecoin 六年归属释放的代码时间核验",
+      "url": "/X-feed-pages/2026-10-07/20-55-00-%E3%80%90%E5%B1%B1%E5%AF%A8%E5%B8%81%E4%BC%B0%E5%80%BC%E3%80%91-FIL%E5%85%AD%E5%B9%B4%E5%BD%92%E5%B1%9E%E7%BB%93%E6%9D%9F%E6%97%B6%E7%82%B9%E6%A0%B8%E9%AA%8C.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-10-07/20-55-00-%E3%80%90%E5%B1%B1%E5%AF%A8%E5%B8%81%E4%BC%B0%E5%80%BC%E3%80%91-FIL%E5%85%AD%E5%B9%B4%E5%BD%92%E5%B1%9E%E7%BB%93%E6%9D%9F%E6%97%B6%E7%82%B9%E6%A0%B8%E9%AA%8C.md"
+    },
     {
       "type": "DeFi",
       "tags": [
