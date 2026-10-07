@@ -10,6 +10,14 @@ source_url: "https://stratoodds.com/leaderboard/early-birds-advantage?tab=rules"
 
 # STRATO Early Birds Advantage：10月7日开启的排名奖励活动
 
+## 2026年10月7日23:05北京时间更新：页面已显示开放
+
+北京时间2026年10月7日23:05:04.209（15:05:04.209 UTC），[官方 Rules 页](https://stratoodds.com/leaderboard/early-birds-advantage?tab=rules)已显示“Trading Open”。本期起止仍为10月7日15:00至10月14日15:00 UTC，即北京时间两端23:00。这是首次实际观察到已开放状态的时点，不代表已确认页面在15:00整切换。
+
+此次确认仅限活动状态；奖品变现、参与资格及1000 USDT预算回报仍未核清，评级维持弱。
+
+## 2026年10月7日20:23北京时间的初始规则观察
+
 官方规则已确认本期时间为 **2026年10月7日15:00 UTC至10月14日15:00 UTC**，观察时尚未开始。名义奖池为 **$1,725，以saveUSDST计价，另加7 oz yieldSILVST**；这不是1,725枚代币或1,725 USDT的承诺。奖励取决于排名及最终核验，可兑现净收益未证实。
 
 | 排名 | Overall Volume榜 | First Mover榜 |
