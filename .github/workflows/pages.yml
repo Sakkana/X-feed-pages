@@ -21,7 +21,7 @@ jobs:
       - name: Build public research pages
         run: node scripts/build.mjs
       - name: Verify report content and links
-        run: node scripts/test.mjs && node scripts/test-ui.mjs && node scripts/test-navigation.mjs
+        run: node scripts/test.mjs && node scripts/test-ui.mjs && node scripts/test-navigation.mjs && node scripts/test-visits.mjs
       - uses: actions/upload-pages-artifact@v3
         with:
           path: _site

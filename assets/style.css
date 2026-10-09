@@ -114,3 +114,6 @@ body{color:var(--ink);background:#050b08}.ambient{background:radial-gradient(ell
 
 /* Saily origin label stays in the title row and wraps safely on narrow screens. */
 .invite-details .invite-title-with-origin{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:6px 12px}.invite-origin{margin-left:auto;font-size:11px;font-weight:400;line-height:1.5;color:#9bc7ac;white-space:nowrap}
+
+/* The visit counter shares the existing credit line without widening mobile pages. */
+.site-credit{flex-wrap:wrap;row-gap:5px;max-width:100%;text-align:center}.site-credit>span,.site-credit>a{white-space:nowrap}.visit-credit{font-variant-numeric:tabular-nums}#site-visits{display:inline-block;min-width:3ch}
