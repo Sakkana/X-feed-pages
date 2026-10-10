@@ -2,7 +2,7 @@ export function initializeTabs(doc = document, win = window) {
   const tabs = [...doc.querySelectorAll('[role="tab"][data-view]')];
   if (!tabs.length) return;
   const apply = (view) => {
-    const selected = view === 'invites' ? 'invites' : 'feed';
+    const selected = tabs.some(tab => tab.dataset.view === view) ? view : 'feed';
     tabs.forEach(tab => {
       const active = tab.dataset.view === selected;
       tab.setAttribute('aria-selected', String(active));
@@ -14,7 +14,7 @@ export function initializeTabs(doc = document, win = window) {
   const current = () => new URLSearchParams(win.location.search).get('view');
   const select = (view, focus = false) => {
     const params = new URLSearchParams(win.location.search);
-    if (view === 'invites') params.set('view', view); else params.delete('view');
+    if (view !== 'feed' && tabs.some(tab => tab.dataset.view === view)) params.set('view', view); else params.delete('view');
     const target = win.location.pathname + (params.size ? '?' + params.toString() : '');
     if (target !== win.location.pathname + win.location.search) win.history.pushState(null, '', target);
     apply(view);

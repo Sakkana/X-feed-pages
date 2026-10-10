@@ -117,3 +117,20 @@ body{color:var(--ink);background:#050b08}.ambient{background:radial-gradient(ell
 
 /* The visit counter shares the existing credit line without widening mobile pages. */
 .site-credit{flex-wrap:wrap;row-gap:5px;max-width:100%;text-align:center}.site-credit>span,.site-credit>a{white-space:nowrap}.visit-credit{font-variant-numeric:tabular-nums}#site-visits{display:inline-block;min-width:3ch}
+
+/* Naiwa World: original artwork and a softly moving, readable gold CTA. */
+.home-tabs{flex-wrap:wrap;column-gap:26px;row-gap:0}
+.home-tabs button{white-space:nowrap}
+.naiwa-tab-logo{width:28px;height:28px;flex:0 0 28px;object-fit:cover;border-radius:50%;border:1px solid #efd47988}
+.naiwa-panel{text-align:center;padding:2px 0 30px}
+.naiwa-world-image{display:block;width:min(100%,680px);height:auto;margin:0 auto;border:1px solid #52623d;border-radius:18px;box-shadow:0 16px 50px #0005}
+.naiwa-experience{display:inline-flex;align-items:center;justify-content:center;gap:18px;margin:30px auto 0;padding:18px 34px;border:1px solid #d7b74670;border-radius:18px;background:linear-gradient(125deg,#2c3117,#15251b);color:#ffe18a;font-family:"STKaiti","KaiTi","Kaiti SC","Songti SC",serif;font-size:clamp(30px,6vw,48px);font-weight:900;line-height:1.35;letter-spacing:.12em;text-decoration:none;text-shadow:0 2px 0 #886423,0 5px 14px #e9bc3544;box-shadow:0 12px 32px #0004;animation:naiwa-float 3.6s ease-in-out infinite}
+.naiwa-experience span:first-child{background:linear-gradient(110deg,#ffe69a 10%,#f6c950 35%,#fff4c2 50%,#f6c950 65%,#ffe69a 90%);background-size:220% 100%;background-clip:text;-webkit-background-clip:text;color:transparent;animation:naiwa-gold 5s ease-in-out infinite}
+.naiwa-experience-arrow{font-family:system-ui,sans-serif;font-size:.7em;letter-spacing:0}
+.naiwa-experience:hover{border-color:#ffe18a;background:#273922}
+.naiwa-experience:focus-visible{outline:3px solid #ffe18a;outline-offset:6px}
+@keyframes naiwa-float{0%,100%{transform:translateY(0)}50%{transform:translateY(-5px)}}
+@keyframes naiwa-gold{0%,100%{background-position:0% 50%}50%{background-position:100% 50%}}
+@media(max-width:430px){.home-tabs{column-gap:18px}.home-tabs button{font-size:18px;gap:7px}.naiwa-tab-logo{width:25px;height:25px;flex-basis:25px}.naiwa-world-image{border-radius:12px}.naiwa-experience{margin-top:24px;padding:16px 26px;gap:12px}}
+@media(prefers-reduced-motion:reduce){.naiwa-experience,.naiwa-experience span:first-child{animation:none!important;transform:none!important}}
+@media(forced-colors:active){.naiwa-experience span:first-child{background:none;color:LinkText;text-shadow:none}}
