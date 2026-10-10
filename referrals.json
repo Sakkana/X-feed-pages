@@ -66,7 +66,7 @@
   {
     "id": "lbank-card",
     "section": "U卡",
-    "name": "LBank card",
+    "name": "LBank card（不推荐）",
     "code": "657HV",
     "url": "https://www.lbank.com/ref/657HV",
     "logo": "assets/logos/lbank.svg"
@@ -82,7 +82,7 @@
   {
     "id": "safepal",
     "section": "U卡",
-    "name": "Safepal Fiat24 card",
+    "name": "Safepal Fiat24 card（不推荐）",
     "code": "315291",
     "url": "https://www.safepal.com/bank/register?referral=315291",
     "logo": "assets/logos/safepal.svg"
