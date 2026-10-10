@@ -74,14 +74,14 @@ console.log('PASS: 19 genuine external registration links and 19 separate link-c
 // SafePal uses the same compact card and exact copy targets as the existing U-card entries.
 const safePal = refs.find(item => item.id === 'safepal');
 assert.equal(safePal.section, 'U卡');
-assert.equal(safePal.name, 'safepal Fiat24 card');
+assert.equal(safePal.name, 'Safepal Fiat24 card');
 assert.equal(refs.find(item => item.id === 'krak').name, 'krak card');
 assert.match(fs.readFileSync(path.join(ROOT, safePal.logo), 'utf8'), /fill="#4A21EF"/);
 const {JSDOM} = await import('jsdom');
 const safePalDoc = new JSDOM(html).window.document;
 const safePalCard = safePalDoc.querySelector('[data-brand="safepal"]');
 assert.equal(safePalCard.closest('.invite-section').querySelector('h2').textContent, 'U卡');
-assert.equal(safePalCard.querySelector('.registration-link').textContent, 'safepal Fiat24 card 注册链接');
+assert.equal(safePalCard.querySelector('.registration-link').textContent, 'Safepal Fiat24 card 注册链接');
 assert.equal(safePalCard.querySelector('.registration-link').href, safePal.url);
 assert.equal(safePalCard.querySelector('.code-copy').dataset.copy, safePal.code);
 assert.equal(safePalCard.querySelector('.copy-link-button').dataset.copy, safePal.url);
