@@ -6,7 +6,6 @@ export const VISIT_READ_ENDPOINT = VISIT_ENDPOINT.replace('/hit/', '/get/');
 export const VISIT_MARKER = 'x-feed-pages-visited-v1';
 const LOCK_NAME = 'x-feed-pages-visit-count';
 const initialized = new WeakMap();
-const description = '累计计数：含人工初始基数 912 及升级前的访问次数；升级后同一浏览器仅计一次。非独立人数，换设备、无痕或清除记录可能重复；不支持标签页锁时并发去重为尽力处理。';
 
 export function initializeVisits(doc = document, win = window, fetcher = win.fetch?.bind(win), timeoutMs = 5000) {
   if (initialized.has(doc)) return initialized.get(doc);
@@ -16,9 +15,9 @@ export function initializeVisits(doc = document, win = window, fetcher = win.fet
     const setState = (value, detail) => {
       el.textContent = value; el.title = detail; el.setAttribute('aria-label', detail);
     };
-    setState('—', description + '正在加载。');
+    setState('—', '正在加载。');
     if (win.location.hostname !== 'sakkana.github.io' || !win.location.pathname.startsWith('/X-feed-pages/') || !fetcher) {
-      setState('—', description + '仅在正式站点统计。'); return false;
+      setState('—', '仅在正式站点统计。'); return false;
     }
     const request = async (endpoint) => {
       const controller = new AbortController(); let timer;
@@ -62,7 +61,7 @@ export function initializeVisits(doc = document, win = window, fetcher = win.fet
         try { storage.setItem(VISIT_MARKER, '1'); }
         catch { note = '浏览器未能保存已计数标记，未来访问可能重复。'; }
       }
-      setState(String(total), `${total}。${description}${note}`);
+      setState(String(total), `${total}${note ? '。' + note : ''}`);
       return true;
     };
     try {
@@ -85,7 +84,7 @@ export function initializeVisits(doc = document, win = window, fetcher = win.fet
       } finally { win.clearTimeout(timer); }
     } catch {
       // Failed or ambiguous hits do not get a success marker or automatic retry.
-      setState('—', description + '计数服务暂不可用。'); return false;
+      setState('—', '计数服务暂不可用。'); return false;
     }
   };
   const pending = run(); initialized.set(doc, pending); return pending;

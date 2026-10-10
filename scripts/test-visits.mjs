@@ -31,14 +31,16 @@ assert.equal(VISIT_BASE, 912);
 assert.equal(VISIT_ENDPOINT, 'https://abacus.jasoncameron.dev/hit/sakkana.github.io/x-feed-pages-pv-20261009-9f30bd');
 const storage = memoryStorage(), api = mockService();
 const first = setup({storage});
+assert.equal(first.el.title, '计数暂未加载。');
+assert.equal(first.el.getAttribute('aria-label'), '计数暂未加载。');
 const pending = initializeVisits(first.doc, first.win, api.fetcher);
 assert.equal(initializeVisits(first.doc, first.win, api.fetcher), pending);
 assert.equal(await pending, true);
 assert.equal(first.el.textContent, '920'); // Previous 7 hits remain, then one new browser.
 assert.equal(storage.getItem(VISIT_MARKER), '1');
 assert.deepEqual([...storage.map], [[VISIT_MARKER, '1']]); // No identity or lasting probe.
-assert.match(first.el.title, /人工初始基数 912/); assert.match(first.el.title, /升级前/);
-assert.match(first.el.title, /同一浏览器仅计一次/); assert.match(first.el.title, /非独立人数/);
+assert.equal(first.el.title, '920');
+assert.equal(first.el.getAttribute('aria-label'), '920');
 assert.equal(first.doc.cookie, ''); assert.equal(first.win.sessionStorage.length, 0);
 await initializeVisits(first.doc, first.win, api.fetcher);
 first.win.history.pushState(null, '', '?type=DEX');
@@ -109,7 +111,6 @@ const lockedFailure=setup({storage:memoryStorage(),locks});let failCalls=0;
 assert.equal(await initializeVisits(lockedFailure.doc,lockedFailure.win,async()=>{failCalls++;throw Error('network');}),false);
 assert.equal(failCalls,1);
 // No lock support still handles ordinary return visits; concurrent first visits are best effort.
-assert.match(first.el.title,/并发去重为尽力处理/);
 for(const url of ['http://localhost:8080/X-feed-pages/','https://example.com/X-feed-pages/','https://sakkana.github.io/other/']) {
  const x=setup({url});assert.equal(await initializeVisits(x.doc,x.win,()=>{throw Error('must not request');}),false);
 }
