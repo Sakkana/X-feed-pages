@@ -50,7 +50,7 @@
   {
     "id": "krak",
     "section": "U卡",
-    "name": "Krak",
+    "name": "krak card",
     "code": "@Sakana_btc",
     "url": "https://krak.app/@Sakana_btc",
     "logo": "assets/logos/krak.svg"
@@ -82,7 +82,7 @@
   {
     "id": "safepal",
     "section": "U卡",
-    "name": "SafePal",
+    "name": "safepal Fiat24 card",
     "code": "315291",
     "url": "https://www.safepal.com/bank/register?referral=315291",
     "logo": "assets/logos/safepal.svg"

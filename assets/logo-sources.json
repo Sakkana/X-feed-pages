@@ -73,6 +73,12 @@
       "asset": "https://saily.com/apple-touch-icon.png",
       "retrieved": "2026-10-05",
       "note": "Official website apple-touch icon; original PNG bytes embedded in a static SVG container, no pixel changes"
+    },
+    "safepal": {
+      "page": "https://www.safepal.com/en/brandassets",
+      "asset": "https://www.safepal.com/assets/img/logo-dark-m.svg",
+      "retrieved": "2026-10-10",
+      "note": "Official website purple mobile logo mark (#4A21EF); original SVG unchanged"
     }
   }
 }
