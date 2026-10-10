@@ -121,7 +121,9 @@ body{color:var(--ink);background:#050b08}.ambient{background:radial-gradient(ell
 /* Naiwa World: original artwork and a softly moving, readable gold CTA. */
 .home-tabs{flex-wrap:wrap;column-gap:26px;row-gap:0}
 .home-tabs button{white-space:nowrap}
-.naiwa-tab-logo{width:28px;height:28px;flex:0 0 28px;object-fit:cover;border-radius:50%;border:1px solid #efd47988}
+.naiwa-tab-logo{position:relative;display:block;width:28px;height:28px;flex:0 0 28px;overflow:hidden;border-radius:50%;border:1px solid #efd47988}
+/* Keep the circular frame fixed; shift the artwork center 1.5px right without exposing an edge. */
+.naiwa-tab-logo img{position:absolute;display:block;max-width:none;width:calc(100% + 3px);height:calc(100% + 3px);left:0;top:-1.5px;object-fit:cover}
 .naiwa-panel{text-align:center;padding:2px 0 30px}
 .naiwa-world-image{display:block;width:min(100%,680px);height:auto;margin:0 auto;border:1px solid #52623d;border-radius:18px;box-shadow:0 16px 50px #0005}
 .naiwa-experience{display:inline-flex;align-items:center;justify-content:center;gap:18px;margin:30px auto 0;padding:18px 34px;border:1px solid #d7b74670;border-radius:18px;background:linear-gradient(125deg,#2c3117,#15251b);color:#ffe18a;font-family:"STKaiti","KaiTi","Kaiti SC","Songti SC",serif;font-size:clamp(30px,6vw,48px);font-weight:900;line-height:1.35;letter-spacing:.12em;text-decoration:none;text-shadow:0 2px 0 #886423,0 5px 14px #e9bc3544;box-shadow:0 12px 32px #0004;animation:naiwa-float 3.6s ease-in-out infinite}

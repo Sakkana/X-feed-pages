@@ -92,7 +92,7 @@ assert.deepEqual([...nd.querySelectorAll('[role="tab"]')].map(t=>t.id),['tab-fee
 assert.equal(nt.textContent,'奶娃世界');assert.equal(activeTab(),nt);assert.equal(np.hidden,false);
 assert.equal(np.querySelector('a').href,'http://134.175.143.158:1011/');assert.equal(np.querySelector('a span').textContent,'立即体验');
 assert.equal(np.querySelector('img').getAttribute('width'),'1112');assert.equal(np.querySelector('img').getAttribute('height'),'1299');
-assert.equal(nt.querySelector('img').alt,'');assert.equal(np.querySelector('iframe'),null);
+assert.equal(nt.querySelector('.naiwa-tab-logo').getAttribute('aria-hidden'),'true');assert.equal(nt.querySelector('img').alt,'');assert.equal(np.querySelector('iframe'),null);
 for(const img of [nt.querySelector('img'),np.querySelector('img')])assert.ok(fs.existsSync(path.join(ROOT,'_site',new URL(img.src).pathname.replace('/X-feed-pages/',''))));
 const initialHistory=nw.history.length;nt.click();nt.click();assert.equal(nw.history.length,initialHistory);
 const key=(tab,key)=>tab.dispatchEvent(new nw.KeyboardEvent('keydown',{key,bubbles:true,cancelable:true}));
@@ -108,6 +108,7 @@ nw.location.hash='main';await new Promise(r=>setTimeout(r,10));assert.equal(acti
 nw.history.pushState(null,'','?view=unknown');nw.dispatchEvent(new nw.PopStateEvent('popstate'));assert.equal(activeTab().id,'tab-feed');
 assert.equal(nd.querySelectorAll('[role="tab"][tabindex="0"]').length,1);
 const css=fs.readFileSync(path.join(ROOT,'assets/style.css'),'utf8');
+assert.match(css,/\.naiwa-tab-logo img\{[^}]*width:calc\(100% \+ 3px\);height:calc\(100% \+ 3px\);left:0;top:-1.5px/);
 assert.match(css,/\.home-tabs\{flex-wrap:wrap/);assert.match(css,/\.naiwa-world-image\{[^}]*width:min\(100%,680px\);height:auto/);
 assert.match(css,/@media\(prefers-reduced-motion:reduce\)\{\.naiwa-experience/);
 naiwaDom.window.close();
