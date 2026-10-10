@@ -1,5 +1,7 @@
 # LP份额还能抵押借钱：一份Curve提案里的资本效率与风险叠加
 
+主类型：DeFi；标签：DeFi、LP抵押、提案研究
+
 2026年10月7日，yrisk在Curve治理论坛提出一个新借贷市场：用reUSD/sfrxUSD池的LP份额抵押，借入crvUSD。提案拟设300万crvUSD初始借款上限，并将借款利息的10%分给Curve DAO。这里的10%不是存款人的收益率；文中5%也是目标利用率条件下的借款APR，不是固定借款价格。[提案原文](https://gov.curve.finance/t/activate-the-reusd-sfrxusd-lp-crvusd-llamalend-v2-market/11184)
 
 先划清状态：这是yrisk发表在官方治理论坛的提案。论坛刊登不等于DAO批准，更不等于市场已经上线、额度已经可借。
