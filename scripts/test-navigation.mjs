@@ -91,7 +91,7 @@ const activeTab=()=>nd.querySelector('[role="tab"][aria-selected="true"]');
 assert.deepEqual([...nd.querySelectorAll('[role="tab"]')].map(t=>t.id),['tab-feed','tab-invites','tab-naiwa']);
 assert.equal(nt.textContent,'奶娃世界');assert.equal(activeTab(),nt);assert.equal(np.hidden,false);
 assert.equal(np.querySelector('a').href,'http://134.175.143.158:1011/');assert.equal(np.querySelector('a span').textContent,'立即体验');
-assert.equal(np.querySelector('img').getAttribute('width'),'1112');assert.equal(np.querySelector('img').getAttribute('height'),'1299');
+assert.equal(np.querySelector('img').getAttribute('width'),'573');assert.equal(np.querySelector('img').getAttribute('height'),'471');
 assert.equal(nt.querySelector('.naiwa-tab-logo').getAttribute('aria-hidden'),'true');assert.equal(nt.querySelector('img').alt,'');assert.equal(np.querySelector('iframe'),null);
 for(const img of [nt.querySelector('img'),np.querySelector('img')])assert.ok(fs.existsSync(path.join(ROOT,'_site',new URL(img.src).pathname.replace('/X-feed-pages/',''))));
 const initialHistory=nw.history.length;nt.click();nt.click();assert.equal(nw.history.length,initialHistory);
