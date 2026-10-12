@@ -802,5 +802,15 @@
     "signal_strength": "weak",
     "summary": "GAIB月度奖励与退出条件",
     "observation": "评级观察2026-10-12 02:10–02:16 UTC；报告发送2026-10-12 10:26:56北京时间。"
+  },
+  "2026-10-12/12-42-31-【CEX】-BitoPro旧点数兑换期限.md": {
+    "type": "CEX",
+    "tags": [
+      "CEX",
+      "权益兑换"
+    ],
+    "signal_strength": "weak",
+    "summary": "BitoPro旧点数兑换期限",
+    "observation": "评级观察2026-10-12 04:29–04:35 UTC；报告发送2026-10-12 12:42:31北京时间。"
   }
 }
