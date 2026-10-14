@@ -10,7 +10,9 @@
 
 Uniswap官方宣布VolatilePair Hook已用于Ethereum的ETH/USDC池。公告指向的v4 Pool ID为0x98316e8405502774a5d0a0761276b5d26505a8195c1905169864008d5e7a3eea；这是池标识，不是独立池合约地址。[官方公告](https://blog.uniswap.org/volatilepair-hook-pricing-both-sides-of-the-trade)
 
-本文核查官方代码固定版本54ccc0545f2241d313b29ad5de5c57a43e329a6e。README的VolatilePair部署表所读版本只列Sepolia，因此不能仅凭公开代码推定主网字节码与此版本一致。当前主网配置、流动性和真实交易报价未核实。[固定提交](https://github.com/Uniswap/v4-hooks-public/commit/54ccc0545f2241d313b29ad5de5c57a43e329a6e)
+本文核查官方代码固定版本54ccc0545f2241d313b29ad5de5c57a43e329a6e。README的VolatilePair部署表所读版本只列Sepolia，因此不能仅凭该表推定主网字节码与此版本一致。[固定提交](https://github.com/Uniswap/v4-hooks-public/commit/54ccc0545f2241d313b29ad5de5c57a43e329a6e)
+
+补充核验（2026-10-14 15:30 UTC）：主网[创建交易](https://etherscan.io/tx/0x85a82d5d71de9342068292c396d609e1b97d33eed5b9c574054f1d0e297e5363)显示proxy 0x000022Ec4eBD6b12294396E852E4C3876b253Cc0于区块26185808、10月13日19:57:47 UTC成功创建，其Upgraded日志指向0x1DDbf7215be4F8A7623B9B1B0255C6e1E3F6c000；地址与官方[部署参数](https://github.com/Uniswap/v4-hooks-public/blob/54ccc0545f2241d313b29ad5de5c57a43e329a6e/script/deploy/volatile-pair-hook/Parameters.sol)一致。这只补足proxy部署证据，未核指定Pool ID的关联、当前storage或字节码一致性。进一步日志读取遇访问限制，当前池配置、流动性和双向报价仍未取得。26185808是部署区块，不是当前报价区块。
 
 ## “涨后卖出费低”只描述一部分
 
