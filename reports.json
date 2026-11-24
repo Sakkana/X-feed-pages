@@ -2,8 +2,46 @@
   "schemaVersion": 1,
   "timezone": "Asia/Shanghai",
   "repository": "Sakkana/X-feed-pages",
-  "recordCount": 158,
+  "recordCount": 162,
   "records": [
+    {
+      "title": "Gate US 的 100 美元电汇：15 USDT 奖励被固定费用抵掉",
+      "type": "激励",
+      "tags": [
+        "Gate US",
+        "电汇",
+        "费用",
+        "代币券"
+      ],
+      "summary": "Fedwire 入金门槛降至 100 美元，首档代币券面额 15 USDT，而入金费本身就是 15 美元；ACH 不符合入金返奖条件。",
+      "observation": "原报告发送：2026-11-25 05:58:03 北京时间；观察：2026-11-24 21:57 UTC。",
+      "path": "2026-11-25/05-58-03-【激励】-Gate US电汇返券与固定费用.md",
+      "sha": "adbcd90d2bc2481205b956bfdb0435dd0ec8ebce",
+      "signal_strength": "weak",
+      "date": "2026-11-25",
+      "time": "05:58:03",
+      "url": "/X-feed-pages/2026-11-25/05-58-03-%E3%80%90%E6%BF%80%E5%8A%B1%E3%80%91-Gate%20US%E7%94%B5%E6%B1%87%E8%BF%94%E5%88%B8%E4%B8%8E%E5%9B%BA%E5%AE%9A%E8%B4%B9%E7%94%A8.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-11-25/05-58-03-%E3%80%90%E6%BF%80%E5%8A%B1%E3%80%91-Gate%20US%E7%94%B5%E6%B1%87%E8%BF%94%E5%88%B8%E4%B8%8E%E5%9B%BA%E5%AE%9A%E8%B4%B9%E7%94%A8.md"
+    },
+    {
+      "title": "HOY 双币超募：ADX 的 0.10 USDT 是成本分界，不是套利",
+      "type": "打新",
+      "tags": [
+        "NodeXX",
+        "HOY",
+        "ADX",
+        "超募"
+      ],
+      "summary": "同一 HOY 有 USDT 与 ADX 两套认购成本，折算分界是 0.10 USDT/ADX；两池需求、退款币种和 TGE 后可卖深度均影响兑现。",
+      "observation": "原报告发送：2026-11-25 05:58:03 北京时间；观察：2026-11-24 21:57 UTC。",
+      "path": "2026-11-25/05-58-03-【打新】-HOY双币认购的交叉价格.md",
+      "sha": "013b9f26af11f147f90866c36b39c1e0da69cebd",
+      "signal_strength": "weak",
+      "date": "2026-11-25",
+      "time": "05:58:03",
+      "url": "/X-feed-pages/2026-11-25/05-58-03-%E3%80%90%E6%89%93%E6%96%B0%E3%80%91-HOY%E5%8F%8C%E5%B8%81%E8%AE%A4%E8%B4%AD%E7%9A%84%E4%BA%A4%E5%8F%89%E4%BB%B7%E6%A0%BC.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-11-25/05-58-03-%E3%80%90%E6%89%93%E6%96%B0%E3%80%91-HOY%E5%8F%8C%E5%B8%81%E8%AE%A4%E8%B4%AD%E7%9A%84%E4%BA%A4%E5%8F%89%E4%BB%B7%E6%A0%BC.md"
+    },
     {
       "path": "2026-11-25/05-05-44-【DeFi】-Aave黄金抵押扩容与借贷盈亏线.md",
       "sha": "0cb6c8d64b1b2cdfbda20da73bfc97bbba658c64",
@@ -189,6 +227,24 @@
       "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-11-24/19-57-46-%E3%80%90%E9%87%8F%E5%8C%96%E3%80%91-Bybit%E4%BB%B7%E5%B7%AE%E4%BA%A7%E5%93%81%E6%9A%82%E5%81%9C%E4%B8%8E%E5%8F%8C%E8%85%BF%E6%89%A7%E8%A1%8C%E6%88%90%E6%9C%AC.md"
     },
     {
+      "title": "HXMR 上线后的两个价差门槛：买便宜和兑现并不是同一件事",
+      "type": "套利",
+      "tags": [
+        "套利",
+        "跨链",
+        "DEX"
+      ],
+      "summary": "HXMR 退回原生 XMR 要扣 2%；历史盘口模拟中，原生卖出均价至少约 519 美元才覆盖买入。",
+      "observation": "原报告发送：2026-11-24 15:05:57 北京时间；盘口与评级观察：2026-11-24 07:04:46.922 UTC。",
+      "path": "2026-11-24/15-05-57-【套利】-HXMR双向桥费与原生退出门槛.md",
+      "sha": "9a18178f0761b3bd0177a5bf1cb2e327d4da8142",
+      "signal_strength": "weak",
+      "date": "2026-11-24",
+      "time": "15:05:57",
+      "url": "/X-feed-pages/2026-11-24/15-05-57-%E3%80%90%E5%A5%97%E5%88%A9%E3%80%91-HXMR%E5%8F%8C%E5%90%91%E6%A1%A5%E8%B4%B9%E4%B8%8E%E5%8E%9F%E7%94%9F%E9%80%80%E5%87%BA%E9%97%A8%E6%A7%9B.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-11-24/15-05-57-%E3%80%90%E5%A5%97%E5%88%A9%E3%80%91-HXMR%E5%8F%8C%E5%90%91%E6%A1%A5%E8%B4%B9%E4%B8%8E%E5%8E%9F%E7%94%9F%E9%80%80%E5%87%BA%E9%97%A8%E6%A7%9B.md"
+    },
+    {
       "type": "量化",
       "tags": [
         "量化",
@@ -223,6 +279,24 @@
       "title": "PT-reUSD：10.98 万份卖单的退出路径与兑付单位",
       "url": "/X-feed-pages/2026-11-23/04-00-59-%E3%80%90DEX%E3%80%91-PT-reUSD%E5%A4%A7%E5%8D%95%E9%80%80%E5%87%BA%E4%B8%8E%E5%85%91%E4%BB%98%E5%8D%95%E4%BD%8D.html",
       "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-11-23/04-00-59-%E3%80%90DEX%E3%80%91-PT-reUSD%E5%A4%A7%E5%8D%95%E9%80%80%E5%87%BA%E4%B8%8E%E5%85%91%E4%BB%98%E5%8D%95%E4%BD%8D.md"
+    },
+    {
+      "title": "The Vault：约 31 万美元 TVL，不等于有 31 万美元能即时兑出",
+      "type": "DEX",
+      "tags": [
+        "DEX",
+        "Solana",
+        "LST",
+        "流动性"
+      ],
+      "summary": "历史测试中，可支付的 SOL 只占快退池账面总量约 22.6%；聚合路由与延迟赎回是另外两种退出。",
+      "observation": "原报告发送：2026-11-22 21:59:34 北京时间；历史 PR 测试为 2026-11-20。",
+      "path": "2026-11-22/21-59-34-【DEX】-TheVault退出池的SOL现金深度.md",
+      "sha": "853b520b270bdd21f33f90ea4a1bfa77b59f63b1",
+      "date": "2026-11-22",
+      "time": "21:59:34",
+      "url": "/X-feed-pages/2026-11-22/21-59-34-%E3%80%90DEX%E3%80%91-TheVault%E9%80%80%E5%87%BA%E6%B1%A0%E7%9A%84SOL%E7%8E%B0%E9%87%91%E6%B7%B1%E5%BA%A6.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-11-22/21-59-34-%E3%80%90DEX%E3%80%91-TheVault%E9%80%80%E5%87%BA%E6%B1%A0%E7%9A%84SOL%E7%8E%B0%E9%87%91%E6%B7%B1%E5%BA%A6.md"
     },
     {
       "type": "DeFi",
