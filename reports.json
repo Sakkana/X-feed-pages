@@ -2,8 +2,28 @@
   "schemaVersion": 1,
   "timezone": "Asia/Shanghai",
   "repository": "Sakkana/X-feed-pages",
-  "recordCount": 164,
+  "recordCount": 165,
   "records": [
+    {
+      "title": "PT-AUSD 年化差 1.36 个百分点：22 天只够付不到 8 个基点",
+      "type": "量化",
+      "tags": [
+        "Pendle",
+        "Aave",
+        "Monad",
+        "PT",
+        "利差"
+      ],
+      "summary": "12 月 17 日到期的 AUSD 本金代币与 GHO 浮息借款，等额 1,000 U、22 天情景仅约 0.78 U 毛利；AUSD 不能直接在该抵押模式借入。",
+      "observation": "原报告发送：2026-11-25 07:57:09 北京时间；观察：2026-11-24 20:37、22:28 UTC 与 23:57 UTC 查阅的 Pendle 缓存（未标精确时点）",
+      "signal_strength": "weak",
+      "path": "2026-11-25/07-57-09-【量化】-PT-AUSD固定收益与浮息借贷.md",
+      "date": "2026-11-25",
+      "time": "07:57:09",
+      "sha": "2074aeb47d21294b1038eb50def9abc66fa2ec35",
+      "url": "/X-feed-pages/2026-11-25/07-57-09-%E3%80%90%E9%87%8F%E5%8C%96%E3%80%91-PT-AUSD%E5%9B%BA%E5%AE%9A%E6%94%B6%E7%9B%8A%E4%B8%8E%E6%B5%AE%E6%81%AF%E5%80%9F%E8%B4%B7.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-11-25/07-57-09-%E3%80%90%E9%87%8F%E5%8C%96%E3%80%91-PT-AUSD%E5%9B%BA%E5%AE%9A%E6%94%B6%E7%9B%8A%E4%B8%8E%E6%B5%AE%E6%81%AF%E5%80%9F%E8%B4%B7.md"
+    },
     {
       "title": "stUSDS 的 50% APY：金库现金与 Curve 深度是两回事",
       "summary": "金库实时可提现金一度仅 8,830 USDS，Curve 池约 207 万美元估值中约 10.32 万是 USDS；4,000 万–5,000 万场外偿债是社区方案，不是可用现金。",
