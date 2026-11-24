@@ -2,8 +2,27 @@
   "schemaVersion": 1,
   "timezone": "Asia/Shanghai",
   "repository": "Sakkana/X-feed-pages",
-  "recordCount": 157,
+  "recordCount": 158,
   "records": [
+    {
+      "path": "2026-11-25/05-05-44-【DeFi】-Aave黄金抵押扩容与借贷盈亏线.md",
+      "sha": "0cb6c8d64b1b2cdfbda20da73bfc97bbba658c64",
+      "title": "Aave 黄金抵押扩容：能多借，不代表利差变大",
+      "type": "DeFi",
+      "tags": [
+        "Aave V4",
+        "XAUt",
+        "USDC",
+        "借贷"
+      ],
+      "summary": "Gold Spoke 的 USDC 借款上限扩大至 400 万。区分剩余额度、可动用流动性和实际借款利率，并测算两档黄金抵押的清算缓冲及 30 天利差门槛。",
+      "observation": "原报告发送：2026-11-25 05:05:44 北京时间；观察：2026-11-24 21:05 UTC。",
+      "signal_strength": "weak",
+      "date": "2026-11-25",
+      "time": "05:05:44",
+      "url": "/X-feed-pages/2026-11-25/05-05-44-%E3%80%90DeFi%E3%80%91-Aave%E9%BB%84%E9%87%91%E6%8A%B5%E6%8A%BC%E6%89%A9%E5%AE%B9%E4%B8%8E%E5%80%9F%E8%B4%B7%E7%9B%88%E4%BA%8F%E7%BA%BF.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-11-25/05-05-44-%E3%80%90DeFi%E3%80%91-Aave%E9%BB%84%E9%87%91%E6%8A%B5%E6%8A%BC%E6%89%A9%E5%AE%B9%E4%B8%8E%E5%80%9F%E8%B4%B7%E7%9B%88%E4%BA%8F%E7%BA%BF.md"
+    },
     {
       "title": "ZIL 抵押系数下调：币价不变，保证金缓冲也会缩水",
       "type": "量化",
