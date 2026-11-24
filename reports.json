@@ -2,8 +2,28 @@
   "schemaVersion": 1,
   "timezone": "Asia/Shanghai",
   "repository": "Sakkana/X-feed-pages",
-  "recordCount": 162,
+  "recordCount": 164,
   "records": [
+    {
+      "title": "stUSDS 的 50% APY：金库现金与 Curve 深度是两回事",
+      "summary": "金库实时可提现金一度仅 8,830 USDS，Curve 池约 207 万美元估值中约 10.32 万是 USDS；4,000 万–5,000 万场外偿债是社区方案，不是可用现金。",
+      "observation": "原报告发送：2026-11-25 06:58:06 北京时间；观察：2026-11-24 19:50、20:50、21:57 UTC（不同来源快照）；评级观察：2026-11-24 22:58 UTC",
+      "tags": [
+        "DeFi",
+        "stUSDS",
+        "Sky",
+        "Curve",
+        "退出流动性"
+      ],
+      "type": "DeFi",
+      "signal_strength": "weak",
+      "path": "2026-11-25/06-58-06-【DeFi】-stUSDS的两条退出通道.md",
+      "sha": "d155fd866f2e9dabb06c72ec46f627886430a702",
+      "date": "2026-11-25",
+      "time": "06:58:06",
+      "url": "/X-feed-pages/2026-11-25/06-58-06-%E3%80%90DeFi%E3%80%91-stUSDS%E7%9A%84%E4%B8%A4%E6%9D%A1%E9%80%80%E5%87%BA%E9%80%9A%E9%81%93.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-11-25/06-58-06-%E3%80%90DeFi%E3%80%91-stUSDS%E7%9A%84%E4%B8%A4%E6%9D%A1%E9%80%80%E5%87%BA%E9%80%9A%E9%81%93.md"
+    },
     {
       "title": "Gate US 的 100 美元电汇：15 USDT 奖励被固定费用抵掉",
       "type": "激励",
@@ -208,6 +228,24 @@
       "time": "22:58:52",
       "url": "/X-feed-pages/2026-11-24/22-58-52-%E3%80%90%E8%B5%84%E6%96%99%E3%80%91-SK%E6%B5%B7%E5%8A%9B%E5%A3%AB%E4%BB%A3%E5%B8%81%E8%82%A1%E4%B8%8E%E6%B0%B8%E7%BB%AD%E4%B8%A4%E5%A5%97%E9%99%A4%E6%81%AF.html",
       "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-11-24/22-58-52-%E3%80%90%E8%B5%84%E6%96%99%E3%80%91-SK%E6%B5%B7%E5%8A%9B%E5%A3%AB%E4%BB%A3%E5%B8%81%E8%82%A1%E4%B8%8E%E6%B0%B8%E7%BB%AD%E4%B8%A4%E5%A5%97%E9%99%A4%E6%81%AF.md"
+    },
+    {
+      "title": "INJ Veyra：三家交易所的暂停时间相差 5 小时 30 分",
+      "type": "资料",
+      "tags": [
+        "INJ",
+        "Injective",
+        "跨所转账",
+        "网络升级"
+      ],
+      "summary": "Bithumb 和 Coinone 比 Bybit 早暂停原生 INJ 充提；升级后链已出块，但不能据此认定交易所已恢复。",
+      "observation": "原报告发送：2026-11-24 21:59:28 北京时间；观察：2026-11-24 13:58 UTC；补充核验：16:04 UTC",
+      "path": "2026-11-24/21-59-28-【资料】-INJ升级与三家交易所充提时差.md",
+      "sha": "fda75a00c4985cec7686ef7c279637b4e29a567b",
+      "date": "2026-11-24",
+      "time": "21:59:28",
+      "url": "/X-feed-pages/2026-11-24/21-59-28-%E3%80%90%E8%B5%84%E6%96%99%E3%80%91-INJ%E5%8D%87%E7%BA%A7%E4%B8%8E%E4%B8%89%E5%AE%B6%E4%BA%A4%E6%98%93%E6%89%80%E5%85%85%E6%8F%90%E6%97%B6%E5%B7%AE.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-11-24/21-59-28-%E3%80%90%E8%B5%84%E6%96%99%E3%80%91-INJ%E5%8D%87%E7%BA%A7%E4%B8%8E%E4%B8%89%E5%AE%B6%E4%BA%A4%E6%98%93%E6%89%80%E5%85%85%E6%8F%90%E6%97%B6%E5%B7%AE.md"
     },
     {
       "title": "Bybit 暂停 Spread Trading：双腿成交和退出成本要分开看",
