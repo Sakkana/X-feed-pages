@@ -1072,5 +1072,51 @@
     "signal_strength": "weak",
     "observation": "2026-11-19 11:05 UTC。",
     "summary": "比较固定期限产品到期兑换、提前退出与本金计价单位。"
+  },
+  "2026-11-25/00-57-38-【借贷】-KuCoin实币借贷与XAUT还款敞口.md": {
+    "type": "借贷",
+    "tags": [
+      "KuCoin",
+      "XAUT",
+      "实币融资",
+      "强平"
+    ],
+    "signal_strength": "weak",
+    "observation": "2026-11-24 16:57 UTC",
+    "summary": "直接借入 XAUT 改变还款单位和风险；可借额度与费率决定实际可行性。"
+  },
+  "2026-11-25/00-06-56-【资料】-Quant统一USDC与不同链退出资格.md": {
+    "type": "资料",
+    "tags": [
+      "Quant",
+      "USDC",
+      "跨链",
+      "Rollup",
+      "退出"
+    ],
+    "observation": "2026-11-24 16:06 UTC",
+    "summary": "Quant 开放公众注册；统一余额仍受主网路由、许可与兑付容量约束。"
+  },
+  "2026-11-18/20-57-04-【借贷】-HOLLAR折价偿债与Juicer退出.md": {
+    "type": "借贷",
+    "tags": [
+      "Hydration",
+      "HOLLAR",
+      "Juicer",
+      "退出"
+    ],
+    "signal_strength": "weak",
+    "observation": "2026-11-18 20:56（北京时间）",
+    "summary": "折价偿债与新买入是两种风险；Juicer 七天不是到账承诺。"
+  },
+  "2026-10-16/09-00-21-【套利】-DGLD实物退出与黄金折价成本.md": {
+    "type": "套利",
+    "tags": [
+      "黄金代币",
+      "赎回"
+    ],
+    "signal_strength": "weak",
+    "observation": "2026-10-16 01:00 UTC",
+    "summary": "销毁提货与向服务商转交代币的费用不同；黄金含量不是含费交付报价。"
   }
 }
