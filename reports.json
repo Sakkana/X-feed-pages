@@ -2,8 +2,1467 @@
   "schemaVersion": 1,
   "timezone": "Asia/Shanghai",
   "repository": "Sakkana/X-feed-pages",
-  "recordCount": 75,
+  "recordCount": 157,
   "records": [
+    {
+      "title": "ZIL 抵押系数下调：币价不变，保证金缓冲也会缩水",
+      "type": "量化",
+      "tags": [
+        "Binance",
+        "ZIL",
+        "抵押折扣",
+        "组合保证金"
+      ],
+      "summary": "ZIL 普通组合保证金 30% 降至 10%；PM Pro 缩减首档额度，二者对同一头寸的影响不同。",
+      "observation": "原报告发送：2026-11-25 04:05:58 北京时间；观察：2026-11-25 04:05 左右",
+      "path": "2026-11-25/04-05-58-【量化】-ZIL抵押折扣与保证金分档.md",
+      "sha": "19c6276ff321db04e9003a706777f61d470b1e1c",
+      "date": "2026-11-25",
+      "time": "04:05:58",
+      "url": "/X-feed-pages/2026-11-25/04-05-58-%E3%80%90%E9%87%8F%E5%8C%96%E3%80%91-ZIL%E6%8A%B5%E6%8A%BC%E6%8A%98%E6%89%A3%E4%B8%8E%E4%BF%9D%E8%AF%81%E9%87%91%E5%88%86%E6%A1%A3.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-11-25/04-05-58-%E3%80%90%E9%87%8F%E5%8C%96%E3%80%91-ZIL%E6%8A%B5%E6%8A%BC%E6%8A%98%E6%89%A3%E4%B8%8E%E4%BF%9D%E8%AF%81%E9%87%91%E5%88%86%E6%A1%A3.md"
+    },
+    {
+      "title": "0G 韩国溢价：海外盘口能买，韩国卖出腿接不上",
+      "type": "套利",
+      "tags": [
+        "0G",
+        "Binance",
+        "Bithumb",
+        "韩国溢价"
+      ],
+      "summary": "历史韩元溢价不等于可成交利润。海外现货盘口给出定额成本，韩国入金与回款腿未闭合。",
+      "observation": "原报告发送：2026-11-25 04:05:58 北京时间；观察：2026-11-25 04:05 左右",
+      "signal_strength": "weak",
+      "path": "2026-11-25/04-05-58-【套利】-0G韩国溢价与充值阻断.md",
+      "sha": "56de950a5a1044dd35f249150addbff121359d03",
+      "date": "2026-11-25",
+      "time": "04:05:58",
+      "url": "/X-feed-pages/2026-11-25/04-05-58-%E3%80%90%E5%A5%97%E5%88%A9%E3%80%91-0G%E9%9F%A9%E5%9B%BD%E6%BA%A2%E4%BB%B7%E4%B8%8E%E5%85%85%E5%80%BC%E9%98%BB%E6%96%AD.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-11-25/04-05-58-%E3%80%90%E5%A5%97%E5%88%A9%E3%80%91-0G%E9%9F%A9%E5%9B%BD%E6%BA%A2%E4%BB%B7%E4%B8%8E%E5%85%85%E5%80%BC%E9%98%BB%E6%96%AD.md"
+    },
+    {
+      "title": "Mento 的 31.21% 补贴：周末能撤 LP，不一定能换回美元",
+      "type": "激励",
+      "tags": [
+        "Mento",
+        "Merkl",
+        "Monad",
+        "外汇",
+        "LP"
+      ],
+      "signal_strength": "weak",
+      "summary": "USDm 补贴不足以消除 GBPm 外汇敞口；周末可按库存撤出双币，但特定 FX 池不能兑换。",
+      "observation": "原报告发送：2026-11-25 03:08:16 北京时间；观察：2026-11-24 19:00 UTC 这一轮",
+      "path": "2026-11-25/03-08-16-【激励】-Mento外汇池补贴与周末退出.md",
+      "sha": "99658081773bca1b98287ed2a69b3c7eff20e554",
+      "date": "2026-11-25",
+      "time": "03:08:16",
+      "url": "/X-feed-pages/2026-11-25/03-08-16-%E3%80%90%E6%BF%80%E5%8A%B1%E3%80%91-Mento%E5%A4%96%E6%B1%87%E6%B1%A0%E8%A1%A5%E8%B4%B4%E4%B8%8E%E5%91%A8%E6%9C%AB%E9%80%80%E5%87%BA.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-11-25/03-08-16-%E3%80%90%E6%BF%80%E5%8A%B1%E3%80%91-Mento%E5%A4%96%E6%B1%87%E6%B1%A0%E8%A1%A5%E8%B4%B4%E4%B8%8E%E5%91%A8%E6%9C%AB%E9%80%80%E5%87%BA.md"
+    },
+    {
+      "title": "同一个作者，发布可用工具比解释理念传播更远",
+      "type": "账号运营",
+      "tags": [
+        "账号运营"
+      ],
+      "summary": "AI 工具发布帖与同作者 10 条普通帖的四项累计对照；可见合作者早期引用，但无法量化归因。",
+      "observation": "原报告发送：2026-11-25 02:37:44 北京时间；观察：2026-11-24 18:37 UTC",
+      "path": "2026-11-25/02-37-44-【账号运营】-可用工具发布与合作者引用对照.md",
+      "sha": "58a961db4a9004b3c836bd20a8f301fa6fba4fca",
+      "date": "2026-11-25",
+      "time": "02:37:44",
+      "url": "/X-feed-pages/2026-11-25/02-37-44-%E3%80%90%E8%B4%A6%E5%8F%B7%E8%BF%90%E8%90%A5%E3%80%91-%E5%8F%AF%E7%94%A8%E5%B7%A5%E5%85%B7%E5%8F%91%E5%B8%83%E4%B8%8E%E5%90%88%E4%BD%9C%E8%80%85%E5%BC%95%E7%94%A8%E5%AF%B9%E7%85%A7.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-11-25/02-37-44-%E3%80%90%E8%B4%A6%E5%8F%B7%E8%BF%90%E8%90%A5%E3%80%91-%E5%8F%AF%E7%94%A8%E5%B7%A5%E5%85%B7%E5%8F%91%E5%B8%83%E4%B8%8E%E5%90%88%E4%BD%9C%E8%80%85%E5%BC%95%E7%94%A8%E5%AF%B9%E7%85%A7.md"
+    },
+    {
+      "title": "Thinkers 拍卖的 1,000 枚门槛：退款不等于没有换币成本",
+      "type": "打新",
+      "tags": [
+        "NFTX",
+        "Thinkers",
+        "Ink",
+        "wQQQx",
+        "CCA"
+      ],
+      "signal_strength": "weak",
+      "summary": "认购门槛按枚数不是募资金额；ETH、USDC 出价会自动换成 wQQQx，退款币种与双向报价尚未核实。",
+      "observation": "原报告发送：2026-11-25 02:07:28 北京时间；观察时间见正文",
+      "path": "2026-11-25/02-07-28-【打新】-Thinkers退款门槛与换币成本.md",
+      "sha": "72bea0d6a560640a707e175f43a4c3fb35e7fb32",
+      "date": "2026-11-25",
+      "time": "02:07:28",
+      "url": "/X-feed-pages/2026-11-25/02-07-28-%E3%80%90%E6%89%93%E6%96%B0%E3%80%91-Thinkers%E9%80%80%E6%AC%BE%E9%97%A8%E6%A7%9B%E4%B8%8E%E6%8D%A2%E5%B8%81%E6%88%90%E6%9C%AC.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-11-25/02-07-28-%E3%80%90%E6%89%93%E6%96%B0%E3%80%91-Thinkers%E9%80%80%E6%AC%BE%E9%97%A8%E6%A7%9B%E4%B8%8E%E6%8D%A2%E5%B8%81%E6%88%90%E6%9C%AC.md"
+    },
+    {
+      "type": "借贷",
+      "tags": [
+        "KuCoin",
+        "XAUT",
+        "实币融资",
+        "强平"
+      ],
+      "signal_strength": "weak",
+      "observation": "2026-11-24 16:57 UTC",
+      "summary": "直接借入 XAUT 改变还款单位和风险；可借额度与费率决定实际可行性。",
+      "path": "2026-11-25/00-57-38-【借贷】-KuCoin实币借贷与XAUT还款敞口.md",
+      "sha": "c99ad9e484d21f0f8db5528305917a89fab4faee",
+      "date": "2026-11-25",
+      "time": "00:57:38",
+      "title": "KuCoin 实币借贷：XAUT 与 USDT 的还款敞口",
+      "url": "/X-feed-pages/2026-11-25/00-57-38-%E3%80%90%E5%80%9F%E8%B4%B7%E3%80%91-KuCoin%E5%AE%9E%E5%B8%81%E5%80%9F%E8%B4%B7%E4%B8%8EXAUT%E8%BF%98%E6%AC%BE%E6%95%9E%E5%8F%A3.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-11-25/00-57-38-%E3%80%90%E5%80%9F%E8%B4%B7%E3%80%91-KuCoin%E5%AE%9E%E5%B8%81%E5%80%9F%E8%B4%B7%E4%B8%8EXAUT%E8%BF%98%E6%AC%BE%E6%95%9E%E5%8F%A3.md"
+    },
+    {
+      "type": "资料",
+      "tags": [
+        "Quant",
+        "USDC",
+        "跨链",
+        "Rollup",
+        "退出"
+      ],
+      "observation": "2026-11-24 16:06 UTC",
+      "summary": "Quant 开放公众注册；统一余额仍受主网路由、许可与兑付容量约束。",
+      "path": "2026-11-25/00-06-56-【资料】-Quant统一USDC与不同链退出资格.md",
+      "sha": "da64cbeada7289a543d834c9d8e6214d96c259d0",
+      "date": "2026-11-25",
+      "time": "00:06:56",
+      "title": "Quant Fusion：同一 uUSDC 余额与跨链退出限制",
+      "url": "/X-feed-pages/2026-11-25/00-06-56-%E3%80%90%E8%B5%84%E6%96%99%E3%80%91-Quant%E7%BB%9F%E4%B8%80USDC%E4%B8%8E%E4%B8%8D%E5%90%8C%E9%93%BE%E9%80%80%E5%87%BA%E8%B5%84%E6%A0%BC.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-11-25/00-06-56-%E3%80%90%E8%B5%84%E6%96%99%E3%80%91-Quant%E7%BB%9F%E4%B8%80USDC%E4%B8%8E%E4%B8%8D%E5%90%8C%E9%93%BE%E9%80%80%E5%87%BA%E8%B5%84%E6%A0%BC.md"
+    },
+    {
+      "title": "SK 海力士除息：Gate 代币股与永续使用不同的结算物",
+      "type": "资料",
+      "tags": [
+        "Gate",
+        "代币化股票",
+        "公司行动",
+        "永续"
+      ],
+      "summary": "代币股按净持仓增扣代币，永续空头另有资金调整；区分 11 月 27 日平台快照和 11 月 30 日公司登记日。",
+      "observation": "原报告发送：2026-11-24 22:58:52 北京时间；观察时间见正文",
+      "path": "2026-11-24/22-58-52-【资料】-SK海力士代币股与永续两套除息.md",
+      "sha": "a4515a8b0817756f89289c939c610033ce8229c9",
+      "date": "2026-11-24",
+      "time": "22:58:52",
+      "url": "/X-feed-pages/2026-11-24/22-58-52-%E3%80%90%E8%B5%84%E6%96%99%E3%80%91-SK%E6%B5%B7%E5%8A%9B%E5%A3%AB%E4%BB%A3%E5%B8%81%E8%82%A1%E4%B8%8E%E6%B0%B8%E7%BB%AD%E4%B8%A4%E5%A5%97%E9%99%A4%E6%81%AF.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-11-24/22-58-52-%E3%80%90%E8%B5%84%E6%96%99%E3%80%91-SK%E6%B5%B7%E5%8A%9B%E5%A3%AB%E4%BB%A3%E5%B8%81%E8%82%A1%E4%B8%8E%E6%B0%B8%E7%BB%AD%E4%B8%A4%E5%A5%97%E9%99%A4%E6%81%AF.md"
+    },
+    {
+      "title": "Bybit 暂停 Spread Trading：双腿成交和退出成本要分开看",
+      "type": "量化",
+      "tags": [
+        "Bybit",
+        "价差交易",
+        "执行风控"
+      ],
+      "summary": "Bybit API 团队公告 12 月 1 日暂停组合价差产品；区分两腿同时撮合和分开执行的风险，比较开平与仅退出的手续费。",
+      "observation": "原报告发送：2026-11-24 19:57:46 北京时间；观察时间见正文",
+      "path": "2026-11-24/19-57-46-【量化】-Bybit价差产品暂停与双腿执行成本.md",
+      "sha": "229bf3e4b218a293211b94896a4dbc132c8544bb",
+      "date": "2026-11-24",
+      "time": "19:57:46",
+      "url": "/X-feed-pages/2026-11-24/19-57-46-%E3%80%90%E9%87%8F%E5%8C%96%E3%80%91-Bybit%E4%BB%B7%E5%B7%AE%E4%BA%A7%E5%93%81%E6%9A%82%E5%81%9C%E4%B8%8E%E5%8F%8C%E8%85%BF%E6%89%A7%E8%A1%8C%E6%88%90%E6%9C%AC.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-11-24/19-57-46-%E3%80%90%E9%87%8F%E5%8C%96%E3%80%91-Bybit%E4%BB%B7%E5%B7%AE%E4%BA%A7%E5%93%81%E6%9A%82%E5%81%9C%E4%B8%8E%E5%8F%8C%E8%85%BF%E6%89%A7%E8%A1%8C%E6%88%90%E6%9C%AC.md"
+    },
+    {
+      "type": "量化",
+      "tags": [
+        "量化",
+        "期权",
+        "结算"
+      ],
+      "observation": "2026-11-24 约 05:57 UTC（首次结算历史快照）",
+      "summary": "首次结算记录验证金银期权使用窗口均价，而非到期瞬时价格。",
+      "path": "2026-11-24/13-57-49-【量化】-金银期权首次均价结算实证.md",
+      "sha": "22e535d403f032a1e1d2687d51eccd9c86e035cd",
+      "date": "2026-11-24",
+      "time": "13:57:49",
+      "title": "金银期权首次按 30 分钟指数均价结算",
+      "url": "/X-feed-pages/2026-11-24/13-57-49-%E3%80%90%E9%87%8F%E5%8C%96%E3%80%91-%E9%87%91%E9%93%B6%E6%9C%9F%E6%9D%83%E9%A6%96%E6%AC%A1%E5%9D%87%E4%BB%B7%E7%BB%93%E7%AE%97%E5%AE%9E%E8%AF%81.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-11-24/13-57-49-%E3%80%90%E9%87%8F%E5%8C%96%E3%80%91-%E9%87%91%E9%93%B6%E6%9C%9F%E6%9D%83%E9%A6%96%E6%AC%A1%E5%9D%87%E4%BB%B7%E7%BB%93%E7%AE%97%E5%AE%9E%E8%AF%81.md"
+    },
+    {
+      "type": "DEX",
+      "tags": [
+        "DEX",
+        "Pendle",
+        "PT",
+        "reUSD"
+      ],
+      "signal_strength": "weak",
+      "observation": "2026-11-22 20:00 UTC；历史成交为 11 月 21 日 00:07 UTC。",
+      "summary": "报价大小改变退出成本；到期兑付的资产单位不能用牌面美元价值代替。",
+      "path": "2026-11-23/04-00-59-【DEX】-PT-reUSD大单退出与兑付单位.md",
+      "sha": "4302b44fb9f3a7eaca4643148e82ded6903092f0",
+      "date": "2026-11-23",
+      "time": "04:00:59",
+      "title": "PT-reUSD：10.98 万份卖单的退出路径与兑付单位",
+      "url": "/X-feed-pages/2026-11-23/04-00-59-%E3%80%90DEX%E3%80%91-PT-reUSD%E5%A4%A7%E5%8D%95%E9%80%80%E5%87%BA%E4%B8%8E%E5%85%91%E4%BB%98%E5%8D%95%E4%BD%8D.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-11-23/04-00-59-%E3%80%90DEX%E3%80%91-PT-reUSD%E5%A4%A7%E5%8D%95%E9%80%80%E5%87%BA%E4%B8%8E%E5%85%91%E4%BB%98%E5%8D%95%E4%BD%8D.md"
+    },
+    {
+      "type": "DeFi",
+      "tags": [
+        "DeFi",
+        "Babylon",
+        "BTC",
+        "赎回"
+      ],
+      "observation": "2026-11-20 23:00–23:06 北京时间。",
+      "summary": "把拟停止原生 BTC 质押与既有头寸各自的退出路径分开。",
+      "path": "2026-11-20/23-05-33-【DeFi】-Babylon拟停止原生BTC质押与退出分流.md",
+      "sha": "1154aaf56a8f2ed7b9e7f98df76959079883a30b",
+      "date": "2026-11-20",
+      "time": "23:05:33",
+      "title": "Babylon 拟停止原生 BTC 质押与退出分流",
+      "url": "/X-feed-pages/2026-11-20/23-05-33-%E3%80%90DeFi%E3%80%91-Babylon%E6%8B%9F%E5%81%9C%E6%AD%A2%E5%8E%9F%E7%94%9FBTC%E8%B4%A8%E6%8A%BC%E4%B8%8E%E9%80%80%E5%87%BA%E5%88%86%E6%B5%81.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-11-20/23-05-33-%E3%80%90DeFi%E3%80%91-Babylon%E6%8B%9F%E5%81%9C%E6%AD%A2%E5%8E%9F%E7%94%9FBTC%E8%B4%A8%E6%8A%BC%E4%B8%8E%E9%80%80%E5%87%BA%E5%88%86%E6%B5%81.md"
+    },
+    {
+      "title": "Pendle 挂单预算与有效深度",
+      "type": "量化",
+      "tags": [
+        "Pendle",
+        "限价奖励",
+        "做市"
+      ],
+      "summary": "市场单侧预算不等于个人收益。按 YT相对价格和有效挂单风险深度计算，分母及完整退出成本未核实。",
+      "signal_strength": "weak",
+      "observation": "原报告发送：2026-11-20 12:58:26 北京时间；观察时间见正文",
+      "path": "2026-11-20/12-58-26-【量化】-Pendle挂单预算与有效深度.md",
+      "sha": "c8abfefed7d3aa6079aada20f0f9a61597a9ae71",
+      "date": "2026-11-20",
+      "time": "12:58:26",
+      "url": "/X-feed-pages/2026-11-20/12-58-26-%E3%80%90%E9%87%8F%E5%8C%96%E3%80%91-Pendle%E6%8C%82%E5%8D%95%E9%A2%84%E7%AE%97%E4%B8%8E%E6%9C%89%E6%95%88%E6%B7%B1%E5%BA%A6.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-11-20/12-58-26-%E3%80%90%E9%87%8F%E5%8C%96%E3%80%91-Pendle%E6%8C%82%E5%8D%95%E9%A2%84%E7%AE%97%E4%B8%8E%E6%9C%89%E6%95%88%E6%B7%B1%E5%BA%A6.md"
+    },
+    {
+      "type": "DeFi",
+      "tags": [
+        "DeFi",
+        "Pendle",
+        "Ethena",
+        "PT",
+        "期限融资"
+      ],
+      "signal_strength": "weak",
+      "observation": "2026-11-19 11:05 UTC。",
+      "summary": "比较固定期限产品到期兑换、提前退出与本金计价单位。",
+      "path": "2026-11-19/19-05-52-【DeFi】-Pendle与Ethena固定期限的兑付.md",
+      "sha": "3386044d2b6b97f5d4e83297eedaefac59e3c137",
+      "date": "2026-11-19",
+      "time": "19:05:52",
+      "title": "Pendle 与 Ethena：固定期限兑付的是 USDe",
+      "url": "/X-feed-pages/2026-11-19/19-05-52-%E3%80%90DeFi%E3%80%91-Pendle%E4%B8%8EEthena%E5%9B%BA%E5%AE%9A%E6%9C%9F%E9%99%90%E7%9A%84%E5%85%91%E4%BB%98.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-11-19/19-05-52-%E3%80%90DeFi%E3%80%91-Pendle%E4%B8%8EEthena%E5%9B%BA%E5%AE%9A%E6%9C%9F%E9%99%90%E7%9A%84%E5%85%91%E4%BB%98.md"
+    },
+    {
+      "type": "借贷",
+      "tags": [
+        "Hydration",
+        "HOLLAR",
+        "Juicer",
+        "退出"
+      ],
+      "signal_strength": "weak",
+      "observation": "2026-11-18 20:56（北京时间）",
+      "summary": "折价偿债与新买入是两种风险；Juicer 七天不是到账承诺。",
+      "path": "2026-11-18/20-57-04-【借贷】-HOLLAR折价偿债与Juicer退出.md",
+      "sha": "0c2e4d0cd58648c4894e39ad4302e62094a5c802",
+      "date": "2026-11-18",
+      "time": "20:57:04",
+      "title": "Hydration：HOLLAR 折价偿债与 Juicer 退出",
+      "url": "/X-feed-pages/2026-11-18/20-57-04-%E3%80%90%E5%80%9F%E8%B4%B7%E3%80%91-HOLLAR%E6%8A%98%E4%BB%B7%E5%81%BF%E5%80%BA%E4%B8%8EJuicer%E9%80%80%E5%87%BA.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-11-18/20-57-04-%E3%80%90%E5%80%9F%E8%B4%B7%E3%80%91-HOLLAR%E6%8A%98%E4%BB%B7%E5%81%BF%E5%80%BA%E4%B8%8EJuicer%E9%80%80%E5%87%BA.md"
+    },
+    {
+      "type": "套利",
+      "tags": [
+        "黄金代币",
+        "赎回"
+      ],
+      "signal_strength": "weak",
+      "observation": "2026-10-16 01:00 UTC",
+      "summary": "销毁提货与向服务商转交代币的费用不同；黄金含量不是含费交付报价。",
+      "path": "2026-10-16/09-00-21-【套利】-DGLD实物退出与黄金折价成本.md",
+      "sha": "ed1fde71da7c61e1d8becd4899bc88110a21370d",
+      "date": "2026-10-16",
+      "time": "09:00:21",
+      "title": "DGLD：实物提取的两套费用",
+      "url": "/X-feed-pages/2026-10-16/09-00-21-%E3%80%90%E5%A5%97%E5%88%A9%E3%80%91-DGLD%E5%AE%9E%E7%89%A9%E9%80%80%E5%87%BA%E4%B8%8E%E9%BB%84%E9%87%91%E6%8A%98%E4%BB%B7%E6%88%90%E6%9C%AC.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-10-16/09-00-21-%E3%80%90%E5%A5%97%E5%88%A9%E3%80%91-DGLD%E5%AE%9E%E7%89%A9%E9%80%80%E5%87%BA%E4%B8%8E%E9%BB%84%E9%87%91%E6%8A%98%E4%BB%B7%E6%88%90%E6%9C%AC.md"
+    },
+    {
+      "type": "CEX",
+      "tags": [
+        "CEX",
+        "稳定币",
+        "汇率风险"
+      ],
+      "signal_strength": "weak",
+      "observation": "报告发送时间：2026-10-15 00:09:31 北京时间；观察与评级时间：2026-10-14 16:08 UTC。",
+      "summary": "KGST阶梯加息按数量加权，索姆汇率敞口可能抵消币本位收益；30天理想阈值不等当前剩余奖励，零交易费也不消除点差与汇损。",
+      "path": "2026-10-15/00-09-31-【CEX】-KGST高息与索姆汇率敞口.md",
+      "sha": "27497cfdd9a5939f73348a687555549d177503eb",
+      "date": "2026-10-15",
+      "time": "00:09:31",
+      "title": "KGST最高14%与索姆汇率敞口",
+      "url": "/X-feed-pages/2026-10-15/00-09-31-%E3%80%90CEX%E3%80%91-KGST%E9%AB%98%E6%81%AF%E4%B8%8E%E7%B4%A2%E5%A7%86%E6%B1%87%E7%8E%87%E6%95%9E%E5%8F%A3.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-10-15/00-09-31-%E3%80%90CEX%E3%80%91-KGST%E9%AB%98%E6%81%AF%E4%B8%8E%E7%B4%A2%E5%A7%86%E6%B1%87%E7%8E%87%E6%95%9E%E5%8F%A3.md"
+    },
+    {
+      "type": "DeFi",
+      "tags": [
+        "DeFi",
+        "资产退出"
+      ],
+      "observation": "报告发送时间：2026-10-14 23:48:10 北京时间；原始观察时间：2026-10-14 15:47 UTC；官方退出文章标注Sep 2026，具体日及FAQ发布日期未列。",
+      "summary": "Lisk关链前的既有资产退出涉及解除质押、prove与claim；跨链等待与奖励领取应预留时间，具体费用及资产路径仍须核实。",
+      "path": "2026-10-14/23-48-10-【DeFi】-Lisk关链与旧资产退出窗口.md",
+      "sha": "69d289fee575454c5bc87500c0cac9c6e4cbe55a",
+      "date": "2026-10-14",
+      "time": "23:48:10",
+      "title": "Lisk关链与旧资产退出窗口",
+      "url": "/X-feed-pages/2026-10-14/23-48-10-%E3%80%90DeFi%E3%80%91-Lisk%E5%85%B3%E9%93%BE%E4%B8%8E%E6%97%A7%E8%B5%84%E4%BA%A7%E9%80%80%E5%87%BA%E7%AA%97%E5%8F%A3.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-10-14/23-48-10-%E3%80%90DeFi%E3%80%91-Lisk%E5%85%B3%E9%93%BE%E4%B8%8E%E6%97%A7%E8%B5%84%E4%BA%A7%E9%80%80%E5%87%BA%E7%AA%97%E5%8F%A3.md"
+    },
+    {
+      "type": "量化",
+      "tags": [
+        "量化",
+        "积分估值"
+      ],
+      "signal_strength": "weak",
+      "observation": "报告发送时间：2026-10-14 23:45:33 北京时间；评级观察时间：2026-10-14 15:45 UTC；原公告日期：2026-08-06、2026-09-30、2026-10-08。",
+      "summary": "SGT 分配比例、Peaks 分母及预期 TGE 的变更影响每点份额与兑现时间；条件比较约增2.325%不是现金收益，PT与YT权益须分开。",
+      "path": "2026-10-14/23-45-33-【量化】-SIERRA积分份额与兑现延后.md",
+      "sha": "c564697786b8c1483097c37b6e0ec6ba7ceb4c06",
+      "date": "2026-10-14",
+      "time": "23:45:33",
+      "title": "SIERRA 积分分配调整与 TGE 延后",
+      "url": "/X-feed-pages/2026-10-14/23-45-33-%E3%80%90%E9%87%8F%E5%8C%96%E3%80%91-SIERRA%E7%A7%AF%E5%88%86%E4%BB%BD%E9%A2%9D%E4%B8%8E%E5%85%91%E7%8E%B0%E5%BB%B6%E5%90%8E.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-10-14/23-45-33-%E3%80%90%E9%87%8F%E5%8C%96%E3%80%91-SIERRA%E7%A7%AF%E5%88%86%E4%BB%BD%E9%A2%9D%E4%B8%8E%E5%85%91%E7%8E%B0%E5%BB%B6%E5%90%8E.md"
+    },
+    {
+      "type": "套利",
+      "tags": [
+        "套利",
+        "事件驱动",
+        "ETF",
+        "DOGE",
+        "清算"
+      ],
+      "signal_strength": "weak",
+      "observation": "报告发送时间：2026-10-14 23:22:19 北京时间；原始观察及评级时间：2026-10-14 15:19 UTC；原公告日期：2026-09-10。",
+      "summary": "BWOW 清算将改变残余 DOGE 对冲敞口；历史折价与未来派现金额不能等同，实时价格、负债及全成本仍未齐。",
+      "path": "2026-10-14/23-22-19-【套利】-BWOW清算与对冲敞口.md",
+      "sha": "cd9410bf856759b614b3f9ef5038258f9efb5881",
+      "date": "2026-10-14",
+      "time": "23:22:19",
+      "title": "BWOW清算：历史折价与变化中的DOGE对冲敞口",
+      "url": "/X-feed-pages/2026-10-14/23-22-19-%E3%80%90%E5%A5%97%E5%88%A9%E3%80%91-BWOW%E6%B8%85%E7%AE%97%E4%B8%8E%E5%AF%B9%E5%86%B2%E6%95%9E%E5%8F%A3.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-10-14/23-22-19-%E3%80%90%E5%A5%97%E5%88%A9%E3%80%91-BWOW%E6%B8%85%E7%AE%97%E4%B8%8E%E5%AF%B9%E5%86%B2%E6%95%9E%E5%8F%A3.md"
+    },
+    {
+      "type": "DEX",
+      "tags": [
+        "DEX",
+        "Uniswap v4",
+        "动态手续费",
+        "套利成本",
+        "机制研究"
+      ],
+      "observation": "报告发送时间：2026-10-14 23:16:35 北京时间；原始观察时间：2026-10-14 15:12–15:15 UTC；原公告日期：2026-10-14。",
+      "summary": "VolatilePair 的永久费、临时反向费和块内附加费如何影响价差判断；官方示例配置与小额条件算式不能替代主网报价。",
+      "path": "2026-10-14/23-16-35-【DEX】-VolatilePair反向费用与价差.md",
+      "sha": "0d2b69518d2273896929804086de6596af40d58b",
+      "date": "2026-10-14",
+      "time": "23:16:35",
+      "title": "VolatilePair Hook：反向手续费如何吃掉可见价差",
+      "url": "/X-feed-pages/2026-10-14/23-16-35-%E3%80%90DEX%E3%80%91-VolatilePair%E5%8F%8D%E5%90%91%E8%B4%B9%E7%94%A8%E4%B8%8E%E4%BB%B7%E5%B7%AE.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-10-14/23-16-35-%E3%80%90DEX%E3%80%91-VolatilePair%E5%8F%8D%E5%90%91%E8%B4%B9%E7%94%A8%E4%B8%8E%E4%BB%B7%E5%B7%AE.md"
+    },
+    {
+      "type": "打新",
+      "tags": [
+        "打新",
+        "新发行",
+        "估值",
+        "归属期"
+      ],
+      "signal_strength": "weak",
+      "observation": "报告发送时间：2026-10-14 23:09:40 北京时间；观察及评级时间：2026-10-14 15:08 UTC；发行方通稿日期：2026-10-09。",
+      "summary": "比较三档认购价格和累计解锁数量，区分折扣、数量增加及资金等待的条件模型。",
+      "path": "2026-10-14/23-09-40-【打新】-ALLOX折扣与解锁等待.md",
+      "sha": "3a26f00e3b74fed6eabbee839927d8bcf6656c35",
+      "date": "2026-10-14",
+      "time": "23:09:40",
+      "title": "ALLOX公售：折扣与解锁数量的等待代价",
+      "url": "/X-feed-pages/2026-10-14/23-09-40-%E3%80%90%E6%89%93%E6%96%B0%E3%80%91-ALLOX%E6%8A%98%E6%89%A3%E4%B8%8E%E8%A7%A3%E9%94%81%E7%AD%89%E5%BE%85.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-10-14/23-09-40-%E3%80%90%E6%89%93%E6%96%B0%E3%80%91-ALLOX%E6%8A%98%E6%89%A3%E4%B8%8E%E8%A7%A3%E9%94%81%E7%AD%89%E5%BE%85.md"
+    },
+    {
+      "type": "CEX",
+      "tags": [
+        "CEX",
+        "空投",
+        "激励",
+        "成本测算"
+      ],
+      "signal_strength": "weak",
+      "observation": "报告发送时间：2026-10-14 23:04:29 北京时间；观察及评级时间：2026-10-14 15:03 UTC；原公告日期：2026-10-14。",
+      "summary": "按累计成交额计算首档与升档的奖励费用覆盖价，区分新用户资格、积分价值及实际兑现成本。",
+      "path": "2026-10-14/23-04-29-【CEX】-DOPE首档与升档成本.md",
+      "sha": "d6d41a090b1b387ed170ace4d2ae3a7c96c7255b",
+      "date": "2026-10-14",
+      "time": "23:04:29",
+      "title": "DOPE交易奖励：首档与升档的边际成本",
+      "url": "/X-feed-pages/2026-10-14/23-04-29-%E3%80%90CEX%E3%80%91-DOPE%E9%A6%96%E6%A1%A3%E4%B8%8E%E5%8D%87%E6%A1%A3%E6%88%90%E6%9C%AC.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-10-14/23-04-29-%E3%80%90CEX%E3%80%91-DOPE%E9%A6%96%E6%A1%A3%E4%B8%8E%E5%8D%87%E6%A1%A3%E6%88%90%E6%9C%AC.md"
+    },
+    {
+      "type": "早期观察",
+      "tags": [
+        "早期观察",
+        "链上数据",
+        "激励",
+        "Kleros"
+      ],
+      "signal_strength": "weak",
+      "observation": "报告发送时间：2026-10-14 23:03:14 北京时间；观察及评级时间：2026-10-14 15:01 UTC；原公告日期：2026-10-01。",
+      "summary": "比较交易次数与平方根份额改权重后的奖励变化，识别单条封顶对筛选价值的影响。",
+      "path": "2026-10-14/23-03-14-【早期观察】-Kleros奖励权重与封顶筛选.md",
+      "sha": "30a11efdd6b3e580100acb38b78d0c4a9a249357",
+      "date": "2026-10-14",
+      "time": "23:03:14",
+      "title": "Kleros Scout：奖励改权重后，哪些条目值得筛选？",
+      "url": "/X-feed-pages/2026-10-14/23-03-14-%E3%80%90%E6%97%A9%E6%9C%9F%E8%A7%82%E5%AF%9F%E3%80%91-Kleros%E5%A5%96%E5%8A%B1%E6%9D%83%E9%87%8D%E4%B8%8E%E5%B0%81%E9%A1%B6%E7%AD%9B%E9%80%89.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-10-14/23-03-14-%E3%80%90%E6%97%A9%E6%9C%9F%E8%A7%82%E5%AF%9F%E3%80%91-Kleros%E5%A5%96%E5%8A%B1%E6%9D%83%E9%87%8D%E4%B8%8E%E5%B0%81%E9%A1%B6%E7%AD%9B%E9%80%89.md"
+    },
+    {
+      "type": "CEX",
+      "tags": [
+        "交易激励",
+        "期货",
+        "奖励分配"
+      ],
+      "signal_strength": "weak",
+      "observation": "报告发送时间：2026-10-13 16:23:34 北京时间；观察及评级时间：2026-10-13 08:04–08:07 UTC",
+      "path": "2026-10-13/16-23-34-【CEX】-Kraken加权成交与尾池奖励.md",
+      "sha": "2750300dae4193392b45678338c4b3287b658b4f",
+      "date": "2026-10-13",
+      "time": "16:23:34",
+      "title": "Kraken新赛为何可能让第51名比第50名拿得多",
+      "summary": "主类型：CEX",
+      "url": "/X-feed-pages/2026-10-13/16-23-34-%E3%80%90CEX%E3%80%91-Kraken%E5%8A%A0%E6%9D%83%E6%88%90%E4%BA%A4%E4%B8%8E%E5%B0%BE%E6%B1%A0%E5%A5%96%E5%8A%B1.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-10-13/16-23-34-%E3%80%90CEX%E3%80%91-Kraken%E5%8A%A0%E6%9D%83%E6%88%90%E4%BA%A4%E4%B8%8E%E5%B0%BE%E6%B1%A0%E5%A5%96%E5%8A%B1.md"
+    },
+    {
+      "type": "量化",
+      "tags": [
+        "空投",
+        "领取时机",
+        "Treehouse"
+      ],
+      "signal_strength": "weak",
+      "observation": "报告发送时间：2026-10-13 12:18:25 北京时间；评级与规则计算观察时间：2026-10-13 04:08:42.711 UTC",
+      "summary": "单次领取会终止剩余归属；比较现领数量与等待满额的条件价格阈值，实际卖价及个人资格仍未验证。",
+      "path": "2026-10-13/12-18-25-【量化】-Treehouse单次领取与等待阈值.md",
+      "sha": "dd6e7af87535567b968c8e5cbf8a03631d7c4e74",
+      "date": "2026-10-13",
+      "time": "12:18:25",
+      "title": "Treehouse S2：现在领，会放弃多少 TREE？",
+      "url": "/X-feed-pages/2026-10-13/12-18-25-%E3%80%90%E9%87%8F%E5%8C%96%E3%80%91-Treehouse%E5%8D%95%E6%AC%A1%E9%A2%86%E5%8F%96%E4%B8%8E%E7%AD%89%E5%BE%85%E9%98%88%E5%80%BC.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-10-13/12-18-25-%E3%80%90%E9%87%8F%E5%8C%96%E3%80%91-Treehouse%E5%8D%95%E6%AC%A1%E9%A2%86%E5%8F%96%E4%B8%8E%E7%AD%89%E5%BE%85%E9%98%88%E5%80%BC.md"
+    },
+    {
+      "type": "打新",
+      "tags": [
+        "发行",
+        "归属",
+        "认购",
+        "M5L"
+      ],
+      "summary": "比较同价认购的累计归属和条件资金等待时间，区分项目参考价、实际获配与未来兑现。",
+      "observation": "报告发送时间：2026-10-13 11:34:26 北京时间；原始观察：2026-10-13 03:17–03:21 UTC；Docs更新于2026-09-13，私募计划开始于2026-08-21。",
+      "path": "2026-10-13/11-34-26-【打新】-M5L同价认购与归属差异.md",
+      "sha": "a6f83b2fbf8b37dd3778b4051ffd8a4beb3033a2",
+      "date": "2026-10-13",
+      "time": "11:34:26",
+      "title": "M5L 私募与公募同价 提前付款换来什么",
+      "url": "/X-feed-pages/2026-10-13/11-34-26-%E3%80%90%E6%89%93%E6%96%B0%E3%80%91-M5L%E5%90%8C%E4%BB%B7%E8%AE%A4%E8%B4%AD%E4%B8%8E%E5%BD%92%E5%B1%9E%E5%B7%AE%E5%BC%82.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-10-13/11-34-26-%E3%80%90%E6%89%93%E6%96%B0%E3%80%91-M5L%E5%90%8C%E4%BB%B7%E8%AE%A4%E8%B4%AD%E4%B8%8E%E5%BD%92%E5%B1%9E%E5%B7%AE%E5%BC%82.md"
+    },
+    {
+      "type": "CEX",
+      "tags": [
+        "USDC奖励",
+        "抽奖期望值",
+        "Simple Perps",
+        "交易成本"
+      ],
+      "signal_strength": "weak",
+      "summary": "在明确等概率假设下核算奖池阶梯的名义期望值，并与新增收费成交额情景比较。",
+      "observation": "报告发送时间：2026-10-13 08:13:24 北京时间；评级观察时间：2026-10-13 00:13 UTC；原始读取时间：2026-10-13 00:00–00:02 UTC；活动表格更新日期2026-10-12。",
+      "path": "2026-10-13/08-13-24-【CEX】-VALR奖池阶梯与成交成本.md",
+      "sha": "4175e15df82ea977ebc8388b6c4227acad9e2de7",
+      "date": "2026-10-13",
+      "time": "08:13:24",
+      "title": "10万奖池为何不等于高回报：VALR抽奖与成交成本",
+      "url": "/X-feed-pages/2026-10-13/08-13-24-%E3%80%90CEX%E3%80%91-VALR%E5%A5%96%E6%B1%A0%E9%98%B6%E6%A2%AF%E4%B8%8E%E6%88%90%E4%BA%A4%E6%88%90%E6%9C%AC.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-10-13/08-13-24-%E3%80%90CEX%E3%80%91-VALR%E5%A5%96%E6%B1%A0%E9%98%B6%E6%A2%AF%E4%B8%8E%E6%88%90%E4%BA%A4%E6%88%90%E6%9C%AC.md"
+    },
+    {
+      "type": "早期观察",
+      "tags": [
+        "代币迁移",
+        "测试网",
+        "权益",
+        "ndau",
+        "REVO"
+      ],
+      "summary": "区分历史余额换币数量、测试网资产与未来主网计划，核对申请完成窗口及索赔豁免的保留例外。",
+      "observation": "报告发送时间：2026-10-13 02:19:39 北京时间；原始观察时间：2026-10-12 18:11–18:13 UTC；页面修订日期未标明。",
+      "path": "2026-10-13/02-19-39-【早期观察】-ndau换币数量与权利豁免.md",
+      "sha": "093d12a2c447f202c4b1beef51ab97be6d4197ed",
+      "date": "2026-10-13",
+      "time": "02:19:39",
+      "title": "ndau 的 6.872 倍换币：先拿测试网资产，还需评估权利豁免",
+      "url": "/X-feed-pages/2026-10-13/02-19-39-%E3%80%90%E6%97%A9%E6%9C%9F%E8%A7%82%E5%AF%9F%E3%80%91-ndau%E6%8D%A2%E5%B8%81%E6%95%B0%E9%87%8F%E4%B8%8E%E6%9D%83%E5%88%A9%E8%B1%81%E5%85%8D.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-10-13/02-19-39-%E3%80%90%E6%97%A9%E6%9C%9F%E8%A7%82%E5%AF%9F%E3%80%91-ndau%E6%8D%A2%E5%B8%81%E6%95%B0%E9%87%8F%E4%B8%8E%E6%9D%83%E5%88%A9%E8%B1%81%E5%85%8D.md"
+    },
+    {
+      "type": "DEX",
+      "tags": [
+        "Uniswap v4",
+        "NFT",
+        "流动性激励",
+        "赎回定价"
+      ],
+      "signal_strength": "weak",
+      "summary": "以1.656 ETH可见挂牌推导50000 CLAUS净卖出门槛；退出报价未核，质押奖励另按同轮有效权重分析。",
+      "observation": "报告发送时间：2026-10-13 00:59:02 北京时间；评级观察时间：2026-10-12 16:58 UTC；原始读取：16:42:57–16:47:42 UTC；费用JSON状态15:28:48.070 UTC，Funding状态16:35:37.779 UTC，OpenSea读取16:47 UTC，均为2026-10-12。",
+      "path": "2026-10-13/00-59-02-【DEX】-CLAUS代币背书与NFT回收门槛.md",
+      "sha": "641ff78f51a18c95eea97e29ebb6d706b670cbca",
+      "date": "2026-10-13",
+      "time": "00:59:02",
+      "title": "CLAUS NFT 挂牌与 50000 枚代币背书的回收门槛",
+      "url": "/X-feed-pages/2026-10-13/00-59-02-%E3%80%90DEX%E3%80%91-CLAUS%E4%BB%A3%E5%B8%81%E8%83%8C%E4%B9%A6%E4%B8%8ENFT%E5%9B%9E%E6%94%B6%E9%97%A8%E6%A7%9B.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-10-13/00-59-02-%E3%80%90DEX%E3%80%91-CLAUS%E4%BB%A3%E5%B8%81%E8%83%8C%E4%B9%A6%E4%B8%8ENFT%E5%9B%9E%E6%94%B6%E9%97%A8%E6%A7%9B.md"
+    },
+    {
+      "type": "量化",
+      "tags": [
+        "量化",
+        "借贷",
+        "资金管理",
+        "Ledn"
+      ],
+      "summary": "以公开续贷规则推导现金清费与出售抵押品的不同结果，区分旧期结清、新期成本及最低贷款额。",
+      "observation": "报告发送时间：2026-10-13 00:37:06 北京时间；原始观察时间：2026-10-12 16:26:25.724–16:27:57.313 UTC；规则公告日期：2026-09-10，生效日：2027-01-01。",
+      "path": "2026-10-13/00-37-06-【量化】-Ledn续贷现金缺口与抵押品出售.md",
+      "sha": "547a6d3bebc0096e10743ed533fd22f04b512b96",
+      "date": "2026-10-13",
+      "time": "00:37:06",
+      "title": "Ledn 续贷为何可能卖出超过应付利息的 BTC",
+      "url": "/X-feed-pages/2026-10-13/00-37-06-%E3%80%90%E9%87%8F%E5%8C%96%E3%80%91-Ledn%E7%BB%AD%E8%B4%B7%E7%8E%B0%E9%87%91%E7%BC%BA%E5%8F%A3%E4%B8%8E%E6%8A%B5%E6%8A%BC%E5%93%81%E5%87%BA%E5%94%AE.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-10-13/00-37-06-%E3%80%90%E9%87%8F%E5%8C%96%E3%80%91-Ledn%E7%BB%AD%E8%B4%B7%E7%8E%B0%E9%87%91%E7%BC%BA%E5%8F%A3%E4%B8%8E%E6%8A%B5%E6%8A%BC%E5%93%81%E5%87%BA%E5%94%AE.md"
+    },
+    {
+      "type": "DeFi",
+      "tags": [
+        "质押奖励",
+        "奖励领取",
+        "换币",
+        "QDAY"
+      ],
+      "summary": "QDAY旧质押停止累计奖励后的主动领取与未来换币安排",
+      "observation": "原始观察2026-10-12 12:02–12:03 UTC；报告发送2026-10-12 20:12:56北京时间。原公告2026年10月9日。",
+      "path": "2026-10-12/20-12-56-【DeFi】-QDAY停奖与本金奖励领取窗口.md",
+      "sha": "fa943fc465636540678e2a084168bcc3097d68ea",
+      "date": "2026-10-12",
+      "time": "20:12:56",
+      "title": "QDAY旧质押：10月15日停奖，解除质押后仍需主动领取",
+      "url": "/X-feed-pages/2026-10-12/20-12-56-%E3%80%90DeFi%E3%80%91-QDAY%E5%81%9C%E5%A5%96%E4%B8%8E%E6%9C%AC%E9%87%91%E5%A5%96%E5%8A%B1%E9%A2%86%E5%8F%96%E7%AA%97%E5%8F%A3.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-10-12/20-12-56-%E3%80%90DeFi%E3%80%91-QDAY%E5%81%9C%E5%A5%96%E4%B8%8E%E6%9C%AC%E9%87%91%E5%A5%96%E5%8A%B1%E9%A2%86%E5%8F%96%E7%AA%97%E5%8F%A3.md"
+    },
+    {
+      "type": "打新",
+      "tags": [
+        "打新",
+        "Aztec",
+        "拍卖机制"
+      ],
+      "summary": "Aztec连续拍卖成交成本与资金退出的历史机制研究",
+      "observation": "原始观察2026-10-12 11:09–11:12 UTC；报告发送2026-10-12 19:18:23北京时间。历史发行2025年11–12月，复盘发表于2026年2月10日。",
+      "path": "2026-10-12/19-18-23-【打新】-Aztec连续拍卖成交价与退出成本.md",
+      "sha": "93aff90b8365f1e89e311a73a723b57b27db5df0",
+      "date": "2026-10-12",
+      "time": "19:18:23",
+      "title": "Aztec CCA 拍卖终价上涨60%，为什么不等于买家赚60%",
+      "url": "/X-feed-pages/2026-10-12/19-18-23-%E3%80%90%E6%89%93%E6%96%B0%E3%80%91-Aztec%E8%BF%9E%E7%BB%AD%E6%8B%8D%E5%8D%96%E6%88%90%E4%BA%A4%E4%BB%B7%E4%B8%8E%E9%80%80%E5%87%BA%E6%88%90%E6%9C%AC.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-10-12/19-18-23-%E3%80%90%E6%89%93%E6%96%B0%E3%80%91-Aztec%E8%BF%9E%E7%BB%AD%E6%8B%8D%E5%8D%96%E6%88%90%E4%BA%A4%E4%BB%B7%E4%B8%8E%E9%80%80%E5%87%BA%E6%88%90%E6%9C%AC.md"
+    },
+    {
+      "type": "量化",
+      "tags": [
+        "量化",
+        "基差",
+        "期权",
+        "融资成本"
+      ],
+      "summary": "权利金收入、三腿费用与合成融资保证金的金额验证",
+      "observation": "原始观察2026-10-12 07:30:50.206–07:30:51.217 UTC；报告发送2026-10-12 15:42:36北京时间。",
+      "path": "2026-10-12/15-42-36-【量化】-权利金收入与合成融资成本.md",
+      "sha": "acea9211f65bac8e39d5c92840536e1b05fd0a89",
+      "date": "2026-10-12",
+      "time": "15:42:36",
+      "title": "收到0.60 USDC权利金，为何仍需约179.84 USDC模型初始资金？BTC合成远期实测",
+      "url": "/X-feed-pages/2026-10-12/15-42-36-%E3%80%90%E9%87%8F%E5%8C%96%E3%80%91-%E6%9D%83%E5%88%A9%E9%87%91%E6%94%B6%E5%85%A5%E4%B8%8E%E5%90%88%E6%88%90%E8%9E%8D%E8%B5%84%E6%88%90%E6%9C%AC.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-10-12/15-42-36-%E3%80%90%E9%87%8F%E5%8C%96%E3%80%91-%E6%9D%83%E5%88%A9%E9%87%91%E6%94%B6%E5%85%A5%E4%B8%8E%E5%90%88%E6%88%90%E8%9E%8D%E8%B5%84%E6%88%90%E6%9C%AC.md"
+    },
+    {
+      "type": "套利",
+      "tags": [
+        "套利",
+        "BTC",
+        "基差",
+        "融资成本"
+      ],
+      "signal_strength": "weak",
+      "summary": "BTC期限基差与全初始资本融资门槛",
+      "observation": "评级观察2026-10-12 06:34:43–06:34:52 UTC；报告发送2026-10-12 14:50:52北京时间。",
+      "path": "2026-10-12/14-50-52-【套利】-BTC期限基差与融资门槛.md",
+      "sha": "61db78e6ee7568ba164c5ab30bd628bfec3b1f22",
+      "date": "2026-10-12",
+      "time": "14:50:52",
+      "title": "这批 BTC 到期期货，最长一档只多给约 2 个基点的年化融资空间",
+      "url": "/X-feed-pages/2026-10-12/14-50-52-%E3%80%90%E5%A5%97%E5%88%A9%E3%80%91-BTC%E6%9C%9F%E9%99%90%E5%9F%BA%E5%B7%AE%E4%B8%8E%E8%9E%8D%E8%B5%84%E9%97%A8%E6%A7%9B.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-10-12/14-50-52-%E3%80%90%E5%A5%97%E5%88%A9%E3%80%91-BTC%E6%9C%9F%E9%99%90%E5%9F%BA%E5%B7%AE%E4%B8%8E%E8%9E%8D%E8%B5%84%E9%97%A8%E6%A7%9B.md"
+    },
+    {
+      "type": "CEX",
+      "tags": [
+        "CEX",
+        "权益兑换"
+      ],
+      "signal_strength": "weak",
+      "summary": "BitoPro旧点数兑换期限",
+      "observation": "评级观察2026-10-12 04:29–04:35 UTC；报告发送2026-10-12 12:42:31北京时间。",
+      "path": "2026-10-12/12-42-31-【CEX】-BitoPro旧点数兑换期限.md",
+      "sha": "2520b2f6f8c693c962e81872d91528286e2a9ec6",
+      "date": "2026-10-12",
+      "time": "12:42:31",
+      "title": "BitoPro旧点数的2026年10月14日兑换窗口",
+      "url": "/X-feed-pages/2026-10-12/12-42-31-%E3%80%90CEX%E3%80%91-BitoPro%E6%97%A7%E7%82%B9%E6%95%B0%E5%85%91%E6%8D%A2%E6%9C%9F%E9%99%90.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-10-12/12-42-31-%E3%80%90CEX%E3%80%91-BitoPro%E6%97%A7%E7%82%B9%E6%95%B0%E5%85%91%E6%8D%A2%E6%9C%9F%E9%99%90.md"
+    },
+    {
+      "type": "DeFi",
+      "tags": [
+        "DeFi",
+        "GAIB",
+        "奖励"
+      ],
+      "signal_strength": "weak",
+      "summary": "GAIB月度奖励与退出条件",
+      "observation": "评级观察2026-10-12 02:10–02:16 UTC；报告发送2026-10-12 10:26:56北京时间。",
+      "path": "2026-10-12/10-26-56-【DeFi】-GAIB月度奖励与退出条件.md",
+      "sha": "7f9631a60bf7bdafc75b49f3d44860f55a46f27a",
+      "date": "2026-10-12",
+      "time": "10:26:56",
+      "title": "GAIB月度奖励：300美元门槛之后，还有资格与退出问题",
+      "url": "/X-feed-pages/2026-10-12/10-26-56-%E3%80%90DeFi%E3%80%91-GAIB%E6%9C%88%E5%BA%A6%E5%A5%96%E5%8A%B1%E4%B8%8E%E9%80%80%E5%87%BA%E6%9D%A1%E4%BB%B6.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-10-12/10-26-56-%E3%80%90DeFi%E3%80%91-GAIB%E6%9C%88%E5%BA%A6%E5%A5%96%E5%8A%B1%E4%B8%8E%E9%80%80%E5%87%BA%E6%9D%A1%E4%BB%B6.md"
+    },
+    {
+      "type": "CEX",
+      "tags": [
+        "CEX",
+        "Bitso",
+        "迁移"
+      ],
+      "summary": "Bitso巴西迁移：自动换USDC，价格没有锁定",
+      "observation": "原始观察2026-10-12 01:43 UTC；报告发送2026-10-12 09:54:38北京时间。",
+      "path": "2026-10-12/09-54-38-【CEX】-Bitso巴西迁移与兑换风险.md",
+      "sha": "f200e3bdec7ed72d857ad61d907754a4e6fd2a9c",
+      "date": "2026-10-12",
+      "time": "09:54:38",
+      "title": "Bitso巴西迁移：自动换USDC，价格没有锁定",
+      "url": "/X-feed-pages/2026-10-12/09-54-38-%E3%80%90CEX%E3%80%91-Bitso%E5%B7%B4%E8%A5%BF%E8%BF%81%E7%A7%BB%E4%B8%8E%E5%85%91%E6%8D%A2%E9%A3%8E%E9%99%A9.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-10-12/09-54-38-%E3%80%90CEX%E3%80%91-Bitso%E5%B7%B4%E8%A5%BF%E8%BF%81%E7%A7%BB%E4%B8%8E%E5%85%91%E6%8D%A2%E9%A3%8E%E9%99%A9.md"
+    },
+    {
+      "type": "CEX",
+      "tags": [
+        "CEX",
+        "Zaif",
+        "定投",
+        "奖励",
+        "费用"
+      ],
+      "signal_strength": "weak",
+      "summary": "六期ETH定投奖励须结合分档费用核算；条件模型未覆盖全部退出成本，资格及实际净收益未证。",
+      "observation": "评级观察2026-10-11 21:06–21:12 UTC；报告发送2026-10-12 05:21:58北京时间。六期买入要求不等于锁仓；奖励为按平台选定价折算的ETH，费用对比是条件模型。",
+      "path": "2026-10-12/05-21-58-【CEX】-Zaif定投奖励与费用门槛.md",
+      "sha": "41e1483a61b4bf8d88e89bd12ea5800f7bc6fa2c",
+      "date": "2026-10-12",
+      "time": "05:21:58",
+      "title": "Zaif ETH定投返币：最低档补贴能覆盖费用吗？",
+      "url": "/X-feed-pages/2026-10-12/05-21-58-%E3%80%90CEX%E3%80%91-Zaif%E5%AE%9A%E6%8A%95%E5%A5%96%E5%8A%B1%E4%B8%8E%E8%B4%B9%E7%94%A8%E9%97%A8%E6%A7%9B.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-10-12/05-21-58-%E3%80%90CEX%E3%80%91-Zaif%E5%AE%9A%E6%8A%95%E5%A5%96%E5%8A%B1%E4%B8%8E%E8%B4%B9%E7%94%A8%E9%97%A8%E6%A7%9B.md"
+    },
+    {
+      "type": "CEX",
+      "tags": [
+        "CEX",
+        "GMO Coin",
+        "点差",
+        "保证金"
+      ],
+      "summary": "XRP/JPY标准点差优惠改变保证金交易成本；实际报价、常规基准及其他费用未核，不能据此认定套利收益。",
+      "observation": "原始观察2026-10-11 20:14 UTC；报告发送2026-10-12 04:20:50北京时间。10月9日公告，活动列10月10日11:00至10月24日8:59，原文时区未明确。",
+      "path": "2026-10-12/04-20-50-【CEX】-GMO点差优惠与保证金成本.md",
+      "sha": "a5a3a1992bd132974c7ebb83d4b2d989a199e86e",
+      "date": "2026-10-12",
+      "time": "04:20:50",
+      "title": "GMO Coin 的 XRP/JPY 点差窗口：0.29 日元能说明什么？",
+      "url": "/X-feed-pages/2026-10-12/04-20-50-%E3%80%90CEX%E3%80%91-GMO%E7%82%B9%E5%B7%AE%E4%BC%98%E6%83%A0%E4%B8%8E%E4%BF%9D%E8%AF%81%E9%87%91%E6%88%90%E6%9C%AC.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-10-12/04-20-50-%E3%80%90CEX%E3%80%91-GMO%E7%82%B9%E5%B7%AE%E4%BC%98%E6%83%A0%E4%B8%8E%E4%BF%9D%E8%AF%81%E9%87%91%E6%88%90%E6%9C%AC.md"
+    },
+    {
+      "type": "DeFi",
+      "tags": [
+        "DeFi",
+        "Talus",
+        "空投",
+        "退出成本"
+      ],
+      "summary": "yUS官方方案仍标注延期；3%退出费与旧领取费用须分开计算，LP风险、资格和当前退出条件未核。",
+      "observation": "原始文档观察2026-10-11 17:40:16.014–17:40:16.564 UTC；报告发送2026-10-12 01:46:49北京时间。延期页无更新日期；2025年11月24日领取公告是历史规则，不代表当前可领。",
+      "path": "2026-10-12/01-46-49-【DeFi】-Talus延期空投与退出成本.md",
+      "sha": "9498a872640f7b3c6e06f9833b55585a08354ab8",
+      "date": "2026-10-12",
+      "time": "01:46:49",
+      "title": "Talus yUS 延期方案中的空投兑现成本",
+      "url": "/X-feed-pages/2026-10-12/01-46-49-%E3%80%90DeFi%E3%80%91-Talus%E5%BB%B6%E6%9C%9F%E7%A9%BA%E6%8A%95%E4%B8%8E%E9%80%80%E5%87%BA%E6%88%90%E6%9C%AC.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-10-12/01-46-49-%E3%80%90DeFi%E3%80%91-Talus%E5%BB%B6%E6%9C%9F%E7%A9%BA%E6%8A%95%E4%B8%8E%E9%80%80%E5%87%BA%E6%88%90%E6%9C%AC.md"
+    },
+    {
+      "type": "CEX",
+      "tags": [
+        "CEX",
+        "SHX",
+        "提现费用"
+      ],
+      "summary": "SHX每次提现费由300枚降至0；已有余额的成本改善与新买入的完整退出成本须分开，资格与当前价格仍未知。",
+      "observation": "原公告2026-09-18；原始观察2026-10-11 15:39:31.592–15:39:32.268 UTC；报告发送2026-10-11 23:49:39北京时间。窗口截至10月16日17:00日本时间，操作时间与实际到账不同。",
+      "path": "2026-10-11/23-49-39-【CEX】-SHX提现费减免与退出条件.md",
+      "sha": "54592459c41b9069aeaadcc209ab626b50e9e6e8",
+      "date": "2026-10-11",
+      "time": "23:49:39",
+      "title": "BitTrade SHX 提现费窗口：已有余额的退出成本变化",
+      "url": "/X-feed-pages/2026-10-11/23-49-39-%E3%80%90CEX%E3%80%91-SHX%E6%8F%90%E7%8E%B0%E8%B4%B9%E5%87%8F%E5%85%8D%E4%B8%8E%E9%80%80%E5%87%BA%E6%9D%A1%E4%BB%B6.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-10-11/23-49-39-%E3%80%90CEX%E3%80%91-SHX%E6%8F%90%E7%8E%B0%E8%B4%B9%E5%87%8F%E5%85%8D%E4%B8%8E%E9%80%80%E5%87%BA%E6%9D%A1%E4%BB%B6.md"
+    },
+    {
+      "type": "CEX",
+      "tags": [
+        "CEX",
+        "STABLE",
+        "代币奖励",
+        "排名竞赛"
+      ],
+      "signal_strength": "weak",
+      "summary": "两期排名奖励每期前2000名各1925枚；早鸟与新人额度按加法公式，资格、排名门槛和退出价未知，净收益未证。",
+      "observation": "评级观察2026-10-11 10:40:48.766 UTC；原始观察2026-10-11 10:39:34.891–10:40:48.766 UTC；报告发送2026-10-11 18:53:15北京时间。10月9日公告；第一期2倍早鸟截至10月11日13:00 UTC，领取期限自实际开放起14天。",
+      "path": "2026-10-11/18-53-15-【CEX】-STABLE两期奖励与排名门槛.md",
+      "sha": "bf77ec6494b3abf3aec683f6eca482cb4a9589a6",
+      "date": "2026-10-11",
+      "time": "18:53:15",
+      "title": "STABLE 两期奖励：1,925 枚与排名门槛",
+      "url": "/X-feed-pages/2026-10-11/18-53-15-%E3%80%90CEX%E3%80%91-STABLE%E4%B8%A4%E6%9C%9F%E5%A5%96%E5%8A%B1%E4%B8%8E%E6%8E%92%E5%90%8D%E9%97%A8%E6%A7%9B.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-10-11/18-53-15-%E3%80%90CEX%E3%80%91-STABLE%E4%B8%A4%E6%9C%9F%E5%A5%96%E5%8A%B1%E4%B8%8E%E6%8E%92%E5%90%8D%E9%97%A8%E6%A7%9B.md"
+    },
+    {
+      "type": "DeFi",
+      "tags": [
+        "DeFi",
+        "Hashi",
+        "BTC抵押",
+        "退出条件"
+      ],
+      "summary": "Hashi月末分阶段上线计划涉及BTC抵押融资与hBTC退出；资本承诺、借款和用户收益须分开，当前报价与资格仍未齐。",
+      "observation": "原始观察2026-10-11 09:59–10:01 UTC；报告发送2026-10-11 18:06:33北京时间。10月8日公告为未来分阶段计划，产品页仍有测试标签；无当前金额报价。",
+      "path": "2026-10-11/18-06-33-【DeFi】-Hashi上线计划与BTC退出条件.md",
+      "sha": "0035b52fdf27a58197960c3cbccd42352c319241",
+      "date": "2026-10-11",
+      "time": "18:06:33",
+      "title": "Hashi 月底上线计划：BTC 抵押借款与 hBTC 退出条件",
+      "url": "/X-feed-pages/2026-10-11/18-06-33-%E3%80%90DeFi%E3%80%91-Hashi%E4%B8%8A%E7%BA%BF%E8%AE%A1%E5%88%92%E4%B8%8EBTC%E9%80%80%E5%87%BA%E6%9D%A1%E4%BB%B6.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-10-11/18-06-33-%E3%80%90DeFi%E3%80%91-Hashi%E4%B8%8A%E7%BA%BF%E8%AE%A1%E5%88%92%E4%B8%8EBTC%E9%80%80%E5%87%BA%E6%9D%A1%E4%BB%B6.md"
+    },
+    {
+      "type": "套利",
+      "tags": [
+        "套利",
+        "RWA",
+        "赎回",
+        "流动性"
+      ],
+      "summary": "HYB以折扣将赎回等待转给solver；资格、最终兑付、费用与容量仍决定真实损益，未核当前可执行报价。",
+      "observation": "原始观察2026-10-11 08:53:32.359–08:54:06.902 UTC；报告发送2026-10-11 16:59:26北京时间。9月1日旧公告；T+3与最长五个工作日并存，非当前部署或到账保证。",
+      "path": "2026-10-11/16-59-26-【套利】-HYB即时退出与等待折价.md",
+      "sha": "c0cb3e97982d937f7ab1e824f52c6414ab42549a",
+      "date": "2026-10-11",
+      "time": "16:59:26",
+      "title": "HYB 的 T+0 退出：折扣买到的是等待时间",
+      "url": "/X-feed-pages/2026-10-11/16-59-26-%E3%80%90%E5%A5%97%E5%88%A9%E3%80%91-HYB%E5%8D%B3%E6%97%B6%E9%80%80%E5%87%BA%E4%B8%8E%E7%AD%89%E5%BE%85%E6%8A%98%E4%BB%B7.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-10-11/16-59-26-%E3%80%90%E5%A5%97%E5%88%A9%E3%80%91-HYB%E5%8D%B3%E6%97%B6%E9%80%80%E5%87%BA%E4%B8%8E%E7%AD%89%E5%BE%85%E6%8A%98%E4%BB%B7.md"
+    },
+    {
+      "type": "套利",
+      "tags": [
+        "套利",
+        "Spiko",
+        "换汇",
+        "定盘风险"
+      ],
+      "summary": "零兑换费与零点差采用未来定盘；产品通道、结算和基金费用决定换汇成本，当前未建立可执行净价差。",
+      "observation": "原始资料观察2026-10-11 05:52:52.989–05:55:21.446 UTC；报告发送2026-10-11 14:03:44北京时间。9月14日公告、9月1日Smart Cash功能与2024年11月T-Bills功能分别保留；无金额报价。",
+      "path": "2026-10-11/14-03-44-【套利】-Spiko零费换汇与定盘风险.md",
+      "sha": "bf9d280d1200847915e3b6e35dea50f86498183e",
+      "date": "2026-10-11",
+      "time": "14:03:44",
+      "title": "Spiko零费换汇与定盘风险",
+      "url": "/X-feed-pages/2026-10-11/14-03-44-%E3%80%90%E5%A5%97%E5%88%A9%E3%80%91-Spiko%E9%9B%B6%E8%B4%B9%E6%8D%A2%E6%B1%87%E4%B8%8E%E5%AE%9A%E7%9B%98%E9%A3%8E%E9%99%A9.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-10-11/14-03-44-%E3%80%90%E5%A5%97%E5%88%A9%E3%80%91-Spiko%E9%9B%B6%E8%B4%B9%E6%8D%A2%E6%B1%87%E4%B8%8E%E5%AE%9A%E7%9B%98%E9%A3%8E%E9%99%A9.md"
+    },
+    {
+      "type": "DeFi",
+      "tags": [
+        "DeFi",
+        "Cork",
+        "退出权",
+        "风险定价"
+      ],
+      "summary": "cST退出权与cPT剩余资产权分开；历史权利金占名义缓冲0.3698%，不构成承保年化或当前净收益。",
+      "observation": "观察2026-10-11 00:32–00:34 UTC；报告发送2026-10-11 08:39:41北京时间。10月文章仅标月份；5月1日案例为历史反事实估算，非当前成交。",
+      "path": "2026-10-11/08-39-41-【DeFi】-Cork退出权与承保风险.md",
+      "sha": "b55009b695b8d6ae7a7e0cb7cf4bab2a411c65a0",
+      "date": "2026-10-11",
+      "time": "08:39:41",
+      "title": "Cork 把退出流动性拆成可交易的权利",
+      "url": "/X-feed-pages/2026-10-11/08-39-41-%E3%80%90DeFi%E3%80%91-Cork%E9%80%80%E5%87%BA%E6%9D%83%E4%B8%8E%E6%89%BF%E4%BF%9D%E9%A3%8E%E9%99%A9.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-10-11/08-39-41-%E3%80%90DeFi%E3%80%91-Cork%E9%80%80%E5%87%BA%E6%9D%83%E4%B8%8E%E6%89%BF%E4%BF%9D%E9%A3%8E%E9%99%A9.md"
+    },
+    {
+      "type": "CEX",
+      "tags": [
+        "CEX",
+        "现金奖励",
+        "卖出返利"
+      ],
+      "signal_strength": "weak",
+      "summary": "外国人等被排除；净入与maker卖出双门槛、总额触发分摊及发奖后交易归属，51.36USDT只是条件毛额。",
+      "observation": "评级观察2026-10-10 22:11 UTC；报告发送2026-10-11 06:14:55北京时间。活动到10月11日23:59，原文未标时区；1,363韩元为历史奖励换算，非现汇或卖价。",
+      "path": "2026-10-11/06-14-55-【CEX】-XDP卖出返利与兑现条件.md",
+      "sha": "31c95377d155bf008cd31be2b45752ac674854c2",
+      "date": "2026-10-11",
+      "time": "06:14:55",
+      "title": "Bithumb 的 XDP 卖出返利：51.36 USDT 测算背后的分摊和兑现条件",
+      "url": "/X-feed-pages/2026-10-11/06-14-55-%E3%80%90CEX%E3%80%91-XDP%E5%8D%96%E5%87%BA%E8%BF%94%E5%88%A9%E4%B8%8E%E5%85%91%E7%8E%B0%E6%9D%A1%E4%BB%B6.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-10-11/06-14-55-%E3%80%90CEX%E3%80%91-XDP%E5%8D%96%E5%87%BA%E8%BF%94%E5%88%A9%E4%B8%8E%E5%85%91%E7%8E%B0%E6%9D%A1%E4%BB%B6.md"
+    },
+    {
+      "type": "套利",
+      "tags": [
+        "套利",
+        "CME",
+        "基差",
+        "期货"
+      ],
+      "summary": "拟上市BCH与UNI期货的BTIC定价及现金腿边界；合约刻度不等于利润，现货复制与全部成本仍待金额报价。",
+      "observation": "观察2026-10-10 21:54:17–21:56:13 UTC；报告发送2026-10-11 05:59:13北京时间。9月22日公告拟10月19日上市，仍待监管审查；纯机制分析，无当前价差报价。",
+      "path": "2026-10-11/05-59-13-【套利】-CME新合约与现金基差.md",
+      "sha": "cd54cd4bf96727ee3acea6293edcc8b68637b81c",
+      "date": "2026-10-11",
+      "time": "05:59:13",
+      "title": "CME 新 BCH 与 UNI 期货的现金基差研究",
+      "url": "/X-feed-pages/2026-10-11/05-59-13-%E3%80%90%E5%A5%97%E5%88%A9%E3%80%91-CME%E6%96%B0%E5%90%88%E7%BA%A6%E4%B8%8E%E7%8E%B0%E9%87%91%E5%9F%BA%E5%B7%AE.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-10-11/05-59-13-%E3%80%90%E5%A5%97%E5%88%A9%E3%80%91-CME%E6%96%B0%E5%90%88%E7%BA%A6%E4%B8%8E%E7%8E%B0%E9%87%91%E5%9F%BA%E5%B7%AE.md"
+    },
+    {
+      "type": "山寨币估值",
+      "tags": [
+        "山寨币估值",
+        "Aztec",
+        "解锁",
+        "流通供应"
+      ],
+      "summary": "Genesis解锁日期与质押退出条件分开；销售额度不等于实际解锁量，历史购币价不构成兑付底价。",
+      "observation": "观察2026-10-10 21:45:36–21:48:01 UTC；价格页更新时间21:32:44 UTC；报告发送2026-10-11 05:50:06北京时间。旧规则未来节点，非金额报价或当前流通核验。",
+      "path": "2026-10-11/05-50-06-【山寨币估值】-Aztec解锁与实际流通边界.md",
+      "sha": "29c3921453a07ca092308edbd8082ffa42b82100",
+      "date": "2026-10-11",
+      "time": "05:50:06",
+      "title": "Aztec 11 月 Genesis 解锁：到期、退出、卖出并不是同一件事",
+      "url": "/X-feed-pages/2026-10-11/05-50-06-%E3%80%90%E5%B1%B1%E5%AF%A8%E5%B8%81%E4%BC%B0%E5%80%BC%E3%80%91-Aztec%E8%A7%A3%E9%94%81%E4%B8%8E%E5%AE%9E%E9%99%85%E6%B5%81%E9%80%9A%E8%BE%B9%E7%95%8C.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-10-11/05-50-06-%E3%80%90%E5%B1%B1%E5%AF%A8%E5%B8%81%E4%BC%B0%E5%80%BC%E3%80%91-Aztec%E8%A7%A3%E9%94%81%E4%B8%8E%E5%AE%9E%E9%99%85%E6%B5%81%E9%80%9A%E8%BE%B9%E7%95%8C.md"
+    },
+    {
+      "type": "CEX",
+      "tags": [
+        "CEX",
+        "空投",
+        "激励"
+      ],
+      "signal_strength": "weak",
+      "summary": "四池按小时分摊XDP，基础利息和180天补贴分开；个人份额、卖价与成本未齐，新增现货风险不可忽略。",
+      "observation": "评级观察2026-10-10 21:29–21:30 UTC；行情参考21:30:36.935 UTC；报告发送2026-10-11 05:32:53北京时间。奖励窗口至10月14日07:00 UTC，非成交或个人净收益。",
+      "path": "2026-10-11/05-32-53-【CEX】-XDP订阅空投与增量收益.md",
+      "sha": "c52829954aee0e978df5ae153edf2fa87da43e92",
+      "date": "2026-10-11",
+      "time": "05:32:53",
+      "title": "OKX XDP 空投订阅的小时边界与真实增量收益",
+      "url": "/X-feed-pages/2026-10-11/05-32-53-%E3%80%90CEX%E3%80%91-XDP%E8%AE%A2%E9%98%85%E7%A9%BA%E6%8A%95%E4%B8%8E%E5%A2%9E%E9%87%8F%E6%94%B6%E7%9B%8A.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-10-11/05-32-53-%E3%80%90CEX%E3%80%91-XDP%E8%AE%A2%E9%98%85%E7%A9%BA%E6%8A%95%E4%B8%8E%E5%A2%9E%E9%87%8F%E6%94%B6%E7%9B%8A.md"
+    },
+    {
+      "type": "DeFi",
+      "tags": [
+        "DeFi",
+        "股票Carry",
+        "激励",
+        "退出限制"
+      ],
+      "summary": "Apple Carry页面的APY激励与Cashback分开；管理费、绩效费及周末暂停规则不等于金额级退出保证。",
+      "observation": "观察2026-10-10 21:09 UTC，提示读取至21:09:59.504 UTC；报告发送2026-10-11 05:12:46北京时间。当前展示并非已核上线日期或净收益。",
+      "path": "2026-10-11/05-12-46-【DeFi】-股票Carry激励与周末退出.md",
+      "sha": "5023ec161b1b1159569efb8cbd1d978f3654caaa",
+      "date": "2026-10-11",
+      "time": "05:12:46",
+      "title": "股票 Carry 金库的“+10%”与周末退出限制",
+      "url": "/X-feed-pages/2026-10-11/05-12-46-%E3%80%90DeFi%E3%80%91-%E8%82%A1%E7%A5%A8Carry%E6%BF%80%E5%8A%B1%E4%B8%8E%E5%91%A8%E6%9C%AB%E9%80%80%E5%87%BA.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-10-11/05-12-46-%E3%80%90DeFi%E3%80%91-%E8%82%A1%E7%A5%A8Carry%E6%BF%80%E5%8A%B1%E4%B8%8E%E5%91%A8%E6%9C%AB%E9%80%80%E5%87%BA.md"
+    },
+    {
+      "type": "山寨币估值",
+      "tags": [
+        "山寨币估值",
+        "CAKE",
+        "回购",
+        "供应"
+      ],
+      "summary": "九月发行方披露净减少2311003CAKE；供应变化、现金回购和持有人回报分开，局部LP分成不代表全平台政策。",
+      "observation": "观察2026-10-10 20:53:37–20:54:59 UTC；报告发送2026-10-11 05:00:14北京时间。10月7日九月月报；历史会计规则不替代当月资金来源。",
+      "path": "2026-10-11/05-00-14-【山寨币估值】-CAKE净减供应与回购口径.md",
+      "sha": "1fa7101f5133178fb389d2adfcc7b4f151511616",
+      "date": "2026-10-11",
+      "time": "05:00:14",
+      "title": "CAKE 九月净减少 231 万枚，估值要看销毁背后的资金来源",
+      "url": "/X-feed-pages/2026-10-11/05-00-14-%E3%80%90%E5%B1%B1%E5%AF%A8%E5%B8%81%E4%BC%B0%E5%80%BC%E3%80%91-CAKE%E5%87%80%E5%87%8F%E4%BE%9B%E5%BA%94%E4%B8%8E%E5%9B%9E%E8%B4%AD%E5%8F%A3%E5%BE%84.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-10-11/05-00-14-%E3%80%90%E5%B1%B1%E5%AF%A8%E5%B8%81%E4%BC%B0%E5%80%BC%E3%80%91-CAKE%E5%87%80%E5%87%8F%E4%BE%9B%E5%BA%94%E4%B8%8E%E5%9B%9E%E8%B4%AD%E5%8F%A3%E5%BE%84.md"
+    },
+    {
+      "type": "量化",
+      "tags": [
+        "量化",
+        "基差",
+        "资金费",
+        "自动化"
+      ],
+      "summary": "个人账户现货与永续对冲的自动化机制，拆解非对称builder费用、退出和权限风险；当前净收益未证。",
+      "observation": "观察2026-10-10 20:38:43–20:41:04 UTC；报告发送2026-10-11 04:43:55北京时间。10月2日机制文章，路线图与当前文档目录分开。",
+      "path": "2026-10-11/04-43-55-【量化】-Renzo基差策略与往返成本.md",
+      "sha": "3f885c26aec11bdb37b9cc03fdb07b4ef17fc42c",
+      "date": "2026-10-11",
+      "time": "04:43:55",
+      "title": "Renzo Basis 把基差策略留在自己的账户里",
+      "url": "/X-feed-pages/2026-10-11/04-43-55-%E3%80%90%E9%87%8F%E5%8C%96%E3%80%91-Renzo%E5%9F%BA%E5%B7%AE%E7%AD%96%E7%95%A5%E4%B8%8E%E5%BE%80%E8%BF%94%E6%88%90%E6%9C%AC.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-10-11/04-43-55-%E3%80%90%E9%87%8F%E5%8C%96%E3%80%91-Renzo%E5%9F%BA%E5%B7%AE%E7%AD%96%E7%95%A5%E4%B8%8E%E5%BE%80%E8%BF%94%E6%88%90%E6%9C%AC.md"
+    },
+    {
+      "type": "早期观察",
+      "tags": [
+        "早期观察",
+        "rETH",
+        "治理事件"
+      ],
+      "signal_strength": "weak",
+      "summary": "NMPIP 266提出卖出rETH，批准和执行未证；潜在卖盘不保证扩大折价，当前无配对报价或净利。",
+      "observation": "观察2026-10-10 19:58:16.773 UTC官方论坛索引；发送2026-10-11 04:00:08北京时间。提案未证通过执行，历史折价与容量非当前报价。",
+      "path": "2026-10-11/04-00-08-【早期观察】-Nexus拟售rETH与折价条件.md",
+      "sha": "5e6063ab6d728ff53c0a78441e0a7a528e2b34bf",
+      "date": "2026-10-11",
+      "time": "04:00:08",
+      "title": "Nexus 拟售 rETH：新增卖盘与折价条件",
+      "url": "/X-feed-pages/2026-10-11/04-00-08-%E3%80%90%E6%97%A9%E6%9C%9F%E8%A7%82%E5%AF%9F%E3%80%91-Nexus%E6%8B%9F%E5%94%AErETH%E4%B8%8E%E6%8A%98%E4%BB%B7%E6%9D%A1%E4%BB%B6.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-10-11/04-00-08-%E3%80%90%E6%97%A9%E6%9C%9F%E8%A7%82%E5%AF%9F%E3%80%91-Nexus%E6%8B%9F%E5%94%AErETH%E4%B8%8E%E6%8A%98%E4%BB%B7%E6%9D%A1%E4%BB%B6.md"
+    },
+    {
+      "type": "套利",
+      "tags": [
+        "套利",
+        "赎回",
+        "RWA"
+      ],
+      "signal_strength": "weak",
+      "summary": "100及1000USDC买腿参考单位成本约0.702509与0.745699；最终兑付率、资格和信用结算仍待核。",
+      "observation": "观察2026-10-10 18:07:14–18:10:17 UTC；摘要发送2026-10-11 02:08:41北京时间。两笔买腿非成交，兑付情景不代表净收益。",
+      "path": "2026-10-11/02-08-41-【套利】-ynRWAx金额折价与待定兑付.md",
+      "sha": "2d9b6594b86df0b0694736f653b6ae84ca14e7ed",
+      "date": "2026-10-11",
+      "time": "02:08:41",
+      "title": "ynRWAx 折价观察：100 USDC 报价142.347份，最终兑付仍待定",
+      "url": "/X-feed-pages/2026-10-11/02-08-41-%E3%80%90%E5%A5%97%E5%88%A9%E3%80%91-ynRWAx%E9%87%91%E9%A2%9D%E6%8A%98%E4%BB%B7%E4%B8%8E%E5%BE%85%E5%AE%9A%E5%85%91%E4%BB%98.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-10-11/02-08-41-%E3%80%90%E5%A5%97%E5%88%A9%E3%80%91-ynRWAx%E9%87%91%E9%A2%9D%E6%8A%98%E4%BB%B7%E4%B8%8E%E5%BE%85%E5%AE%9A%E5%85%91%E4%BB%98.md"
+    },
+    {
+      "type": "套利",
+      "tags": [
+        "套利",
+        "赎回",
+        "信用风险",
+        "利率"
+      ],
+      "signal_strength": "weak",
+      "summary": "2000USDC买腿参考输出2003.882071evaUSDC；未来足额兑付、等待与全程成本未闭合。",
+      "observation": "报价2026-10-10 17:42:18.353402 UTC；金额页17:43:09 UTC；发送2026-10-11 01:47:03北京时间。非成交或金额级净赎回承诺。",
+      "path": "2026-10-11/01-47-03-【套利】-evaUSDC两千本金买兑成本边界.md",
+      "sha": "76f2bd516a95589b47ee84a4b6bc7b3693ebd9bc",
+      "date": "2026-10-11",
+      "time": "01:47:03",
+      "title": "evaUSDC 折价重评：2,000 USDC 报价只留3.88 USDC条件余量",
+      "url": "/X-feed-pages/2026-10-11/01-47-03-%E3%80%90%E5%A5%97%E5%88%A9%E3%80%91-evaUSDC%E4%B8%A4%E5%8D%83%E6%9C%AC%E9%87%91%E4%B9%B0%E5%85%91%E6%88%90%E6%9C%AC%E8%BE%B9%E7%95%8C.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-10-11/01-47-03-%E3%80%90%E5%A5%97%E5%88%A9%E3%80%91-evaUSDC%E4%B8%A4%E5%8D%83%E6%9C%AC%E9%87%91%E4%B9%B0%E5%85%91%E6%88%90%E6%9C%AC%E8%BE%B9%E7%95%8C.md"
+    },
+    {
+      "type": "CEX",
+      "tags": [
+        "CEX",
+        "现金奖励",
+        "入金激励"
+      ],
+      "signal_strength": "weak",
+      "summary": "5000美元最低档总奖励50USDC分六期；资格与完整成本未闭合，正净收益未证。",
+      "observation": "观察2026-10-11 00:51—00:52北京时间；摘要发送2026-10-11 00:53:29北京时间。澳洲现行细则，个人资格及净收益未核。",
+      "path": "2026-10-11/00-53-29-【CEX】-Nexo澳洲入金奖励与净收益门槛.md",
+      "sha": "15ca37bcf7e73ca841506773887d840e4efff1fc",
+      "date": "2026-10-11",
+      "time": "00:53:29",
+      "title": "Nexo澳洲入金奖励 5,000美元对应总额50 USDC",
+      "url": "/X-feed-pages/2026-10-11/00-53-29-%E3%80%90CEX%E3%80%91-Nexo%E6%BE%B3%E6%B4%B2%E5%85%A5%E9%87%91%E5%A5%96%E5%8A%B1%E4%B8%8E%E5%87%80%E6%94%B6%E7%9B%8A%E9%97%A8%E6%A7%9B.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-10-11/00-53-29-%E3%80%90CEX%E3%80%91-Nexo%E6%BE%B3%E6%B4%B2%E5%85%A5%E9%87%91%E5%A5%96%E5%8A%B1%E4%B8%8E%E5%87%80%E6%94%B6%E7%9B%8A%E9%97%A8%E6%A7%9B.md"
+    },
+    {
+      "type": "山寨币估值",
+      "tags": [
+        "山寨币估值",
+        "PYTH",
+        "回购",
+        "现金流"
+      ],
+      "signal_strength": "weak",
+      "summary": "55.37万USDC到账已核；拟调拨预算、DCA建单与实际成交分开，估值证据仍弱。",
+      "observation": "关键观察2026-10-10 16:08–16:11 UTC；发送2026-10-11 00:09:30北京时间。历史收款与建单交易非观察时新成交。",
+      "path": "2026-10-11/00-09-30-【山寨币估值】-PYTH收入到账与回购执行核账.md",
+      "sha": "deac65abd722c8ef8c46f051a68a2f87ae504500",
+      "date": "2026-10-11",
+      "time": "00:09:30",
+      "title": "PYTH 回购买盘核账：55.37 万 USDC 到账之后",
+      "url": "/X-feed-pages/2026-10-11/00-09-30-%E3%80%90%E5%B1%B1%E5%AF%A8%E5%B8%81%E4%BC%B0%E5%80%BC%E3%80%91-PYTH%E6%94%B6%E5%85%A5%E5%88%B0%E8%B4%A6%E4%B8%8E%E5%9B%9E%E8%B4%AD%E6%89%A7%E8%A1%8C%E6%A0%B8%E8%B4%A6.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-10-11/00-09-30-%E3%80%90%E5%B1%B1%E5%AF%A8%E5%B8%81%E4%BC%B0%E5%80%BC%E3%80%91-PYTH%E6%94%B6%E5%85%A5%E5%88%B0%E8%B4%A6%E4%B8%8E%E5%9B%9E%E8%B4%AD%E6%89%A7%E8%A1%8C%E6%A0%B8%E8%B4%A6.md"
+    },
+    {
+      "type": "套利",
+      "tags": [
+        "套利",
+        "到期债券",
+        "折价",
+        "早期观察"
+      ],
+      "signal_strength": "weak",
+      "summary": "到期FXB参考折价形成买兑假设，赎回资产与全成本尚未闭环，净收益和容量未知。",
+      "observation": "观察2026-10-10 15:26–15:32 UTC；发送2026-10-10 23:31:51北京时间。目录参考字段非金额报价，当前代理赎回状态未证。",
+      "path": "2026-10-10/23-31-51-【套利】-FXB2025到期折价与赎回缺口.md",
+      "sha": "a99cf98c07ed9eb87adb2891514d54b370ec1ec1",
+      "date": "2026-10-10",
+      "time": "23:31:51",
+      "title": "FXB2025到期折价线索：0.9833美元参考价，买兑闭环待核",
+      "url": "/X-feed-pages/2026-10-10/23-31-51-%E3%80%90%E5%A5%97%E5%88%A9%E3%80%91-FXB2025%E5%88%B0%E6%9C%9F%E6%8A%98%E4%BB%B7%E4%B8%8E%E8%B5%8E%E5%9B%9E%E7%BC%BA%E5%8F%A3.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-10-10/23-31-51-%E3%80%90%E5%A5%97%E5%88%A9%E3%80%91-FXB2025%E5%88%B0%E6%9C%9F%E6%8A%98%E4%BB%B7%E4%B8%8E%E8%B5%8E%E5%9B%9E%E7%BC%BA%E5%8F%A3.md"
+    },
+    {
+      "type": "DeFi",
+      "tags": [
+        "DeFi",
+        "Securitize",
+        "代币化证券"
+      ],
+      "summary": "证券权益与登记股东身份不同，条件转换、自托管白名单及交易规则共同限定产品权利。",
+      "observation": "观察2026-10-10 UTC；发送2026-10-10 23:05:17北京时间。10月8日产品披露；FAQ无发布日期，2023年CRS不直接套用新Stocks。",
+      "path": "2026-10-10/23-05-17-【DeFi】-Securitize证券权益与转让边界.md",
+      "sha": "a286c0ab0744ecd38125eb3a3d226b835a988a82",
+      "date": "2026-10-10",
+      "time": "23:05:17",
+      "title": "Securitize Stocks：证券权益、登记股东与白名单钱包",
+      "url": "/X-feed-pages/2026-10-10/23-05-17-%E3%80%90DeFi%E3%80%91-Securitize%E8%AF%81%E5%88%B8%E6%9D%83%E7%9B%8A%E4%B8%8E%E8%BD%AC%E8%AE%A9%E8%BE%B9%E7%95%8C.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-10-10/23-05-17-%E3%80%90DeFi%E3%80%91-Securitize%E8%AF%81%E5%88%B8%E6%9D%83%E7%9B%8A%E4%B8%8E%E8%BD%AC%E8%AE%A9%E8%BE%B9%E7%95%8C.md"
+    },
+    {
+      "type": "DeFi",
+      "tags": [
+        "DeFi",
+        "Lombard",
+        "跨链退出"
+      ],
+      "summary": "四链迁移有截止，Starknet桥保留；跨链完成与BTC赎回分别涉及时间和成本。",
+      "observation": "观察2026-10-10 UTC；发送2026-10-10 22:54:31北京时间。9月16日生效、9月29日更新的发行方规则；12月10日截止的具体时刻与时区未给。",
+      "path": "2026-10-10/22-54-31-【DeFi】-Lombard链支持迁移与赎回.md",
+      "sha": "dd9a7d213ebfd1f23cfa9a30a6a2f0f6062538d2",
+      "date": "2026-10-10",
+      "time": "22:54:31",
+      "title": "Lombard 撤出部分链：四链迁移有截止，Starknet 规则不同",
+      "url": "/X-feed-pages/2026-10-10/22-54-31-%E3%80%90DeFi%E3%80%91-Lombard%E9%93%BE%E6%94%AF%E6%8C%81%E8%BF%81%E7%A7%BB%E4%B8%8E%E8%B5%8E%E5%9B%9E.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-10-10/22-54-31-%E3%80%90DeFi%E3%80%91-Lombard%E9%93%BE%E6%94%AF%E6%8C%81%E8%BF%81%E7%A7%BB%E4%B8%8E%E8%B5%8E%E5%9B%9E.md"
+    },
+    {
+      "type": "DeFi",
+      "tags": [
+        "DeFi",
+        "Morpho",
+        "固定期限借贷"
+      ],
+      "summary": "指定成交对手不消除市场层面的抵押品与坏账风险；报价取消、贷款到期和现金退出各有边界。",
+      "observation": "研究2026-10-10 14:32:26—14:39:02 UTC；发送2026-10-10 22:44:27北京时间。10月8日月报与固定版本源码，未核App当前配置、资格和可执行状态。",
+      "path": "2026-10-10/22-44-27-【DeFi】-Morpho指定对手与市场风险.md",
+      "sha": "0afde54be3de88c681dc01e3135bd2a8c22d32d2",
+      "date": "2026-10-10",
+      "time": "22:44:27",
+      "title": "Morpho P2P Orders：选定成交对手，为什么还要看整个市场",
+      "url": "/X-feed-pages/2026-10-10/22-44-27-%E3%80%90DeFi%E3%80%91-Morpho%E6%8C%87%E5%AE%9A%E5%AF%B9%E6%89%8B%E4%B8%8E%E5%B8%82%E5%9C%BA%E9%A3%8E%E9%99%A9.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-10-10/22-44-27-%E3%80%90DeFi%E3%80%91-Morpho%E6%8C%87%E5%AE%9A%E5%AF%B9%E6%89%8B%E4%B8%8E%E5%B8%82%E5%9C%BA%E9%A3%8E%E9%99%A9.md"
+    },
+    {
+      "type": "DeFi",
+      "tags": [
+        "DeFi",
+        "MetaDAO",
+        "治理权利"
+      ],
+      "summary": "对照ARL失败提案与PREDICT执行标记，区分意图、指令、资产控制权与个人领取权。",
+      "observation": "观察2026-10-10 14:22—14:25 UTC；发送2026-10-10 22:28:58北京时间。官方UI状态，未独立验证链上执行或个人退出权。",
+      "path": "2026-10-10/22-28-58-【DeFi】-MetaDAO提案指令与领取权.md",
+      "sha": "7772bb305ebf30edf3dbac58aa4a29463ff55262",
+      "date": "2026-10-10",
+      "time": "22:28:58",
+      "title": "MetaDAO 两个十月提案：看清指令、执行状态与领取权",
+      "url": "/X-feed-pages/2026-10-10/22-28-58-%E3%80%90DeFi%E3%80%91-MetaDAO%E6%8F%90%E6%A1%88%E6%8C%87%E4%BB%A4%E4%B8%8E%E9%A2%86%E5%8F%96%E6%9D%83.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-10-10/22-28-58-%E3%80%90DeFi%E3%80%91-MetaDAO%E6%8F%90%E6%A1%88%E6%8C%87%E4%BB%A4%E4%B8%8E%E9%A2%86%E5%8F%96%E6%9D%83.md"
+    },
+    {
+      "type": "DeFi",
+      "tags": [
+        "DeFi",
+        "Frax",
+        "治理提案"
+      ],
+      "summary": "社区作者将旧池提前解锁提案费用由4%改提为8%；通过、执行、计费基数与资格仍未核。",
+      "observation": "观察2026-10-10 14:13:36.764 UTC；发送2026-10-10 22:21:19北京时间。原提案9月30日，作者修案10月7日，未证明通过或执行。",
+      "path": "2026-10-10/22-21-19-【DeFi】-Frax旧池解锁提案费用修订.md",
+      "sha": "196272f687eed851aa28fe20de49475ca01a5905",
+      "date": "2026-10-10",
+      "time": "22:21:19",
+      "title": "Frax 旧池解锁提案改价：正文8%，标题仍4%",
+      "url": "/X-feed-pages/2026-10-10/22-21-19-%E3%80%90DeFi%E3%80%91-Frax%E6%97%A7%E6%B1%A0%E8%A7%A3%E9%94%81%E6%8F%90%E6%A1%88%E8%B4%B9%E7%94%A8%E4%BF%AE%E8%AE%A2.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-10-10/22-21-19-%E3%80%90DeFi%E3%80%91-Frax%E6%97%A7%E6%B1%A0%E8%A7%A3%E9%94%81%E6%8F%90%E6%A1%88%E8%B4%B9%E7%94%A8%E4%BF%AE%E8%AE%A2.md"
+    },
+    {
+      "type": "DEX",
+      "tags": [
+        "DEX",
+        "Uniswap",
+        "动态手续费"
+      ],
+      "summary": "StablePair试图用动态LP费截留部分套利空间；费用下界、方向缓存与真实脱锚，决定收费与价格修复的取舍。",
+      "observation": "固定源码观察2026-10-10 14:04–14:06 UTC；发送2026-10-10 22:09:11北京时间。9月10/16日官方机制资料，非10月新上线；未核部署和实际收入。",
+      "path": "2026-10-10/22-09-11-【DEX】-StablePair套利收费与价格修复.md",
+      "sha": "19e4cdf7eb3123c89d5d49dbcfa972bc57117087",
+      "date": "2026-10-10",
+      "time": "22:09:11",
+      "title": "StablePair 给套利机会加价：LP 收费与价格修复的取舍",
+      "url": "/X-feed-pages/2026-10-10/22-09-11-%E3%80%90DEX%E3%80%91-StablePair%E5%A5%97%E5%88%A9%E6%94%B6%E8%B4%B9%E4%B8%8E%E4%BB%B7%E6%A0%BC%E4%BF%AE%E5%A4%8D.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-10-10/22-09-11-%E3%80%90DEX%E3%80%91-StablePair%E5%A5%97%E5%88%A9%E6%94%B6%E8%B4%B9%E4%B8%8E%E4%BB%B7%E6%A0%BC%E4%BF%AE%E5%A4%8D.md"
+    },
+    {
+      "type": "DeFi",
+      "tags": [
+        "DeFi",
+        "Yearn",
+        "奖励领取"
+      ],
+      "summary": "领取期限修改、旧奖励回收与迁移分发器同步各有边界；到期不等于自动清零，提案仍在投票，代码解释不是部署验证。",
+      "observation": "状态观察2026-10-10 13:53 UTC；发送2026-10-10 21:57:54北京时间。投票10月8日00:00—15日00:00 UTC，列示执行窗口并非执行保证。",
+      "path": "2026-10-10/21-57-54-【DeFi】-Yearn奖励延期与回收边界.md",
+      "sha": "6c1056ef55d087ec0fbaa9432e73963331fe7b4e",
+      "date": "2026-10-10",
+      "time": "21:57:54",
+      "title": "Yearn 提议延长奖励领取期：到期不等于自动清零",
+      "url": "/X-feed-pages/2026-10-10/21-57-54-%E3%80%90DeFi%E3%80%91-Yearn%E5%A5%96%E5%8A%B1%E5%BB%B6%E6%9C%9F%E4%B8%8E%E5%9B%9E%E6%94%B6%E8%BE%B9%E7%95%8C.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-10-10/21-57-54-%E3%80%90DeFi%E3%80%91-Yearn%E5%A5%96%E5%8A%B1%E5%BB%B6%E6%9C%9F%E4%B8%8E%E5%9B%9E%E6%94%B6%E8%BE%B9%E7%95%8C.md"
+    },
+    {
+      "type": "DEX",
+      "tags": [
+        "DEX",
+        "CoW Swap",
+        "TWAP"
+      ],
+      "summary": "CoW将TWAP开放给普通钱包：分片价格条件、有效期与执行成本，决定时间表能否完整成交。",
+      "observation": "观察2026-10-10 13:33:38—13:36:16 UTC；发送2026-10-10 21:39:52北京时间。官方静态文本，未验证实时钱包或链上部署。",
+      "path": "2026-10-10/21-39-52-【DEX】-CoW普通钱包分批交易与成交边界.md",
+      "sha": "9d3e24aff4406d9db351334eb14467d580c2026c",
+      "date": "2026-10-10",
+      "time": "21:39:52",
+      "title": "CoW Swap把TWAP带到普通钱包：分批执行，不保证全部成交",
+      "url": "/X-feed-pages/2026-10-10/21-39-52-%E3%80%90DEX%E3%80%91-CoW%E6%99%AE%E9%80%9A%E9%92%B1%E5%8C%85%E5%88%86%E6%89%B9%E4%BA%A4%E6%98%93%E4%B8%8E%E6%88%90%E4%BA%A4%E8%BE%B9%E7%95%8C.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-10-10/21-39-52-%E3%80%90DEX%E3%80%91-CoW%E6%99%AE%E9%80%9A%E9%92%B1%E5%8C%85%E5%88%86%E6%89%B9%E4%BA%A4%E6%98%93%E4%B8%8E%E6%88%90%E4%BA%A4%E8%BE%B9%E7%95%8C.md"
+    },
+    {
+      "type": "DeFi",
+      "tags": [
+        "DeFi",
+        "Unichain",
+        "互操作"
+      ],
+      "summary": "从运营服务、升级治理与未来互操作三层读懂迁移计划，区分官方承诺、未来功能和未独立验证的实现。",
+      "observation": "观察2026-10-10 13:15:33.668—13:18:11.032 UTC；发送2026-10-10 21:21:20北京时间。10月13/29为未来迁移计划，互操作无启用日。",
+      "path": "2026-10-10/21-21-20-【DeFi】-Unichain运营升级与互操作边界.md",
+      "sha": "6370534d96230d637cd2812aa8c18d893048174f",
+      "date": "2026-10-10",
+      "time": "21:21:20",
+      "title": "Unichain升级OP Enterprise：换运营方式，不等于跨链信任消失",
+      "url": "/X-feed-pages/2026-10-10/21-21-20-%E3%80%90DeFi%E3%80%91-Unichain%E8%BF%90%E8%90%A5%E5%8D%87%E7%BA%A7%E4%B8%8E%E4%BA%92%E6%93%8D%E4%BD%9C%E8%BE%B9%E7%95%8C.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-10-10/21-21-20-%E3%80%90DeFi%E3%80%91-Unichain%E8%BF%90%E8%90%A5%E5%8D%87%E7%BA%A7%E4%B8%8E%E4%BA%92%E6%93%8D%E4%BD%9C%E8%BE%B9%E7%95%8C.md"
+    },
+    {
+      "type": "DeFi",
+      "tags": [
+        "DeFi",
+        "LP抵押",
+        "提案研究"
+      ],
+      "summary": "Curve论坛提案拟将LP份额作为借款抵押物；融资用途增加并不消除债务、估值与退出风险，提案尚不等于批准上线。",
+      "observation": "观察2026-10-10 13:13:27 UTC；提案2026-10-07（论坛时区未核）；报告发送2026-10-10 21:16:03 北京时间。精确合约、投票、部署与可用额度未核。",
+      "path": "2026-10-10/21-16-03-【DeFi】-CurveLP抵押借贷提案解读.md",
+      "sha": "305401e13e43621882dd3ec22a7a17b48d2b9db3",
+      "date": "2026-10-10",
+      "time": "21:16:03",
+      "title": "LP份额还能抵押借钱：一份Curve提案里的资本效率与风险叠加",
+      "url": "/X-feed-pages/2026-10-10/21-16-03-%E3%80%90DeFi%E3%80%91-CurveLP%E6%8A%B5%E6%8A%BC%E5%80%9F%E8%B4%B7%E6%8F%90%E6%A1%88%E8%A7%A3%E8%AF%BB.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-10-10/21-16-03-%E3%80%90DeFi%E3%80%91-CurveLP%E6%8A%B5%E6%8A%BC%E5%80%9F%E8%B4%B7%E6%8F%90%E6%A1%88%E8%A7%A3%E8%AF%BB.md"
+    },
+    {
+      "type": "DeFi",
+      "tags": [
+        "Ondo",
+        "RWA",
+        "私募市场",
+        "代币化证券",
+        "债权",
+        "退出机制"
+      ],
+      "summary": "从发行人、无担保债权、事件兑付和持有人资格拆解 Ondo Private Markets，保留官方认领期限起算点冲突，不外推全部 Ondo 产品。",
+      "observation": "报告发送：2026-10-10 21:06:46 北京时间；资料读取截至2026-10-10 13:02 UTC；发行方公告2026-10-05。通用文档未显示修订日期，未取得具体一期完整发行文件。",
+      "path": "2026-10-10/21-06-46-【DeFi】-Ondo私股债权与退出条件.md",
+      "sha": "3f8d80f0d0c594c34c9f4991fefef29725787d47",
+      "date": "2026-10-10",
+      "time": "21:06:46",
+      "title": "私股代币不等于原始股：Ondo Private Markets 的债权与退出条件",
+      "url": "/X-feed-pages/2026-10-10/21-06-46-%E3%80%90DeFi%E3%80%91-Ondo%E7%A7%81%E8%82%A1%E5%80%BA%E6%9D%83%E4%B8%8E%E9%80%80%E5%87%BA%E6%9D%A1%E4%BB%B6.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-10-10/21-06-46-%E3%80%90DeFi%E3%80%91-Ondo%E7%A7%81%E8%82%A1%E5%80%BA%E6%9D%83%E4%B8%8E%E9%80%80%E5%87%BA%E6%9D%A1%E4%BB%B6.md"
+    },
+    {
+      "type": "DeFi",
+      "tags": [
+        "Sky",
+        "stUSDS",
+        "协议治理",
+        "Keeper",
+        "利率机制",
+        "质押奖励"
+      ],
+      "summary": "从治理执行、调息和奖励三个时钟，解释 Sky 新提案中的参数、执行阶段和风险，区分机制变化与收益承诺。",
+      "observation": "报告发送：2026-10-10 20:58:46 北京时间；状态观察：2026-10-10 12:52 UTC；代码与单位补核截至12:57 UTC。未独立核验运行合约或执行交易。",
+      "path": "2026-10-10/20-58-46-【DeFi】-Sky治理调息与奖励的三个时钟.md",
+      "sha": "1464ed0e1d7628352bf02c48bddd8038bb4f6873",
+      "date": "2026-10-10",
+      "time": "20:58:46",
+      "title": "Sky 的三个时钟：授权 Keeper、调息与质押奖励",
+      "url": "/X-feed-pages/2026-10-10/20-58-46-%E3%80%90DeFi%E3%80%91-Sky%E6%B2%BB%E7%90%86%E8%B0%83%E6%81%AF%E4%B8%8E%E5%A5%96%E5%8A%B1%E7%9A%84%E4%B8%89%E4%B8%AA%E6%97%B6%E9%92%9F.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-10-10/20-58-46-%E3%80%90DeFi%E3%80%91-Sky%E6%B2%BB%E7%90%86%E8%B0%83%E6%81%AF%E4%B8%8E%E5%A5%96%E5%8A%B1%E7%9A%84%E4%B8%89%E4%B8%AA%E6%97%B6%E9%92%9F.md"
+    },
+    {
+      "type": "DeFi",
+      "tags": [
+        "DeFi",
+        "流动性机制",
+        "RWA"
+      ],
+      "summary": "Fluid让发行方按流动性规模付费，由服务方提供库存与管理；免于无常损失的承诺针对发行方，不等于持有人获得兑付保证。",
+      "observation": "报告发送：2026-10-10 20:55:06 北京时间；原始核验：2026-10-10 12:51:59—12:52:26 UTC；机制公告：2026-07-22（非本周新上线）",
+      "path": "2026-10-10/20-55-06-【DeFi】-Fluid流动性服务与风险分工.md",
+      "sha": "b21bfed611413abbcd00099795c419c3c895ba4d",
+      "date": "2026-10-10",
+      "time": "20:55:06",
+      "title": "发行方开始租流动性：Fluid LaaS把哪些风险转给了服务方？",
+      "url": "/X-feed-pages/2026-10-10/20-55-06-%E3%80%90DeFi%E3%80%91-Fluid%E6%B5%81%E5%8A%A8%E6%80%A7%E6%9C%8D%E5%8A%A1%E4%B8%8E%E9%A3%8E%E9%99%A9%E5%88%86%E5%B7%A5.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-10-10/20-55-06-%E3%80%90DeFi%E3%80%91-Fluid%E6%B5%81%E5%8A%A8%E6%80%A7%E6%9C%8D%E5%8A%A1%E4%B8%8E%E9%A3%8E%E9%99%A9%E5%88%86%E5%B7%A5.md"
+    },
+    {
+      "path": "2026-10-10/04-17-53-【套利】-BNB跨DEX报价与BOLD赎回门槛.md",
+      "sha": "33c89cbad3a426c287163d48857999950b7b2d54",
+      "signal_strength": "weak",
+      "date": "2026-10-10",
+      "time": "04:17:53",
+      "title": "BNB 跨 DEX 四组报价为负，BOLD 赎回仍缺有效入场价格",
+      "type": "套利",
+      "tags": [],
+      "summary": "报告时间：2026-10-10 04:17:53 北京时间。BNB 报价窗口：04:15:24–04:16:31（2026-10-09 20:15:24–20:16:31 UTC）。信号 weak。",
+      "observation": "观察时间见原文",
+      "url": "/X-feed-pages/2026-10-10/04-17-53-%E3%80%90%E5%A5%97%E5%88%A9%E3%80%91-BNB%E8%B7%A8DEX%E6%8A%A5%E4%BB%B7%E4%B8%8EBOLD%E8%B5%8E%E5%9B%9E%E9%97%A8%E6%A7%9B.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-10-10/04-17-53-%E3%80%90%E5%A5%97%E5%88%A9%E3%80%91-BNB%E8%B7%A8DEX%E6%8A%A5%E4%BB%B7%E4%B8%8EBOLD%E8%B5%8E%E5%9B%9E%E9%97%A8%E6%A7%9B.md"
+    },
+    {
+      "path": "2026-10-10/04-10-05-【套利】-sAVAX赎回折价与等待成本.md",
+      "sha": "21a308655ab806e4bff2254be8e2d8c116283fff",
+      "signal_strength": "weak",
+      "date": "2026-10-10",
+      "time": "04:10:05",
+      "title": "sAVAX：赎回份额的小折价，未覆盖现金进出与等待成本",
+      "type": "套利",
+      "tags": [],
+      "summary": "报告时间：2026-10-10 04:10:05 北京时间。报价窗口：04:05:13–04:06:14（2026-10-09 20:05:13–20:06:14 UTC）。信号 weak。",
+      "observation": "观察时间见原文",
+      "url": "/X-feed-pages/2026-10-10/04-10-05-%E3%80%90%E5%A5%97%E5%88%A9%E3%80%91-sAVAX%E8%B5%8E%E5%9B%9E%E6%8A%98%E4%BB%B7%E4%B8%8E%E7%AD%89%E5%BE%85%E6%88%90%E6%9C%AC.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-10-10/04-10-05-%E3%80%90%E5%A5%97%E5%88%A9%E3%80%91-sAVAX%E8%B5%8E%E5%9B%9E%E6%8A%98%E4%BB%B7%E4%B8%8E%E7%AD%89%E5%BE%85%E6%88%90%E6%9C%AC.md"
+    },
+    {
+      "path": "2026-10-10/04-02-46-【套利】-Base生息份额双池报价排除.md",
+      "sha": "f7431b21b35fed698a3a6bc0889ec4614503bd7d",
+      "signal_strength": "weak",
+      "date": "2026-10-10",
+      "time": "04:02:46",
+      "title": "Base weETH：双池定额报价的三组现金结果均低于本金",
+      "type": "套利",
+      "tags": [],
+      "summary": "报告时间：2026-10-10 04:02:46 北京时间。报价观察窗口：03:59:27–04:00:17（2026-10-09 19:59:27–20:00:17 UTC）。信号 weak。",
+      "observation": "观察时间见原文",
+      "url": "/X-feed-pages/2026-10-10/04-02-46-%E3%80%90%E5%A5%97%E5%88%A9%E3%80%91-Base%E7%94%9F%E6%81%AF%E4%BB%BD%E9%A2%9D%E5%8F%8C%E6%B1%A0%E6%8A%A5%E4%BB%B7%E6%8E%92%E9%99%A4.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-10-10/04-02-46-%E3%80%90%E5%A5%97%E5%88%A9%E3%80%91-Base%E7%94%9F%E6%81%AF%E4%BB%BD%E9%A2%9D%E5%8F%8C%E6%B1%A0%E6%8A%A5%E4%BB%B7%E6%8E%92%E9%99%A4.md"
+    },
+    {
+      "path": "2026-10-10/03-51-17-【DeFi】-Silo稳定抵押利差与容量.md",
+      "sha": "f7942750379c69b7cc5b0541d24824fd49d4b289",
+      "signal_strength": "weak",
+      "date": "2026-10-10",
+      "time": "03:51:17",
+      "title": "Silo：稳定抵押的借款利差与容量约束",
+      "type": "DeFi",
+      "tags": [],
+      "summary": "报告时间：2026-10-10 03:51:17 北京时间。以下市场数据观察于 03:43:24–03:45:33（2026-10-09 19:43:24–19:45:33 UTC），信号 weak，完整 USDT 净收益未知。",
+      "observation": "观察时间见原文",
+      "url": "/X-feed-pages/2026-10-10/03-51-17-%E3%80%90DeFi%E3%80%91-Silo%E7%A8%B3%E5%AE%9A%E6%8A%B5%E6%8A%BC%E5%88%A9%E5%B7%AE%E4%B8%8E%E5%AE%B9%E9%87%8F.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-10-10/03-51-17-%E3%80%90DeFi%E3%80%91-Silo%E7%A8%B3%E5%AE%9A%E6%8A%B5%E6%8A%BC%E5%88%A9%E5%B7%AE%E4%B8%8E%E5%AE%B9%E9%87%8F.md"
+    },
+    {
+      "path": "2026-10-10/03-37-39-【DeFi】-Pendle到期份额与滑点成本.md",
+      "sha": "a9496fb51de71f94d1de34f50fa960d635490989",
+      "signal_strength": "weak",
+      "date": "2026-10-10",
+      "time": "03:37:39",
+      "title": "Pendle：980 USDai 的到期份额，仍要留出滑点与全程费用",
+      "type": "DeFi",
+      "tags": [],
+      "summary": "假设已经在 Arbitrum 持有 980 USDai，将其买成 Pendle PT，界面预期到期份额比直接持币多约 1.65 USDai。这个模型不代表任何人的实际持仓，也未证明 1000 USDT 当前可以买入并最终退出该路径。",
+      "observation": "观察时间见原文",
+      "url": "/X-feed-pages/2026-10-10/03-37-39-%E3%80%90DeFi%E3%80%91-Pendle%E5%88%B0%E6%9C%9F%E4%BB%BD%E9%A2%9D%E4%B8%8E%E6%BB%91%E7%82%B9%E6%88%90%E6%9C%AC.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-10-10/03-37-39-%E3%80%90DeFi%E3%80%91-Pendle%E5%88%B0%E6%9C%9F%E4%BB%BD%E9%A2%9D%E4%B8%8E%E6%BB%91%E7%82%B9%E6%88%90%E6%9C%AC.md"
+    },
+    {
+      "path": "2026-10-10/03-28-28-【套利】-QiDAO赎回毛差收窄.md",
+      "sha": "718313d99c1467a7aaca0c51c24bafd374b3b246",
+      "signal_strength": "weak",
+      "date": "2026-10-10",
+      "time": "03:28:28",
+      "title": "QiDAO：980 USDC 赎回路径的条件毛差降至 0.145183 USDC",
+      "type": "套利",
+      "tags": [],
+      "summary": "Polygon 上，980 原生 USDC 的买入报价对应 983.094466580099136825 MAI；把同一数量填入 QiDAO PSM 赎回预览，显示可得 980.145183 USDC。条件毛差为 0.145183 USDC，约本金的 1.4815 基点，尚未计剩余费用。",
+      "observation": "观察时间见原文",
+      "url": "/X-feed-pages/2026-10-10/03-28-28-%E3%80%90%E5%A5%97%E5%88%A9%E3%80%91-QiDAO%E8%B5%8E%E5%9B%9E%E6%AF%9B%E5%B7%AE%E6%94%B6%E7%AA%84.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-10-10/03-28-28-%E3%80%90%E5%A5%97%E5%88%A9%E3%80%91-QiDAO%E8%B5%8E%E5%9B%9E%E6%AF%9B%E5%B7%AE%E6%94%B6%E7%AA%84.md"
+    },
+    {
+      "path": "2026-10-10/03-03-26-【DeFi】-借贷利差与抵押约束.md",
+      "sha": "359ee7c25209dd14ebf0be07be899e8152bf57ac",
+      "signal_strength": "weak",
+      "date": "2026-10-10",
+      "time": "03:03:26",
+      "title": "Moonwell 与 Compound：借贷利差还受抵押和币种身份约束",
+      "type": "DeFi",
+      "tags": [
+        "借贷",
+        "Moonwell",
+        "Compound"
+      ],
+      "summary": "Moonwell 借款、Compound 存款的原方向，在界面利率维持 30 天的假设下，500 USDC 借入资金产生约 −4.2762 USDC 的增量利息差，尚未计其他费用。反向虽然有局部表面利差，却需要另外配置可抵押资产，且 Moonwell 存款收益组成与两端代币身份未核实，不能视为可执行",
+      "observation": "数据观察窗口：2026-10-10 02:58:27–02:59:07 北京时间，即 2026-10-09 18:58:27–18:59:07 UTC",
+      "url": "/X-feed-pages/2026-10-10/03-03-26-%E3%80%90DeFi%E3%80%91-%E5%80%9F%E8%B4%B7%E5%88%A9%E5%B7%AE%E4%B8%8E%E6%8A%B5%E6%8A%BC%E7%BA%A6%E6%9D%9F.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-10-10/03-03-26-%E3%80%90DeFi%E3%80%91-%E5%80%9F%E8%B4%B7%E5%88%A9%E5%B7%AE%E4%B8%8E%E6%8A%B5%E6%8A%BC%E7%BA%A6%E6%9D%9F.md"
+    },
+    {
+      "path": "2026-10-10/02-44-19-【DeFi】-Pendle限价奖励区间更新.md",
+      "sha": "3165c8288694058e7086acc5f6f32b818bae01da",
+      "signal_strength": "weak",
+      "date": "2026-10-10",
+      "time": "02:44:19",
+      "title": "Pendle：限价奖励区间已变，币本位预览仍需现金成本核验",
+      "type": "DeFi",
+      "tags": [
+        "限价奖励",
+        "Pendle"
+      ],
+      "summary": "Pendle 的 USDai 十月池当前激励区间为 12.47%–13.27%，sUSDai 二月池为 9.60%–10.35%。历史测试挂价 11.2% 和 10.6% 均已落在对应区间之外。更新挂价后可得到新的 PENDLE 奖励预览，但尚未取得本轮本金进出与奖励卖出的双向现金报价，不能估算 1",
+      "observation": "数据观察窗口：2026-10-10 02:42:31–02:45:29 北京时间（2026-10-09 18:42:31–18:45:29 UTC）",
+      "url": "/X-feed-pages/2026-10-10/02-44-19-%E3%80%90DeFi%E3%80%91-Pendle%E9%99%90%E4%BB%B7%E5%A5%96%E5%8A%B1%E5%8C%BA%E9%97%B4%E6%9B%B4%E6%96%B0.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-10-10/02-44-19-%E3%80%90DeFi%E3%80%91-Pendle%E9%99%90%E4%BB%B7%E5%A5%96%E5%8A%B1%E5%8C%BA%E9%97%B4%E6%9B%B4%E6%96%B0.md"
+    },
+    {
+      "path": "2026-10-10/02-36-09-【套利】-跨池与固定利率报价排除.md",
+      "sha": "99cb0524b96a3580bdae0c8c860bfff52b11c093",
+      "signal_strength": "weak",
+      "date": "2026-10-10",
+      "time": "02:36:09",
+      "title": "Base cbETH 跨池与 Midnight 固定利率：实额报价和成本边界",
+      "type": "套利",
+      "tags": [
+        "套利",
+        "Base",
+        "cbETH",
+        "Morpho Midnight"
+      ],
+      "summary": "Base cbETH 两个跨池方向的 980 USDC 静态往返结果分别为 973.042911 和 944.156131 USDC，尚未扣 gas 已低于本金。Morpho Midnight 在同链、同 USDC、同到期、同 950 名义单位下，同市场买卖报价差为 −0.163183 USDC，跨",
+      "observation": "数据观察窗口：2026-10-10 02:30–02:34 北京时间；逐项原始时点见下文",
+      "url": "/X-feed-pages/2026-10-10/02-36-09-%E3%80%90%E5%A5%97%E5%88%A9%E3%80%91-%E8%B7%A8%E6%B1%A0%E4%B8%8E%E5%9B%BA%E5%AE%9A%E5%88%A9%E7%8E%87%E6%8A%A5%E4%BB%B7%E6%8E%92%E9%99%A4.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-10-10/02-36-09-%E3%80%90%E5%A5%97%E5%88%A9%E3%80%91-%E8%B7%A8%E6%B1%A0%E4%B8%8E%E5%9B%BA%E5%AE%9A%E5%88%A9%E7%8E%87%E6%8A%A5%E4%BB%B7%E6%8E%92%E9%99%A4.md"
+    },
     {
       "type": "山寨币估值",
       "tags": [
