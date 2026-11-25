@@ -2,8 +2,45 @@
   "schemaVersion": 1,
   "timezone": "Asia/Shanghai",
   "repository": "Sakkana/X-feed-pages",
-  "recordCount": 189,
+  "recordCount": 192,
   "records": [
+    {
+      "title": "五只 bStocks 开盘实测：3.7 bp 的盘口，1,000 U 往返可能差 107 U",
+      "type": "套利",
+      "tags": [
+        "TradFi",
+        "代币化股票",
+        "订单簿"
+      ],
+      "summary": "五只 bStocks 首盘均成交；ARTYB 第一档只差 3.7 bp，但两次千 U 即时模拟往返摩擦 88.75 和 106.71 U。未取得同步原股盘口或跨市场退出报价。",
+      "observation": "2026-11-25 20:04:55、20:05:54（北京时间）",
+      "signal_strength": "weak",
+      "path": "2026-11-25/20-07-06-【套利】-bStocks首盘千U退出摩擦.md",
+      "date": "2026-11-25",
+      "time": "20:07:06",
+      "sha": "f8fb9525c94128dc660d241096170661a1c1ae87",
+      "url": "/X-feed-pages/2026-11-25/20-07-06-%E3%80%90%E5%A5%97%E5%88%A9%E3%80%91-bStocks%E9%A6%96%E7%9B%98%E5%8D%83U%E9%80%80%E5%87%BA%E6%91%A9%E6%93%A6.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-11-25/20-07-06-%E3%80%90%E5%A5%97%E5%88%A9%E3%80%91-bStocks%E9%A6%96%E7%9B%98%E5%8D%83U%E9%80%80%E5%87%BA%E6%91%A9%E6%93%A6.md"
+    },
+    {
+      "title": "腾讯两种永续报价：7.83 倍不是价差，除息规则才可能造成差异",
+      "type": "套利",
+      "tags": [
+        "TradFi",
+        "港股永续",
+        "跨所基差",
+        "公司行动"
+      ],
+      "summary": "Binance 两种腾讯永续换算后，1,000 U 和 10,000 U 每腿的双向盘口均无正交叉；OKX 与 Binance 的小额股息规则可能产生专项现金流差，但未证实净收益。",
+      "observation": "2026-11-25 19:36:12（北京时间）",
+      "signal_strength": "weak",
+      "path": "2026-11-25/20-05-19-【套利】-腾讯永续双报价与除息.md",
+      "date": "2026-11-25",
+      "time": "20:05:19",
+      "sha": "f954a81164f6f0cd185c11050760366051d2c5ae",
+      "url": "/X-feed-pages/2026-11-25/20-05-19-%E3%80%90%E5%A5%97%E5%88%A9%E3%80%91-%E8%85%BE%E8%AE%AF%E6%B0%B8%E7%BB%AD%E5%8F%8C%E6%8A%A5%E4%BB%B7%E4%B8%8E%E9%99%A4%E6%81%AF.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-11-25/20-05-19-%E3%80%90%E5%A5%97%E5%88%A9%E3%80%91-%E8%85%BE%E8%AE%AF%E6%B0%B8%E7%BB%AD%E5%8F%8C%E6%8A%A5%E4%BB%B7%E4%B8%8E%E9%99%A4%E6%81%AF.md"
+    },
     {
       "title": "Cashmere Barn：公售尾价、退款和退出是三笔账",
       "type": "打新",
@@ -816,6 +853,24 @@
       "sha": "c6d4c5a01a8b806b9ec4338dd29f57a7a4507325",
       "url": "/X-feed-pages/2026-11-20/16-04-58-%E3%80%90%E6%BF%80%E5%8A%B1%E3%80%91-Stellar%E5%8F%8C%E9%87%91%E5%BA%93%E8%A1%A5%E8%B4%B4%E4%B8%8E%E8%B5%8E%E5%9B%9E.html",
       "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-11-20/16-04-58-%E3%80%90%E6%BF%80%E5%8A%B1%E3%80%91-Stellar%E5%8F%8C%E9%87%91%E5%BA%93%E8%A1%A5%E8%B4%B4%E4%B8%8E%E8%B5%8E%E5%9B%9E.md"
+    },
+    {
+      "title": "Meteora 分批成交与撤单分费",
+      "type": "DEX",
+      "tags": [
+        "DEX",
+        "做市",
+        "限价单"
+      ],
+      "summary": "同档限价单分批、按比例成交；撤单只对已成交份额分配手续费，未取得实际排队、费用池与退出报价。",
+      "observation": "2026-11-20 13:57:00（北京时间）",
+      "signal_strength": "weak",
+      "path": "2026-11-20/13-57-36-【DEX】-Meteora分批成交与撤单分费.md",
+      "date": "2026-11-20",
+      "time": "13:57:36",
+      "sha": "36c36c3e25cbf31ff1184d4dd165c49a80494ff5",
+      "url": "/X-feed-pages/2026-11-20/13-57-36-%E3%80%90DEX%E3%80%91-Meteora%E5%88%86%E6%89%B9%E6%88%90%E4%BA%A4%E4%B8%8E%E6%92%A4%E5%8D%95%E5%88%86%E8%B4%B9.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-11-20/13-57-36-%E3%80%90DEX%E3%80%91-Meteora%E5%88%86%E6%89%B9%E6%88%90%E4%BA%A4%E4%B8%8E%E6%92%A4%E5%8D%95%E5%88%86%E8%B4%B9.md"
     },
     {
       "title": "Pendle 挂单预算与有效深度",
