@@ -2,8 +2,27 @@
   "schemaVersion": 1,
   "timezone": "Asia/Shanghai",
   "repository": "Sakkana/X-feed-pages",
-  "recordCount": 187,
+  "recordCount": 189,
   "records": [
+    {
+      "title": "Cashmere Barn：公售尾价、退款和退出是三笔账",
+      "type": "打新",
+      "tags": [
+        "Cashmere",
+        "Robinhood Chain",
+        "NFT发行",
+        "退出费用"
+      ],
+      "summary": "公售差额由团队打款，Deed 首发禁转，退出 CSM 另扣可变 Gate 费。",
+      "observation": "2026-11-25 18:57:11（北京时间）",
+      "signal_strength": "weak",
+      "path": "2026-11-25/18-57-11-【打新】-Cashmere公售尾价与Barn退出.md",
+      "date": "2026-11-25",
+      "time": "18:57:11",
+      "sha": "6d0ae50b90dec8cb662434c708962a4639a7a386",
+      "url": "/X-feed-pages/2026-11-25/18-57-11-%E3%80%90%E6%89%93%E6%96%B0%E3%80%91-Cashmere%E5%85%AC%E5%94%AE%E5%B0%BE%E4%BB%B7%E4%B8%8EBarn%E9%80%80%E5%87%BA.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-11-25/18-57-11-%E3%80%90%E6%89%93%E6%96%B0%E3%80%91-Cashmere%E5%85%AC%E5%94%AE%E5%B0%BE%E4%BB%B7%E4%B8%8EBarn%E9%80%80%E5%87%BA.md"
+    },
     {
       "title": "Tempo USDY 的两层退出：链上即时，不等于美元即时",
       "type": "DeFi",
@@ -777,6 +796,26 @@
       "sha": "abd2ab2ccbaae1c63e75afb41104afbea234df4e",
       "url": "/X-feed-pages/2026-11-20/16-05-46-%E3%80%90%E9%87%8F%E5%8C%96%E3%80%91-AMDL%E6%97%A5%E9%87%8D%E7%BD%AE%E4%B8%8E%E6%B0%B8%E7%BB%AD%E5%AF%B9%E5%86%B2%E9%94%99%E4%BD%8D.html",
       "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-11-20/16-05-46-%E3%80%90%E9%87%8F%E5%8C%96%E3%80%91-AMDL%E6%97%A5%E9%87%8D%E7%BD%AE%E4%B8%8E%E6%B0%B8%E7%BB%AD%E5%AF%B9%E5%86%B2%E9%94%99%E4%BD%8D.md"
+    },
+    {
+      "title": "Stellar 两个 USDC 金库：补贴到期不同，赎回也不是倒计时",
+      "type": "激励",
+      "tags": [
+        "Stellar",
+        "Upshift",
+        "Merkl",
+        "USDC",
+        "金库赎回"
+      ],
+      "summary": "两金库六天补贴差约 0.32 USDC／千 U；即时退出取决于底层 USDC，不由页面倒计时保证。",
+      "observation": "2026-11-20 16:04:58（北京时间，原发送）；原快照 08:05 UTC 左右",
+      "signal_strength": "weak",
+      "path": "2026-11-20/16-04-58-【激励】-Stellar双金库补贴与赎回.md",
+      "date": "2026-11-20",
+      "time": "16:04:58",
+      "sha": "c6d4c5a01a8b806b9ec4338dd29f57a7a4507325",
+      "url": "/X-feed-pages/2026-11-20/16-04-58-%E3%80%90%E6%BF%80%E5%8A%B1%E3%80%91-Stellar%E5%8F%8C%E9%87%91%E5%BA%93%E8%A1%A5%E8%B4%B4%E4%B8%8E%E8%B5%8E%E5%9B%9E.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-11-20/16-04-58-%E3%80%90%E6%BF%80%E5%8A%B1%E3%80%91-Stellar%E5%8F%8C%E9%87%91%E5%BA%93%E8%A1%A5%E8%B4%B4%E4%B8%8E%E8%B5%8E%E5%9B%9E.md"
     },
     {
       "title": "Pendle 挂单预算与有效深度",

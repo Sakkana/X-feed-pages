@@ -1586,5 +1586,32 @@
     ],
     "summary": "AMD 回到原价，两倍日重置 ETF 也未必回到原价；上架后的历史盘口另列，不是同期跨所价差。",
     "observation": "2026-11-20 16:05:46（北京时间，原发送）；同日 18:00 补充上架后的盘口"
+  },
+  "2026-11-25/18-57-11-【打新】-Cashmere公售尾价与Barn退出.md": {
+    "title": "Cashmere Barn：公售尾价、退款和退出是三笔账",
+    "type": "打新",
+    "tags": [
+      "Cashmere",
+      "Robinhood Chain",
+      "NFT发行",
+      "退出费用"
+    ],
+    "summary": "公售差额由团队打款，Deed 首发禁转，退出 CSM 另扣可变 Gate 费。",
+    "observation": "2026-11-25 18:57:11（北京时间）",
+    "signal_strength": "weak"
+  },
+  "2026-11-20/16-04-58-【激励】-Stellar双金库补贴与赎回.md": {
+    "title": "Stellar 两个 USDC 金库：补贴到期不同，赎回也不是倒计时",
+    "type": "激励",
+    "tags": [
+      "Stellar",
+      "Upshift",
+      "Merkl",
+      "USDC",
+      "金库赎回"
+    ],
+    "summary": "两金库六天补贴差约 0.32 USDC／千 U；即时退出取决于底层 USDC，不由页面倒计时保证。",
+    "observation": "2026-11-20 16:04:58（北京时间，原发送）；原快照 08:05 UTC 左右",
+    "signal_strength": "weak"
   }
 }
