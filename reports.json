@@ -2,8 +2,28 @@
   "schemaVersion": 1,
   "timezone": "Asia/Shanghai",
   "repository": "Sakkana/X-feed-pages",
-  "recordCount": 185,
+  "recordCount": 187,
   "records": [
+    {
+      "title": "Tempo USDY 的两层退出：链上即时，不等于美元即时",
+      "type": "DeFi",
+      "tags": [
+        "Ondo",
+        "Tempo",
+        "USDY",
+        "OUSD",
+        "稳定币"
+      ],
+      "summary": "USDY 可用 OUSD 即时申赎；换到实际需要的币或银行美元，仍须单独核价、深度和资格。",
+      "observation": "2026-11-25 17:56:06（北京时间）；深度原始快照为 2026-11-24",
+      "signal_strength": "weak",
+      "path": "2026-11-25/17-56-06-【DeFi】-Tempo的USDY两层退出与美元阈值.md",
+      "date": "2026-11-25",
+      "time": "17:56:06",
+      "sha": "de00b1c5c931e3c58edf819450f68d5bc3eb6f01",
+      "url": "/X-feed-pages/2026-11-25/17-56-06-%E3%80%90DeFi%E3%80%91-Tempo%E7%9A%84USDY%E4%B8%A4%E5%B1%82%E9%80%80%E5%87%BA%E4%B8%8E%E7%BE%8E%E5%85%83%E9%98%88%E5%80%BC.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-11-25/17-56-06-%E3%80%90DeFi%E3%80%91-Tempo%E7%9A%84USDY%E4%B8%A4%E5%B1%82%E9%80%80%E5%87%BA%E4%B8%8E%E7%BE%8E%E5%85%83%E9%98%88%E5%80%BC.md"
+    },
     {
       "title": "Elysia 永续的 EL 保证金与提现门槛",
       "type": "DeFi",
@@ -739,6 +759,24 @@
       "title": "Babylon 拟停止原生 BTC 质押与退出分流",
       "url": "/X-feed-pages/2026-11-20/23-05-33-%E3%80%90DeFi%E3%80%91-Babylon%E6%8B%9F%E5%81%9C%E6%AD%A2%E5%8E%9F%E7%94%9FBTC%E8%B4%A8%E6%8A%BC%E4%B8%8E%E9%80%80%E5%87%BA%E5%88%86%E6%B5%81.html",
       "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-11-20/23-05-33-%E3%80%90DeFi%E3%80%91-Babylon%E6%8B%9F%E5%81%9C%E6%AD%A2%E5%8E%9F%E7%94%9FBTC%E8%B4%A8%E6%8A%BC%E4%B8%8E%E9%80%80%E5%87%BA%E5%88%86%E6%B5%81.md"
+    },
+    {
+      "title": "AMDLUSDT：2 倍日重置 ETF 不能用固定股数 AMD 跨日对冲",
+      "type": "量化",
+      "tags": [
+        "AMDL",
+        "TradFi永续",
+        "对冲",
+        "杠杆ETF"
+      ],
+      "summary": "AMD 回到原价，两倍日重置 ETF 也未必回到原价；上架后的历史盘口另列，不是同期跨所价差。",
+      "observation": "2026-11-20 16:05:46（北京时间，原发送）；同日 18:00 补充上架后的盘口",
+      "path": "2026-11-20/16-05-46-【量化】-AMDL日重置与永续对冲错位.md",
+      "date": "2026-11-20",
+      "time": "16:05:46",
+      "sha": "abd2ab2ccbaae1c63e75afb41104afbea234df4e",
+      "url": "/X-feed-pages/2026-11-20/16-05-46-%E3%80%90%E9%87%8F%E5%8C%96%E3%80%91-AMDL%E6%97%A5%E9%87%8D%E7%BD%AE%E4%B8%8E%E6%B0%B8%E7%BB%AD%E5%AF%B9%E5%86%B2%E9%94%99%E4%BD%8D.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-11-20/16-05-46-%E3%80%90%E9%87%8F%E5%8C%96%E3%80%91-AMDL%E6%97%A5%E9%87%8D%E7%BD%AE%E4%B8%8E%E6%B0%B8%E7%BB%AD%E5%AF%B9%E5%86%B2%E9%94%99%E4%BD%8D.md"
     },
     {
       "title": "Pendle 挂单预算与有效深度",
