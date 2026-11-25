@@ -1902,5 +1902,18 @@
     "summary": "Moneta 与 NBX 赎回责任不同；按历史参考价的千枚情景只有 0.80 美元覆盖市场与银行成本。",
     "observation": "2026-11-22 约 15:01（北京时间）",
     "signal_strength": "weak"
+  },
+  "2026-11-26/05-56-59-【DEX】-Nightshade公售退款与单向桥.md": {
+    "title": "Nightshade 上线不等于 SHADE 公售完成，也不等于 NIGHT 可退出",
+    "type": "DEX",
+    "tags": [
+      "Midnight",
+      "Nightshade",
+      "Cardano",
+      "SHADE",
+      "跨链"
+    ],
+    "summary": "公售仅达到最低门槛的 2.11%，取消并按规则原路退款。公开订单簿上线与 NIGHT 反向桥接是独立事件。",
+    "observation": "2026-11-26 约 05:57（北京时间）；主网与公售日期见正文"
   }
 }
