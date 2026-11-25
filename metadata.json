@@ -1795,5 +1795,32 @@
     ],
     "summary": "11 月 21 日原报告：区分 BOB→Ethereum 的 EUL 关桥与 rEUL 的归属、提前兑换规则。",
     "observation": "2026-11-21 20:06（北京时间，历史观察）"
+  },
+  "2026-11-26/02-05-20-【DeFi】-Apple与SpaceX股票金库退出.md": {
+    "title": "Apple 与 SpaceX 股票金库：收益增量与美元退出是两道账",
+    "type": "DeFi",
+    "tags": [
+      "Armitage",
+      "Superform",
+      "Base",
+      "股票代币",
+      "TradFi"
+    ],
+    "summary": "Apple 与 SpaceX 金库已接受存款。30 天千 U 显示收益规模约 3.04U、1.14U，但费用口径、实际仓位及兑现报价未证。",
+    "observation": "2026-11-26 01:30–02:05（北京时间）",
+    "signal_strength": "weak"
+  },
+  "2026-11-21/21-57-16-【空投】-VOLTA单次领取与解锁窗口.md": {
+    "title": "VOLTA：单次领取把选择变成「今天领多少，之后就不再领」",
+    "type": "空投",
+    "tags": [
+      "Elysium",
+      "VOLTA",
+      "领取窗口",
+      "线性解锁"
+    ],
+    "summary": "11 月 21 日原报告：每个钱包只可领取一次，提前领取会放弃未解锁份额。",
+    "observation": "2026-11-21 21:57（北京时间，历史观察）",
+    "signal_strength": "weak"
   }
 }

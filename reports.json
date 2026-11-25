@@ -2,8 +2,28 @@
   "schemaVersion": 1,
   "timezone": "Asia/Shanghai",
   "repository": "Sakkana/X-feed-pages",
-  "recordCount": 203,
+  "recordCount": 205,
   "records": [
+    {
+      "title": "Apple 与 SpaceX 股票金库：收益增量与美元退出是两道账",
+      "type": "DeFi",
+      "tags": [
+        "Armitage",
+        "Superform",
+        "Base",
+        "股票代币",
+        "TradFi"
+      ],
+      "summary": "Apple 与 SpaceX 金库已接受存款。30 天千 U 显示收益规模约 3.04U、1.14U，但费用口径、实际仓位及兑现报价未证。",
+      "observation": "2026-11-26 01:30–02:05（北京时间）",
+      "signal_strength": "weak",
+      "path": "2026-11-26/02-05-20-【DeFi】-Apple与SpaceX股票金库退出.md",
+      "date": "2026-11-26",
+      "time": "02:05:20",
+      "sha": "c97c584bbbc5ecc603941441d536c93c829362d7",
+      "url": "/X-feed-pages/2026-11-26/02-05-20-%E3%80%90DeFi%E3%80%91-Apple%E4%B8%8ESpaceX%E8%82%A1%E7%A5%A8%E9%87%91%E5%BA%93%E9%80%80%E5%87%BA.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-11-26/02-05-20-%E3%80%90DeFi%E3%80%91-Apple%E4%B8%8ESpaceX%E8%82%A1%E7%A5%A8%E9%87%91%E5%BA%93%E9%80%80%E5%87%BA.md"
+    },
     {
       "title": "Gate 黄金 CFD：首档 XAUT 奖励覆盖不了示例佣金",
       "type": "激励",
@@ -859,6 +879,25 @@
       "time": "21:59:34",
       "url": "/X-feed-pages/2026-11-22/21-59-34-%E3%80%90DEX%E3%80%91-TheVault%E9%80%80%E5%87%BA%E6%B1%A0%E7%9A%84SOL%E7%8E%B0%E9%87%91%E6%B7%B1%E5%BA%A6.html",
       "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-11-22/21-59-34-%E3%80%90DEX%E3%80%91-TheVault%E9%80%80%E5%87%BA%E6%B1%A0%E7%9A%84SOL%E7%8E%B0%E9%87%91%E6%B7%B1%E5%BA%A6.md"
+    },
+    {
+      "title": "VOLTA：单次领取把选择变成「今天领多少，之后就不再领」",
+      "type": "空投",
+      "tags": [
+        "Elysium",
+        "VOLTA",
+        "领取窗口",
+        "线性解锁"
+      ],
+      "summary": "11 月 21 日原报告：每个钱包只可领取一次，提前领取会放弃未解锁份额。",
+      "observation": "2026-11-21 21:57（北京时间，历史观察）",
+      "signal_strength": "weak",
+      "path": "2026-11-21/21-57-16-【空投】-VOLTA单次领取与解锁窗口.md",
+      "date": "2026-11-21",
+      "time": "21:57:16",
+      "sha": "07251e03dc5881f16bf6084180268b2ffe4558f9",
+      "url": "/X-feed-pages/2026-11-21/21-57-16-%E3%80%90%E7%A9%BA%E6%8A%95%E3%80%91-VOLTA%E5%8D%95%E6%AC%A1%E9%A2%86%E5%8F%96%E4%B8%8E%E8%A7%A3%E9%94%81%E7%AA%97%E5%8F%A3.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-11-21/21-57-16-%E3%80%90%E7%A9%BA%E6%8A%95%E3%80%91-VOLTA%E5%8D%95%E6%AC%A1%E9%A2%86%E5%8F%96%E4%B8%8E%E8%A7%A3%E9%94%81%E7%AA%97%E5%8F%A3.md"
     },
     {
       "title": "Euler BOB 关桥：EUL 跨链与 rEUL 归属是两件事",
