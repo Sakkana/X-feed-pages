@@ -2,8 +2,27 @@
   "schemaVersion": 1,
   "timezone": "Asia/Shanghai",
   "repository": "Sakkana/X-feed-pages",
-  "recordCount": 171,
+  "recordCount": 172,
   "records": [
+    {
+      "title": "Groma 上 Uniswap：NAV 是定价，不是即时退出承诺",
+      "type": "DEX",
+      "tags": [
+        "Uniswap",
+        "RWA",
+        "Groma",
+        "NAV",
+        "Base"
+      ],
+      "summary": "GRO/USDC 接到发行人按 NAV 铸赎，而非公开二级池。现金、额度与投资者资格仍决定能否退出；Solana 新发行是条件性计划。",
+      "observation": "原报告发送：2026-11-25 10:58:07 北京时间；观察：2026-11-25 02:57 UTC，复核发行公告、白皮书及存档募集文件",
+      "date": "2026-11-25",
+      "time": "10:58:07",
+      "path": "2026-11-25/10-58-07-【DEX】-Groma许可池的净值与退出.md",
+      "url": "/X-feed-pages/2026-11-25/10-58-07-%E3%80%90DEX%E3%80%91-Groma%E8%AE%B8%E5%8F%AF%E6%B1%A0%E7%9A%84%E5%87%80%E5%80%BC%E4%B8%8E%E9%80%80%E5%87%BA.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-11-25/10-58-07-%E3%80%90DEX%E3%80%91-Groma%E8%AE%B8%E5%8F%AF%E6%B1%A0%E7%9A%84%E5%87%80%E5%80%BC%E4%B8%8E%E9%80%80%E5%87%BA.md",
+      "sha": "fd6549728eb2c7ff893cfcf441362e1ecccbfd30"
+    },
     {
       "title": "Gate 的 ANT 股票打卡：2U 返券先要 10U 手续费",
       "type": "激励",

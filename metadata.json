@@ -1386,5 +1386,18 @@
     ],
     "summary": "两场 SOL 市场的 Resolver 与官方 Polygon V2 OracleAggregator 一致；成交量、结果显示和实际兑付是三件事。",
     "observation": "原报告发送：2026-11-24 00:06:25 北京时间；观察：2026-11-23 16:06 UTC"
+  },
+  "2026-11-25/10-58-07-【DEX】-Groma许可池的净值与退出.md": {
+    "title": "Groma 上 Uniswap：NAV 是定价，不是即时退出承诺",
+    "type": "DEX",
+    "tags": [
+      "Uniswap",
+      "RWA",
+      "Groma",
+      "NAV",
+      "Base"
+    ],
+    "summary": "GRO/USDC 接到发行人按 NAV 铸赎，而非公开二级池。现金、额度与投资者资格仍决定能否退出；Solana 新发行是条件性计划。",
+    "observation": "原报告发送：2026-11-25 10:58:07 北京时间；观察：2026-11-25 02:57 UTC，复核发行公告、白皮书及存档募集文件"
   }
 }
