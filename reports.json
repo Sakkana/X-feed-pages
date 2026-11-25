@@ -2,8 +2,45 @@
   "schemaVersion": 1,
   "timezone": "Asia/Shanghai",
   "repository": "Sakkana/X-feed-pages",
-  "recordCount": 192,
+  "recordCount": 195,
   "records": [
+    {
+      "title": "ADA/ETH 直连退场：多走一腿，千 U 未必更贵",
+      "type": "套利",
+      "tags": [
+        "现货",
+        "路由",
+        "Coinbase",
+        "Binance"
+      ],
+      "observation": "2026-11-25T13:07:54Z",
+      "summary": "ADA/ETH 交易对退出，Binance 替代路由实测：千 U 成本排序约 68 秒内反转，未见净套利。",
+      "signal_strength": "weak",
+      "path": "2026-11-25/21-08-34-【套利】-ADA-ETH直连与两跳深度.md",
+      "date": "2026-11-25",
+      "time": "21:08:34",
+      "url": "/X-feed-pages/2026-11-25/21-08-34-%E3%80%90%E5%A5%97%E5%88%A9%E3%80%91-ADA-ETH%E7%9B%B4%E8%BF%9E%E4%B8%8E%E4%B8%A4%E8%B7%B3%E6%B7%B1%E5%BA%A6.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-11-25/21-08-34-%E3%80%90%E5%A5%97%E5%88%A9%E3%80%91-ADA-ETH%E7%9B%B4%E8%BF%9E%E4%B8%8E%E4%B8%A4%E8%B7%B3%E6%B7%B1%E5%BA%A6.md",
+      "sha": "eecbc8df624fe5f3e391310f6440d337bb4b3b5a"
+    },
+    {
+      "title": "ANT 首个周度期权碰上提前收市：价内不保证兑现",
+      "type": "资料",
+      "tags": [
+        "TradFi",
+        "美股期权",
+        "Anthropic",
+        "交割"
+      ],
+      "observation": "2026-11-25T13:07:00Z",
+      "summary": "首个 ANT 周度期权遇提前收市；未提交行权、又未成功平仓的价内合约仍可能失去全部权利金。",
+      "path": "2026-11-25/21-08-01-【资料】-ANT周度期权提前收市与实物交割.md",
+      "date": "2026-11-25",
+      "time": "21:08:01",
+      "url": "/X-feed-pages/2026-11-25/21-08-01-%E3%80%90%E8%B5%84%E6%96%99%E3%80%91-ANT%E5%91%A8%E5%BA%A6%E6%9C%9F%E6%9D%83%E6%8F%90%E5%89%8D%E6%94%B6%E5%B8%82%E4%B8%8E%E5%AE%9E%E7%89%A9%E4%BA%A4%E5%89%B2.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-11-25/21-08-01-%E3%80%90%E8%B5%84%E6%96%99%E3%80%91-ANT%E5%91%A8%E5%BA%A6%E6%9C%9F%E6%9D%83%E6%8F%90%E5%89%8D%E6%94%B6%E5%B8%82%E4%B8%8E%E5%AE%9E%E7%89%A9%E4%BA%A4%E5%89%B2.md",
+      "sha": "1ae798a44c2c710b0ad943494de045d34f92b022"
+    },
     {
       "title": "五只 bStocks 开盘实测：3.7 bp 的盘口，1,000 U 往返可能差 107 U",
       "type": "套利",
@@ -815,6 +852,26 @@
       "title": "Babylon 拟停止原生 BTC 质押与退出分流",
       "url": "/X-feed-pages/2026-11-20/23-05-33-%E3%80%90DeFi%E3%80%91-Babylon%E6%8B%9F%E5%81%9C%E6%AD%A2%E5%8E%9F%E7%94%9FBTC%E8%B4%A8%E6%8A%BC%E4%B8%8E%E9%80%80%E5%87%BA%E5%88%86%E6%B5%81.html",
       "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-11-20/23-05-33-%E3%80%90DeFi%E3%80%91-Babylon%E6%8B%9F%E5%81%9C%E6%AD%A2%E5%8E%9F%E7%94%9FBTC%E8%B4%A8%E6%8A%BC%E4%B8%8E%E9%80%80%E5%87%BA%E5%88%86%E6%B5%81.md"
+    },
+    {
+      "title": "Re7 × Zama：保密份额的奖励资格与两种退出",
+      "type": "激励",
+      "tags": [
+        "Zama",
+        "Morpho",
+        "USDC",
+        "Ondo",
+        "保密金库"
+      ],
+      "observation": "2026-11-20 17:07:00（北京时间）",
+      "summary": "历史观察：保密份额的 ZAMA 奖励要求授权查看余额，批处理与公开即时退出是不同路径。",
+      "signal_strength": "weak",
+      "path": "2026-11-20/17-07-00-【激励】-Zama保密份额激励与退出.md",
+      "date": "2026-11-20",
+      "time": "17:07:00",
+      "url": "/X-feed-pages/2026-11-20/17-07-00-%E3%80%90%E6%BF%80%E5%8A%B1%E3%80%91-Zama%E4%BF%9D%E5%AF%86%E4%BB%BD%E9%A2%9D%E6%BF%80%E5%8A%B1%E4%B8%8E%E9%80%80%E5%87%BA.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-11-20/17-07-00-%E3%80%90%E6%BF%80%E5%8A%B1%E3%80%91-Zama%E4%BF%9D%E5%AF%86%E4%BB%BD%E9%A2%9D%E6%BF%80%E5%8A%B1%E4%B8%8E%E9%80%80%E5%87%BA.md",
+      "sha": "6f9ec0abdceb81647685b01dd84ec2ab77938f42"
     },
     {
       "title": "AMDLUSDT：2 倍日重置 ETF 不能用固定股数 AMD 跨日对冲",
