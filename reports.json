@@ -2,8 +2,46 @@
   "schemaVersion": 1,
   "timezone": "Asia/Shanghai",
   "repository": "Sakkana/X-feed-pages",
-  "recordCount": 172,
+  "recordCount": 174,
   "records": [
+    {
+      "title": "Binance 五只 bStocks 上市：现货、提现与美股开盘是三道门",
+      "type": "套利",
+      "tags": [
+        "Binance",
+        "bStocks",
+        "RWA",
+        "ETF",
+        "基差"
+      ],
+      "summary": "五只 bStocks 的现货、提现与美国常规盘开市不同步；1:1 转换受资格与交收限制，零 maker 费不是净套利。",
+      "observation": "原报告发送：2026-11-25 11:57:52 北京时间；观察：2026-11-25 03:57 UTC",
+      "signal_strength": "weak",
+      "date": "2026-11-25",
+      "time": "11:57:52",
+      "path": "2026-11-25/11-57-52-【套利】-五只bStocks的三个开盘时点.md",
+      "url": "/X-feed-pages/2026-11-25/11-57-52-%E3%80%90%E5%A5%97%E5%88%A9%E3%80%91-%E4%BA%94%E5%8F%AAbStocks%E7%9A%84%E4%B8%89%E4%B8%AA%E5%BC%80%E7%9B%98%E6%97%B6%E7%82%B9.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-11-25/11-57-52-%E3%80%90%E5%A5%97%E5%88%A9%E3%80%91-%E4%BA%94%E5%8F%AAbStocks%E7%9A%84%E4%B8%89%E4%B8%AA%E5%BC%80%E7%9B%98%E6%97%B6%E7%82%B9.md",
+      "sha": "358091c8ff4f3d03a1b1dc97841825f057c4cd08"
+    },
+    {
+      "title": "Euler 的 BOB 跨链桥将关闭：先看 rEUL 每笔解锁量",
+      "type": "资料",
+      "tags": [
+        "Euler",
+        "BOB",
+        "LayerZero",
+        "rEUL"
+      ],
+      "summary": "Euler 的 EUL 桥 11 月 30 日关闭；rEUL 提前兑换只能收回已归属部分，通用网络下线日期不是该资产的退出截止。",
+      "observation": "原报告发送：2026-11-25 11:57:06 北京时间；观察：2026-11-25 03:57 UTC",
+      "date": "2026-11-25",
+      "time": "11:57:06",
+      "path": "2026-11-25/11-57-06-【资料】-Euler跨链关停与rEUL折损.md",
+      "url": "/X-feed-pages/2026-11-25/11-57-06-%E3%80%90%E8%B5%84%E6%96%99%E3%80%91-Euler%E8%B7%A8%E9%93%BE%E5%85%B3%E5%81%9C%E4%B8%8ErEUL%E6%8A%98%E6%8D%9F.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-11-25/11-57-06-%E3%80%90%E8%B5%84%E6%96%99%E3%80%91-Euler%E8%B7%A8%E9%93%BE%E5%85%B3%E5%81%9C%E4%B8%8ErEUL%E6%8A%98%E6%8D%9F.md",
+      "sha": "6afae608ac2200d5c26714f85de10c9149b5b480"
+    },
     {
       "title": "Groma 上 Uniswap：NAV 是定价，不是即时退出承诺",
       "type": "DEX",
