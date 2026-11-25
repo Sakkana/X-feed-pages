@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "timezone": "Asia/Shanghai",
   "repository": "Sakkana/X-feed-pages",
-  "recordCount": 183,
+  "recordCount": 184,
   "records": [
     {
       "title": "Propbase Lend：没有跌价强平，不等于出借随时可退出",
@@ -669,6 +669,23 @@
       "url": "/X-feed-pages/2026-11-21/09-00-11-%E3%80%90%E5%A5%97%E5%88%A9%E3%80%91-Numo%E6%AC%A7%E5%85%83%E5%9F%BA%E5%B7%AE%E4%B8%8E%E7%8E%B0%E9%87%91%E7%BB%93%E7%AE%97.html",
       "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-11-21/09-00-11-%E3%80%90%E5%A5%97%E5%88%A9%E3%80%91-Numo%E6%AC%A7%E5%85%83%E5%9F%BA%E5%B7%AE%E4%B8%8E%E7%8E%B0%E9%87%91%E7%BB%93%E7%AE%97.md",
       "sha": "5b8ff9126ef2e4048f68f85f6767fd6045dd4455"
+    },
+    {
+      "title": "GenLayer 首发减量与第 12 月解锁",
+      "type": "山寨币估值",
+      "tags": [
+        "GenLayer",
+        "代币经济",
+        "解锁"
+      ],
+      "summary": "首发计划解锁减少约 47%，第 12 月单月解锁反而是首发的 1.18 倍；解锁不等于实际流通。",
+      "observation": "2026-11-21 01:00–01:08（北京时间）",
+      "path": "2026-11-21/01-08-04-【山寨币估值】-GenLayer首发减量与第12月解锁.md",
+      "date": "2026-11-21",
+      "time": "01:08:04",
+      "sha": "7e362554da575e975760040ebb52d5e31918f53c",
+      "url": "/X-feed-pages/2026-11-21/01-08-04-%E3%80%90%E5%B1%B1%E5%AF%A8%E5%B8%81%E4%BC%B0%E5%80%BC%E3%80%91-GenLayer%E9%A6%96%E5%8F%91%E5%87%8F%E9%87%8F%E4%B8%8E%E7%AC%AC12%E6%9C%88%E8%A7%A3%E9%94%81.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-11-21/01-08-04-%E3%80%90%E5%B1%B1%E5%AF%A8%E5%B8%81%E4%BC%B0%E5%80%BC%E3%80%91-GenLayer%E9%A6%96%E5%8F%91%E5%87%8F%E9%87%8F%E4%B8%8E%E7%AC%AC12%E6%9C%88%E8%A7%A3%E9%94%81.md"
     },
     {
       "title": "Sophon 旧链关停前的提款路径",
