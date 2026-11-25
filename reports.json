@@ -2,8 +2,28 @@
   "schemaVersion": 1,
   "timezone": "Asia/Shanghai",
   "repository": "Sakkana/X-feed-pages",
-  "recordCount": 199,
+  "recordCount": 201,
   "records": [
+    {
+      "title": "wARS 奖励续期：36 小时毛收益几乎只够两次池费",
+      "type": "激励",
+      "tags": [
+        "wARS",
+        "Morpho",
+        "Merkl",
+        "Uniswap",
+        "换汇"
+      ],
+      "summary": "36 小时静态估算：千 U 毛收益约 1.01 U，指定 0.05% 池的往返费已约 1.00 U。",
+      "observation": "2026-11-25 23:06（北京时间）",
+      "signal_strength": "weak",
+      "path": "2026-11-25/23-57-25-【激励】-wARS续期与两次池费.md",
+      "date": "2026-11-25",
+      "time": "23:57:25",
+      "sha": "b644fab78d8b04c4cb00848ecb082d87df47370d",
+      "url": "/X-feed-pages/2026-11-25/23-57-25-%E3%80%90%E6%BF%80%E5%8A%B1%E3%80%91-wARS%E7%BB%AD%E6%9C%9F%E4%B8%8E%E4%B8%A4%E6%AC%A1%E6%B1%A0%E8%B4%B9.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-11-25/23-57-25-%E3%80%90%E6%BF%80%E5%8A%B1%E3%80%91-wARS%E7%BB%AD%E6%9C%9F%E4%B8%8E%E4%B8%A4%E6%AC%A1%E6%B1%A0%E8%B4%B9.md"
+    },
     {
       "title": "IBITB 开盘后退出摩擦收窄，永续对冲仍缺一条腿",
       "type": "套利",
@@ -1063,6 +1083,25 @@
       "title": "Hydration：HOLLAR 折价偿债与 Juicer 退出",
       "url": "/X-feed-pages/2026-11-18/20-57-04-%E3%80%90%E5%80%9F%E8%B4%B7%E3%80%91-HOLLAR%E6%8A%98%E4%BB%B7%E5%81%BF%E5%80%BA%E4%B8%8EJuicer%E9%80%80%E5%87%BA.html",
       "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-11-18/20-57-04-%E3%80%90%E5%80%9F%E8%B4%B7%E3%80%91-HOLLAR%E6%8A%98%E4%BB%B7%E5%81%BF%E5%80%BA%E4%B8%8EJuicer%E9%80%80%E5%87%BA.md"
+    },
+    {
+      "title": "wARS 短期奖励与换汇成本：11 月 14 日报价快照",
+      "type": "DeFi",
+      "tags": [
+        "wARS",
+        "Morpho",
+        "Merkl",
+        "换汇"
+      ],
+      "summary": "11 月 14 日历史核验：千 U 模拟换汇损耗约 2.21 U，超过旧奖池剩余窗口内约 1.85 U 的静态理论奖励。",
+      "observation": "2026-11-14 06:06（北京时间，历史观察）",
+      "signal_strength": "weak",
+      "path": "2026-11-14/06-09-01-【DeFi】-wARS短期奖励与换汇成本.md",
+      "date": "2026-11-14",
+      "time": "06:09:01",
+      "sha": "2321b68447bfcc316ea95be44844a8535702a816",
+      "url": "/X-feed-pages/2026-11-14/06-09-01-%E3%80%90DeFi%E3%80%91-wARS%E7%9F%AD%E6%9C%9F%E5%A5%96%E5%8A%B1%E4%B8%8E%E6%8D%A2%E6%B1%87%E6%88%90%E6%9C%AC.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-11-14/06-09-01-%E3%80%90DeFi%E3%80%91-wARS%E7%9F%AD%E6%9C%9F%E5%A5%96%E5%8A%B1%E4%B8%8E%E6%8D%A2%E6%B1%87%E6%88%90%E6%9C%AC.md"
     },
     {
       "type": "套利",
