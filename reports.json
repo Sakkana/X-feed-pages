@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "timezone": "Asia/Shanghai",
   "repository": "Sakkana/X-feed-pages",
-  "recordCount": 181,
+  "recordCount": 182,
   "records": [
     {
       "title": "HBDGR：公售价格与锁仓奖励，为什么不能共用 $0.06 估值",
@@ -540,6 +540,23 @@
       "title": "金银期权首次按 30 分钟指数均价结算",
       "url": "/X-feed-pages/2026-11-24/13-57-49-%E3%80%90%E9%87%8F%E5%8C%96%E3%80%91-%E9%87%91%E9%93%B6%E6%9C%9F%E6%9D%83%E9%A6%96%E6%AC%A1%E5%9D%87%E4%BB%B7%E7%BB%93%E7%AE%97%E5%AE%9E%E8%AF%81.html",
       "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-11-24/13-57-49-%E3%80%90%E9%87%8F%E5%8C%96%E3%80%91-%E9%87%91%E9%93%B6%E6%9C%9F%E6%9D%83%E9%A6%96%E6%AC%A1%E5%9D%87%E4%BB%B7%E7%BB%93%E7%AE%97%E5%AE%9E%E8%AF%81.md"
+    },
+    {
+      "title": "HUMA：首期顺延与四类释放对账",
+      "type": "山寨币估值",
+      "tags": [
+        "HUMA",
+        "Huma Finance",
+        "归属计划"
+      ],
+      "summary": "区分团队与投资人首期 3.325 亿 HUMA，与叠加常规基金会、生态释放后的统计口径。",
+      "observation": "原报告发送：2026-11-24 11:06:23 北京时间；观察：2026-11-24 11:06 北京时间。",
+      "path": "2026-11-24/11-06-23-【山寨币估值】-HUMA首期顺延与四类释放对账.md",
+      "date": "2026-11-24",
+      "time": "11:06:23",
+      "sha": "011adbd0c4e24f25fcbfea8344c7ea4f0ec1f7c3",
+      "url": "/X-feed-pages/2026-11-24/11-06-23-%E3%80%90%E5%B1%B1%E5%AF%A8%E5%B8%81%E4%BC%B0%E5%80%BC%E3%80%91-HUMA%E9%A6%96%E6%9C%9F%E9%A1%BA%E5%BB%B6%E4%B8%8E%E5%9B%9B%E7%B1%BB%E9%87%8A%E6%94%BE%E5%AF%B9%E8%B4%A6.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-11-24/11-06-23-%E3%80%90%E5%B1%B1%E5%AF%A8%E5%B8%81%E4%BC%B0%E5%80%BC%E3%80%91-HUMA%E9%A6%96%E6%9C%9F%E9%A1%BA%E5%BB%B6%E4%B8%8E%E5%9B%9B%E7%B1%BB%E9%87%8A%E6%94%BE%E5%AF%B9%E8%B4%A6.md"
     },
     {
       "title": "Polymarket V2：两个 SOL 五分钟市场已指向新结算入口",
