@@ -1716,5 +1716,32 @@
     "summary": "历史观察：LP 价内方可获奖，发放三个月锁定的 veMEZO；退出本金与奖励变现是两条路径。",
     "observation": "2026-11-20 21:06–21:07（北京时间）",
     "signal_strength": "weak"
+  },
+  "2026-11-25/23-04-58-【套利】-IBITB开盘后摩擦与永续对冲.md": {
+    "title": "IBITB 开盘后退出摩擦收窄，永续对冲仍缺一条腿",
+    "type": "套利",
+    "tags": [
+      "IBIT",
+      "TradFi",
+      "Binance",
+      "KuCoin",
+      "基差"
+    ],
+    "summary": "同一标的不是同一退出路径：IBITB 千 U 盘口摩擦开盘后下降，IBIT 永续的真实资金费和对冲成本仍未证。",
+    "observation": "2026-11-25 23:04:48（北京时间）",
+    "signal_strength": "weak"
+  },
+  "2026-11-21/19-07-34-【新发行】-Dynex快照与股权兑换边界.md": {
+    "title": "Dynex Paragon：快照门槛不是股权兑换额度",
+    "type": "新发行",
+    "tags": [
+      "Dynex",
+      "DNX",
+      "快照",
+      "RWA"
+    ],
+    "summary": "11 月 21 日历史核验：10 万 DNX 只是持仓门槛，不能替代先前申请，也不等于已获得股权兑换额度。",
+    "observation": "2026-11-21 19:07（北京时间，历史观察）",
+    "signal_strength": "weak"
   }
 }
