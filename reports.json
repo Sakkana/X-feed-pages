@@ -2,8 +2,27 @@
   "schemaVersion": 1,
   "timezone": "Asia/Shanghai",
   "repository": "Sakkana/X-feed-pages",
-  "recordCount": 179,
+  "recordCount": 180,
   "records": [
+    {
+      "title": "sUSDe PT 换月：上线融资市场，不等于借得到 USDC",
+      "type": "套利",
+      "tags": [
+        "Pendle",
+        "Morpho",
+        "sUSDe",
+        "期限利差"
+      ],
+      "summary": "旧 PT 市场仍有逾 400 万 USDC 债务；新 PT 获纳入配置，但公告后的公开快照显示可借不足 0.01 USDC。",
+      "observation": "原报告发送：2026-11-25 14:58:09 北京时间；观察：2026-11-25 约 06:58 UTC（公开页面快照，非同区块）",
+      "signal_strength": "weak",
+      "path": "2026-11-25/14-58-09-【套利】-sUSDe换月与借款深度.md",
+      "date": "2026-11-25",
+      "time": "14:58:09",
+      "sha": "c7806cd6176c72f8f2a84507b36f053ec7254236",
+      "url": "/X-feed-pages/2026-11-25/14-58-09-%E3%80%90%E5%A5%97%E5%88%A9%E3%80%91-sUSDe%E6%8D%A2%E6%9C%88%E4%B8%8E%E5%80%9F%E6%AC%BE%E6%B7%B1%E5%BA%A6.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-11-25/14-58-09-%E3%80%90%E5%A5%97%E5%88%A9%E3%80%91-sUSDe%E6%8D%A2%E6%9C%88%E4%B8%8E%E5%80%9F%E6%AC%BE%E6%B7%B1%E5%BA%A6.md"
+    },
     {
       "title": "ApeX 17 组永续下架：自动结算不会关掉别处的对冲腿",
       "type": "量化",
