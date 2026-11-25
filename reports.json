@@ -2,8 +2,27 @@
   "schemaVersion": 1,
   "timezone": "Asia/Shanghai",
   "repository": "Sakkana/X-feed-pages",
-  "recordCount": 201,
+  "recordCount": 203,
   "records": [
+    {
+      "title": "Gate 黄金 CFD：首档 XAUT 奖励覆盖不了示例佣金",
+      "type": "激励",
+      "tags": [
+        "Gate",
+        "XAUT",
+        "CFD",
+        "TradFi"
+      ],
+      "summary": "首档 XAUT 要求 150 万 USDx 累计成交；按公告估值约 3.66U，远低于按官方金属费表推算的示例佣金。",
+      "observation": "2026-11-26 01:05（北京时间）",
+      "signal_strength": "weak",
+      "path": "2026-11-26/01-04-44-【激励】-Gate黄金CFD奖励与佣金.md",
+      "date": "2026-11-26",
+      "time": "01:04:44",
+      "sha": "eceb8c6adf5b88102d5d9d621e1b0c20977f57fc",
+      "url": "/X-feed-pages/2026-11-26/01-04-44-%E3%80%90%E6%BF%80%E5%8A%B1%E3%80%91-Gate%E9%BB%84%E9%87%91CFD%E5%A5%96%E5%8A%B1%E4%B8%8E%E4%BD%A3%E9%87%91.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-11-26/01-04-44-%E3%80%90%E6%BF%80%E5%8A%B1%E3%80%91-Gate%E9%BB%84%E9%87%91CFD%E5%A5%96%E5%8A%B1%E4%B8%8E%E4%BD%A3%E9%87%91.md"
+    },
     {
       "title": "wARS 奖励续期：36 小时毛收益几乎只够两次池费",
       "type": "激励",
@@ -840,6 +859,24 @@
       "time": "21:59:34",
       "url": "/X-feed-pages/2026-11-22/21-59-34-%E3%80%90DEX%E3%80%91-TheVault%E9%80%80%E5%87%BA%E6%B1%A0%E7%9A%84SOL%E7%8E%B0%E9%87%91%E6%B7%B1%E5%BA%A6.html",
       "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-11-22/21-59-34-%E3%80%90DEX%E3%80%91-TheVault%E9%80%80%E5%87%BA%E6%B1%A0%E7%9A%84SOL%E7%8E%B0%E9%87%91%E6%B7%B1%E5%BA%A6.md"
+    },
+    {
+      "title": "Euler BOB 关桥：EUL 跨链与 rEUL 归属是两件事",
+      "type": "资料",
+      "tags": [
+        "Euler",
+        "EUL",
+        "BOB",
+        "跨链"
+      ],
+      "summary": "11 月 21 日原报告：区分 BOB→Ethereum 的 EUL 关桥与 rEUL 的归属、提前兑换规则。",
+      "observation": "2026-11-21 20:06（北京时间，历史观察）",
+      "path": "2026-11-21/20-06-45-【资料】-Euler关桥与奖励归属.md",
+      "date": "2026-11-21",
+      "time": "20:06:45",
+      "sha": "7f8c53757239a962e241bef724bda1a325413673",
+      "url": "/X-feed-pages/2026-11-21/20-06-45-%E3%80%90%E8%B5%84%E6%96%99%E3%80%91-Euler%E5%85%B3%E6%A1%A5%E4%B8%8E%E5%A5%96%E5%8A%B1%E5%BD%92%E5%B1%9E.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-11-21/20-06-45-%E3%80%90%E8%B5%84%E6%96%99%E3%80%91-Euler%E5%85%B3%E6%A1%A5%E4%B8%8E%E5%A5%96%E5%8A%B1%E5%BD%92%E5%B1%9E.md"
     },
     {
       "title": "Dynex Paragon：快照门槛不是股权兑换额度",

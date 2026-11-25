@@ -1770,5 +1770,30 @@
     "summary": "11 月 14 日历史核验：千 U 模拟换汇损耗约 2.21 U，超过旧奖池剩余窗口内约 1.85 U 的静态理论奖励。",
     "observation": "2026-11-14 06:06（北京时间，历史观察）",
     "signal_strength": "weak"
+  },
+  "2026-11-26/01-04-44-【激励】-Gate黄金CFD奖励与佣金.md": {
+    "title": "Gate 黄金 CFD：首档 XAUT 奖励覆盖不了示例佣金",
+    "type": "激励",
+    "tags": [
+      "Gate",
+      "XAUT",
+      "CFD",
+      "TradFi"
+    ],
+    "summary": "首档 XAUT 要求 150 万 USDx 累计成交；按公告估值约 3.66U，远低于按官方金属费表推算的示例佣金。",
+    "observation": "2026-11-26 01:05（北京时间）",
+    "signal_strength": "weak"
+  },
+  "2026-11-21/20-06-45-【资料】-Euler关桥与奖励归属.md": {
+    "title": "Euler BOB 关桥：EUL 跨链与 rEUL 归属是两件事",
+    "type": "资料",
+    "tags": [
+      "Euler",
+      "EUL",
+      "BOB",
+      "跨链"
+    ],
+    "summary": "11 月 21 日原报告：区分 BOB→Ethereum 的 EUL 关桥与 rEUL 的归属、提前兑换规则。",
+    "observation": "2026-11-21 20:06（北京时间，历史观察）"
   }
 }
