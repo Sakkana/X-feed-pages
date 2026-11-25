@@ -1822,5 +1822,30 @@
     "summary": "11 月 21 日原报告：每个钱包只可领取一次，提前领取会放弃未解锁份额。",
     "observation": "2026-11-21 21:57（北京时间，历史观察）",
     "signal_strength": "weak"
+  },
+  "2026-11-26/02-58-20-【激励】-NIGHT赛的榜外分母与双向成本.md": {
+    "title": "Binance NIGHT 赛：XRP 路线更便宜，但榜外奖池分母未公开",
+    "type": "激励",
+    "tags": [
+      "Binance",
+      "NIGHT",
+      "XRP",
+      "成交奖励"
+    ],
+    "summary": "千 U 双向盘口估算成本约 2.01 USDC 或 3.16 USDT；榜外有效成交总量与奖励兑现价仍未验证。",
+    "observation": "2026-11-26 约 02:58（北京时间）",
+    "signal_strength": "weak"
+  },
+  "2026-11-21/23-07-13-【资料】-Hyperwave停运与嵌套仓位退出.md": {
+    "title": "Hyperwave 停运：发回金库凭证持有人，不等于发回嵌套仓位持有人",
+    "type": "资料",
+    "tags": [
+      "DeFi",
+      "HyperEVM",
+      "Pendle",
+      "赎回"
+    ],
+    "summary": "旧报告复原：停运后拟回付裸持凭证的钱包，PT、LP 与借贷仓位的回款归属不能据此直接推定。",
+    "observation": "2026-11-21 23:07（北京时间）"
   }
 }
