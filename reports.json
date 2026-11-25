@@ -2,8 +2,27 @@
   "schemaVersion": 1,
   "timezone": "Asia/Shanghai",
   "repository": "Sakkana/X-feed-pages",
-  "recordCount": 182,
+  "recordCount": 183,
   "records": [
+    {
+      "title": "Propbase Lend：没有跌价强平，不等于出借随时可退出",
+      "type": "DeFi",
+      "tags": [
+        "Propbase",
+        "RWA",
+        "借贷",
+        "流动性"
+      ],
+      "summary": "质押中的房产代币拟保留租金并抵押借 USDC；出借无固定锁期，但可用现金与违约处置决定实际退出。",
+      "observation": "原报告发送：2026-11-25 15:59:58 北京时间；观察：2026-11-25 约 08:00 UTC（上线前）",
+      "signal_strength": "weak",
+      "path": "2026-11-25/15-59-58-【DeFi】-Propbase房产抵押与提款约束.md",
+      "date": "2026-11-25",
+      "time": "15:59:58",
+      "sha": "50f62e086c2b57b69be42d85e60d6d0e3a4051d3",
+      "url": "/X-feed-pages/2026-11-25/15-59-58-%E3%80%90DeFi%E3%80%91-Propbase%E6%88%BF%E4%BA%A7%E6%8A%B5%E6%8A%BC%E4%B8%8E%E6%8F%90%E6%AC%BE%E7%BA%A6%E6%9D%9F.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-11-25/15-59-58-%E3%80%90DeFi%E3%80%91-Propbase%E6%88%BF%E4%BA%A7%E6%8A%B5%E6%8A%BC%E4%B8%8E%E6%8F%90%E6%AC%BE%E7%BA%A6%E6%9D%9F.md"
+    },
     {
       "title": "HBDGR：公售价格与锁仓奖励，为什么不能共用 $0.06 估值",
       "type": "新发行",
