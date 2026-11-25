@@ -2,8 +2,27 @@
   "schemaVersion": 1,
   "timezone": "Asia/Shanghai",
   "repository": "Sakkana/X-feed-pages",
-  "recordCount": 168,
+  "recordCount": 171,
   "records": [
+    {
+      "title": "Gate 的 ANT 股票打卡：2U 返券先要 10U 手续费",
+      "type": "激励",
+      "tags": [
+        "Gate",
+        "股票",
+        "ANT",
+        "手续费"
+      ],
+      "summary": "500 美元成交解锁的是 20% 股票手续费返券；要用足 2U 需产生 10U 合格手续费。ANT 碎股奖励另有 2–14 日打卡、名额及退出条件。",
+      "observation": "原报告发送：2026-11-25 10:06:23 北京时间；观察：2026-11-25 02:05 UTC，核对 Gate 11 月 24 日活动规则",
+      "signal_strength": "weak",
+      "path": "2026-11-25/10-06-23-【激励】-Gate股票返券与ANT碎股兑现.md",
+      "date": "2026-11-25",
+      "time": "10:06:23",
+      "sha": "4815692563cc7a5b3751891b81677ec6791435ca",
+      "url": "/X-feed-pages/2026-11-25/10-06-23-%E3%80%90%E6%BF%80%E5%8A%B1%E3%80%91-Gate%E8%82%A1%E7%A5%A8%E8%BF%94%E5%88%B8%E4%B8%8EANT%E7%A2%8E%E8%82%A1%E5%85%91%E7%8E%B0.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-11-25/10-06-23-%E3%80%90%E6%BF%80%E5%8A%B1%E3%80%91-Gate%E8%82%A1%E7%A5%A8%E8%BF%94%E5%88%B8%E4%B8%8EANT%E7%A2%8E%E8%82%A1%E5%85%91%E7%8E%B0.md"
+    },
     {
       "title": "Gate 的 SOL/XRP 充值奖励：500U 持有三天，奖励不到 0.37U",
       "type": "激励",
@@ -370,6 +389,43 @@
       "title": "金银期权首次按 30 分钟指数均价结算",
       "url": "/X-feed-pages/2026-11-24/13-57-49-%E3%80%90%E9%87%8F%E5%8C%96%E3%80%91-%E9%87%91%E9%93%B6%E6%9C%9F%E6%9D%83%E9%A6%96%E6%AC%A1%E5%9D%87%E4%BB%B7%E7%BB%93%E7%AE%97%E5%AE%9E%E8%AF%81.html",
       "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-11-24/13-57-49-%E3%80%90%E9%87%8F%E5%8C%96%E3%80%91-%E9%87%91%E9%93%B6%E6%9C%9F%E6%9D%83%E9%A6%96%E6%AC%A1%E5%9D%87%E4%BB%B7%E7%BB%93%E7%AE%97%E5%AE%9E%E8%AF%81.md"
+    },
+    {
+      "title": "Polymarket V2：两个 SOL 五分钟市场已指向新结算入口",
+      "type": "量化",
+      "tags": [
+        "量化",
+        "Polymarket",
+        "市场结构"
+      ],
+      "summary": "两场 SOL 市场的 Resolver 与官方 Polygon V2 OracleAggregator 一致；成交量、结果显示和实际兑付是三件事。",
+      "observation": "原报告发送：2026-11-24 00:06:25 北京时间；观察：2026-11-23 16:06 UTC",
+      "path": "2026-11-24/00-06-25-【量化】-Polymarket首批V2市场实证.md",
+      "date": "2026-11-24",
+      "time": "00:06:25",
+      "sha": "9655e8e7990174b47d2f6f7c123995e4850842e3",
+      "url": "/X-feed-pages/2026-11-24/00-06-25-%E3%80%90%E9%87%8F%E5%8C%96%E3%80%91-Polymarket%E9%A6%96%E6%89%B9V2%E5%B8%82%E5%9C%BA%E5%AE%9E%E8%AF%81.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-11-24/00-06-25-%E3%80%90%E9%87%8F%E5%8C%96%E3%80%91-Polymarket%E9%A6%96%E6%89%B9V2%E5%B8%82%E5%9C%BA%E5%AE%9E%E8%AF%81.md"
+    },
+    {
+      "title": "Curve 双稳池：一笔链上实兑，不代表三条补贴可以相加",
+      "type": "激励",
+      "tags": [
+        "激励",
+        "Curve",
+        "Merkl",
+        "PYUSD",
+        "crvUSD"
+      ],
+      "summary": "一笔链上交易实兑 45.9767 crvUSD；三种 LP 凭证的补贴不能叠加。历史 1,000U 持有七天约 1.56 美元毛值，退出成本未核。",
+      "observation": "原报告发送：2026-11-23 19:58:01 北京时间；观察：2026-11-23 近 12:00 UTC，链上样本 2026-11-20 09:45:47 UTC",
+      "signal_strength": "weak",
+      "path": "2026-11-23/19-58-01-【激励】-Curve双稳池三种凭证与奖励实兑.md",
+      "date": "2026-11-23",
+      "time": "19:58:01",
+      "sha": "69d36d5dd2912a9dde7e7a24f3524a5d0c56099c",
+      "url": "/X-feed-pages/2026-11-23/19-58-01-%E3%80%90%E6%BF%80%E5%8A%B1%E3%80%91-Curve%E5%8F%8C%E7%A8%B3%E6%B1%A0%E4%B8%89%E7%A7%8D%E5%87%AD%E8%AF%81%E4%B8%8E%E5%A5%96%E5%8A%B1%E5%AE%9E%E5%85%91.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-11-23/19-58-01-%E3%80%90%E6%BF%80%E5%8A%B1%E3%80%91-Curve%E5%8F%8C%E7%A8%B3%E6%B1%A0%E4%B8%89%E7%A7%8D%E5%87%AD%E8%AF%81%E4%B8%8E%E5%A5%96%E5%8A%B1%E5%AE%9E%E5%85%91.md"
     },
     {
       "type": "DEX",
