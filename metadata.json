@@ -1875,5 +1875,32 @@
     "summary": "约 618 万 USDC 存款、57.93 万底层汇总流动性及零闲置余额并存；底层汇总不是普通提款额度。",
     "observation": "2026-11-21 21:58（北京时间）",
     "signal_strength": "weak"
+  },
+  "2026-11-26/04-56-51-【量化】-Mento美元池补贴与绕路成本.md": {
+    "title": "Mento 美元池对照：多 0.69U 补贴，可能不够补多 0.82U 换币成本",
+    "type": "量化",
+    "tags": [
+      "Monad",
+      "Mento",
+      "Merkl",
+      "稳定币",
+      "LP"
+    ],
+    "summary": "固定库存千 U 情景中，AUSD/USDm 比 USDC/USDm 多约 0.69U 补贴，但 USDC 进出多约 0.82U 换币成本。未取得同区块报价。",
+    "observation": "2026-11-26 约 04:56（北京时间）；行情输入为同日非同区块快照",
+    "signal_strength": "weak"
+  },
+  "2026-11-22/15-00-50-【套利】-USDM折价与双发行赎回.md": {
+    "title": "Cardano USDM：同一代码，不等于同一美元赎回权",
+    "type": "套利",
+    "tags": [
+      "套利",
+      "Cardano",
+      "USDM",
+      "稳定币"
+    ],
+    "summary": "Moneta 与 NBX 赎回责任不同；按历史参考价的千枚情景只有 0.80 美元覆盖市场与银行成本。",
+    "observation": "2026-11-22 约 15:01（北京时间）",
+    "signal_strength": "weak"
   }
 }
