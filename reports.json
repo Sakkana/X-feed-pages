@@ -2,8 +2,27 @@
   "schemaVersion": 1,
   "timezone": "Asia/Shanghai",
   "repository": "Sakkana/X-feed-pages",
-  "recordCount": 180,
+  "recordCount": 181,
   "records": [
+    {
+      "title": "HBDGR：公售价格与锁仓奖励，为什么不能共用 $0.06 估值",
+      "type": "新发行",
+      "tags": [
+        "TON",
+        "公售",
+        "Launchpool",
+        "流动性"
+      ],
+      "summary": "TON 公售标价 $0.06，销售地址有库存，两类锁仓按金额乘时间分奖；库存和发行价均不能证明奖励的实际兑现价值。",
+      "observation": "原报告发送：2026-11-25 15:01:57 北京时间；观察：2026-11-25 约 07:02 UTC（公开页面快照）",
+      "signal_strength": "weak",
+      "path": "2026-11-25/15-01-57-【新发行】-HBDGR公售价与锁仓退出.md",
+      "date": "2026-11-25",
+      "time": "15:01:57",
+      "sha": "0d33cc169eda857eb136523792e34630595245ed",
+      "url": "/X-feed-pages/2026-11-25/15-01-57-%E3%80%90%E6%96%B0%E5%8F%91%E8%A1%8C%E3%80%91-HBDGR%E5%85%AC%E5%94%AE%E4%BB%B7%E4%B8%8E%E9%94%81%E4%BB%93%E9%80%80%E5%87%BA.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-11-25/15-01-57-%E3%80%90%E6%96%B0%E5%8F%91%E8%A1%8C%E3%80%91-HBDGR%E5%85%AC%E5%94%AE%E4%BB%B7%E4%B8%8E%E9%94%81%E4%BB%93%E9%80%80%E5%87%BA.md"
+    },
     {
       "title": "sUSDe PT 换月：上线融资市场，不等于借得到 USDC",
       "type": "套利",
