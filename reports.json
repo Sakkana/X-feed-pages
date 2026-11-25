@@ -2,8 +2,26 @@
   "schemaVersion": 1,
   "timezone": "Asia/Shanghai",
   "repository": "Sakkana/X-feed-pages",
-  "recordCount": 178,
+  "recordCount": 179,
   "records": [
+    {
+      "title": "ApeX 17 组永续下架：自动结算不会关掉别处的对冲腿",
+      "type": "量化",
+      "tags": [
+        "ApeX",
+        "永续",
+        "对冲",
+        "结算"
+      ],
+      "summary": "17 个永续市场从只减仓转入自动结算；另一平台对冲腿不会同步关闭，本批次结算价格口径未公布。",
+      "observation": "原报告发送：2026-11-25 14:01:55 北京时间；观察：2026-11-25 06:01 UTC",
+      "path": "2026-11-25/14-01-55-【量化】-ApeX永续下架与对冲脱节.md",
+      "date": "2026-11-25",
+      "time": "14:01:55",
+      "sha": "a6d26998c7625a4c2609e7e6264f57aae88337c5",
+      "url": "/X-feed-pages/2026-11-25/14-01-55-%E3%80%90%E9%87%8F%E5%8C%96%E3%80%91-ApeX%E6%B0%B8%E7%BB%AD%E4%B8%8B%E6%9E%B6%E4%B8%8E%E5%AF%B9%E5%86%B2%E8%84%B1%E8%8A%82.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-11-25/14-01-55-%E3%80%90%E9%87%8F%E5%8C%96%E3%80%91-ApeX%E6%B0%B8%E7%BB%AD%E4%B8%8B%E6%9E%B6%E4%B8%8E%E5%AF%B9%E5%86%B2%E8%84%B1%E8%8A%82.md"
+    },
     {
       "title": "LFJ 的 WMON/USDC 激励：把 903% 拆成手续费和实际发币",
       "type": "激励",
