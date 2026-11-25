@@ -5,6 +5,26 @@
   "recordCount": 205,
   "records": [
     {
+      "title": "NIZA 下架：旧币回购、现货卖出和迁移是三个出口",
+      "type": "CEX",
+      "tags": [
+        "Gate",
+        "NIZA",
+        "Solana",
+        "下架",
+        "迁移"
+      ],
+      "summary": "每枚旧币公告回购价为 0.00000027 USDT，每人上限 100 USDT。按 Gate 页面参考价折算的名义千 U 仓位，回购仅约 6.94U；未证实新买入有套利。",
+      "observation": "2026-11-26 约 04:00（北京时间）；Gate 页面标题无精确行情时间",
+      "signal_strength": "weak",
+      "path": "2026-11-26/04-00-46-【CEX】-NIZA下架与迁移退出价.md",
+      "date": "2026-11-26",
+      "time": "04:00:46",
+      "sha": "11027b544eb4242f5dd9a91c59e0648e09eb3165",
+      "url": "/X-feed-pages/2026-11-26/04-00-46-%E3%80%90CEX%E3%80%91-NIZA%E4%B8%8B%E6%9E%B6%E4%B8%8E%E8%BF%81%E7%A7%BB%E9%80%80%E5%87%BA%E4%BB%B7.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-11-26/04-00-46-%E3%80%90CEX%E3%80%91-NIZA%E4%B8%8B%E6%9E%B6%E4%B8%8E%E8%BF%81%E7%A7%BB%E9%80%80%E5%87%BA%E4%BB%B7.md"
+    },
+    {
       "title": "Binance NIGHT 赛：XRP 路线更便宜，但榜外奖池分母未公开",
       "type": "激励",
       "tags": [
@@ -916,6 +936,26 @@
       "sha": "2b5e400e850ba4cb846e6bd6e47a3e1bb155e37a",
       "url": "/X-feed-pages/2026-11-21/23-07-13-%E3%80%90%E8%B5%84%E6%96%99%E3%80%91-Hyperwave%E5%81%9C%E8%BF%90%E4%B8%8E%E5%B5%8C%E5%A5%97%E4%BB%93%E4%BD%8D%E9%80%80%E5%87%BA.html",
       "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-11-21/23-07-13-%E3%80%90%E8%B5%84%E6%96%99%E3%80%91-Hyperwave%E5%81%9C%E8%BF%90%E4%B8%8E%E5%B5%8C%E5%A5%97%E4%BB%93%E4%BD%8D%E9%80%80%E5%87%BA.md"
+    },
+    {
+      "title": "Aerie × Plume USDC 金库：收益率之外，先问谁能提款",
+      "type": "DeFi",
+      "tags": [
+        "借贷",
+        "Morpho",
+        "Plume",
+        "赎回流动性",
+        "激励"
+      ],
+      "summary": "约 618 万 USDC 存款、57.93 万底层汇总流动性及零闲置余额并存；底层汇总不是普通提款额度。",
+      "observation": "2026-11-21 21:58（北京时间）",
+      "signal_strength": "weak",
+      "path": "2026-11-21/21-58-31-【DeFi】-Aerie金库流动性与补贴.md",
+      "date": "2026-11-21",
+      "time": "21:58:31",
+      "sha": "8d7436e009544711cae978db6478c45edbfe774e",
+      "url": "/X-feed-pages/2026-11-21/21-58-31-%E3%80%90DeFi%E3%80%91-Aerie%E9%87%91%E5%BA%93%E6%B5%81%E5%8A%A8%E6%80%A7%E4%B8%8E%E8%A1%A5%E8%B4%B4.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-11-21/21-58-31-%E3%80%90DeFi%E3%80%91-Aerie%E9%87%91%E5%BA%93%E6%B5%81%E5%8A%A8%E6%80%A7%E4%B8%8E%E8%A1%A5%E8%B4%B4.md"
     },
     {
       "title": "VOLTA：单次领取把选择变成「今天领多少，之后就不再领」",
@@ -3654,5 +3694,5 @@
       "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-10-02/11-10-37-%E3%80%90%E8%B4%A6%E5%8F%B7%E8%BF%90%E8%90%A5%E3%80%91-%E7%9F%AD%E6%BC%94%E7%A4%BA%E7%BB%93%E6%9E%84%E4%B8%8E%E6%9D%A5%E6%BA%90%E5%91%88%E7%8E%B0.md"
     }
   ],
-  "count": 207
+  "count": 209
 }
