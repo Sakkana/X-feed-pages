@@ -1689,5 +1689,32 @@
     "observation": "2026-11-20 17:07:00（北京时间）",
     "summary": "历史观察：保密份额的 ZAMA 奖励要求授权查看余额，批处理与公开即时退出是不同路径。",
     "signal_strength": "weak"
+  },
+  "2026-11-25/21-56-58-【激励】-Bybit做市深度计分切换.md": {
+    "title": "Bybit 11 月 30 日改做市奖励：报价没撤，合格深度也能缩水",
+    "type": "激励",
+    "tags": [
+      "TradFi",
+      "Bybit",
+      "做市",
+      "流动性"
+    ],
+    "summary": "11 月 30 日起 RPI 不再计入 TradFi 永续做市激励，普通 API 挂单权重减半；门槛和可成交深度并非同一回事。",
+    "observation": "2026-11-25 21:56（北京时间）",
+    "signal_strength": "weak"
+  },
+  "2026-11-20/21-07-13-【DEX】-MUSD价内补贴与三个月兑现错位.md": {
+    "title": "MUSD 价内补贴与三个月兑现错位",
+    "type": "DEX",
+    "tags": [
+      "Mezo",
+      "MUSD",
+      "USDC",
+      "Uniswap",
+      "Merkl"
+    ],
+    "summary": "历史观察：LP 价内方可获奖，发放三个月锁定的 veMEZO；退出本金与奖励变现是两条路径。",
+    "observation": "2026-11-20 21:06–21:07（北京时间）",
+    "signal_strength": "weak"
   }
 }

@@ -2,8 +2,27 @@
   "schemaVersion": 1,
   "timezone": "Asia/Shanghai",
   "repository": "Sakkana/X-feed-pages",
-  "recordCount": 195,
+  "recordCount": 197,
   "records": [
+    {
+      "title": "Bybit 11 月 30 日改做市奖励：报价没撤，合格深度也能缩水",
+      "type": "激励",
+      "tags": [
+        "TradFi",
+        "Bybit",
+        "做市",
+        "流动性"
+      ],
+      "summary": "11 月 30 日起 RPI 不再计入 TradFi 永续做市激励，普通 API 挂单权重减半；门槛和可成交深度并非同一回事。",
+      "observation": "2026-11-25 21:56（北京时间）",
+      "signal_strength": "weak",
+      "path": "2026-11-25/21-56-58-【激励】-Bybit做市深度计分切换.md",
+      "date": "2026-11-25",
+      "time": "21:56:58",
+      "sha": "e25f4a47b47ac6ebb0df5bd6e37c6d686dd3f465",
+      "url": "/X-feed-pages/2026-11-25/21-56-58-%E3%80%90%E6%BF%80%E5%8A%B1%E3%80%91-Bybit%E5%81%9A%E5%B8%82%E6%B7%B1%E5%BA%A6%E8%AE%A1%E5%88%86%E5%88%87%E6%8D%A2.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-11-25/21-56-58-%E3%80%90%E6%BF%80%E5%8A%B1%E3%80%91-Bybit%E5%81%9A%E5%B8%82%E6%B7%B1%E5%BA%A6%E8%AE%A1%E5%88%86%E5%88%87%E6%8D%A2.md"
+    },
     {
       "title": "ADA/ETH 直连退场：多走一腿，千 U 未必更贵",
       "type": "套利",
@@ -852,6 +871,26 @@
       "title": "Babylon 拟停止原生 BTC 质押与退出分流",
       "url": "/X-feed-pages/2026-11-20/23-05-33-%E3%80%90DeFi%E3%80%91-Babylon%E6%8B%9F%E5%81%9C%E6%AD%A2%E5%8E%9F%E7%94%9FBTC%E8%B4%A8%E6%8A%BC%E4%B8%8E%E9%80%80%E5%87%BA%E5%88%86%E6%B5%81.html",
       "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-11-20/23-05-33-%E3%80%90DeFi%E3%80%91-Babylon%E6%8B%9F%E5%81%9C%E6%AD%A2%E5%8E%9F%E7%94%9FBTC%E8%B4%A8%E6%8A%BC%E4%B8%8E%E9%80%80%E5%87%BA%E5%88%86%E6%B5%81.md"
+    },
+    {
+      "title": "MUSD 价内补贴与三个月兑现错位",
+      "type": "DEX",
+      "tags": [
+        "Mezo",
+        "MUSD",
+        "USDC",
+        "Uniswap",
+        "Merkl"
+      ],
+      "summary": "历史观察：LP 价内方可获奖，发放三个月锁定的 veMEZO；退出本金与奖励变现是两条路径。",
+      "observation": "2026-11-20 21:06–21:07（北京时间）",
+      "signal_strength": "weak",
+      "path": "2026-11-20/21-07-13-【DEX】-MUSD价内补贴与三个月兑现错位.md",
+      "date": "2026-11-20",
+      "time": "21:07:13",
+      "sha": "2e282dbf62f24c4f332c38940cbd01cdeab10fd7",
+      "url": "/X-feed-pages/2026-11-20/21-07-13-%E3%80%90DEX%E3%80%91-MUSD%E4%BB%B7%E5%86%85%E8%A1%A5%E8%B4%B4%E4%B8%8E%E4%B8%89%E4%B8%AA%E6%9C%88%E5%85%91%E7%8E%B0%E9%94%99%E4%BD%8D.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-11-20/21-07-13-%E3%80%90DEX%E3%80%91-MUSD%E4%BB%B7%E5%86%85%E8%A1%A5%E8%B4%B4%E4%B8%8E%E4%B8%89%E4%B8%AA%E6%9C%88%E5%85%91%E7%8E%B0%E9%94%99%E4%BD%8D.md"
     },
     {
       "title": "Re7 × Zama：保密份额的奖励资格与两种退出",
