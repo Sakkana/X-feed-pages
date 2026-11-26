@@ -2664,5 +2664,42 @@
     "summary": "11 月 24 日历史观察：合格买入才计榜，早鸟倍率不乘 84 RIVER 奖励；当时无合规双向报价。",
     "observation": "2026-11-24 13:06 UTC",
     "signal_strength": "weak"
+  },
+  "2026-11-27/06-05-46-【激励】-币安现货赛尾池回本线.md": {
+    "title": "币安现货赛第 12 期：用两本盘口反推尾池回本线",
+    "type": "激励",
+    "tags": [
+      "Binance",
+      "SOL",
+      "USUAL",
+      "交易激励"
+    ],
+    "summary": "SOL/USDC 与 USUAL/USDT 同批盘口模拟；1,000 U 往返成本约 2.04／4.46 U，尾池分母不可见。",
+    "observation": "2026-11-26 22:02–22:06 UTC",
+    "signal_strength": "weak"
+  },
+  "2026-11-27/06-05-46-【激励】-Gate闪兑现货奖与体验金.md": {
+    "title": "Gate 闪兑新客：2 U 是现货，签到的 10 U 是体验金",
+    "type": "激励",
+    "tags": [
+      "Gate",
+      "Convert",
+      "GT",
+      "交易激励"
+    ],
+    "summary": "首次 ≥100 U 的 2 U 只给前 300；10 U 签到不可按现金估值，8 天按 UTC 过日界。",
+    "observation": "2026-11-26 22:02–22:06 UTC",
+    "signal_strength": "weak"
+  },
+  "2026-11-24/15-05-57-【DEX】-Ronin国库双池深度与分费.md": {
+    "title": "Ronin 国库准备加深 RON/USDC，新增的是 rETH 池，不是持币分红",
+    "type": "DEX",
+    "tags": [
+      "DEX",
+      "流动性",
+      "国库"
+    ],
+    "summary": "11 月 24 日历史观察：国库拟注资 RON/USDC 与新 RON/rETH，拆解手续费归属和稳定币退出成本。",
+    "observation": "2026-11-24 07:04 UTC"
   }
 }
