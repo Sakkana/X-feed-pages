@@ -2,8 +2,28 @@
   "schemaVersion": 1,
   "timezone": "Asia/Shanghai",
   "repository": "Sakkana/X-feed-pages",
-  "recordCount": 235,
+  "recordCount": 236,
   "records": [
+    {
+      "title": "stUSDS：2,500 万 USDS 拟提前拨款，折价买入仍缺兑付窗口",
+      "type": "DeFi",
+      "tags": [
+        "DeFi",
+        "stUSDS",
+        "Sky",
+        "Curve",
+        "退出流动性"
+      ],
+      "summary": "Sky 提议提前向基金会拨付 2,500 万 USDS 偿债；Curve 实际成交有折价，持有人何时可按账面价退出仍未知。",
+      "observation": "2026-11-26 07:52、08:50、10:05 UTC；历史成交、金库快照与治理核对分开",
+      "signal_strength": "weak",
+      "path": "2026-11-26/18-05-06-【DeFi】-stUSDS提前拨款与成交折价.md",
+      "date": "2026-11-26",
+      "time": "18:05:06",
+      "sha": "d7a29286f93c0cf7be4aee6e9203e337e012bb4b",
+      "url": "/X-feed-pages/2026-11-26/18-05-06-%E3%80%90DeFi%E3%80%91-stUSDS%E6%8F%90%E5%89%8D%E6%8B%A8%E6%AC%BE%E4%B8%8E%E6%88%90%E4%BA%A4%E6%8A%98%E4%BB%B7.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-11-26/18-05-06-%E3%80%90DeFi%E3%80%91-stUSDS%E6%8F%90%E5%89%8D%E6%8B%A8%E6%AC%BE%E4%B8%8E%E6%88%90%E4%BA%A4%E6%8A%98%E4%BB%B7.md"
+    },
     {
       "title": "ARVO First Edition：奖励的是币，退出仍要卖币",
       "type": "激励",
@@ -4178,5 +4198,5 @@
       "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-10-02/11-10-37-%E3%80%90%E8%B4%A6%E5%8F%B7%E8%BF%90%E8%90%A5%E3%80%91-%E7%9F%AD%E6%BC%94%E7%A4%BA%E7%BB%93%E6%9E%84%E4%B8%8E%E6%9D%A5%E6%BA%90%E5%91%88%E7%8E%B0.md"
     }
   ],
-  "count": 235
+  "count": 236
 }

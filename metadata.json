@@ -2203,5 +2203,19 @@
     "summary": "60 天 10% 同币基础奖励，并有共享奖池；满额模型 15% ARVO 只抵得住约 13.04% 的币价下跌，实际开放、容量和退出未验证。",
     "observation": "2026-11-26 16:57:13（北京时间）",
     "signal_strength": "weak"
+  },
+  "2026-11-26/18-05-06-【DeFi】-stUSDS提前拨款与成交折价.md": {
+    "title": "stUSDS：2,500 万 USDS 拟提前拨款，折价买入仍缺兑付窗口",
+    "type": "DeFi",
+    "tags": [
+      "DeFi",
+      "stUSDS",
+      "Sky",
+      "Curve",
+      "退出流动性"
+    ],
+    "summary": "Sky 提议提前向基金会拨付 2,500 万 USDS 偿债；Curve 实际成交有折价，持有人何时可按账面价退出仍未知。",
+    "observation": "2026-11-26 07:52、08:50、10:05 UTC；历史成交、金库快照与治理核对分开",
+    "signal_strength": "weak"
   }
 }
