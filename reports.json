@@ -2,8 +2,43 @@
   "schemaVersion": 1,
   "timezone": "Asia/Shanghai",
   "repository": "Sakkana/X-feed-pages",
-  "recordCount": 224,
+  "recordCount": 226,
   "records": [
+    {
+      "title": "KuCoin 共享保险池：别的合约亏损，也可能拆掉你的对冲",
+      "type": "量化",
+      "tags": [
+        "KuCoin",
+        "ADL",
+        "永续合约"
+      ],
+      "summary": "共享保险池下，其他合约的损失可能触发自身对冲腿减仓；公告示例不是实盘阈值。",
+      "observation": "2026-11-26 约 13:05（北京时间）",
+      "path": "2026-11-26/13-05-41-【量化】-KuCoin共享保险池与跨所对冲.md",
+      "date": "2026-11-26",
+      "time": "13:05:41",
+      "sha": "5cf947ff41a5e1f5fb8d6572dd41494232e01dc2",
+      "url": "/X-feed-pages/2026-11-26/13-05-41-%E3%80%90%E9%87%8F%E5%8C%96%E3%80%91-KuCoin%E5%85%B1%E4%BA%AB%E4%BF%9D%E9%99%A9%E6%B1%A0%E4%B8%8E%E8%B7%A8%E6%89%80%E5%AF%B9%E5%86%B2.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-11-26/13-05-41-%E3%80%90%E9%87%8F%E5%8C%96%E3%80%91-KuCoin%E5%85%B1%E4%BA%AB%E4%BF%9D%E9%99%A9%E6%B1%A0%E4%B8%8E%E8%B7%A8%E6%89%80%E5%AF%B9%E5%86%B2.md"
+    },
+    {
+      "title": "Binance U 奖励：1.8 倍是乘数，不是收益率",
+      "type": "激励",
+      "tags": [
+        "Binance",
+        "United Stables",
+        "稳定币"
+      ],
+      "summary": "持仓奖励按周分配，1.8 倍只适用于满足两项条件的部分；用 U/USDT 双向盘口估算打平门槛。",
+      "observation": "2026-11-26 13:05:13（北京时间）",
+      "signal_strength": "weak",
+      "path": "2026-11-26/13-05-28-【激励】-Binance U持仓与交易倍数.md",
+      "date": "2026-11-26",
+      "time": "13:05:28",
+      "sha": "eeda802f345b577c058380ef2297f636a31655f2",
+      "url": "/X-feed-pages/2026-11-26/13-05-28-%E3%80%90%E6%BF%80%E5%8A%B1%E3%80%91-Binance%20U%E6%8C%81%E4%BB%93%E4%B8%8E%E4%BA%A4%E6%98%93%E5%80%8D%E6%95%B0.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-11-26/13-05-28-%E3%80%90%E6%BF%80%E5%8A%B1%E3%80%91-Binance%20U%E6%8C%81%E4%BB%93%E4%B8%8E%E4%BA%A4%E6%98%93%E5%80%8D%E6%95%B0.md"
+    },
     {
       "title": "Bitkub 泰铢入金奖励：7 天占用，先看能不能兑现",
       "type": "激励",
@@ -3972,5 +4007,5 @@
       "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-10-02/11-10-37-%E3%80%90%E8%B4%A6%E5%8F%B7%E8%BF%90%E8%90%A5%E3%80%91-%E7%9F%AD%E6%BC%94%E7%A4%BA%E7%BB%93%E6%9E%84%E4%B8%8E%E6%9D%A5%E6%BA%90%E5%91%88%E7%8E%B0.md"
     }
   ],
-  "count": 224
+  "count": 226
 }
