@@ -2,8 +2,45 @@
   "schemaVersion": 1,
   "timezone": "Asia/Shanghai",
   "repository": "Sakkana/X-feed-pages",
-  "recordCount": 268,
+  "recordCount": 271,
   "records": [
+    {
+      "title": "VERITY 首发激励：先分清答题礼、抽奖和按量分奖",
+      "type": "激励",
+      "tags": [
+        "VERITY",
+        "KuCoin",
+        "Learn & Earn",
+        "交易激励"
+      ],
+      "summary": "课程页列 2–12 VERITY，250 U 抽奖和 600 U 按量分池是两套规则；首发波动与奖励兑现未证。",
+      "observation": "2026-11-26 21:04–21:06 UTC",
+      "signal_strength": "weak",
+      "path": "2026-11-27/05-07-15-【激励】-VERITY三档奖励和回本条件.md",
+      "date": "2026-11-27",
+      "time": "05:07:15",
+      "sha": "dba83513780dd80a5ac783f8d38bdce27fa3a7fd",
+      "url": "/X-feed-pages/2026-11-27/05-07-15-%E3%80%90%E6%BF%80%E5%8A%B1%E3%80%91-VERITY%E4%B8%89%E6%A1%A3%E5%A5%96%E5%8A%B1%E5%92%8C%E5%9B%9E%E6%9C%AC%E6%9D%A1%E4%BB%B6.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-11-27/05-07-15-%E3%80%90%E6%BF%80%E5%8A%B1%E3%80%91-VERITY%E4%B8%89%E6%A1%A3%E5%A5%96%E5%8A%B1%E5%92%8C%E5%9B%9E%E6%9C%AC%E6%9D%A1%E4%BB%B6.md"
+    },
+    {
+      "title": "SaucerSwap 拟开放 V2 建池：$10 买的是建池权限，不是流动性",
+      "type": "DEX",
+      "tags": [
+        "SaucerSwap",
+        "Hedera",
+        "流动性",
+        "DEX"
+      ],
+      "summary": "11 月 26 日 RFC 拟开放 V2 建池；永久播种不是成交深度，LARI 奖励与建池权限分开。",
+      "observation": "2026-11-26 21:04–21:06 UTC",
+      "path": "2026-11-27/05-07-15-【DEX】-SaucerSwap拟拆开建池与补贴.md",
+      "date": "2026-11-27",
+      "time": "05:07:15",
+      "sha": "2a8eb80a7943f463cbd88493357aee8cf1af9dac",
+      "url": "/X-feed-pages/2026-11-27/05-07-15-%E3%80%90DEX%E3%80%91-SaucerSwap%E6%8B%9F%E6%8B%86%E5%BC%80%E5%BB%BA%E6%B1%A0%E4%B8%8E%E8%A1%A5%E8%B4%B4.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-11-27/05-07-15-%E3%80%90DEX%E3%80%91-SaucerSwap%E6%8B%9F%E6%8B%86%E5%BC%80%E5%BB%BA%E6%B1%A0%E4%B8%8E%E8%A1%A5%E8%B4%B4.md"
+    },
     {
       "title": "EarnBIT 预售：0.05 USDT 买的是锁仓配额，不是上市折扣",
       "type": "新发行",
@@ -1654,6 +1691,25 @@
       "sha": "d61001fa877de5742dde471ac406578818a99049",
       "url": "/X-feed-pages/2026-11-24/21-07-43-%E3%80%90%E6%BF%80%E5%8A%B1%E3%80%91-U%E6%8C%81%E5%B8%81%E5%A5%96%E5%8A%B1%E4%B8%8E%E4%BA%A4%E6%98%93%E5%8A%A0%E6%88%90%E6%88%90%E6%9C%AC.html",
       "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-11-24/21-07-43-%E3%80%90%E6%BF%80%E5%8A%B1%E3%80%91-U%E6%8C%81%E5%B8%81%E5%A5%96%E5%8A%B1%E4%B8%8E%E4%BA%A4%E6%98%93%E5%8A%A0%E6%88%90%E6%88%90%E6%9C%AC.md"
+    },
+    {
+      "title": "RIVER 竞赛：早鸟加的是排名量，不是代币奖额",
+      "type": "激励",
+      "tags": [
+        "RIVER",
+        "Binance Alpha",
+        "排名",
+        "流动性"
+      ],
+      "summary": "11 月 24 日历史观察：合格买入才计榜，早鸟倍率不乘 84 RIVER 奖励；当时无合规双向报价。",
+      "observation": "2026-11-24 13:06 UTC",
+      "signal_strength": "weak",
+      "path": "2026-11-24/21-07-43-【激励】-RIVER买入排名和早鸟倍率.md",
+      "date": "2026-11-24",
+      "time": "21:07:43",
+      "sha": "cc8fed21d6338ce6f9ad723db3c31249c3e853ec",
+      "url": "/X-feed-pages/2026-11-24/21-07-43-%E3%80%90%E6%BF%80%E5%8A%B1%E3%80%91-RIVER%E4%B9%B0%E5%85%A5%E6%8E%92%E5%90%8D%E5%92%8C%E6%97%A9%E9%B8%9F%E5%80%8D%E7%8E%87.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-11-24/21-07-43-%E3%80%90%E6%BF%80%E5%8A%B1%E3%80%91-RIVER%E4%B9%B0%E5%85%A5%E6%8E%92%E5%90%8D%E5%92%8C%E6%97%A9%E9%B8%9F%E5%80%8D%E7%8E%87.md"
     },
     {
       "title": "Gate 的 Celo Dollar 回购价不是链上退出价",

@@ -2626,5 +2626,43 @@
     "summary": "按历史盘口拆开自有持仓、额外交易周门槛、发行人赎回和实际回本条件。",
     "observation": "2026-11-24 13:07 UTC（历史观察）",
     "signal_strength": "weak"
+  },
+  "2026-11-27/05-07-15-【激励】-VERITY三档奖励和回本条件.md": {
+    "title": "VERITY 首发激励：先分清答题礼、抽奖和按量分奖",
+    "type": "激励",
+    "tags": [
+      "VERITY",
+      "KuCoin",
+      "Learn & Earn",
+      "交易激励"
+    ],
+    "summary": "课程页列 2–12 VERITY，250 U 抽奖和 600 U 按量分池是两套规则；首发波动与奖励兑现未证。",
+    "observation": "2026-11-26 21:04–21:06 UTC",
+    "signal_strength": "weak"
+  },
+  "2026-11-27/05-07-15-【DEX】-SaucerSwap拟拆开建池与补贴.md": {
+    "title": "SaucerSwap 拟开放 V2 建池：$10 买的是建池权限，不是流动性",
+    "type": "DEX",
+    "tags": [
+      "SaucerSwap",
+      "Hedera",
+      "流动性",
+      "DEX"
+    ],
+    "summary": "11 月 26 日 RFC 拟开放 V2 建池；永久播种不是成交深度，LARI 奖励与建池权限分开。",
+    "observation": "2026-11-26 21:04–21:06 UTC"
+  },
+  "2026-11-24/21-07-43-【激励】-RIVER买入排名和早鸟倍率.md": {
+    "title": "RIVER 竞赛：早鸟加的是排名量，不是代币奖额",
+    "type": "激励",
+    "tags": [
+      "RIVER",
+      "Binance Alpha",
+      "排名",
+      "流动性"
+    ],
+    "summary": "11 月 24 日历史观察：合格买入才计榜，早鸟倍率不乘 84 RIVER 奖励；当时无合规双向报价。",
+    "observation": "2026-11-24 13:06 UTC",
+    "signal_strength": "weak"
   }
 }
