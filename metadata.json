@@ -2139,5 +2139,30 @@
     "summary": "历史快照对照三只以太坊 PYUSD 金库：区分普通赎回、强制撤资费与底层无现金时的实物赎回。",
     "observation": "2026-11-20 09:06（北京时间，历史快照）",
     "signal_strength": "weak"
+  },
+  "2026-11-26/14-57-43-【激励】-HEPH仿真赏金与储备.md": {
+    "title": "HEPH 机器人支付测试赏金：25 USDG 仿真档，储备还未到账",
+    "type": "激励",
+    "tags": [
+      "HEPH",
+      "USDG",
+      "Robinhood Chain",
+      "开发者激励"
+    ],
+    "summary": "不依赖买币的机器支付测试赏金；共享额度、2 USDG 护照费和链上储备到账是三道门槛。",
+    "observation": "2026-11-26 14:57:43（北京时间）",
+    "signal_strength": "weak"
+  },
+  "2026-11-26/14-57-43-【DEX】-OnlyFarm下线与LP退出.md": {
+    "title": "OnlyFarm 11 月 30 日下线：撤出底层 LP 和取回钱包是两步",
+    "type": "DEX",
+    "tags": [
+      "OnlyFarm",
+      "Meteora",
+      "Solana",
+      "流动性退出"
+    ],
+    "summary": "区分自动化界面下线、底层 LP 所有权及代币实际到账；未证实下线后通用退出入口。",
+    "observation": "2026-11-26 14:57:43（北京时间）"
   }
 }

@@ -2,8 +2,45 @@
   "schemaVersion": 1,
   "timezone": "Asia/Shanghai",
   "repository": "Sakkana/X-feed-pages",
-  "recordCount": 230,
+  "recordCount": 232,
   "records": [
+    {
+      "title": "HEPH 机器人支付测试赏金：25 USDG 仿真档，储备还未到账",
+      "type": "激励",
+      "tags": [
+        "HEPH",
+        "USDG",
+        "Robinhood Chain",
+        "开发者激励"
+      ],
+      "summary": "不依赖买币的机器支付测试赏金；共享额度、2 USDG 护照费和链上储备到账是三道门槛。",
+      "observation": "2026-11-26 14:57:43（北京时间）",
+      "signal_strength": "weak",
+      "path": "2026-11-26/14-57-43-【激励】-HEPH仿真赏金与储备.md",
+      "date": "2026-11-26",
+      "time": "14:57:43",
+      "sha": "2ff1094b627bcfa41dccd84d1fd0c79a85cfd7b0",
+      "url": "/X-feed-pages/2026-11-26/14-57-43-%E3%80%90%E6%BF%80%E5%8A%B1%E3%80%91-HEPH%E4%BB%BF%E7%9C%9F%E8%B5%8F%E9%87%91%E4%B8%8E%E5%82%A8%E5%A4%87.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-11-26/14-57-43-%E3%80%90%E6%BF%80%E5%8A%B1%E3%80%91-HEPH%E4%BB%BF%E7%9C%9F%E8%B5%8F%E9%87%91%E4%B8%8E%E5%82%A8%E5%A4%87.md"
+    },
+    {
+      "title": "OnlyFarm 11 月 30 日下线：撤出底层 LP 和取回钱包是两步",
+      "type": "DEX",
+      "tags": [
+        "OnlyFarm",
+        "Meteora",
+        "Solana",
+        "流动性退出"
+      ],
+      "summary": "区分自动化界面下线、底层 LP 所有权及代币实际到账；未证实下线后通用退出入口。",
+      "observation": "2026-11-26 14:57:43（北京时间）",
+      "path": "2026-11-26/14-57-43-【DEX】-OnlyFarm下线与LP退出.md",
+      "date": "2026-11-26",
+      "time": "14:57:43",
+      "sha": "0c70de69bafa37ee29b4658aa4554d1fa4a65354",
+      "url": "/X-feed-pages/2026-11-26/14-57-43-%E3%80%90DEX%E3%80%91-OnlyFarm%E4%B8%8B%E7%BA%BF%E4%B8%8ELP%E9%80%80%E5%87%BA.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-11-26/14-57-43-%E3%80%90DEX%E3%80%91-OnlyFarm%E4%B8%8B%E7%BA%BF%E4%B8%8ELP%E9%80%80%E5%87%BA.md"
+    },
     {
       "title": "OKX 钱包第 4 期：USDT0 和 USDC 的奖励不能只比奖池",
       "type": "激励",
@@ -4084,5 +4121,5 @@
       "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-10-02/11-10-37-%E3%80%90%E8%B4%A6%E5%8F%B7%E8%BF%90%E8%90%A5%E3%80%91-%E7%9F%AD%E6%BC%94%E7%A4%BA%E7%BB%93%E6%9E%84%E4%B8%8E%E6%9D%A5%E6%BA%90%E5%91%88%E7%8E%B0.md"
     }
   ],
-  "count": 230
+  "count": 232
 }
