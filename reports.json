@@ -2,8 +2,23 @@
   "schemaVersion": 1,
   "timezone": "Asia/Shanghai",
   "repository": "Sakkana/X-feed-pages",
-  "recordCount": 262,
+  "recordCount": 263,
   "records": [
+    {
+      "title": "同一张 3090：双模型同题对照的传播样本",
+      "type": "账号运营",
+      "tags": [
+        "账号运营"
+      ],
+      "summary": "同一账号 5 条同期本地实测对照：核对双模型同题帖的四项计数、早期引用与热帖反例。非同龄快照，不推断涨粉。",
+      "observation": "2026-11-27 02:26（北京时间；公开索引快照，采集时刻不统一）",
+      "path": "2026-11-27/02-26-53-【账号运营】-同题双模型对照的传播样本.md",
+      "date": "2026-11-27",
+      "time": "02:26:53",
+      "sha": "766cbb752dea906402ba2c37526d8e1b48aa70ed",
+      "url": "/X-feed-pages/2026-11-27/02-26-53-%E3%80%90%E8%B4%A6%E5%8F%B7%E8%BF%90%E8%90%A5%E3%80%91-%E5%90%8C%E9%A2%98%E5%8F%8C%E6%A8%A1%E5%9E%8B%E5%AF%B9%E7%85%A7%E7%9A%84%E4%BC%A0%E6%92%AD%E6%A0%B7%E6%9C%AC.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-11-27/02-26-53-%E3%80%90%E8%B4%A6%E5%8F%B7%E8%BF%90%E8%90%A5%E3%80%91-%E5%90%8C%E9%A2%98%E5%8F%8C%E6%A8%A1%E5%9E%8B%E5%AF%B9%E7%85%A7%E7%9A%84%E4%BC%A0%E6%92%AD%E6%A0%B7%E6%9C%AC.md"
+    },
     {
       "title": "Kamino srONyc：优先份额的保护与杠杆触发线",
       "type": "DeFi",
