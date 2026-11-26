@@ -2112,5 +2112,32 @@
     "summary": "区分 9.29% 中的基础利息与短期补贴，核对闲置现金、weETH 借贷配置及集中提款风险。",
     "observation": "2026-11-26 13:57（北京时间）",
     "signal_strength": "weak"
+  },
+  "2026-11-26/13-58-22-【激励】-OKX钱包四期稳定币奖励.md": {
+    "title": "OKX 钱包第 4 期：USDT0 和 USDC 的奖励不能只比奖池",
+    "type": "激励",
+    "tags": [
+      "OKX Wallet",
+      "X Layer",
+      "Aave",
+      "USDT0",
+      "USDC"
+    ],
+    "summary": "比较第 3、4 期按日预算，分离 USDT0 和 USDC 合格余额，并说明指定入口和退出证据缺口。",
+    "observation": "2026-11-26 13:58（北京时间）",
+    "signal_strength": "weak"
+  },
+  "2026-11-20/09-06-36-【DeFi】-PYUSD金库三种退出成本.md": {
+    "title": "同为 PYUSD：三只金库的现金退出与强制撤资费用",
+    "type": "DeFi",
+    "tags": [
+      "PYUSD",
+      "Morpho",
+      "Sentora",
+      "金库"
+    ],
+    "summary": "历史快照对照三只以太坊 PYUSD 金库：区分普通赎回、强制撤资费与底层无现金时的实物赎回。",
+    "observation": "2026-11-20 09:06（北京时间，历史快照）",
+    "signal_strength": "weak"
   }
 }
