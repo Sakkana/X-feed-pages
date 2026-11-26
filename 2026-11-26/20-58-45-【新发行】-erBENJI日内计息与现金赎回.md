@@ -11,7 +11,8 @@ summary: "欧元货币市场基金份额可在白名单钱包间全天转让并�
 主类型：新发行  
 标签：erBENJI、RWA、欧元、货币市场基金  
 signal_strength: weak  
-观察：2026-11-26 约 12:58–12:59 UTC
+观察：2026-11-26 约 12:58–12:59 UTC  
+原始发送：2026-11-26 20:58:45（北京时间）
 
 **新发的是欧元货币基金份额，不是欧元稳定币。** [Franklin Templeton 11 月 23 日公告](https://www.franklintempleton.lu/press-releases/news-room/2026/franklin-templeton-launches-tokenised-euro-money-market-fund)和[关键资料文件（KID）](https://www.franklintempleton.lu/download/en-lu/key-information-document/f84bf9da-ba44-4554-9aee-c9bfdef9549b/PRIIPSEU_LU3482864637_en_LU.pdf)对应卢森堡 UCITS 的 AB (Ddis) EUR 份额（ISIN LU3482864637）。收益来自欧元货币市场工具，€1 是净值目标，不是保本承诺。披露的零售市场为奥、法、德、卢、荷、葡、西；意大利和瑞士仅机构，美国居民不在发售范围。申赎要求完成审核和钱包白名单。
 
