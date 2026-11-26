@@ -2460,5 +2460,18 @@
     "summary": "历史快照：每日约 8,037 WMON；新增份额稀释奖励，MON 库存损益可能超过补贴。",
     "signal_strength": "weak",
     "observation": "2026-11-24 10:57–10:59 UTC"
+  },
+  "2026-11-26/23-58-05-【量化】-wARS迁仓利率冲击与容量.md": {
+    "title": "wARS 迁仓：约 450 美元就可能吃掉屏幕上的利差",
+    "type": "量化",
+    "tags": [
+      "Morpho",
+      "wARS",
+      "借贷利差",
+      "AdaptiveCurveIRM"
+    ],
+    "summary": "新池可借约 1,251 美元，但自身借款会抬升利用率；按利率曲线静态模拟约 450 美元达到旧池现行 APY。",
+    "signal_strength": "weak",
+    "observation": "2026-11-26 15:57:22 UTC（前端快照）"
   }
 }

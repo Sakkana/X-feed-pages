@@ -2,8 +2,27 @@
   "schemaVersion": 1,
   "timezone": "Asia/Shanghai",
   "repository": "Sakkana/X-feed-pages",
-  "recordCount": 255,
+  "recordCount": 256,
   "records": [
+    {
+      "title": "wARS 迁仓：约 450 美元就可能吃掉屏幕上的利差",
+      "type": "量化",
+      "tags": [
+        "Morpho",
+        "wARS",
+        "借贷利差",
+        "AdaptiveCurveIRM"
+      ],
+      "summary": "新池可借约 1,251 美元，但自身借款会抬升利用率；按利率曲线静态模拟约 450 美元达到旧池现行 APY。",
+      "signal_strength": "weak",
+      "observation": "2026-11-26 15:57:22 UTC（前端快照）",
+      "path": "2026-11-26/23-58-05-【量化】-wARS迁仓利率冲击与容量.md",
+      "date": "2026-11-26",
+      "time": "23:58:05",
+      "sha": "67fbb590c711f130c977137b36b06dfa2a195a52",
+      "url": "/X-feed-pages/2026-11-26/23-58-05-%E3%80%90%E9%87%8F%E5%8C%96%E3%80%91-wARS%E8%BF%81%E4%BB%93%E5%88%A9%E7%8E%87%E5%86%B2%E5%87%BB%E4%B8%8E%E5%AE%B9%E9%87%8F.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-11-26/23-58-05-%E3%80%90%E9%87%8F%E5%8C%96%E3%80%91-wARS%E8%BF%81%E4%BB%93%E5%88%A9%E7%8E%87%E5%86%B2%E5%87%BB%E4%B8%8E%E5%AE%B9%E9%87%8F.md"
+    },
     {
       "title": "KPK ETH Prime 退役：停止策略，不是关闭赎回",
       "type": "DeFi",
