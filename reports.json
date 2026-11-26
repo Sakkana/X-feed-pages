@@ -2,8 +2,44 @@
   "schemaVersion": 1,
   "timezone": "Asia/Shanghai",
   "repository": "Sakkana/X-feed-pages",
-  "recordCount": 247,
+  "recordCount": 250,
   "records": [
+    {
+      "title": "HYPE 进 EZPZ：指数新增不等于等量市价买单",
+      "type": "山寨币估值",
+      "tags": [
+        "HYPE",
+        "EZPZ",
+        "指数调仓"
+      ],
+      "observation": "2026-11-26 约 14:05 UTC",
+      "signal_strength": "weak",
+      "summary": "12 月 1 日纳入 IDAX 已获监管文件确认，但应按单只基金净资产与最终权重算配置规模；采购节奏和流动性未证。",
+      "path": "2026-11-26/22-06-35-【山寨币估值】-HYPE纳入EZPZ与被动买盘量级.md",
+      "date": "2026-11-26",
+      "time": "22:06:35",
+      "url": "/X-feed-pages/2026-11-26/22-06-35-%E3%80%90%E5%B1%B1%E5%AF%A8%E5%B8%81%E4%BC%B0%E5%80%BC%E3%80%91-HYPE%E7%BA%B3%E5%85%A5EZPZ%E4%B8%8E%E8%A2%AB%E5%8A%A8%E4%B9%B0%E7%9B%98%E9%87%8F%E7%BA%A7.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-11-26/22-06-35-%E3%80%90%E5%B1%B1%E5%AF%A8%E5%B8%81%E4%BC%B0%E5%80%BC%E3%80%91-HYPE%E7%BA%B3%E5%85%A5EZPZ%E4%B8%8E%E8%A2%AB%E5%8A%A8%E4%B9%B0%E7%9B%98%E9%87%8F%E7%BA%A7.md",
+      "sha": "bed520a493e0c16e6f453487b385aa5fd3cbd36e"
+    },
+    {
+      "title": "SK 海力士永续分红：同一普通股，两套结算时钟",
+      "type": "套利",
+      "tags": [
+        "SKHYNIX",
+        "合约分红",
+        "跨所对冲"
+      ],
+      "observation": "2026-11-26 约 14:04–14:07 UTC",
+      "signal_strength": "weak",
+      "summary": "Binance 普通股永续与 Gate 分红结算相差一小时，跨过两次结算会抵消主要现金腿，绕开后段则失去对冲。",
+      "path": "2026-11-26/22-06-35-【套利】-SK海力士永续股息与跨所结算时差.md",
+      "date": "2026-11-26",
+      "time": "22:06:35",
+      "url": "/X-feed-pages/2026-11-26/22-06-35-%E3%80%90%E5%A5%97%E5%88%A9%E3%80%91-SK%E6%B5%B7%E5%8A%9B%E5%A3%AB%E6%B0%B8%E7%BB%AD%E8%82%A1%E6%81%AF%E4%B8%8E%E8%B7%A8%E6%89%80%E7%BB%93%E7%AE%97%E6%97%B6%E5%B7%AE.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-11-26/22-06-35-%E3%80%90%E5%A5%97%E5%88%A9%E3%80%91-SK%E6%B5%B7%E5%8A%9B%E5%A3%AB%E6%B0%B8%E7%BB%AD%E8%82%A1%E6%81%AF%E4%B8%8E%E8%B7%A8%E6%89%80%E7%BB%93%E7%AE%97%E6%97%B6%E5%B7%AE.md",
+      "sha": "e6db31c66b1243d0df0c06b46e9150dc648141dd"
+    },
     {
       "title": "erBENJI：欧元基金份额能周末转让，不等于周末能赎回",
       "type": "新发行",
@@ -363,24 +399,6 @@
       "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-11-26/13-05-28-%E3%80%90%E6%BF%80%E5%8A%B1%E3%80%91-Binance%20U%E6%8C%81%E4%BB%93%E4%B8%8E%E4%BA%A4%E6%98%93%E5%80%8D%E6%95%B0.md"
     },
     {
-      "title": "Bitkub 泰铢入金奖励：7 天占用，先看能不能兑现",
-      "type": "激励",
-      "tags": [
-        "Bitkub",
-        "泰铢",
-        "USDT"
-      ],
-      "summary": "11 月 26 日单日入金触发，需连续持有七天；USDT 奖励不等于可提现现金。",
-      "observation": "2026-11-26 约 12:00（北京时间）",
-      "signal_strength": "weak",
-      "path": "2026-11-26/12-06-01-【激励】-Bitkub泰铢入金与兑现限制.md",
-      "date": "2026-11-26",
-      "time": "12:06:01",
-      "sha": "755354096c0e1fc80eba1843acd03214fb72e403",
-      "url": "/X-feed-pages/2026-11-26/12-06-01-%E3%80%90%E6%BF%80%E5%8A%B1%E3%80%91-Bitkub%E6%B3%B0%E9%93%A2%E5%85%A5%E9%87%91%E4%B8%8E%E5%85%91%E7%8E%B0%E9%99%90%E5%88%B6.html",
-      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-11-26/12-06-01-%E3%80%90%E6%BF%80%E5%8A%B1%E3%80%91-Bitkub%E6%B3%B0%E9%93%A2%E5%85%A5%E9%87%91%E4%B8%8E%E5%85%91%E7%8E%B0%E9%99%90%E5%88%B6.md"
-    },
-    {
       "title": "Fidelity LINK 基金 S-1：不质押，折溢价由谁收敛？",
       "type": "资料",
       "tags": [
@@ -397,6 +415,24 @@
       "sha": "907597f92852be684411bfa1015825bb169b7b47",
       "url": "/X-feed-pages/2026-11-26/12-06-01-%E3%80%90%E8%B5%84%E6%96%99%E3%80%91-Fidelity%20LINK%E5%9F%BA%E9%87%91%E7%94%B3%E8%B5%8E%E4%B8%8E%E5%AE%9A%E4%BB%B7.html",
       "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-11-26/12-06-01-%E3%80%90%E8%B5%84%E6%96%99%E3%80%91-Fidelity%20LINK%E5%9F%BA%E9%87%91%E7%94%B3%E8%B5%8E%E4%B8%8E%E5%AE%9A%E4%BB%B7.md"
+    },
+    {
+      "title": "Bitkub 泰铢入金奖励：7 天占用，先看能不能兑现",
+      "type": "激励",
+      "tags": [
+        "Bitkub",
+        "泰铢",
+        "USDT"
+      ],
+      "summary": "11 月 26 日单日入金触发，需连续持有七天；USDT 奖励不等于可提现现金。",
+      "observation": "2026-11-26 约 12:00（北京时间）",
+      "signal_strength": "weak",
+      "path": "2026-11-26/12-06-01-【激励】-Bitkub泰铢入金与兑现限制.md",
+      "date": "2026-11-26",
+      "time": "12:06:01",
+      "sha": "755354096c0e1fc80eba1843acd03214fb72e403",
+      "url": "/X-feed-pages/2026-11-26/12-06-01-%E3%80%90%E6%BF%80%E5%8A%B1%E3%80%91-Bitkub%E6%B3%B0%E9%93%A2%E5%85%A5%E9%87%91%E4%B8%8E%E5%85%91%E7%8E%B0%E9%99%90%E5%88%B6.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-11-26/12-06-01-%E3%80%90%E6%BF%80%E5%8A%B1%E3%80%91-Bitkub%E6%B3%B0%E9%93%A2%E5%85%A5%E9%87%91%E4%B8%8E%E5%85%91%E7%8E%B0%E9%99%90%E5%88%B6.md"
     },
     {
       "title": "STORJ 和 TOWNS 永续下架：结算时间差，不能当成锁定价差",
@@ -1394,6 +1430,24 @@
       "time": "19:57:46",
       "url": "/X-feed-pages/2026-11-24/19-57-46-%E3%80%90%E9%87%8F%E5%8C%96%E3%80%91-Bybit%E4%BB%B7%E5%B7%AE%E4%BA%A7%E5%93%81%E6%9A%82%E5%81%9C%E4%B8%8E%E5%8F%8C%E8%85%BF%E6%89%A7%E8%A1%8C%E6%88%90%E6%9C%AC.html",
       "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-11-24/19-57-46-%E3%80%90%E9%87%8F%E5%8C%96%E3%80%91-Bybit%E4%BB%B7%E5%B7%AE%E4%BA%A7%E5%93%81%E6%9A%82%E5%81%9C%E4%B8%8E%E5%8F%8C%E8%85%BF%E6%89%A7%E8%A1%8C%E6%88%90%E6%9C%AC.md"
+    },
+    {
+      "title": "Venice Minds 积分与 VVV 销毁口径",
+      "type": "山寨币估值",
+      "tags": [
+        "AI",
+        "Venice",
+        "VVV",
+        "回购销毁"
+      ],
+      "summary": "创作者获得不可提现算力额度，VVV 回购预算由推理加价而非总流水决定。",
+      "observation": "2026-11-24 约 09:00 UTC",
+      "path": "2026-11-24/17-00-38-【山寨币估值】-Venice Minds积分与VVV销毁口径.md",
+      "date": "2026-11-24",
+      "time": "17:00:38",
+      "url": "/X-feed-pages/2026-11-24/17-00-38-%E3%80%90%E5%B1%B1%E5%AF%A8%E5%B8%81%E4%BC%B0%E5%80%BC%E3%80%91-Venice%20Minds%E7%A7%AF%E5%88%86%E4%B8%8EVVV%E9%94%80%E6%AF%81%E5%8F%A3%E5%BE%84.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-11-24/17-00-38-%E3%80%90%E5%B1%B1%E5%AF%A8%E5%B8%81%E4%BC%B0%E5%80%BC%E3%80%91-Venice%20Minds%E7%A7%AF%E5%88%86%E4%B8%8EVVV%E9%94%80%E6%AF%81%E5%8F%A3%E5%BE%84.md",
+      "sha": "2593302c807dd31d1217d94d45ab912ff7236107"
     },
     {
       "title": "HXMR 上线后的两个价差门槛：买便宜和兑现并不是同一件事",
@@ -4266,6 +4320,23 @@
       "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-10-02/14-07-20-%E3%80%90DeFi%E3%80%91-NEMO%E9%87%8F%E5%8C%96%E9%87%91%E5%BA%93%E6%94%B6%E7%9B%8A%E4%B8%8E%E9%80%80%E5%87%BA%E7%BA%A6%E6%9D%9F.md"
     },
     {
+      "summary": "借鉴固定栏目、变动箭头与移除原因；不要混比 TVL、可存容量和退出深度，也不把主观评分当安全等级。",
+      "path": "2026-10-02/13-12-29-【账号运营】-可更新比较表与指标口径.md",
+      "sha": "2aad260284b002662fef8d7d923b11474d82a316",
+      "date": "2026-10-02",
+      "time": "13:12:29",
+      "title": "账号运营：可更新比较表与指标口径",
+      "type": "账号运营",
+      "tags": [
+        "账号运营",
+        "比较表",
+        "指标口径"
+      ],
+      "observation": "数据观察窗口：2026-10-02 05:05–05:10 UTC（北京时间 13:05–13:10）",
+      "url": "/X-feed-pages/2026-10-02/13-12-29-%E3%80%90%E8%B4%A6%E5%8F%B7%E8%BF%90%E8%90%A5%E3%80%91-%E5%8F%AF%E6%9B%B4%E6%96%B0%E6%AF%94%E8%BE%83%E8%A1%A8%E4%B8%8E%E6%8C%87%E6%A0%87%E5%8F%A3%E5%BE%84.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-10-02/13-12-29-%E3%80%90%E8%B4%A6%E5%8F%B7%E8%BF%90%E8%90%A5%E3%80%91-%E5%8F%AF%E6%9B%B4%E6%96%B0%E6%AF%94%E8%BE%83%E8%A1%A8%E4%B8%8E%E6%8C%87%E6%A0%87%E5%8F%A3%E5%BE%84.md"
+    },
+    {
       "path": "2026-10-02/13-12-29_ONyc收益分层与对照表口径核验.md",
       "sha": "e86db5951568766e06119c1a45184e6722215dbd",
       "signal_strength": "weak",
@@ -4282,23 +4353,6 @@
       "observation": "2026-10-02 13:05–13:10 北京时间",
       "url": "/X-feed-pages/2026-10-02/13-12-29_ONyc%E6%94%B6%E7%9B%8A%E5%88%86%E5%B1%82%E4%B8%8E%E5%AF%B9%E7%85%A7%E8%A1%A8%E5%8F%A3%E5%BE%84%E6%A0%B8%E9%AA%8C.html",
       "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-10-02/13-12-29_ONyc%E6%94%B6%E7%9B%8A%E5%88%86%E5%B1%82%E4%B8%8E%E5%AF%B9%E7%85%A7%E8%A1%A8%E5%8F%A3%E5%BE%84%E6%A0%B8%E9%AA%8C.md"
-    },
-    {
-      "summary": "借鉴固定栏目、变动箭头与移除原因；不要混比 TVL、可存容量和退出深度，也不把主观评分当安全等级。",
-      "path": "2026-10-02/13-12-29-【账号运营】-可更新比较表与指标口径.md",
-      "sha": "2aad260284b002662fef8d7d923b11474d82a316",
-      "date": "2026-10-02",
-      "time": "13:12:29",
-      "title": "账号运营：可更新比较表与指标口径",
-      "type": "账号运营",
-      "tags": [
-        "账号运营",
-        "比较表",
-        "指标口径"
-      ],
-      "observation": "数据观察窗口：2026-10-02 05:05–05:10 UTC（北京时间 13:05–13:10）",
-      "url": "/X-feed-pages/2026-10-02/13-12-29-%E3%80%90%E8%B4%A6%E5%8F%B7%E8%BF%90%E8%90%A5%E3%80%91-%E5%8F%AF%E6%9B%B4%E6%96%B0%E6%AF%94%E8%BE%83%E8%A1%A8%E4%B8%8E%E6%8C%87%E6%A0%87%E5%8F%A3%E5%BE%84.html",
-      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-10-02/13-12-29-%E3%80%90%E8%B4%A6%E5%8F%B7%E8%BF%90%E8%90%A5%E3%80%91-%E5%8F%AF%E6%9B%B4%E6%96%B0%E6%AF%94%E8%BE%83%E8%A1%A8%E4%B8%8E%E6%8C%87%E6%A0%87%E5%8F%A3%E5%BE%84.md"
     },
     {
       "path": "2026-10-02/12-50-16_低估山寨币补证与SKY评级调整.md",
@@ -4340,6 +4394,23 @@
       "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-10-02/12-37-16_%E6%BD%9C%E5%9C%A8%E4%BD%8E%E4%BC%B0%E5%B1%B1%E5%AF%A8%E5%B8%81%E9%A6%96%E8%BD%AE%E7%A0%94%E7%A9%B6.md"
     },
     {
+      "summary": "借鉴问题拆分与来源核验的长帖结构；区分宣传指标、论文指标和用户实际收益。",
+      "path": "2026-10-02/12-09-51-【账号运营】-研究长帖的问题拆分与证据边界.md",
+      "sha": "eb262c29be9048d51bd611d78a83f23d840d1eab",
+      "date": "2026-10-02",
+      "time": "12:09:51",
+      "title": "账号运营：研究长帖的问题拆分与证据边界",
+      "type": "账号运营",
+      "tags": [
+        "账号运营",
+        "研究长帖",
+        "证据边界"
+      ],
+      "observation": "数据观察窗口：2026-10-02 12:04–12:08（UTC 04:04–04:08）",
+      "url": "/X-feed-pages/2026-10-02/12-09-51-%E3%80%90%E8%B4%A6%E5%8F%B7%E8%BF%90%E8%90%A5%E3%80%91-%E7%A0%94%E7%A9%B6%E9%95%BF%E5%B8%96%E7%9A%84%E9%97%AE%E9%A2%98%E6%8B%86%E5%88%86%E4%B8%8E%E8%AF%81%E6%8D%AE%E8%BE%B9%E7%95%8C.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-10-02/12-09-51-%E3%80%90%E8%B4%A6%E5%8F%B7%E8%BF%90%E8%90%A5%E3%80%91-%E7%A0%94%E7%A9%B6%E9%95%BF%E5%B8%96%E7%9A%84%E9%97%AE%E9%A2%98%E6%8B%86%E5%88%86%E4%B8%8E%E8%AF%81%E6%8D%AE%E8%BE%B9%E7%95%8C.md"
+    },
+    {
       "path": "2026-10-02/12-09-51_HawkFi套利收益与论文指标核验.md",
       "sha": "131be30987ce6058ed039c32d79ba5815f55e39b",
       "signal_strength": "weak",
@@ -4358,21 +4429,21 @@
       "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-10-02/12-09-51_HawkFi%E5%A5%97%E5%88%A9%E6%94%B6%E7%9B%8A%E4%B8%8E%E8%AE%BA%E6%96%87%E6%8C%87%E6%A0%87%E6%A0%B8%E9%AA%8C.md"
     },
     {
-      "summary": "借鉴问题拆分与来源核验的长帖结构；区分宣传指标、论文指标和用户实际收益。",
-      "path": "2026-10-02/12-09-51-【账号运营】-研究长帖的问题拆分与证据边界.md",
-      "sha": "eb262c29be9048d51bd611d78a83f23d840d1eab",
+      "summary": "借鉴短演示加来源回复的表达方式；互动数字不能证明自然增长，成本示例必须标明假设。",
+      "path": "2026-10-02/11-10-37-【账号运营】-短演示结构与来源呈现.md",
+      "sha": "678fe8b7041953b095180715806367f5e4c4a021",
       "date": "2026-10-02",
-      "time": "12:09:51",
-      "title": "账号运营：研究长帖的问题拆分与证据边界",
+      "time": "11:10:37",
+      "title": "账号运营：短演示结构与来源呈现",
       "type": "账号运营",
       "tags": [
         "账号运营",
-        "研究长帖",
-        "证据边界"
+        "短演示",
+        "来源呈现"
       ],
-      "observation": "数据观察窗口：2026-10-02 12:04–12:08（UTC 04:04–04:08）",
-      "url": "/X-feed-pages/2026-10-02/12-09-51-%E3%80%90%E8%B4%A6%E5%8F%B7%E8%BF%90%E8%90%A5%E3%80%91-%E7%A0%94%E7%A9%B6%E9%95%BF%E5%B8%96%E7%9A%84%E9%97%AE%E9%A2%98%E6%8B%86%E5%88%86%E4%B8%8E%E8%AF%81%E6%8D%AE%E8%BE%B9%E7%95%8C.html",
-      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-10-02/12-09-51-%E3%80%90%E8%B4%A6%E5%8F%B7%E8%BF%90%E8%90%A5%E3%80%91-%E7%A0%94%E7%A9%B6%E9%95%BF%E5%B8%96%E7%9A%84%E9%97%AE%E9%A2%98%E6%8B%86%E5%88%86%E4%B8%8E%E8%AF%81%E6%8D%AE%E8%BE%B9%E7%95%8C.md"
+      "observation": "数据观察窗口：2026-10-02 11:05–11:09（UTC 03:05–03:09）",
+      "url": "/X-feed-pages/2026-10-02/11-10-37-%E3%80%90%E8%B4%A6%E5%8F%B7%E8%BF%90%E8%90%A5%E3%80%91-%E7%9F%AD%E6%BC%94%E7%A4%BA%E7%BB%93%E6%9E%84%E4%B8%8E%E6%9D%A5%E6%BA%90%E5%91%88%E7%8E%B0.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-10-02/11-10-37-%E3%80%90%E8%B4%A6%E5%8F%B7%E8%BF%90%E8%90%A5%E3%80%91-%E7%9F%AD%E6%BC%94%E7%A4%BA%E7%BB%93%E6%9E%84%E4%B8%8E%E6%9D%A5%E6%BA%90%E5%91%88%E7%8E%B0.md"
     },
     {
       "path": "2026-10-02/11-10-37_Pendle-USDC借贷金库与演示内容研究.md",
@@ -4390,24 +4461,7 @@
       "observation": "2026-10-02 11:05–11:09 北京时间",
       "url": "/X-feed-pages/2026-10-02/11-10-37_Pendle-USDC%E5%80%9F%E8%B4%B7%E9%87%91%E5%BA%93%E4%B8%8E%E6%BC%94%E7%A4%BA%E5%86%85%E5%AE%B9%E7%A0%94%E7%A9%B6.html",
       "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-10-02/11-10-37_Pendle-USDC%E5%80%9F%E8%B4%B7%E9%87%91%E5%BA%93%E4%B8%8E%E6%BC%94%E7%A4%BA%E5%86%85%E5%AE%B9%E7%A0%94%E7%A9%B6.md"
-    },
-    {
-      "summary": "借鉴短演示加来源回复的表达方式；互动数字不能证明自然增长，成本示例必须标明假设。",
-      "path": "2026-10-02/11-10-37-【账号运营】-短演示结构与来源呈现.md",
-      "sha": "678fe8b7041953b095180715806367f5e4c4a021",
-      "date": "2026-10-02",
-      "time": "11:10:37",
-      "title": "账号运营：短演示结构与来源呈现",
-      "type": "账号运营",
-      "tags": [
-        "账号运营",
-        "短演示",
-        "来源呈现"
-      ],
-      "observation": "数据观察窗口：2026-10-02 11:05–11:09（UTC 03:05–03:09）",
-      "url": "/X-feed-pages/2026-10-02/11-10-37-%E3%80%90%E8%B4%A6%E5%8F%B7%E8%BF%90%E8%90%A5%E3%80%91-%E7%9F%AD%E6%BC%94%E7%A4%BA%E7%BB%93%E6%9E%84%E4%B8%8E%E6%9D%A5%E6%BA%90%E5%91%88%E7%8E%B0.html",
-      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-10-02/11-10-37-%E3%80%90%E8%B4%A6%E5%8F%B7%E8%BF%90%E8%90%A5%E3%80%91-%E7%9F%AD%E6%BC%94%E7%A4%BA%E7%BB%93%E6%9E%84%E4%B8%8E%E6%9D%A5%E6%BA%90%E5%91%88%E7%8E%B0.md"
     }
   ],
-  "count": 247
+  "count": 250
 }
