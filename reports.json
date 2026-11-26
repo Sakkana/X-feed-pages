@@ -2,8 +2,44 @@
   "schemaVersion": 1,
   "timezone": "Asia/Shanghai",
   "repository": "Sakkana/X-feed-pages",
-  "recordCount": 250,
+  "recordCount": 253,
   "records": [
+    {
+      "title": "Gate MEME 第二期：达标不等于奖励够付成本",
+      "type": "激励",
+      "tags": [
+        "Gate Web3",
+        "MEME",
+        "成交量奖励"
+      ],
+      "summary": "合格成交额奖励为 40–100bp 毛上限；额度先到先得，普通 Swap 和零费交易不计。",
+      "signal_strength": "weak",
+      "observation": "2026-11-26 约 14:56–15:00 UTC",
+      "path": "2026-11-26/22-56-52-【激励】-Gate MEME奖励梯度与费率上限.md",
+      "date": "2026-11-26",
+      "time": "22:56:52",
+      "sha": "5472c036fbc7a1613036d43f04abd9045ad9135f",
+      "url": "/X-feed-pages/2026-11-26/22-56-52-%E3%80%90%E6%BF%80%E5%8A%B1%E3%80%91-Gate%20MEME%E5%A5%96%E5%8A%B1%E6%A2%AF%E5%BA%A6%E4%B8%8E%E8%B4%B9%E7%8E%87%E4%B8%8A%E9%99%90.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-11-26/22-56-52-%E3%80%90%E6%BF%80%E5%8A%B1%E3%80%91-Gate%20MEME%E5%A5%96%E5%8A%B1%E6%A2%AF%E5%BA%A6%E4%B8%8E%E8%B4%B9%E7%8E%87%E4%B8%8A%E9%99%90.md"
+    },
+    {
+      "title": "ZETA 换链：OKX 和 Coinbase 的到账网络不一样",
+      "type": "新发行",
+      "tags": [
+        "ZETA",
+        "Solana",
+        "Ethereum",
+        "换约"
+      ],
+      "summary": "OKX 换成 Solana SPL，Coinbase 换成 Ethereum ERC-20；1:1 换币不等于两所可直接划转。",
+      "observation": "2026-11-26 约 14:56–15:00 UTC",
+      "path": "2026-11-26/22-56-52-【新发行】-ZETA双平台换链与交割路径.md",
+      "date": "2026-11-26",
+      "time": "22:56:52",
+      "sha": "cbd44ae93e7eb99fa3ee933572e9a4f865b40524",
+      "url": "/X-feed-pages/2026-11-26/22-56-52-%E3%80%90%E6%96%B0%E5%8F%91%E8%A1%8C%E3%80%91-ZETA%E5%8F%8C%E5%B9%B3%E5%8F%B0%E6%8D%A2%E9%93%BE%E4%B8%8E%E4%BA%A4%E5%89%B2%E8%B7%AF%E5%BE%84.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-11-26/22-56-52-%E3%80%90%E6%96%B0%E5%8F%91%E8%A1%8C%E3%80%91-ZETA%E5%8F%8C%E5%B9%B3%E5%8F%B0%E6%8D%A2%E9%93%BE%E4%B8%8E%E4%BA%A4%E5%89%B2%E8%B7%AF%E5%BE%84.md"
+    },
     {
       "title": "HYPE 进 EZPZ：指数新增不等于等量市价买单",
       "type": "山寨币估值",
@@ -1430,6 +1466,25 @@
       "time": "19:57:46",
       "url": "/X-feed-pages/2026-11-24/19-57-46-%E3%80%90%E9%87%8F%E5%8C%96%E3%80%91-Bybit%E4%BB%B7%E5%B7%AE%E4%BA%A7%E5%93%81%E6%9A%82%E5%81%9C%E4%B8%8E%E5%8F%8C%E8%85%BF%E6%89%A7%E8%A1%8C%E6%88%90%E6%9C%AC.html",
       "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-11-24/19-57-46-%E3%80%90%E9%87%8F%E5%8C%96%E3%80%91-Bybit%E4%BB%B7%E5%B7%AE%E4%BA%A7%E5%93%81%E6%9A%82%E5%81%9C%E4%B8%8E%E5%8F%8C%E8%85%BF%E6%89%A7%E8%A1%8C%E6%88%90%E6%9C%AC.md"
+    },
+    {
+      "title": "CULT 换约与新币双边交易税",
+      "type": "新发行",
+      "tags": [
+        "Ethereum",
+        "ZKFOL",
+        "换约",
+        "Uniswap"
+      ],
+      "summary": "区分 1:1 迁移、双边交易税和退出流动性，按 11 月 24 日当时证据归档。",
+      "observation": "2026-11-24 10:57–10:59 UTC",
+      "signal_strength": "weak",
+      "path": "2026-11-24/18-59-29-【新发行】-CULT换约与新币双边交易税.md",
+      "date": "2026-11-24",
+      "time": "18:59:29",
+      "sha": "ca0e87234468bcc5bcf785638cad0b9b27e716f0",
+      "url": "/X-feed-pages/2026-11-24/18-59-29-%E3%80%90%E6%96%B0%E5%8F%91%E8%A1%8C%E3%80%91-CULT%E6%8D%A2%E7%BA%A6%E4%B8%8E%E6%96%B0%E5%B8%81%E5%8F%8C%E8%BE%B9%E4%BA%A4%E6%98%93%E7%A8%8E.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-11-24/18-59-29-%E3%80%90%E6%96%B0%E5%8F%91%E8%A1%8C%E3%80%91-CULT%E6%8D%A2%E7%BA%A6%E4%B8%8E%E6%96%B0%E5%B8%81%E5%8F%8C%E8%BE%B9%E4%BA%A4%E6%98%93%E7%A8%8E.md"
     },
     {
       "title": "Venice Minds 积分与 VVV 销毁口径",
@@ -4463,5 +4518,5 @@
       "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-10-02/11-10-37_Pendle-USDC%E5%80%9F%E8%B4%B7%E9%87%91%E5%BA%93%E4%B8%8E%E6%BC%94%E7%A4%BA%E5%86%85%E5%AE%B9%E7%A0%94%E7%A9%B6.md"
     }
   ],
-  "count": 250
+  "count": 253
 }
