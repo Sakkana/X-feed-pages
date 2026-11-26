@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "timezone": "Asia/Shanghai",
   "repository": "Sakkana/X-feed-pages",
-  "recordCount": 237,
+  "recordCount": 238,
   "records": [
     {
       "title": "Gate XAUT #388：5,000 U 门槛，现金等价奖励取决于有效池规模",
@@ -1369,6 +1369,27 @@
       "sha": "7521163dade08a7ea38f6ae63b9759d3b57c8ade",
       "url": "/X-feed-pages/2026-11-22/15-00-50-%E3%80%90%E5%A5%97%E5%88%A9%E3%80%91-USDM%E6%8A%98%E4%BB%B7%E4%B8%8E%E5%8F%8C%E5%8F%91%E8%A1%8C%E8%B5%8E%E5%9B%9E.html",
       "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-11-22/15-00-50-%E3%80%90%E5%A5%97%E5%88%A9%E3%80%91-USDM%E6%8A%98%E4%BB%B7%E4%B8%8E%E5%8F%8C%E5%8F%91%E8%A1%8C%E8%B5%8E%E5%9B%9E.md"
+    },
+    {
+      "title": "sAVAX：赎回排队变短，未必降低净等待成本",
+      "type": "套利",
+      "tags": [
+        "套利",
+        "sAVAX",
+        "BENQI",
+        "Avalanche",
+        "LST",
+        "赎回"
+      ],
+      "summary": "原始 2026-11-22 研究：2–14 天候选排队规则申请即停息；示例的等待成本交点约 6.24 天，1,000 USDT 同期即时往返少 2.51 U，未扣 gas。",
+      "observation": "历史观察：2026-11-21 16:05 UTC / 11-22 00:05 北京时间；原送达 2026-11-22 00:05:28 北京时间",
+      "signal_strength": "weak",
+      "path": "2026-11-22/00-05-28-【套利】-sAVAX赎回队列与净等待成本.md",
+      "date": "2026-11-22",
+      "time": "00:05:28",
+      "sha": "3983210548e4dc947686cb40822772d6cccd991b",
+      "url": "/X-feed-pages/2026-11-22/00-05-28-%E3%80%90%E5%A5%97%E5%88%A9%E3%80%91-sAVAX%E8%B5%8E%E5%9B%9E%E9%98%9F%E5%88%97%E4%B8%8E%E5%87%80%E7%AD%89%E5%BE%85%E6%88%90%E6%9C%AC.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-11-22/00-05-28-%E3%80%90%E5%A5%97%E5%88%A9%E3%80%91-sAVAX%E8%B5%8E%E5%9B%9E%E9%98%9F%E5%88%97%E4%B8%8E%E5%87%80%E7%AD%89%E5%BE%85%E6%88%90%E6%9C%AC.md"
     },
     {
       "title": "Hyperwave 停运：发回金库凭证持有人，不等于发回嵌套仓位持有人",
@@ -4218,5 +4239,5 @@
       "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-10-02/11-10-37-%E3%80%90%E8%B4%A6%E5%8F%B7%E8%BF%90%E8%90%A5%E3%80%91-%E7%9F%AD%E6%BC%94%E7%A4%BA%E7%BB%93%E6%9E%84%E4%B8%8E%E6%9D%A5%E6%BA%90%E5%91%88%E7%8E%B0.md"
     }
   ],
-  "count": 237
+  "count": 238
 }
