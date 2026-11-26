@@ -2,8 +2,27 @@
   "schemaVersion": 1,
   "timezone": "Asia/Shanghai",
   "repository": "Sakkana/X-feed-pages",
-  "recordCount": 227,
+  "recordCount": 228,
   "records": [
+    {
+      "title": "StableEarn PYUSD：9.29% 里有多少补贴，退出靠谁的现金？",
+      "type": "DeFi",
+      "tags": [
+        "Stable",
+        "Morpho",
+        "PYUSD",
+        "weETH"
+      ],
+      "summary": "区分 9.29% 中的基础利息与短期补贴，核对闲置现金、weETH 借贷配置及集中提款风险。",
+      "observation": "2026-11-26 13:57（北京时间）",
+      "signal_strength": "weak",
+      "path": "2026-11-26/13-57-20-【DeFi】-StableEarn PYUSD补贴与流动性.md",
+      "date": "2026-11-26",
+      "time": "13:57:20",
+      "sha": "867ead9b8359b1a84573af1e7736ab1d6567f1e1",
+      "url": "/X-feed-pages/2026-11-26/13-57-20-%E3%80%90DeFi%E3%80%91-StableEarn%20PYUSD%E8%A1%A5%E8%B4%B4%E4%B8%8E%E6%B5%81%E5%8A%A8%E6%80%A7.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-11-26/13-57-20-%E3%80%90DeFi%E3%80%91-StableEarn%20PYUSD%E8%A1%A5%E8%B4%B4%E4%B8%8E%E6%B5%81%E5%8A%A8%E6%80%A7.md"
+    },
     {
       "title": "黄金永续对代币金：31 bp 入场差，收敛后只剩约 0.30 U",
       "type": "套利",
@@ -4026,5 +4045,5 @@
       "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-10-02/11-10-37-%E3%80%90%E8%B4%A6%E5%8F%B7%E8%BF%90%E8%90%A5%E3%80%91-%E7%9F%AD%E6%BC%94%E7%A4%BA%E7%BB%93%E6%9E%84%E4%B8%8E%E6%9D%A5%E6%BA%90%E5%91%88%E7%8E%B0.md"
     }
   ],
-  "count": 227
+  "count": 228
 }

@@ -2099,5 +2099,18 @@
     "summary": "三本盘口实测；约 31 bp 的入场差在示例收敛下仅剩约 0.30 U，按采样盘口往返仍负。",
     "observation": "2026-11-26 13:05:36（北京时间）",
     "signal_strength": "weak"
+  },
+  "2026-11-26/13-57-20-【DeFi】-StableEarn PYUSD补贴与流动性.md": {
+    "title": "StableEarn PYUSD：9.29% 里有多少补贴，退出靠谁的现金？",
+    "type": "DeFi",
+    "tags": [
+      "Stable",
+      "Morpho",
+      "PYUSD",
+      "weETH"
+    ],
+    "summary": "区分 9.29% 中的基础利息与短期补贴，核对闲置现金、weETH 借贷配置及集中提款风险。",
+    "observation": "2026-11-26 13:57（北京时间）",
+    "signal_strength": "weak"
   }
 }
