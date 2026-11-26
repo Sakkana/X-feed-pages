@@ -2435,5 +2435,30 @@
     "summary": "区分 1:1 迁移、双边交易税和退出流动性，按 11 月 24 日当时证据归档。",
     "observation": "2026-11-24 10:57–10:59 UTC",
     "signal_strength": "weak"
+  },
+  "2026-11-26/23-56-49-【DeFi】-KPK ETH Prime退役与WETH退出.md": {
+    "title": "KPK ETH Prime 退役：停止策略，不是关闭赎回",
+    "type": "DeFi",
+    "tags": [
+      "Morpho v2",
+      "KPK",
+      "WETH",
+      "金库赎回"
+    ],
+    "summary": "KPK 退役 Ethereum 上的 ETH Prime；Morpho 快照显示约 99.97% 为闲置 WETH，小额策略敞口仍非即时可兑。",
+    "observation": "2026-11-26 15:56 UTC"
+  },
+  "2026-11-24/18-59-29-【DEX】-LFJ做市库存与WMON奖励稀释.md": {
+    "title": "LFJ 做市库存与 WMON 奖励稀释",
+    "type": "DEX",
+    "tags": [
+      "Monad",
+      "LFJ POE",
+      "Merkl",
+      "LP 激励"
+    ],
+    "summary": "历史快照：每日约 8,037 WMON；新增份额稀释奖励，MON 库存损益可能超过补贴。",
+    "signal_strength": "weak",
+    "observation": "2026-11-24 10:57–10:59 UTC"
   }
 }

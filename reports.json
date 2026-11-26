@@ -2,8 +2,26 @@
   "schemaVersion": 1,
   "timezone": "Asia/Shanghai",
   "repository": "Sakkana/X-feed-pages",
-  "recordCount": 253,
+  "recordCount": 255,
   "records": [
+    {
+      "title": "KPK ETH Prime 退役：停止策略，不是关闭赎回",
+      "type": "DeFi",
+      "tags": [
+        "Morpho v2",
+        "KPK",
+        "WETH",
+        "金库赎回"
+      ],
+      "summary": "KPK 退役 Ethereum 上的 ETH Prime；Morpho 快照显示约 99.97% 为闲置 WETH，小额策略敞口仍非即时可兑。",
+      "observation": "2026-11-26 15:56 UTC",
+      "path": "2026-11-26/23-56-49-【DeFi】-KPK ETH Prime退役与WETH退出.md",
+      "date": "2026-11-26",
+      "time": "23:56:49",
+      "sha": "d1836651c02e5238cdc88978753aa105d1ffcab7",
+      "url": "/X-feed-pages/2026-11-26/23-56-49-%E3%80%90DeFi%E3%80%91-KPK%20ETH%20Prime%E9%80%80%E5%BD%B9%E4%B8%8EWETH%E9%80%80%E5%87%BA.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-11-26/23-56-49-%E3%80%90DeFi%E3%80%91-KPK%20ETH%20Prime%E9%80%80%E5%BD%B9%E4%B8%8EWETH%E9%80%80%E5%87%BA.md"
+    },
     {
       "title": "Gate MEME 第二期：达标不等于奖励够付成本",
       "type": "激励",
@@ -1485,6 +1503,25 @@
       "sha": "ca0e87234468bcc5bcf785638cad0b9b27e716f0",
       "url": "/X-feed-pages/2026-11-24/18-59-29-%E3%80%90%E6%96%B0%E5%8F%91%E8%A1%8C%E3%80%91-CULT%E6%8D%A2%E7%BA%A6%E4%B8%8E%E6%96%B0%E5%B8%81%E5%8F%8C%E8%BE%B9%E4%BA%A4%E6%98%93%E7%A8%8E.html",
       "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-11-24/18-59-29-%E3%80%90%E6%96%B0%E5%8F%91%E8%A1%8C%E3%80%91-CULT%E6%8D%A2%E7%BA%A6%E4%B8%8E%E6%96%B0%E5%B8%81%E5%8F%8C%E8%BE%B9%E4%BA%A4%E6%98%93%E7%A8%8E.md"
+    },
+    {
+      "title": "LFJ 做市库存与 WMON 奖励稀释",
+      "type": "DEX",
+      "tags": [
+        "Monad",
+        "LFJ POE",
+        "Merkl",
+        "LP 激励"
+      ],
+      "summary": "历史快照：每日约 8,037 WMON；新增份额稀释奖励，MON 库存损益可能超过补贴。",
+      "signal_strength": "weak",
+      "observation": "2026-11-24 10:57–10:59 UTC",
+      "path": "2026-11-24/18-59-29-【DEX】-LFJ做市库存与WMON奖励稀释.md",
+      "date": "2026-11-24",
+      "time": "18:59:29",
+      "sha": "cdf5f32ce87660146b0f09a7edce314b21486689",
+      "url": "/X-feed-pages/2026-11-24/18-59-29-%E3%80%90DEX%E3%80%91-LFJ%E5%81%9A%E5%B8%82%E5%BA%93%E5%AD%98%E4%B8%8EWMON%E5%A5%96%E5%8A%B1%E7%A8%80%E9%87%8A.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-11-24/18-59-29-%E3%80%90DEX%E3%80%91-LFJ%E5%81%9A%E5%B8%82%E5%BA%93%E5%AD%98%E4%B8%8EWMON%E5%A5%96%E5%8A%B1%E7%A8%80%E9%87%8A.md"
     },
     {
       "title": "Venice Minds 积分与 VVV 销毁口径",
