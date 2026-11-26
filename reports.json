@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "timezone": "Asia/Shanghai",
   "repository": "Sakkana/X-feed-pages",
-  "recordCount": 243,
+  "recordCount": 244,
   "records": [
     {
       "title": "INFI 两条销毁线：净收入回购才形成新买单",
@@ -1304,6 +1304,26 @@
       "time": "21:59:28",
       "url": "/X-feed-pages/2026-11-24/21-59-28-%E3%80%90%E8%B5%84%E6%96%99%E3%80%91-INJ%E5%8D%87%E7%BA%A7%E4%B8%8E%E4%B8%89%E5%AE%B6%E4%BA%A4%E6%98%93%E6%89%80%E5%85%85%E6%8F%90%E6%97%B6%E5%B7%AE.html",
       "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-11-24/21-59-28-%E3%80%90%E8%B5%84%E6%96%99%E3%80%91-INJ%E5%8D%87%E7%BA%A7%E4%B8%8E%E4%B8%89%E5%AE%B6%E4%BA%A4%E6%98%93%E6%89%80%E5%85%85%E6%8F%90%E6%97%B6%E5%B7%AE.md"
+    },
+    {
+      "title": "Gate 的 Celo Dollar 回购价不是链上退出价",
+      "type": "套利",
+      "tags": [
+        "套利",
+        "Celo",
+        "稳定币",
+        "退市回购",
+        "存量退出"
+      ],
+      "summary": "Gate 退市回购固定 0.1659 USDT/CUSD；这不是链上卖价，未确认可提现及同额深度。仅适用于既有合格持仓。",
+      "observation": "2026-11-24 11:58 UTC 原始观察；历史报价不作当前成交价",
+      "signal_strength": "weak",
+      "path": "2026-11-24/19-59-10-【套利】-Celo美元回购与链上退出门槛.md",
+      "date": "2026-11-24",
+      "time": "19:59:10",
+      "sha": "53a2662906952f4f57e5991311133ed0bfd73d9e",
+      "url": "/X-feed-pages/2026-11-24/19-59-10-%E3%80%90%E5%A5%97%E5%88%A9%E3%80%91-Celo%E7%BE%8E%E5%85%83%E5%9B%9E%E8%B4%AD%E4%B8%8E%E9%93%BE%E4%B8%8A%E9%80%80%E5%87%BA%E9%97%A8%E6%A7%9B.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-11-24/19-59-10-%E3%80%90%E5%A5%97%E5%88%A9%E3%80%91-Celo%E7%BE%8E%E5%85%83%E5%9B%9E%E8%B4%AD%E4%B8%8E%E9%93%BE%E4%B8%8A%E9%80%80%E5%87%BA%E9%97%A8%E6%A7%9B.md"
     },
     {
       "title": "Bybit 暂停 Spread Trading：双腿成交和退出成本要分开看",
@@ -4336,5 +4356,5 @@
       "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-10-02/11-10-37-%E3%80%90%E8%B4%A6%E5%8F%B7%E8%BF%90%E8%90%A5%E3%80%91-%E7%9F%AD%E6%BC%94%E7%A4%BA%E7%BB%93%E6%9E%84%E4%B8%8E%E6%9D%A5%E6%BA%90%E5%91%88%E7%8E%B0.md"
     }
   ],
-  "count": 243
+  "count": 244
 }
