@@ -1977,5 +1977,42 @@
     "summary": "10 月 25 日历史报价：固定折价收益与可递减奖励分开，1,000 USDC 顺序往返预览少于本金。",
     "observation": "2026-10-25 20:44–20:52（北京时间，历史观察）",
     "signal_strength": "weak"
+  },
+  "2026-11-26/09-57-21-【DEX】-DUST双币池补贴与退出成本.md": {
+    "title": "DUST/USDC 奖励压力测试：180% APR 不等于可兑现收益",
+    "type": "DEX",
+    "tags": [
+      "Monad",
+      "Uniswap V2",
+      "Merkl",
+      "Neverland"
+    ],
+    "summary": "每 1,000 USDC 的日补贴估算约 4.81 nUSDC；DUST 跌幅、池深和 nUSDC 赎回会影响净结果。",
+    "observation": "2026-11-26 09:57（北京时间）",
+    "signal_strength": "weak"
+  },
+  "2026-11-26/09-57-32-【DEX】-Pangolin部署与两类分成.md": {
+    "title": "Pangolin：部署不等于开放，LP 和锁仓人赚的是两笔钱",
+    "type": "DEX",
+    "tags": [
+      "Avalanche",
+      "Pangolin",
+      "vePNG",
+      "流动性激励"
+    ],
+    "summary": "11 月 26 日计划部署，12 月 10 日计划开放；LP 与 vePNG 的手续费收入和退出条件不同。",
+    "observation": "2026-11-26 09:57（北京时间）"
+  },
+  "2026-10-03/21-01-35-【套利】-KNTQ旧积分领取价差扩大.md": {
+    "title": "KNTQ 旧积分领取价差扩大（历史快照）",
+    "type": "套利",
+    "tags": [
+      "KNTQ",
+      "Hyperliquid",
+      "历史快照"
+    ],
+    "summary": "十月限时领取窗口内的条件价差，仅限当时有足额历史积分者；原报价和评级不是当前机会。",
+    "observation": "2026-10-03 20:58（北京时间，历史快照）",
+    "signal_strength": "medium"
   }
 }
