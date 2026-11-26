@@ -2014,5 +2014,30 @@
     "summary": "十月限时领取窗口内的条件价差，仅限当时有足额历史积分者；原报价和评级不是当前机会。",
     "observation": "2026-10-03 20:58（北京时间，历史快照）",
     "signal_strength": "medium"
+  },
+  "2026-11-26/11-05-56-【激励】-Delphi证据赏金实测账.md": {
+    "title": "Delphi 卖证据：18% 通过，不等于 18% 拿钱",
+    "type": "激励",
+    "tags": [
+      "Gensyn",
+      "Delphi",
+      "AI Agent",
+      "预测市场"
+    ],
+    "summary": "证据赏金无需下注；官方榜上 4,396 次提交累计 49 USDC.e，接受率不是付费率。",
+    "observation": "2026-11-26 约 11:00–11:06（北京时间）",
+    "signal_strength": "weak"
+  },
+  "2026-11-26/11-06-19-【套利】-STORJ与TOWNS结算错位.md": {
+    "title": "STORJ 和 TOWNS 永续下架：结算时间差，不能当成锁定价差",
+    "type": "套利",
+    "tags": [
+      "永续",
+      "交割",
+      "订单簿"
+    ],
+    "summary": "STORJ 两所结算相隔 21 小时；TOWNS 同刻双簿显示负入场基差，未取得 Bybit 深度。",
+    "observation": "2026-11-26 约 11:00–11:06（北京时间）",
+    "signal_strength": "weak"
   }
 }
