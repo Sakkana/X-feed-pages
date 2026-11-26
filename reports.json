@@ -2,8 +2,44 @@
   "schemaVersion": 1,
   "timezone": "Asia/Shanghai",
   "repository": "Sakkana/X-feed-pages",
-  "recordCount": 222,
+  "recordCount": 224,
   "records": [
+    {
+      "title": "Bitkub 泰铢入金奖励：7 天占用，先看能不能兑现",
+      "type": "激励",
+      "tags": [
+        "Bitkub",
+        "泰铢",
+        "USDT"
+      ],
+      "summary": "11 月 26 日单日入金触发，需连续持有七天；USDT 奖励不等于可提现现金。",
+      "observation": "2026-11-26 约 12:00（北京时间）",
+      "signal_strength": "weak",
+      "path": "2026-11-26/12-06-01-【激励】-Bitkub泰铢入金与兑现限制.md",
+      "date": "2026-11-26",
+      "time": "12:06:01",
+      "sha": "755354096c0e1fc80eba1843acd03214fb72e403",
+      "url": "/X-feed-pages/2026-11-26/12-06-01-%E3%80%90%E6%BF%80%E5%8A%B1%E3%80%91-Bitkub%E6%B3%B0%E9%93%A2%E5%85%A5%E9%87%91%E4%B8%8E%E5%85%91%E7%8E%B0%E9%99%90%E5%88%B6.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-11-26/12-06-01-%E3%80%90%E6%BF%80%E5%8A%B1%E3%80%91-Bitkub%E6%B3%B0%E9%93%A2%E5%85%A5%E9%87%91%E4%B8%8E%E5%85%91%E7%8E%B0%E9%99%90%E5%88%B6.md"
+    },
+    {
+      "title": "Fidelity LINK 基金 S-1：不质押，折溢价由谁收敛？",
+      "type": "资料",
+      "tags": [
+        "Chainlink",
+        "LINK",
+        "ETF",
+        "申赎"
+      ],
+      "summary": "S-1 拟不质押 LINK，授权参与人可整篮申赎；尚未挂牌，不是可执行价差。",
+      "observation": "2026-11-26 约 12:00（北京时间）",
+      "path": "2026-11-26/12-06-01-【资料】-Fidelity LINK基金申赎与定价.md",
+      "date": "2026-11-26",
+      "time": "12:06:01",
+      "sha": "907597f92852be684411bfa1015825bb169b7b47",
+      "url": "/X-feed-pages/2026-11-26/12-06-01-%E3%80%90%E8%B5%84%E6%96%99%E3%80%91-Fidelity%20LINK%E5%9F%BA%E9%87%91%E7%94%B3%E8%B5%8E%E4%B8%8E%E5%AE%9A%E4%BB%B7.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-11-26/12-06-01-%E3%80%90%E8%B5%84%E6%96%99%E3%80%91-Fidelity%20LINK%E5%9F%BA%E9%87%91%E7%94%B3%E8%B5%8E%E4%B8%8E%E5%AE%9A%E4%BB%B7.md"
+    },
     {
       "title": "STORJ 和 TOWNS 永续下架：结算时间差，不能当成锁定价差",
       "type": "套利",
@@ -3936,5 +3972,5 @@
       "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-10-02/11-10-37-%E3%80%90%E8%B4%A6%E5%8F%B7%E8%BF%90%E8%90%A5%E3%80%91-%E7%9F%AD%E6%BC%94%E7%A4%BA%E7%BB%93%E6%9E%84%E4%B8%8E%E6%9D%A5%E6%BA%90%E5%91%88%E7%8E%B0.md"
     }
   ],
-  "count": 222
+  "count": 224
 }

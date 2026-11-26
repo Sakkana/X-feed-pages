@@ -2039,5 +2039,29 @@
     "summary": "STORJ 两所结算相隔 21 小时；TOWNS 同刻双簿显示负入场基差，未取得 Bybit 深度。",
     "observation": "2026-11-26 约 11:00–11:06（北京时间）",
     "signal_strength": "weak"
+  },
+  "2026-11-26/12-06-01-【激励】-Bitkub泰铢入金与兑现限制.md": {
+    "title": "Bitkub 泰铢入金奖励：7 天占用，先看能不能兑现",
+    "type": "激励",
+    "tags": [
+      "Bitkub",
+      "泰铢",
+      "USDT"
+    ],
+    "summary": "11 月 26 日单日入金触发，需连续持有七天；USDT 奖励不等于可提现现金。",
+    "observation": "2026-11-26 约 12:00（北京时间）",
+    "signal_strength": "weak"
+  },
+  "2026-11-26/12-06-01-【资料】-Fidelity LINK基金申赎与定价.md": {
+    "title": "Fidelity LINK 基金 S-1：不质押，折溢价由谁收敛？",
+    "type": "资料",
+    "tags": [
+      "Chainlink",
+      "LINK",
+      "ETF",
+      "申赎"
+    ],
+    "summary": "S-1 拟不质押 LINK，授权参与人可整篮申赎；尚未挂牌，不是可执行价差。",
+    "observation": "2026-11-26 约 12:00（北京时间）"
   }
 }
