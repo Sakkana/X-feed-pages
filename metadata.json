@@ -2473,5 +2473,42 @@
     "summary": "新池可借约 1,251 美元，但自身借款会抬升利用率；按利率曲线静态模拟约 450 美元达到旧池现行 APY。",
     "signal_strength": "weak",
     "observation": "2026-11-26 15:57:22 UTC（前端快照）"
+  },
+  "2026-11-27/00-57-41-【DeFi】-HINC抵押扩容与实际融资需求.md": {
+    "title": "HINC 扩容：抵押存量与实际融资是两件事",
+    "type": "DeFi",
+    "tags": [
+      "Aave Horizon",
+      "HINC",
+      "RWA",
+      "抵押融资"
+    ],
+    "summary": "Aave 储备页显示上限 20,500 HINC；11 月 25 日风险快照中的抵押集中于一个仓位，且当时未借款。",
+    "observation": "2026-11-26 16:57 UTC 复核；仓位负债为 11 月 25 日快照"
+  },
+  "2026-11-27/00-58-51-【激励】-stcUSD新期YT成交与CAP分摊.md": {
+    "title": "stcUSD 新期 YT：已有成交，CAP 仍待锁定与分摊",
+    "type": "激励",
+    "tags": [
+      "Pendle",
+      "stcUSD",
+      "YT",
+      "CAP"
+    ],
+    "summary": "已见两笔不同规模的历史成交；奖励按合格 YT 持有量和时间分摊，入锁、兑现与实时退出尚未验证。",
+    "observation": "2026-11-26 16:58 UTC",
+    "signal_strength": "weak"
+  },
+  "2026-11-24/19-57-46-【打新】-MEXC折价BTC配售与获配稀释.md": {
+    "title": "MEXC 以 29,000 USDT 折价配售 BTC：先看获配率，再看折扣",
+    "type": "打新",
+    "tags": [
+      "BTC",
+      "Launchpad",
+      "激励"
+    ],
+    "summary": "历史研究：折扣只适用获配金额；1.6 BTC 奖池下，兑现受总申购、最低卖单和任务成本限制。",
+    "observation": "2026-11-24 11:56 UTC（历史盘口）",
+    "signal_strength": "weak"
   }
 }

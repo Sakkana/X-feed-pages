@@ -2,8 +2,45 @@
   "schemaVersion": 1,
   "timezone": "Asia/Shanghai",
   "repository": "Sakkana/X-feed-pages",
-  "recordCount": 256,
+  "recordCount": 259,
   "records": [
+    {
+      "title": "stcUSD 新期 YT：已有成交，CAP 仍待锁定与分摊",
+      "type": "激励",
+      "tags": [
+        "Pendle",
+        "stcUSD",
+        "YT",
+        "CAP"
+      ],
+      "summary": "已见两笔不同规模的历史成交；奖励按合格 YT 持有量和时间分摊，入锁、兑现与实时退出尚未验证。",
+      "observation": "2026-11-26 16:58 UTC",
+      "signal_strength": "weak",
+      "path": "2026-11-27/00-58-51-【激励】-stcUSD新期YT成交与CAP分摊.md",
+      "date": "2026-11-27",
+      "time": "00:58:51",
+      "sha": "9bf4b152a25d11c6089d1a3a2daab3245fc79a07",
+      "url": "/X-feed-pages/2026-11-27/00-58-51-%E3%80%90%E6%BF%80%E5%8A%B1%E3%80%91-stcUSD%E6%96%B0%E6%9C%9FYT%E6%88%90%E4%BA%A4%E4%B8%8ECAP%E5%88%86%E6%91%8A.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-11-27/00-58-51-%E3%80%90%E6%BF%80%E5%8A%B1%E3%80%91-stcUSD%E6%96%B0%E6%9C%9FYT%E6%88%90%E4%BA%A4%E4%B8%8ECAP%E5%88%86%E6%91%8A.md"
+    },
+    {
+      "title": "HINC 扩容：抵押存量与实际融资是两件事",
+      "type": "DeFi",
+      "tags": [
+        "Aave Horizon",
+        "HINC",
+        "RWA",
+        "抵押融资"
+      ],
+      "summary": "Aave 储备页显示上限 20,500 HINC；11 月 25 日风险快照中的抵押集中于一个仓位，且当时未借款。",
+      "observation": "2026-11-26 16:57 UTC 复核；仓位负债为 11 月 25 日快照",
+      "path": "2026-11-27/00-57-41-【DeFi】-HINC抵押扩容与实际融资需求.md",
+      "date": "2026-11-27",
+      "time": "00:57:41",
+      "sha": "e8b4188b89734f1180f95fc63cbd8eddd3a70fcc",
+      "url": "/X-feed-pages/2026-11-27/00-57-41-%E3%80%90DeFi%E3%80%91-HINC%E6%8A%B5%E6%8A%BC%E6%89%A9%E5%AE%B9%E4%B8%8E%E5%AE%9E%E9%99%85%E8%9E%8D%E8%B5%84%E9%9C%80%E6%B1%82.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-11-27/00-57-41-%E3%80%90DeFi%E3%80%91-HINC%E6%8A%B5%E6%8A%BC%E6%89%A9%E5%AE%B9%E4%B8%8E%E5%AE%9E%E9%99%85%E8%9E%8D%E8%B5%84%E9%9C%80%E6%B1%82.md"
+    },
     {
       "title": "wARS 迁仓：约 450 美元就可能吃掉屏幕上的利差",
       "type": "量化",
@@ -1503,6 +1540,24 @@
       "time": "19:57:46",
       "url": "/X-feed-pages/2026-11-24/19-57-46-%E3%80%90%E9%87%8F%E5%8C%96%E3%80%91-Bybit%E4%BB%B7%E5%B7%AE%E4%BA%A7%E5%93%81%E6%9A%82%E5%81%9C%E4%B8%8E%E5%8F%8C%E8%85%BF%E6%89%A7%E8%A1%8C%E6%88%90%E6%9C%AC.html",
       "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-11-24/19-57-46-%E3%80%90%E9%87%8F%E5%8C%96%E3%80%91-Bybit%E4%BB%B7%E5%B7%AE%E4%BA%A7%E5%93%81%E6%9A%82%E5%81%9C%E4%B8%8E%E5%8F%8C%E8%85%BF%E6%89%A7%E8%A1%8C%E6%88%90%E6%9C%AC.md"
+    },
+    {
+      "title": "MEXC 以 29,000 USDT 折价配售 BTC：先看获配率，再看折扣",
+      "type": "打新",
+      "tags": [
+        "BTC",
+        "Launchpad",
+        "激励"
+      ],
+      "summary": "历史研究：折扣只适用获配金额；1.6 BTC 奖池下，兑现受总申购、最低卖单和任务成本限制。",
+      "observation": "2026-11-24 11:56 UTC（历史盘口）",
+      "signal_strength": "weak",
+      "path": "2026-11-24/19-57-46-【打新】-MEXC折价BTC配售与获配稀释.md",
+      "date": "2026-11-24",
+      "time": "19:57:46",
+      "sha": "81334ac731cf0ab52d422428fed44b87aed585ad",
+      "url": "/X-feed-pages/2026-11-24/19-57-46-%E3%80%90%E6%89%93%E6%96%B0%E3%80%91-MEXC%E6%8A%98%E4%BB%B7BTC%E9%85%8D%E5%94%AE%E4%B8%8E%E8%8E%B7%E9%85%8D%E7%A8%80%E9%87%8A.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-11-24/19-57-46-%E3%80%90%E6%89%93%E6%96%B0%E3%80%91-MEXC%E6%8A%98%E4%BB%B7BTC%E9%85%8D%E5%94%AE%E4%B8%8E%E8%8E%B7%E9%85%8D%E7%A8%80%E9%87%8A.md"
     },
     {
       "title": "CULT 换约与新币双边交易税",
