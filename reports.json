@@ -2,8 +2,67 @@
   "schemaVersion": 1,
   "timezone": "Asia/Shanghai",
   "repository": "Sakkana/X-feed-pages",
-  "recordCount": 238,
+  "recordCount": 241,
   "records": [
+    {
+      "title": "ARGt 奖励续期：17% APR 用比索计，换回美元要重算",
+      "type": "激励",
+      "tags": [
+        "激励",
+        "Morpho",
+        "Merkl",
+        "ARGt",
+        "Arbitrum",
+        "外汇"
+      ],
+      "summary": "Merkl 11 月 26 日新批显示 17% 奖励 APR，协议 APR 为零；21 天比索收益约 0.98% 的假设可被约 0.97% 的比索贬值抵消。",
+      "observation": "2026-11-26 11:05:30 UTC Merkl 官方快照；评级观察 11:06 UTC",
+      "signal_strength": "weak",
+      "path": "2026-11-26/19-06-50-【激励】-ARGt续期与比索回撤门槛.md",
+      "date": "2026-11-26",
+      "time": "19:06:50",
+      "sha": "79ae6d492740f581254cec3ad0a86e46ac0acbbd",
+      "url": "/X-feed-pages/2026-11-26/19-06-50-%E3%80%90%E6%BF%80%E5%8A%B1%E3%80%91-ARGt%E7%BB%AD%E6%9C%9F%E4%B8%8E%E6%AF%94%E7%B4%A2%E5%9B%9E%E6%92%A4%E9%97%A8%E6%A7%9B.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-11-26/19-06-50-%E3%80%90%E6%BF%80%E5%8A%B1%E3%80%91-ARGt%E7%BB%AD%E6%9C%9F%E4%B8%8E%E6%AF%94%E7%B4%A2%E5%9B%9E%E6%92%A4%E9%97%A8%E6%A7%9B.md"
+    },
+    {
+      "title": "PT-sUSDS 到期：三笔实收 USDS，另一路收的是 sUSDS",
+      "type": "DeFi",
+      "tags": [
+        "DeFi",
+        "Pendle",
+        "PT",
+        "sUSDS",
+        "赎回"
+      ],
+      "summary": "到期后以太坊实收显示，约 800、72,379、102,200 PT 实际兑成近等量 USDS；另一笔输出 sUSDS 生息份额，不要混同 stUSDS。",
+      "observation": "2026-11-26 11:06 UTC 核验；交易以区块高度记录，并非同一区块报价",
+      "path": "2026-11-26/19-06-43-【DeFi】-PT-sUSDS到期实际兑付.md",
+      "date": "2026-11-26",
+      "time": "19:06:43",
+      "sha": "53c8ab25945bb84b47afd61e587397430ae8a4d9",
+      "url": "/X-feed-pages/2026-11-26/19-06-43-%E3%80%90DeFi%E3%80%91-PT-sUSDS%E5%88%B0%E6%9C%9F%E5%AE%9E%E9%99%85%E5%85%91%E4%BB%98.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-11-26/19-06-43-%E3%80%90DeFi%E3%80%91-PT-sUSDS%E5%88%B0%E6%9C%9F%E5%AE%9E%E9%99%85%E5%85%91%E4%BB%98.md"
+    },
+    {
+      "title": "JX 日本股基：5,000 USDC 能申购，不一定够赎回",
+      "type": "资料",
+      "tags": [
+        "资料",
+        "RWA",
+        "日股",
+        "Solana",
+        "HashKey"
+      ],
+      "summary": "JX 不是 11 月 26 日新发。HashKey Earn 最低申购 5,000 USDC、最低赎回 75 万 JX；申赎按净值且各预计 T+5，不支持站内二级卖出。",
+      "observation": "2026-11-26 11:06 UTC 复核旧公告及渠道规则；历史发行和渠道日期分开",
+      "path": "2026-11-26/19-06-19-【资料】-JX日本股基申购与赎回错位.md",
+      "date": "2026-11-26",
+      "time": "19:06:19",
+      "sha": "d82db9e12eb25be41314999fde8e9a67614c57ae",
+      "url": "/X-feed-pages/2026-11-26/19-06-19-%E3%80%90%E8%B5%84%E6%96%99%E3%80%91-JX%E6%97%A5%E6%9C%AC%E8%82%A1%E5%9F%BA%E7%94%B3%E8%B4%AD%E4%B8%8E%E8%B5%8E%E5%9B%9E%E9%94%99%E4%BD%8D.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-11-26/19-06-19-%E3%80%90%E8%B5%84%E6%96%99%E3%80%91-JX%E6%97%A5%E6%9C%AC%E8%82%A1%E5%9F%BA%E7%94%B3%E8%B4%AD%E4%B8%8E%E8%B5%8E%E5%9B%9E%E9%94%99%E4%BD%8D.md"
+    },
     {
       "title": "Gate XAUT #388：5,000 U 门槛，现金等价奖励取决于有效池规模",
       "type": "激励",
@@ -4239,5 +4298,5 @@
       "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-10-02/11-10-37-%E3%80%90%E8%B4%A6%E5%8F%B7%E8%BF%90%E8%90%A5%E3%80%91-%E7%9F%AD%E6%BC%94%E7%A4%BA%E7%BB%93%E6%9E%84%E4%B8%8E%E6%9D%A5%E6%BA%90%E5%91%88%E7%8E%B0.md"
     }
   ],
-  "count": 238
+  "count": 241
 }
