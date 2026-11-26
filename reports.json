@@ -2,8 +2,46 @@
   "schemaVersion": 1,
   "timezone": "Asia/Shanghai",
   "repository": "Sakkana/X-feed-pages",
-  "recordCount": 241,
+  "recordCount": 243,
   "records": [
+    {
+      "title": "INFI 两条销毁线：净收入回购才形成新买单",
+      "type": "山寨币估值",
+      "tags": [
+        "山寨币估值",
+        "INFI",
+        "回购",
+        "销毁",
+        "流通量"
+      ],
+      "summary": "INFI 拟用净收入的 15% 做市场回购；另设按锁仓档位销毁国库库存。锁 1,600 万对应国库烧 500 万，两项不能合并成买盘或持币回报。",
+      "observation": "2026-11-26 12:06 UTC 核对发行方原帖与公开数据；尚无执行证据",
+      "path": "2026-11-26/20-06-08-【山寨币估值】-INFI回购与国库销毁分账.md",
+      "date": "2026-11-26",
+      "time": "20:06:08",
+      "sha": "15e12378ac20ed204ff4ef42802b26802e1a4c7c",
+      "url": "/X-feed-pages/2026-11-26/20-06-08-%E3%80%90%E5%B1%B1%E5%AF%A8%E5%B8%81%E4%BC%B0%E5%80%BC%E3%80%91-INFI%E5%9B%9E%E8%B4%AD%E4%B8%8E%E5%9B%BD%E5%BA%93%E9%94%80%E6%AF%81%E5%88%86%E8%B4%A6.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-11-26/20-06-08-%E3%80%90%E5%B1%B1%E5%AF%A8%E5%B8%81%E4%BC%B0%E5%80%BC%E3%80%91-INFI%E5%9B%9E%E8%B4%AD%E4%B8%8E%E5%9B%BD%E5%BA%93%E9%94%80%E6%AF%81%E5%88%86%E8%B4%A6.md"
+    },
+    {
+      "title": "Bitget OCN 托管借贷：理论 4 倍，起步碰到 75% 转出线",
+      "type": "量化",
+      "tags": [
+        "量化",
+        "Bitget",
+        "机构借贷",
+        "托管",
+        "LTV"
+      ],
+      "summary": "第三方托管份额 1:1 映射，最多额外借 3 倍。简化满借模型的初始 LTV 为 75%，整个风险单元有效资产值减少约 16.67% 即触及 90%。",
+      "observation": "2026-11-26 12:06 UTC 核对平台公告及规则；不是账户实测",
+      "path": "2026-11-26/20-06-07-【量化】-Bitget托管借贷的三道LTV阈值.md",
+      "date": "2026-11-26",
+      "time": "20:06:07",
+      "sha": "5d8a3a2f492935dfb97aacb38375fb971efcbe4d",
+      "url": "/X-feed-pages/2026-11-26/20-06-07-%E3%80%90%E9%87%8F%E5%8C%96%E3%80%91-Bitget%E6%89%98%E7%AE%A1%E5%80%9F%E8%B4%B7%E7%9A%84%E4%B8%89%E9%81%93LTV%E9%98%88%E5%80%BC.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-11-26/20-06-07-%E3%80%90%E9%87%8F%E5%8C%96%E3%80%91-Bitget%E6%89%98%E7%AE%A1%E5%80%9F%E8%B4%B7%E7%9A%84%E4%B8%89%E9%81%93LTV%E9%98%88%E5%80%BC.md"
+    },
     {
       "title": "ARGt 奖励续期：17% APR 用比索计，换回美元要重算",
       "type": "激励",
@@ -4298,5 +4336,5 @@
       "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-10-02/11-10-37-%E3%80%90%E8%B4%A6%E5%8F%B7%E8%BF%90%E8%90%A5%E3%80%91-%E7%9F%AD%E6%BC%94%E7%A4%BA%E7%BB%93%E6%9E%84%E4%B8%8E%E6%9D%A5%E6%BA%90%E5%91%88%E7%8E%B0.md"
     }
   ],
-  "count": 241
+  "count": 243
 }
