@@ -14,12 +14,12 @@
         "货币市场基金"
       ],
       "summary": "欧元货币市场基金份额可在白名单钱包间全天转让并按秒分配收益，但现金赎回仍受估值日及截单时间约束。",
-      "observation": "2026-11-26 约 12:58 UTC",
+      "observation": "2026-11-26 约 12:58–12:59 UTC",
       "signal_strength": "weak",
       "path": "2026-11-26/20-58-45-【新发行】-erBENJI日内计息与现金赎回.md",
       "date": "2026-11-26",
       "time": "20:58:45",
-      "sha": "8bf46b6ca94cb234134598d89d2c566cc7c18c62",
+      "sha": "07f0daea812afdd502797291e620842317d9ec5a",
       "url": "/X-feed-pages/2026-11-26/20-58-45-%E3%80%90%E6%96%B0%E5%8F%91%E8%A1%8C%E3%80%91-erBENJI%E6%97%A5%E5%86%85%E8%AE%A1%E6%81%AF%E4%B8%8E%E7%8E%B0%E9%87%91%E8%B5%8E%E5%9B%9E.html",
       "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-11-26/20-58-45-%E3%80%90%E6%96%B0%E5%8F%91%E8%A1%8C%E3%80%91-erBENJI%E6%97%A5%E5%86%85%E8%AE%A1%E6%81%AF%E4%B8%8E%E7%8E%B0%E9%87%91%E8%B5%8E%E5%9B%9E.md"
     },
