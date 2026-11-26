@@ -17,6 +17,10 @@ signal_strength: weak
 | [代币页](https://earnbit.com/token)与[平台托管白皮书](https://back.earnbit.com/storage/launchpad/EarnBIT_White_Paper.pdf) | 2 亿 EBT | 2,000 万 EBT | 1,000 万 USDT | 5% |
 | [主域旧版代币经济](https://earnbit.com/files/en/tokenomics.pdf?v=2)与[另一官方托管件](https://back.earnbit.com/storage/launchpad/MH1maSwWika7ZMTATyIBDpLNNirsqHpCeNeeF7qa.pdf) | 1 亿 EBT | 1,000 万 EBT | 500 万 USDT | 5% |
 
+**2026-11-26 20:33 UTC 补证，评级仍为弱。** [发行方 v5 代币经济](https://earnbit.com/files/en/tokenomics.pdf?v=5)和[平台托管白皮书](https://back.earnbit.com/storage/launchpad/EarnBIT_White_Paper.pdf)均支持 2 亿总量、1,620 万初始供应；1 亿是仍可访问的旧版口径，不是同等可信的现行模型。按[代币页](https://earnbit.com/token)的分配与解锁比例，假设各轮额度售满且按表解锁，首批为销售轮次 620 万、营销和生态 1,000 万，后两项占约 61.7%。这是模型，不是已流通量、卖单或流动性。
+
+v5 指明代币发行人为 EarnBit EU UAB，并称它不运营 EarnBIT.com。尚未核实实际收款、退款和交割责任主体。[预售 FAQ](https://earnbit.com/launchpad/earnbit)称全部销售轮次完毕后才拟发行合约，12 月 1 日是预售一轮的结束栏，不等于交割。该页索引的预售轮软顶为 50 万 USDT；用原观察的约 88,244 USDT 作跨页对照，约为 17.6%，不是轮次已结算进度。未达软顶时是否退、由谁退，仍无具约束力条款。项目官方另有[冒用 Gate 名义发售 EBT 的警示](https://t.me/s/earnbit_official_eng)，不能据此认定有第三方上市或退出渠道。
+
 旧版把发行主体与交易平台运营方区分，并列一个月 cliff、12 个月按月归属；当前文档的轮次数与分配不同。公开可访问并不代表两版同时适用，具体申购合同、解锁安排和 TGE 日期未见可核证据。当前页标出的 0.07／0.09／0.12 是后续销售定价，不是承诺上市价。FDV 只是相同预售价乘以两份资料各自的总供应量，并非现有市值。
 
 **1,000 USDT 情景。** 按 0.05 全额获配为 20,000 EBT，首批仅 1,000 枚，其余 19,000 枚不能计入首日现金。即使 0.12 有足额可成交买盘，首批也只回 120 USDT（未扣付币、提币、Gas、交易费和滑点）；单靠首批收回全部投入需 1 USDT／枚加费用缓冲。上市价格低于该门槛不等于最终亏损，剩余代币仍有未知价值；不能拿后轮标价给未解锁份额按现金记账。
