@@ -2,8 +2,46 @@
   "schemaVersion": 1,
   "timezone": "Asia/Shanghai",
   "repository": "Sakkana/X-feed-pages",
-  "recordCount": 263,
+  "recordCount": 266,
   "records": [
+    {
+      "title": "Monad mUSD：降息 17 个基点，最大的变量仍是金库提款",
+      "type": "量化",
+      "tags": [
+        "Aave",
+        "Monad",
+        "mUSD",
+        "借贷利率"
+      ],
+      "summary": "分开测算新增借款与金库撤资推动利用率越过拐点的门槛。",
+      "observation": "2026-11-26 18:55–18:57 UTC",
+      "signal_strength": "weak",
+      "path": "2026-11-27/02-57-17-【量化】-Monad的mUSD降息与撤资阈值.md",
+      "date": "2026-11-27",
+      "time": "02:57:17",
+      "sha": "dec6bf7803ae0804ae31fa916aae76efb173a948",
+      "url": "/X-feed-pages/2026-11-27/02-57-17-%E3%80%90%E9%87%8F%E5%8C%96%E3%80%91-Monad%E7%9A%84mUSD%E9%99%8D%E6%81%AF%E4%B8%8E%E6%92%A4%E8%B5%84%E9%98%88%E5%80%BC.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-11-27/02-57-17-%E3%80%90%E9%87%8F%E5%8C%96%E3%80%91-Monad%E7%9A%84mUSD%E9%99%8D%E6%81%AF%E4%B8%8E%E6%92%A4%E8%B5%84%E9%98%88%E5%80%BC.md"
+    },
+    {
+      "title": "MAGMA 第三轮：已有积分与临时刷量是两笔账",
+      "type": "空投",
+      "tags": [
+        "币安Alpha",
+        "MAGMA",
+        "空投",
+        "Sui"
+      ],
+      "summary": "第三轮 120 MAGMA；核算已有积分机会成本，区分确认窗与先到先得库存。",
+      "observation": "2026-11-26 18:55–18:57 UTC",
+      "signal_strength": "weak",
+      "path": "2026-11-27/02-57-17-【空投】-MAGMA第三轮的积分成本与兑现.md",
+      "date": "2026-11-27",
+      "time": "02:57:17",
+      "sha": "eda7a53833d03244840cb296122ea30343631a05",
+      "url": "/X-feed-pages/2026-11-27/02-57-17-%E3%80%90%E7%A9%BA%E6%8A%95%E3%80%91-MAGMA%E7%AC%AC%E4%B8%89%E8%BD%AE%E7%9A%84%E7%A7%AF%E5%88%86%E6%88%90%E6%9C%AC%E4%B8%8E%E5%85%91%E7%8E%B0.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-11-27/02-57-17-%E3%80%90%E7%A9%BA%E6%8A%95%E3%80%91-MAGMA%E7%AC%AC%E4%B8%89%E8%BD%AE%E7%9A%84%E7%A7%AF%E5%88%86%E6%88%90%E6%9C%AC%E4%B8%8E%E5%85%91%E7%8E%B0.md"
+    },
     {
       "title": "同一张 3090：双模型同题对照的传播样本",
       "type": "账号运营",
@@ -1670,6 +1708,25 @@
       "sha": "cdf5f32ce87660146b0f09a7edce314b21486689",
       "url": "/X-feed-pages/2026-11-24/18-59-29-%E3%80%90DEX%E3%80%91-LFJ%E5%81%9A%E5%B8%82%E5%BA%93%E5%AD%98%E4%B8%8EWMON%E5%A5%96%E5%8A%B1%E7%A8%80%E9%87%8A.html",
       "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-11-24/18-59-29-%E3%80%90DEX%E3%80%91-LFJ%E5%81%9A%E5%B8%82%E5%BA%93%E5%AD%98%E4%B8%8EWMON%E5%A5%96%E5%8A%B1%E7%A8%80%E9%87%8A.md"
+    },
+    {
+      "title": "bfUSD 非对称计价与两段赎回",
+      "type": "DeFi",
+      "tags": [
+        "BitFi",
+        "bfUSD",
+        "金库份额",
+        "赎回"
+      ],
+      "summary": "历史研究：按目标比率进场、按插值参考退出及两段 USDT 赎回门槛。",
+      "observation": "2026-11-24 09:00–09:02 UTC（历史观察）",
+      "signal_strength": "weak",
+      "path": "2026-11-24/17-02-38-【DeFi】-bfUSD非对称计价与两段赎回.md",
+      "date": "2026-11-24",
+      "time": "17:02:38",
+      "sha": "c689b215b04ac74e9f8c3de1e34d3126d6e11901",
+      "url": "/X-feed-pages/2026-11-24/17-02-38-%E3%80%90DeFi%E3%80%91-bfUSD%E9%9D%9E%E5%AF%B9%E7%A7%B0%E8%AE%A1%E4%BB%B7%E4%B8%8E%E4%B8%A4%E6%AE%B5%E8%B5%8E%E5%9B%9E.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-11-24/17-02-38-%E3%80%90DeFi%E3%80%91-bfUSD%E9%9D%9E%E5%AF%B9%E7%A7%B0%E8%AE%A1%E4%BB%B7%E4%B8%8E%E4%B8%A4%E6%AE%B5%E8%B5%8E%E5%9B%9E.md"
     },
     {
       "title": "Venice Minds 积分与 VVV 销毁口径",
