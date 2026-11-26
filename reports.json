@@ -2,8 +2,23 @@
   "schemaVersion": 1,
   "timezone": "Asia/Shanghai",
   "repository": "Sakkana/X-feed-pages",
-  "recordCount": 244,
+  "recordCount": 245,
   "records": [
+    {
+      "title": "同一张 RTX 3060：最快的实测帖不是浏览最高的",
+      "type": "账号运营",
+      "tags": [
+        "账号运营"
+      ],
+      "summary": "同作者三条 12GB 显卡实测，解码 41、52、74 tok/s，公开快照累计分别 34,893、11,260、14,116 浏览。数字越大并不保证更高传播。",
+      "observation": "2026-11-26 12:28–12:29 UTC 读取同一公开时间线；镜像实际采集分钟未披露",
+      "path": "2026-11-26/20-29-41-【账号运营】-同一显卡三次实测的流量反例.md",
+      "date": "2026-11-26",
+      "time": "20:29:41",
+      "sha": "507ca2563d27192698004e654548d3aebeea486e",
+      "url": "/X-feed-pages/2026-11-26/20-29-41-%E3%80%90%E8%B4%A6%E5%8F%B7%E8%BF%90%E8%90%A5%E3%80%91-%E5%90%8C%E4%B8%80%E6%98%BE%E5%8D%A1%E4%B8%89%E6%AC%A1%E5%AE%9E%E6%B5%8B%E7%9A%84%E6%B5%81%E9%87%8F%E5%8F%8D%E4%BE%8B.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-11-26/20-29-41-%E3%80%90%E8%B4%A6%E5%8F%B7%E8%BF%90%E8%90%A5%E3%80%91-%E5%90%8C%E4%B8%80%E6%98%BE%E5%8D%A1%E4%B8%89%E6%AC%A1%E5%AE%9E%E6%B5%8B%E7%9A%84%E6%B5%81%E9%87%8F%E5%8F%8D%E4%BE%8B.md"
+    },
     {
       "title": "INFI 两条销毁线：净收入回购才形成新买单",
       "type": "山寨币估值",
@@ -4356,5 +4371,5 @@
       "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-10-02/11-10-37-%E3%80%90%E8%B4%A6%E5%8F%B7%E8%BF%90%E8%90%A5%E3%80%91-%E7%9F%AD%E6%BC%94%E7%A4%BA%E7%BB%93%E6%9E%84%E4%B8%8E%E6%9D%A5%E6%BA%90%E5%91%88%E7%8E%B0.md"
     }
   ],
-  "count": 244
+  "count": 245
 }
