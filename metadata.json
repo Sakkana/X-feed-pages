@@ -2510,5 +2510,46 @@
     "summary": "历史研究：折扣只适用获配金额；1.6 BTC 奖池下，兑现受总申购、最低卖单和任务成本限制。",
     "observation": "2026-11-24 11:56 UTC（历史盘口）",
     "signal_strength": "weak"
+  },
+  "2026-11-27/02-01-26-【激励】-币安黑五任务进度与首档领取.md": {
+    "title": "币安 Bonanza：0.88U 是任务进度，首档到 5U 才能领",
+    "type": "激励",
+    "tags": [
+      "Binance",
+      "USDC",
+      "奖励门槛",
+      "现货费用"
+    ],
+    "summary": "欢迎与交易任务先计进度；首档需累计 5 USDC。若从零为奖励做 1,200U 现货，手续费可高于进度面额。",
+    "observation": "2026-11-26 18:01 UTC",
+    "signal_strength": "weak"
+  },
+  "2026-11-27/02-02-27-【DeFi】-srONyc优先份额与杠杆触发线.md": {
+    "title": "Kamino srONyc：优先份额的保护与杠杆触发线",
+    "type": "DeFi",
+    "tags": [
+      "Kamino",
+      "OnRe",
+      "Exponent",
+      "USDC",
+      "风险分层"
+    ],
+    "summary": "优先份额由劣后资金先吸收损失；89% LTV 借到顶距 94% 自动还款触发约 5.32%，不是硬清算线。",
+    "observation": "2026-11-26 18:02 UTC（应用快照）",
+    "signal_strength": "weak"
+  },
+  "2026-11-24/22-58-52-【激励】-Gate双币质押分档与三日赎回.md": {
+    "title": "Gate BTC/ETH 质押上调：最高档不适用于全仓",
+    "type": "激励",
+    "tags": [
+      "Gate",
+      "BTC",
+      "ETH",
+      "GT",
+      "赎回"
+    ],
+    "summary": "分段而不是全仓套头档；BTC 1,000U 七天新增约 0.31U，常规赎回约三天。",
+    "observation": "2026-11-24 14:58 UTC（历史）",
+    "signal_strength": "weak"
   }
 }

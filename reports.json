@@ -2,8 +2,47 @@
   "schemaVersion": 1,
   "timezone": "Asia/Shanghai",
   "repository": "Sakkana/X-feed-pages",
-  "recordCount": 259,
+  "recordCount": 262,
   "records": [
+    {
+      "title": "Kamino srONyc：优先份额的保护与杠杆触发线",
+      "type": "DeFi",
+      "tags": [
+        "Kamino",
+        "OnRe",
+        "Exponent",
+        "USDC",
+        "风险分层"
+      ],
+      "summary": "优先份额由劣后资金先吸收损失；89% LTV 借到顶距 94% 自动还款触发约 5.32%，不是硬清算线。",
+      "observation": "2026-11-26 18:02 UTC（应用快照）",
+      "signal_strength": "weak",
+      "path": "2026-11-27/02-02-27-【DeFi】-srONyc优先份额与杠杆触发线.md",
+      "date": "2026-11-27",
+      "time": "02:02:27",
+      "sha": "74a8083fa76caf4da4ec851bd1c5c0caa8ed1d27",
+      "url": "/X-feed-pages/2026-11-27/02-02-27-%E3%80%90DeFi%E3%80%91-srONyc%E4%BC%98%E5%85%88%E4%BB%BD%E9%A2%9D%E4%B8%8E%E6%9D%A0%E6%9D%86%E8%A7%A6%E5%8F%91%E7%BA%BF.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-11-27/02-02-27-%E3%80%90DeFi%E3%80%91-srONyc%E4%BC%98%E5%85%88%E4%BB%BD%E9%A2%9D%E4%B8%8E%E6%9D%A0%E6%9D%86%E8%A7%A6%E5%8F%91%E7%BA%BF.md"
+    },
+    {
+      "title": "币安 Bonanza：0.88U 是任务进度，首档到 5U 才能领",
+      "type": "激励",
+      "tags": [
+        "Binance",
+        "USDC",
+        "奖励门槛",
+        "现货费用"
+      ],
+      "summary": "欢迎与交易任务先计进度；首档需累计 5 USDC。若从零为奖励做 1,200U 现货，手续费可高于进度面额。",
+      "observation": "2026-11-26 18:01 UTC",
+      "signal_strength": "weak",
+      "path": "2026-11-27/02-01-26-【激励】-币安黑五任务进度与首档领取.md",
+      "date": "2026-11-27",
+      "time": "02:01:26",
+      "sha": "5b2a24aeaffc9fe211e8c9a9f240841c7be5349f",
+      "url": "/X-feed-pages/2026-11-27/02-01-26-%E3%80%90%E6%BF%80%E5%8A%B1%E3%80%91-%E5%B8%81%E5%AE%89%E9%BB%91%E4%BA%94%E4%BB%BB%E5%8A%A1%E8%BF%9B%E5%BA%A6%E4%B8%8E%E9%A6%96%E6%A1%A3%E9%A2%86%E5%8F%96.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-11-27/02-01-26-%E3%80%90%E6%BF%80%E5%8A%B1%E3%80%91-%E5%B8%81%E5%AE%89%E9%BB%91%E4%BA%94%E4%BB%BB%E5%8A%A1%E8%BF%9B%E5%BA%A6%E4%B8%8E%E9%A6%96%E6%A1%A3%E9%A2%86%E5%8F%96.md"
+    },
     {
       "title": "stcUSD 新期 YT：已有成交，CAP 仍待锁定与分摊",
       "type": "激励",
@@ -1466,6 +1505,26 @@
       "time": "22:58:52",
       "url": "/X-feed-pages/2026-11-24/22-58-52-%E3%80%90%E8%B5%84%E6%96%99%E3%80%91-SK%E6%B5%B7%E5%8A%9B%E5%A3%AB%E4%BB%A3%E5%B8%81%E8%82%A1%E4%B8%8E%E6%B0%B8%E7%BB%AD%E4%B8%A4%E5%A5%97%E9%99%A4%E6%81%AF.html",
       "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-11-24/22-58-52-%E3%80%90%E8%B5%84%E6%96%99%E3%80%91-SK%E6%B5%B7%E5%8A%9B%E5%A3%AB%E4%BB%A3%E5%B8%81%E8%82%A1%E4%B8%8E%E6%B0%B8%E7%BB%AD%E4%B8%A4%E5%A5%97%E9%99%A4%E6%81%AF.md"
+    },
+    {
+      "title": "Gate BTC/ETH 质押上调：最高档不适用于全仓",
+      "type": "激励",
+      "tags": [
+        "Gate",
+        "BTC",
+        "ETH",
+        "GT",
+        "赎回"
+      ],
+      "summary": "分段而不是全仓套头档；BTC 1,000U 七天新增约 0.31U，常规赎回约三天。",
+      "observation": "2026-11-24 14:58 UTC（历史）",
+      "signal_strength": "weak",
+      "path": "2026-11-24/22-58-52-【激励】-Gate双币质押分档与三日赎回.md",
+      "date": "2026-11-24",
+      "time": "22:58:52",
+      "sha": "443a966038ff0b7f039691aa7830d1a3df4d5201",
+      "url": "/X-feed-pages/2026-11-24/22-58-52-%E3%80%90%E6%BF%80%E5%8A%B1%E3%80%91-Gate%E5%8F%8C%E5%B8%81%E8%B4%A8%E6%8A%BC%E5%88%86%E6%A1%A3%E4%B8%8E%E4%B8%89%E6%97%A5%E8%B5%8E%E5%9B%9E.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-11-24/22-58-52-%E3%80%90%E6%BF%80%E5%8A%B1%E3%80%91-Gate%E5%8F%8C%E5%B8%81%E8%B4%A8%E6%8A%BC%E5%88%86%E6%A1%A3%E4%B8%8E%E4%B8%89%E6%97%A5%E8%B5%8E%E5%9B%9E.md"
     },
     {
       "title": "INJ Veyra：三家交易所的暂停时间相差 5 小时 30 分",
