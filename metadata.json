@@ -2349,5 +2349,18 @@
     "summary": "测试网早期开放；Agent 按有效推理用量计，草案每消耗 3 枚锁仓 FLOP 解锁 1 枚，未核获配与退出。",
     "observation": "2026-11-24 约 13:58 UTC",
     "signal_strength": "weak"
+  },
+  "2026-11-26/20-58-45-【新发行】-erBENJI日内计息与现金赎回.md": {
+    "title": "erBENJI：欧元基金份额能周末转让，不等于周末能赎回",
+    "type": "新发行",
+    "tags": [
+      "erBENJI",
+      "RWA",
+      "欧元",
+      "货币市场基金"
+    ],
+    "summary": "欧元货币市场基金份额可在白名单钱包间全天转让并按秒分配收益，但现金赎回仍受估值日及截单时间约束。",
+    "observation": "2026-11-26 约 12:58 UTC",
+    "signal_strength": "weak"
   }
 }
