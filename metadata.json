@@ -2599,5 +2599,32 @@
     "summary": "历史研究：按目标比率进场、按插值参考退出及两段 USDT 赎回门槛。",
     "observation": "2026-11-24 09:00–09:02 UTC（历史观察）",
     "signal_strength": "weak"
+  },
+  "2026-11-27/04-05-15-【新发行】-EarnBIT预售条款与首批解锁.md": {
+    "title": "EarnBIT 预售：0.05 USDT 买的是锁仓配额，不是上市折扣",
+    "type": "新发行",
+    "tags": [
+      "EarnBIT",
+      "EBT",
+      "预售",
+      "代币解锁"
+    ],
+    "summary": "0.05 USDT 预售的供应量版本与 5% 首次解锁核验；官方后轮标价不是退出报价。",
+    "observation": "2026-11-26 20:02–20:05 UTC",
+    "signal_strength": "weak"
+  },
+  "2026-11-24/21-07-43-【激励】-U持币奖励与交易加成成本.md": {
+    "title": "United Stables 持币奖励：基础年化未知，先算交易加成的门槛",
+    "type": "激励",
+    "tags": [
+      "U",
+      "Binance",
+      "稳定币",
+      "储备",
+      "退出"
+    ],
+    "summary": "按历史盘口拆开自有持仓、额外交易周门槛、发行人赎回和实际回本条件。",
+    "observation": "2026-11-24 13:07 UTC（历史观察）",
+    "signal_strength": "weak"
   }
 }
