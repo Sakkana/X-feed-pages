@@ -1951,5 +1951,31 @@
     ],
     "summary": "旧宠物、ROM 积分和游戏账户分别迁移，截止与兑现路径不同。",
     "observation": "2026-11-21 约 15:59（北京时间）；历史观察"
+  },
+  "2026-11-26/09-03-15-【DeFi】-sUSDD到期与USDC出口.md": {
+    "title": "sUSDD PT 到期：1000 PT 对应的是 USDD，不是 1000 USDC",
+    "type": "DeFi",
+    "tags": [
+      "DeFi",
+      "Pendle",
+      "稳定币",
+      "赎回"
+    ],
+    "summary": "PT 本金按 USDD 计；历史回执和余额快照显示 USDC 与 USDT 两条 PSM 出口的容量和费用不同。",
+    "observation": "2026-11-26 约 09:03–09:04（北京时间）；历史回执按区块、余额无精确区块",
+    "signal_strength": "weak"
+  },
+  "2026-10-25/20-56-56-【DeFi】-sUSDD固息奖励与往返成本.md": {
+    "title": "sUSDD PT：固息、浮动奖励与往返成本",
+    "type": "DeFi",
+    "tags": [
+      "DeFi",
+      "Pendle",
+      "动态激励",
+      "退出成本"
+    ],
+    "summary": "10 月 25 日历史报价：固定折价收益与可递减奖励分开，1,000 USDC 顺序往返预览少于本金。",
+    "observation": "2026-10-25 20:44–20:52（北京时间，历史观察）",
+    "signal_strength": "weak"
   }
 }

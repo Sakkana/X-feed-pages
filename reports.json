@@ -2,8 +2,27 @@
   "schemaVersion": 1,
   "timezone": "Asia/Shanghai",
   "repository": "Sakkana/X-feed-pages",
-  "recordCount": 215,
+  "recordCount": 217,
   "records": [
+    {
+      "title": "sUSDD PT 到期：1000 PT 对应的是 USDD，不是 1000 USDC",
+      "type": "DeFi",
+      "tags": [
+        "DeFi",
+        "Pendle",
+        "稳定币",
+        "赎回"
+      ],
+      "summary": "PT 本金按 USDD 计；历史回执和余额快照显示 USDC 与 USDT 两条 PSM 出口的容量和费用不同。",
+      "observation": "2026-11-26 约 09:03–09:04（北京时间）；历史回执按区块、余额无精确区块",
+      "signal_strength": "weak",
+      "path": "2026-11-26/09-03-15-【DeFi】-sUSDD到期与USDC出口.md",
+      "date": "2026-11-26",
+      "time": "09:03:15",
+      "sha": "8a49edc04251ca98ff03f24e677ddb2fcc771c40",
+      "url": "/X-feed-pages/2026-11-26/09-03-15-%E3%80%90DeFi%E3%80%91-sUSDD%E5%88%B0%E6%9C%9F%E4%B8%8EUSDC%E5%87%BA%E5%8F%A3.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-11-26/09-03-15-%E3%80%90DeFi%E3%80%91-sUSDD%E5%88%B0%E6%9C%9F%E4%B8%8EUSDC%E5%87%BA%E5%8F%A3.md"
+    },
     {
       "title": "Abstract 退出有两套时钟：原生桥与 Pudgy 领取截止",
       "type": "资料",
@@ -1367,6 +1386,25 @@
       "sha": "2321b68447bfcc316ea95be44844a8535702a816",
       "url": "/X-feed-pages/2026-11-14/06-09-01-%E3%80%90DeFi%E3%80%91-wARS%E7%9F%AD%E6%9C%9F%E5%A5%96%E5%8A%B1%E4%B8%8E%E6%8D%A2%E6%B1%87%E6%88%90%E6%9C%AC.html",
       "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-11-14/06-09-01-%E3%80%90DeFi%E3%80%91-wARS%E7%9F%AD%E6%9C%9F%E5%A5%96%E5%8A%B1%E4%B8%8E%E6%8D%A2%E6%B1%87%E6%88%90%E6%9C%AC.md"
+    },
+    {
+      "title": "sUSDD PT：固息、浮动奖励与往返成本",
+      "type": "DeFi",
+      "tags": [
+        "DeFi",
+        "Pendle",
+        "动态激励",
+        "退出成本"
+      ],
+      "summary": "10 月 25 日历史报价：固定折价收益与可递减奖励分开，1,000 USDC 顺序往返预览少于本金。",
+      "observation": "2026-10-25 20:44–20:52（北京时间，历史观察）",
+      "signal_strength": "weak",
+      "path": "2026-10-25/20-56-56-【DeFi】-sUSDD固息奖励与往返成本.md",
+      "date": "2026-10-25",
+      "time": "20:56:56",
+      "sha": "a7976d4aa73a070ae067fc64f9e579a2760332c8",
+      "url": "/X-feed-pages/2026-10-25/20-56-56-%E3%80%90DeFi%E3%80%91-sUSDD%E5%9B%BA%E6%81%AF%E5%A5%96%E5%8A%B1%E4%B8%8E%E5%BE%80%E8%BF%94%E6%88%90%E6%9C%AC.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-10-25/20-56-56-%E3%80%90DeFi%E3%80%91-sUSDD%E5%9B%BA%E6%81%AF%E5%A5%96%E5%8A%B1%E4%B8%8E%E5%BE%80%E8%BF%94%E6%88%90%E6%9C%AC.md"
     },
     {
       "type": "套利",
@@ -3806,5 +3844,5 @@
       "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-10-02/11-10-37-%E3%80%90%E8%B4%A6%E5%8F%B7%E8%BF%90%E8%90%A5%E3%80%91-%E7%9F%AD%E6%BC%94%E7%A4%BA%E7%BB%93%E6%9E%84%E4%B8%8E%E6%9D%A5%E6%BA%90%E5%91%88%E7%8E%B0.md"
     }
   ],
-  "count": 215
+  "count": 217
 }
