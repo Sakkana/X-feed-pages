@@ -2701,5 +2701,42 @@
     ],
     "summary": "11 月 24 日历史观察：国库拟注资 RON/USDC 与新 RON/rETH，拆解手续费归属和稳定币退出成本。",
     "observation": "2026-11-24 07:04 UTC"
+  },
+  "2026-11-27/06-59-21-【DeFi】-sUSDe冷却归零与退出路径.md": {
+    "title": "sUSDe 冷却归零：即时拿回 USDe，不是即时兑美元",
+    "type": "DeFi",
+    "tags": [
+      "Ethena",
+      "sUSDe",
+      "USDe",
+      "赎回"
+    ],
+    "summary": "以太坊 sUSDe 的 cooldownDuration 显示为 0；老队列仍需领取，USDe 兑其他稳定币的价格与资格不变。",
+    "observation": "2026-11-26 22:58 UTC"
+  },
+  "2026-11-27/07-00-20-【套利】-SK海力士除息资金费与深度.md": {
+    "title": "SK 海力士除息实测：14.98 U 的现金腿，不能当成净收益",
+    "type": "套利",
+    "tags": [
+      "SKHYNIX",
+      "合约分红",
+      "TradFi",
+      "资金费"
+    ],
+    "summary": "币安普通股特殊资金费约 14.98 U／股，结算前后盘口同步变化；Gate 及 ADS 分别按其他时钟结算。",
+    "observation": "2026-11-26 22:59:58–23:01:10 UTC",
+    "signal_strength": "weak"
+  },
+  "2026-11-24/00-06-06-【激励】-SK海力士链上池续档分奖权重.md": {
+    "title": "SK 海力士链上池续档分奖权重",
+    "type": "激励",
+    "tags": [
+      "激励",
+      "DEX",
+      "股票代币"
+    ],
+    "summary": "11 月 24 日历史稿，链上 LP 续档更改三项分奖权重，不能直接套页面 APR。",
+    "observation": "2026-11-23 16:05 UTC",
+    "signal_strength": "weak"
   }
 }

@@ -2,8 +2,45 @@
   "schemaVersion": 1,
   "timezone": "Asia/Shanghai",
   "repository": "Sakkana/X-feed-pages",
-  "recordCount": 274,
+  "recordCount": 277,
   "records": [
+    {
+      "title": "SK 海力士除息实测：14.98 U 的现金腿，不能当成净收益",
+      "type": "套利",
+      "tags": [
+        "SKHYNIX",
+        "合约分红",
+        "TradFi",
+        "资金费"
+      ],
+      "summary": "币安普通股特殊资金费约 14.98 U／股，结算前后盘口同步变化；Gate 及 ADS 分别按其他时钟结算。",
+      "observation": "2026-11-26 22:59:58–23:01:10 UTC",
+      "signal_strength": "weak",
+      "path": "2026-11-27/07-00-20-【套利】-SK海力士除息资金费与深度.md",
+      "date": "2026-11-27",
+      "time": "07:00:20",
+      "sha": "19b7857f82aea569d5e832873f5c6e225df59b86",
+      "url": "/X-feed-pages/2026-11-27/07-00-20-%E3%80%90%E5%A5%97%E5%88%A9%E3%80%91-SK%E6%B5%B7%E5%8A%9B%E5%A3%AB%E9%99%A4%E6%81%AF%E8%B5%84%E9%87%91%E8%B4%B9%E4%B8%8E%E6%B7%B1%E5%BA%A6.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-11-27/07-00-20-%E3%80%90%E5%A5%97%E5%88%A9%E3%80%91-SK%E6%B5%B7%E5%8A%9B%E5%A3%AB%E9%99%A4%E6%81%AF%E8%B5%84%E9%87%91%E8%B4%B9%E4%B8%8E%E6%B7%B1%E5%BA%A6.md"
+    },
+    {
+      "title": "sUSDe 冷却归零：即时拿回 USDe，不是即时兑美元",
+      "type": "DeFi",
+      "tags": [
+        "Ethena",
+        "sUSDe",
+        "USDe",
+        "赎回"
+      ],
+      "summary": "以太坊 sUSDe 的 cooldownDuration 显示为 0；老队列仍需领取，USDe 兑其他稳定币的价格与资格不变。",
+      "observation": "2026-11-26 22:58 UTC",
+      "path": "2026-11-27/06-59-21-【DeFi】-sUSDe冷却归零与退出路径.md",
+      "date": "2026-11-27",
+      "time": "06:59:21",
+      "sha": "b651e7417f99c17746bd7b6a973fd51d1c815aa4",
+      "url": "/X-feed-pages/2026-11-27/06-59-21-%E3%80%90DeFi%E3%80%91-sUSDe%E5%86%B7%E5%8D%B4%E5%BD%92%E9%9B%B6%E4%B8%8E%E9%80%80%E5%87%BA%E8%B7%AF%E5%BE%84.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-11-27/06-59-21-%E3%80%90DeFi%E3%80%91-sUSDe%E5%86%B7%E5%8D%B4%E5%BD%92%E9%9B%B6%E4%B8%8E%E9%80%80%E5%87%BA%E8%B7%AF%E5%BE%84.md"
+    },
     {
       "title": "币安现货赛第 12 期：用两本盘口反推尾池回本线",
       "type": "激励",
@@ -1964,6 +2001,24 @@
       "sha": "9655e8e7990174b47d2f6f7c123995e4850842e3",
       "url": "/X-feed-pages/2026-11-24/00-06-25-%E3%80%90%E9%87%8F%E5%8C%96%E3%80%91-Polymarket%E9%A6%96%E6%89%B9V2%E5%B8%82%E5%9C%BA%E5%AE%9E%E8%AF%81.html",
       "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-11-24/00-06-25-%E3%80%90%E9%87%8F%E5%8C%96%E3%80%91-Polymarket%E9%A6%96%E6%89%B9V2%E5%B8%82%E5%9C%BA%E5%AE%9E%E8%AF%81.md"
+    },
+    {
+      "title": "SK 海力士链上池续档分奖权重",
+      "type": "激励",
+      "tags": [
+        "激励",
+        "DEX",
+        "股票代币"
+      ],
+      "summary": "11 月 24 日历史稿，链上 LP 续档更改三项分奖权重，不能直接套页面 APR。",
+      "observation": "2026-11-23 16:05 UTC",
+      "signal_strength": "weak",
+      "path": "2026-11-24/00-06-06-【激励】-SK海力士链上池续档分奖权重.md",
+      "date": "2026-11-24",
+      "time": "00:06:06",
+      "sha": "21d9abd0bb66ff146334e1fcf44c26b42e3e685e",
+      "url": "/X-feed-pages/2026-11-24/00-06-06-%E3%80%90%E6%BF%80%E5%8A%B1%E3%80%91-SK%E6%B5%B7%E5%8A%9B%E5%A3%AB%E9%93%BE%E4%B8%8A%E6%B1%A0%E7%BB%AD%E6%A1%A3%E5%88%86%E5%A5%96%E6%9D%83%E9%87%8D.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-11-24/00-06-06-%E3%80%90%E6%BF%80%E5%8A%B1%E3%80%91-SK%E6%B5%B7%E5%8A%9B%E5%A3%AB%E9%93%BE%E4%B8%8A%E6%B1%A0%E7%BB%AD%E6%A1%A3%E5%88%86%E5%A5%96%E6%9D%83%E9%87%8D.md"
     },
     {
       "title": "Curve 双稳池：一笔链上实兑，不代表三条补贴可以相加",
