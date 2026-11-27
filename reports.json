@@ -2,8 +2,44 @@
   "schemaVersion": 1,
   "timezone": "Asia/Shanghai",
   "repository": "Sakkana/X-feed-pages",
-  "recordCount": 279,
+  "recordCount": 281,
   "records": [
+    {
+      "title": "Maple 的 X Layer 市场：能跨回以太坊，不等于能在本地退出",
+      "type": "借贷",
+      "tags": [
+        "Maple",
+        "syrupUSDC",
+        "跨链",
+        "赎回"
+      ],
+      "summary": "X Layer 测试份额不等于有本地现金出口；区分跨链限额、闲置现金与 DEX 深度。",
+      "observation": "2026-11-27 UTC；发行方和公告数据以正文标明时点为准",
+      "path": "2026-11-27/10-05-38-【借贷】-Maple跨链份额的现金退出.md",
+      "date": "2026-11-27",
+      "time": "10:05:38",
+      "sha": "386d26de18b330df0f7c2ca6017eb24ac001cf2a",
+      "url": "/X-feed-pages/2026-11-27/10-05-38-%E3%80%90%E5%80%9F%E8%B4%B7%E3%80%91-Maple%E8%B7%A8%E9%93%BE%E4%BB%BD%E9%A2%9D%E7%9A%84%E7%8E%B0%E9%87%91%E9%80%80%E5%87%BA.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-11-27/10-05-38-%E3%80%90%E5%80%9F%E8%B4%B7%E3%80%91-Maple%E8%B7%A8%E9%93%BE%E4%BB%BD%E9%A2%9D%E7%9A%84%E7%8E%B0%E9%87%91%E9%80%80%E5%87%BA.md"
+    },
+    {
+      "title": "KuCoin 下架 XMR：停止充值后，价差只剩一个方向可以验证",
+      "type": "套利",
+      "tags": [
+        "XMR",
+        "跨所价差",
+        "下架"
+      ],
+      "summary": "充值已关闭而提现尚有独立窗口，跨所方向不对称；未取得同刻深度。",
+      "observation": "2026-11-27 UTC；发行方和公告数据以正文标明时点为准",
+      "signal_strength": "weak",
+      "path": "2026-11-27/10-05-13-【套利】-KuCoin下架XMR与单向价差.md",
+      "date": "2026-11-27",
+      "time": "10:05:13",
+      "sha": "327d9c66303b35a67fa425fe89231d0b396721bd",
+      "url": "/X-feed-pages/2026-11-27/10-05-13-%E3%80%90%E5%A5%97%E5%88%A9%E3%80%91-KuCoin%E4%B8%8B%E6%9E%B6XMR%E4%B8%8E%E5%8D%95%E5%90%91%E4%BB%B7%E5%B7%AE.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-11-27/10-05-13-%E3%80%90%E5%A5%97%E5%88%A9%E3%80%91-KuCoin%E4%B8%8B%E6%9E%B6XMR%E4%B8%8E%E5%8D%95%E5%90%91%E4%BB%B7%E5%B7%AE.md"
+    },
     {
       "title": "Forest Road：两笔 PT 卖出确实成交，但拿到的不是 USDC",
       "type": "DeFi",

@@ -2764,5 +2764,29 @@
     "summary": "两笔链上卖出只取得 sUSDfr；现金储备增加，但贷款本金扩张更快，最终 USDC 回款未证。",
     "observation": "2026-11-27 UTC；发行方主快照为 2026-11-24 16:29 UTC",
     "signal_strength": "weak"
+  },
+  "2026-11-27/10-05-13-【套利】-KuCoin下架XMR与单向价差.md": {
+    "title": "KuCoin 下架 XMR：停止充值后，价差只剩一个方向可以验证",
+    "type": "套利",
+    "tags": [
+      "XMR",
+      "跨所价差",
+      "下架"
+    ],
+    "summary": "充值已关闭而提现尚有独立窗口，跨所方向不对称；未取得同刻深度。",
+    "observation": "2026-11-27 UTC；发行方和公告数据以正文标明时点为准",
+    "signal_strength": "weak"
+  },
+  "2026-11-27/10-05-38-【借贷】-Maple跨链份额的现金退出.md": {
+    "title": "Maple 的 X Layer 市场：能跨回以太坊，不等于能在本地退出",
+    "type": "借贷",
+    "tags": [
+      "Maple",
+      "syrupUSDC",
+      "跨链",
+      "赎回"
+    ],
+    "summary": "X Layer 测试份额不等于有本地现金出口；区分跨链限额、闲置现金与 DEX 深度。",
+    "observation": "2026-11-27 UTC；发行方和公告数据以正文标明时点为准"
   }
 }
