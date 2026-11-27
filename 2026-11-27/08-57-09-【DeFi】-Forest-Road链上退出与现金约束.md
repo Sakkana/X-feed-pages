@@ -6,6 +6,7 @@ signal_strength: weak
 
 # Forest Road：两笔 PT 卖出确实成交，但拿到的不是 USDC
 
+- 报告发送时间：2026-11-27 08:57:09 北京时间（UTC+08:00）
 - 主类型：DeFi
 - 标签：PT、固定收益、链下信贷、赎回队列
 
