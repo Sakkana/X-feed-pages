@@ -2,8 +2,44 @@
   "schemaVersion": 1,
   "timezone": "Asia/Shanghai",
   "repository": "Sakkana/X-feed-pages",
-  "recordCount": 283,
+  "recordCount": 285,
   "records": [
+    {
+      "title": "Ammalgam 的 20× 积分：配对做 LP 与借钱循环是两件事",
+      "type": "激励",
+      "tags": [
+        "infiniFi",
+        "Pendle",
+        "Ammalgam",
+        "积分"
+      ],
+      "summary": "Ammalgam 把 siUSD 的 Pendle LP 与 USDC 配成外层 LP；20× 不等于现金收益，另借 USDC 的增量成本应单算。",
+      "observation": "2026-11-27 04:00 UTC 研究轮",
+      "signal_strength": "weak",
+      "path": "2026-11-27/12-05-56-【激励】-Ammalgam的二十倍积分与借贷成本.md",
+      "date": "2026-11-27",
+      "time": "12:05:56",
+      "sha": "7bdc0d6d7f9ba932d15e40aeea166448bbdd6a9b",
+      "url": "/X-feed-pages/2026-11-27/12-05-56-%E3%80%90%E6%BF%80%E5%8A%B1%E3%80%91-Ammalgam%E7%9A%84%E4%BA%8C%E5%8D%81%E5%80%8D%E7%A7%AF%E5%88%86%E4%B8%8E%E5%80%9F%E8%B4%B7%E6%88%90%E6%9C%AC.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-11-27/12-05-56-%E3%80%90%E6%BF%80%E5%8A%B1%E3%80%91-Ammalgam%E7%9A%84%E4%BA%8C%E5%8D%81%E5%80%8D%E7%A7%AF%E5%88%86%E4%B8%8E%E5%80%9F%E8%B4%B7%E6%88%90%E6%9C%AC.md"
+    },
+    {
+      "title": "EURCV 金库：有百万级流动性，不等于份额能随时换成欧元",
+      "type": "借贷",
+      "tags": [
+        "Morpho",
+        "EURCV",
+        "赎回"
+      ],
+      "summary": "Steakhouse Prime EURCV 单一地址约占 83.74%；链上份额兑 EURCV 与发行方兑欧元是两段不同的退出。",
+      "observation": "2026-11-27 04:00 UTC 研究轮",
+      "path": "2026-11-27/12-05-56-【借贷】-EURCV金库的集中度与两层退出.md",
+      "date": "2026-11-27",
+      "time": "12:05:56",
+      "sha": "fb747868a1637b86840d7a04b9c81c94de8e1c6c",
+      "url": "/X-feed-pages/2026-11-27/12-05-56-%E3%80%90%E5%80%9F%E8%B4%B7%E3%80%91-EURCV%E9%87%91%E5%BA%93%E7%9A%84%E9%9B%86%E4%B8%AD%E5%BA%A6%E4%B8%8E%E4%B8%A4%E5%B1%82%E9%80%80%E5%87%BA.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-11-27/12-05-56-%E3%80%90%E5%80%9F%E8%B4%B7%E3%80%91-EURCV%E9%87%91%E5%BA%93%E7%9A%84%E9%9B%86%E4%B8%AD%E5%BA%A6%E4%B8%8E%E4%B8%A4%E5%B1%82%E9%80%80%E5%87%BA.md"
+    },
     {
       "title": "小米双永续：同一只港股，1 比 1 配对却对冲不了",
       "type": "套利",
