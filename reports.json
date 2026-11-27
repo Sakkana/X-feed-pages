@@ -2,8 +2,27 @@
   "schemaVersion": 1,
   "timezone": "Asia/Shanghai",
   "repository": "Sakkana/X-feed-pages",
-  "recordCount": 278,
+  "recordCount": 279,
   "records": [
+    {
+      "title": "Forest Road：两笔 PT 卖出确实成交，但拿到的不是 USDC",
+      "type": "DeFi",
+      "tags": [
+        "PT",
+        "固定收益",
+        "链下信贷",
+        "赎回队列"
+      ],
+      "summary": "两笔链上卖出只取得 sUSDfr；现金储备增加，但贷款本金扩张更快，最终 USDC 回款未证。",
+      "observation": "2026-11-27 UTC；发行方主快照为 2026-11-24 16:29 UTC",
+      "signal_strength": "weak",
+      "path": "2026-11-27/08-57-09-【DeFi】-Forest-Road链上退出与现金约束.md",
+      "date": "2026-11-27",
+      "time": "08:57:09",
+      "sha": "f49d9feecbfa9c32149fd08266addea3b012914c",
+      "url": "/X-feed-pages/2026-11-27/08-57-09-%E3%80%90DeFi%E3%80%91-Forest-Road%E9%93%BE%E4%B8%8A%E9%80%80%E5%87%BA%E4%B8%8E%E7%8E%B0%E9%87%91%E7%BA%A6%E6%9D%9F.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-11-27/08-57-09-%E3%80%90DeFi%E3%80%91-Forest-Road%E9%93%BE%E4%B8%8A%E9%80%80%E5%87%BA%E4%B8%8E%E7%8E%B0%E9%87%91%E7%BA%A6%E6%9D%9F.md"
+    },
     {
       "title": "Haedal 借贷跨链入口：15 条进路，不等于 15 条原路退出",
       "type": "借贷",
