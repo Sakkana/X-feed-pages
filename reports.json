@@ -2,8 +2,27 @@
   "schemaVersion": 1,
   "timezone": "Asia/Shanghai",
   "repository": "Sakkana/X-feed-pages",
-  "recordCount": 277,
+  "recordCount": 278,
   "records": [
+    {
+      "title": "Haedal 借贷跨链入口：15 条进路，不等于 15 条原路退出",
+      "type": "借贷",
+      "tags": [
+        "Haedal",
+        "Sui",
+        "NEAR Intents",
+        "跨链"
+      ],
+      "summary": "跨链资产先到用户 Sui 钱包，金库存取另算；1,000 U 的 10% APY 情景下七天毛收益约 1.83 U。",
+      "observation": "2026-11-27 00:05–00:07 UTC",
+      "signal_strength": "weak",
+      "path": "2026-11-27/08-06-33-【借贷】-Haedal跨链入金与退出成本.md",
+      "date": "2026-11-27",
+      "time": "08:06:33",
+      "sha": "be801994e5c60f129fb7b602b69d1f4712652bcf",
+      "url": "/X-feed-pages/2026-11-27/08-06-33-%E3%80%90%E5%80%9F%E8%B4%B7%E3%80%91-Haedal%E8%B7%A8%E9%93%BE%E5%85%A5%E9%87%91%E4%B8%8E%E9%80%80%E5%87%BA%E6%88%90%E6%9C%AC.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-11-27/08-06-33-%E3%80%90%E5%80%9F%E8%B4%B7%E3%80%91-Haedal%E8%B7%A8%E9%93%BE%E5%85%A5%E9%87%91%E4%B8%8E%E9%80%80%E5%87%BA%E6%88%90%E6%9C%AC.md"
+    },
     {
       "title": "SK 海力士除息实测：14.98 U 的现金腿，不能当成净收益",
       "type": "套利",
@@ -19,7 +38,7 @@
       "path": "2026-11-27/07-00-20-【套利】-SK海力士除息资金费与深度.md",
       "date": "2026-11-27",
       "time": "07:00:20",
-      "sha": "19b7857f82aea569d5e832873f5c6e225df59b86",
+      "sha": "ec7747d28889f71b98314edeb0ee2167686af6cf",
       "url": "/X-feed-pages/2026-11-27/07-00-20-%E3%80%90%E5%A5%97%E5%88%A9%E3%80%91-SK%E6%B5%B7%E5%8A%9B%E5%A3%AB%E9%99%A4%E6%81%AF%E8%B5%84%E9%87%91%E8%B4%B9%E4%B8%8E%E6%B7%B1%E5%BA%A6.html",
       "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-11-27/07-00-20-%E3%80%90%E5%A5%97%E5%88%A9%E3%80%91-SK%E6%B5%B7%E5%8A%9B%E5%A3%AB%E9%99%A4%E6%81%AF%E8%B5%84%E9%87%91%E8%B4%B9%E4%B8%8E%E6%B7%B1%E5%BA%A6.md"
     },
@@ -520,7 +539,7 @@
       "path": "2026-11-26/18-09-54-【激励】-Gate黄金奖励的有效分母.md",
       "date": "2026-11-26",
       "time": "18:09:54",
-      "sha": "5e160d7f71b9810a79122e9664162a564436aac0",
+      "sha": "3de22e081b9dadb85b0428599f4c4537fd9a4b91",
       "url": "/X-feed-pages/2026-11-26/18-09-54-%E3%80%90%E6%BF%80%E5%8A%B1%E3%80%91-Gate%E9%BB%84%E9%87%91%E5%A5%96%E5%8A%B1%E7%9A%84%E6%9C%89%E6%95%88%E5%88%86%E6%AF%8D.html",
       "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-11-26/18-09-54-%E3%80%90%E6%BF%80%E5%8A%B1%E3%80%91-Gate%E9%BB%84%E9%87%91%E5%A5%96%E5%8A%B1%E7%9A%84%E6%9C%89%E6%95%88%E5%88%86%E6%AF%8D.md"
     },

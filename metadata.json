@@ -2738,5 +2738,18 @@
     "summary": "11 月 24 日历史稿，链上 LP 续档更改三项分奖权重，不能直接套页面 APR。",
     "observation": "2026-11-23 16:05 UTC",
     "signal_strength": "weak"
+  },
+  "2026-11-27/08-06-33-【借贷】-Haedal跨链入金与退出成本.md": {
+    "title": "Haedal 借贷跨链入口：15 条进路，不等于 15 条原路退出",
+    "type": "借贷",
+    "tags": [
+      "Haedal",
+      "Sui",
+      "NEAR Intents",
+      "跨链"
+    ],
+    "summary": "跨链资产先到用户 Sui 钱包，金库存取另算；1,000 U 的 10% APY 情景下七天毛收益约 1.83 U。",
+    "observation": "2026-11-27 00:05–00:07 UTC",
+    "signal_strength": "weak"
   }
 }
