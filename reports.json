@@ -2,8 +2,44 @@
   "schemaVersion": 1,
   "timezone": "Asia/Shanghai",
   "repository": "Sakkana/X-feed-pages",
-  "recordCount": 288,
+  "recordCount": 290,
   "records": [
+    {
+      "title": "B200 租金预测市场：两条相邻门槛合起来，押的是区间",
+      "type": "量化",
+      "tags": [
+        "B200",
+        "Ornn",
+        "预测市场"
+      ],
+      "summary": "同月 GPU 小时价门槛可拆成区间概率，不是可锁定的租金报价；用盘口展示价测算双向区间赔率。",
+      "observation": "2026-11-27 06:00 UTC 研究轮",
+      "signal_strength": "weak",
+      "path": "2026-11-27/14-07-57-【量化】-B200预测市场相邻门槛与租金基差.md",
+      "date": "2026-11-27",
+      "time": "14:07:57",
+      "sha": "a34fb5e33a1888f0c70e5714f4eb9af5db939679",
+      "url": "/X-feed-pages/2026-11-27/14-07-57-%E3%80%90%E9%87%8F%E5%8C%96%E3%80%91-B200%E9%A2%84%E6%B5%8B%E5%B8%82%E5%9C%BA%E7%9B%B8%E9%82%BB%E9%97%A8%E6%A7%9B%E4%B8%8E%E7%A7%9F%E9%87%91%E5%9F%BA%E5%B7%AE.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-11-27/14-07-57-%E3%80%90%E9%87%8F%E5%8C%96%E3%80%91-B200%E9%A2%84%E6%B5%8B%E5%B8%82%E5%9C%BA%E7%9B%B8%E9%82%BB%E9%97%A8%E6%A7%9B%E4%B8%8E%E7%A7%9F%E9%87%91%E5%9F%BA%E5%B7%AE.md"
+    },
+    {
+      "title": "OKX Spark 加息：1,000 USDT 持满 35 天，额外奖励上限约 5.75 U",
+      "type": "激励",
+      "tags": [
+        "OKX",
+        "Spark",
+        "X Layer"
+      ],
+      "summary": "6% 是额外 APR 上限；35 天每千 U 至多约 5.75 U，日预算竞争和本金退出另计。",
+      "observation": "2026-11-27 06:00 UTC 研究轮",
+      "signal_strength": "weak",
+      "path": "2026-11-27/14-07-56-【激励】-OKX-Spark加息的预算和退出.md",
+      "date": "2026-11-27",
+      "time": "14:07:56",
+      "sha": "52a66d7bbf0125d683f303d0dd3243bc63aba512",
+      "url": "/X-feed-pages/2026-11-27/14-07-56-%E3%80%90%E6%BF%80%E5%8A%B1%E3%80%91-OKX-Spark%E5%8A%A0%E6%81%AF%E7%9A%84%E9%A2%84%E7%AE%97%E5%92%8C%E9%80%80%E5%87%BA.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-11-27/14-07-56-%E3%80%90%E6%BF%80%E5%8A%B1%E3%80%91-OKX-Spark%E5%8A%A0%E6%81%AF%E7%9A%84%E9%A2%84%E7%AE%97%E5%92%8C%E9%80%80%E5%87%BA.md"
+    },
     {
       "title": "瑞士 BBIT 比特币 ETF：挂牌参考价少了 7.4%，不是折价",
       "type": "套利",
