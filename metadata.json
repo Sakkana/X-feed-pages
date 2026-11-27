@@ -2837,5 +2837,43 @@
     "summary": "Ammalgam 把 siUSD 的 Pendle LP 与 USDC 配成外层 LP；20× 不等于现金收益，另借 USDC 的增量成本应单算。",
     "observation": "2026-11-27 04:00 UTC 研究轮",
     "signal_strength": "weak"
+  },
+  "2026-11-27/13-01-53-【资料】-Monument链上存款不是可转让代币.md": {
+    "title": "Monument 的链上定存：能领银行利息，但不能交易那枚代币",
+    "type": "资料",
+    "tags": [
+      "Midnight",
+      "代币化存款",
+      "RWA",
+      "英镑"
+    ],
+    "summary": "英国 Monument 将定存余额映射到 Midnight，但链上记录不赋予权利、不能转让或抵押；利息和兑付仍由银行账户决定。",
+    "observation": "2026-11-27 05:00 UTC 研究轮"
+  },
+  "2026-11-27/13-02-26-【套利】-JOC分叉的跨所交割与质押退出.md": {
+    "title": "JOC 东京分叉：交易没停，不代表跨所价差能交割",
+    "type": "套利",
+    "tags": [
+      "JOC",
+      "BitTrade",
+      "Zaif",
+      "跨所"
+    ],
+    "summary": "BitTrade 暂停 JOC 提币；Zaif 公告的加密资产转账恢复计划还未到。验证者退出与提回质押也分开。",
+    "observation": "2026-11-27 05:00 UTC 研究轮",
+    "signal_strength": "weak"
+  },
+  "2026-11-27/13-02-27-【套利】-瑞士BBIT双币挂牌不是净值折价.md": {
+    "title": "瑞士 BBIT 比特币 ETF：挂牌参考价少了 7.4%，不是折价",
+    "type": "套利",
+    "tags": [
+      "BBIT",
+      "SIX",
+      "BTC",
+      "ETF"
+    ],
+    "summary": "同 ISIN 的 USD、CHF 两线不是汇率对冲；初始发行价与上市参考价跨时点，不是同期净值折价。",
+    "observation": "2026-11-27 05:00 UTC 研究轮",
+    "signal_strength": "weak"
   }
 }

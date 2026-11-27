@@ -2,8 +2,64 @@
   "schemaVersion": 1,
   "timezone": "Asia/Shanghai",
   "repository": "Sakkana/X-feed-pages",
-  "recordCount": 285,
+  "recordCount": 288,
   "records": [
+    {
+      "title": "瑞士 BBIT 比特币 ETF：挂牌参考价少了 7.4%，不是折价",
+      "type": "套利",
+      "tags": [
+        "BBIT",
+        "SIX",
+        "BTC",
+        "ETF"
+      ],
+      "summary": "同 ISIN 的 USD、CHF 两线不是汇率对冲；初始发行价与上市参考价跨时点，不是同期净值折价。",
+      "observation": "2026-11-27 05:00 UTC 研究轮",
+      "signal_strength": "weak",
+      "path": "2026-11-27/13-02-27-【套利】-瑞士BBIT双币挂牌不是净值折价.md",
+      "date": "2026-11-27",
+      "time": "13:02:27",
+      "sha": "f8120169fe50e839327b25268ac0f3369eb1ece5",
+      "url": "/X-feed-pages/2026-11-27/13-02-27-%E3%80%90%E5%A5%97%E5%88%A9%E3%80%91-%E7%91%9E%E5%A3%ABBBIT%E5%8F%8C%E5%B8%81%E6%8C%82%E7%89%8C%E4%B8%8D%E6%98%AF%E5%87%80%E5%80%BC%E6%8A%98%E4%BB%B7.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-11-27/13-02-27-%E3%80%90%E5%A5%97%E5%88%A9%E3%80%91-%E7%91%9E%E5%A3%ABBBIT%E5%8F%8C%E5%B8%81%E6%8C%82%E7%89%8C%E4%B8%8D%E6%98%AF%E5%87%80%E5%80%BC%E6%8A%98%E4%BB%B7.md"
+    },
+    {
+      "title": "JOC 东京分叉：交易没停，不代表跨所价差能交割",
+      "type": "套利",
+      "tags": [
+        "JOC",
+        "BitTrade",
+        "Zaif",
+        "跨所"
+      ],
+      "summary": "BitTrade 暂停 JOC 提币；Zaif 公告的加密资产转账恢复计划还未到。验证者退出与提回质押也分开。",
+      "observation": "2026-11-27 05:00 UTC 研究轮",
+      "signal_strength": "weak",
+      "path": "2026-11-27/13-02-26-【套利】-JOC分叉的跨所交割与质押退出.md",
+      "date": "2026-11-27",
+      "time": "13:02:26",
+      "sha": "455db8e01f3f0dba8dd1a6aefaa70b0aad3d70b7",
+      "url": "/X-feed-pages/2026-11-27/13-02-26-%E3%80%90%E5%A5%97%E5%88%A9%E3%80%91-JOC%E5%88%86%E5%8F%89%E7%9A%84%E8%B7%A8%E6%89%80%E4%BA%A4%E5%89%B2%E4%B8%8E%E8%B4%A8%E6%8A%BC%E9%80%80%E5%87%BA.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-11-27/13-02-26-%E3%80%90%E5%A5%97%E5%88%A9%E3%80%91-JOC%E5%88%86%E5%8F%89%E7%9A%84%E8%B7%A8%E6%89%80%E4%BA%A4%E5%89%B2%E4%B8%8E%E8%B4%A8%E6%8A%BC%E9%80%80%E5%87%BA.md"
+    },
+    {
+      "title": "Monument 的链上定存：能领银行利息，但不能交易那枚代币",
+      "type": "资料",
+      "tags": [
+        "Midnight",
+        "代币化存款",
+        "RWA",
+        "英镑"
+      ],
+      "summary": "英国 Monument 将定存余额映射到 Midnight，但链上记录不赋予权利、不能转让或抵押；利息和兑付仍由银行账户决定。",
+      "observation": "2026-11-27 05:00 UTC 研究轮",
+      "path": "2026-11-27/13-01-53-【资料】-Monument链上存款不是可转让代币.md",
+      "date": "2026-11-27",
+      "time": "13:01:53",
+      "sha": "f80d9ce1420fca5185e7b3879dbe311f9117ed98",
+      "url": "/X-feed-pages/2026-11-27/13-01-53-%E3%80%90%E8%B5%84%E6%96%99%E3%80%91-Monument%E9%93%BE%E4%B8%8A%E5%AD%98%E6%AC%BE%E4%B8%8D%E6%98%AF%E5%8F%AF%E8%BD%AC%E8%AE%A9%E4%BB%A3%E5%B8%81.html",
+      "github": "https://github.com/Sakkana/X-feed-pages/blob/main/2026-11-27/13-01-53-%E3%80%90%E8%B5%84%E6%96%99%E3%80%91-Monument%E9%93%BE%E4%B8%8A%E5%AD%98%E6%AC%BE%E4%B8%8D%E6%98%AF%E5%8F%AF%E8%BD%AC%E8%AE%A9%E4%BB%A3%E5%B8%81.md"
+    },
     {
       "title": "Ammalgam 的 20× 积分：配对做 LP 与借钱循环是两件事",
       "type": "激励",
